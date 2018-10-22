@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6096E5A22174C5ED001807A3 /* ServantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6096E5A12174C5ED001807A3 /* ServantTableViewCell.xib */; };
+		60EF05EA217E0DE600BA95E2 /* NoblePhantasmNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EF05E9217E0DE600BA95E2 /* NoblePhantasmNameTableViewCell.xib */; };
+		60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */; };
+		60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */; };
+		60EF05F0217E17D400BA95E2 /* NoblePhantasmContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EF05EF217E17D400BA95E2 /* NoblePhantasmContentTableViewCell.xib */; };
+		60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */; };
+		60EF05F7217E204600BA95E2 /* NoblePhantasmBonusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EF05F6217E204600BA95E2 /* NoblePhantasmBonusTableViewCell.xib */; };
 		60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */; };
 		60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9F215BBF5A00572EFB /* ViewController.swift */; };
 		60F3FBA3215BBF5A00572EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA1215BBF5A00572EFB /* Main.storyboard */; };
@@ -19,6 +25,12 @@
 
 /* Begin PBXFileReference section */
 		6096E5A12174C5ED001807A3 /* ServantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServantTableViewCell.xib; sourceTree = "<group>"; };
+		60EF05E9217E0DE600BA95E2 /* NoblePhantasmNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoblePhantasmNameTableViewCell.xib; sourceTree = "<group>"; };
+		60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmNameTableViewCell.swift; sourceTree = "<group>"; };
+		60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmContentTableViewCell.swift; sourceTree = "<group>"; };
+		60EF05EF217E17D400BA95E2 /* NoblePhantasmContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoblePhantasmContentTableViewCell.xib; sourceTree = "<group>"; };
+		60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmBonusTableViewCell.swift; sourceTree = "<group>"; };
+		60EF05F6217E204600BA95E2 /* NoblePhantasmBonusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoblePhantasmBonusTableViewCell.xib; sourceTree = "<group>"; };
 		60F3FB9A215BBF5A00572EFB /* FateIndex+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateIndex+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F3FB9F215BBF5A00572EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +53,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60EF05F1217E1C3B00BA95E2 /* FateIndexUI */ = {
+			isa = PBXGroup;
+			children = (
+				60EF05F3217E1C8D00BA95E2 /* Servant */,
+				60EF05F2217E1C6500BA95E2 /* NoblePhantasm */,
+			);
+			path = FateIndexUI;
+			sourceTree = "<group>";
+		};
+		60EF05F2217E1C6500BA95E2 /* NoblePhantasm */ = {
+			isa = PBXGroup;
+			children = (
+				60EF05E9217E0DE600BA95E2 /* NoblePhantasmNameTableViewCell.xib */,
+				60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */,
+				60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */,
+				60EF05EF217E17D400BA95E2 /* NoblePhantasmContentTableViewCell.xib */,
+				60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */,
+				60EF05F6217E204600BA95E2 /* NoblePhantasmBonusTableViewCell.xib */,
+			);
+			path = NoblePhantasm;
+			sourceTree = "<group>";
+		};
+		60EF05F3217E1C8D00BA95E2 /* Servant */ = {
+			isa = PBXGroup;
+			children = (
+				60F3FBB3215BD72300572EFB /* ServantTableViewCell.swift */,
+				6096E5A12174C5ED001807A3 /* ServantTableViewCell.xib */,
+			);
+			path = Servant;
+			sourceTree = "<group>";
+		};
 		60F3FB91215BBF5A00572EFB = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +103,7 @@
 		60F3FB9C215BBF5A00572EFB /* FateIndex+ */ = {
 			isa = PBXGroup;
 			children = (
+				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
 				60F3FB9F215BBF5A00572EFB /* ViewController.swift */,
 				60F3FBA1215BBF5A00572EFB /* Main.storyboard */,
@@ -67,8 +111,6 @@
 				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
 				60F3FBA9215BBF5C00572EFB /* Info.plist */,
 				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
-				60F3FBB3215BD72300572EFB /* ServantTableViewCell.swift */,
-				6096E5A12174C5ED001807A3 /* ServantTableViewCell.xib */,
 			);
 			path = "FateIndex+";
 			sourceTree = "<group>";
@@ -131,7 +173,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EF05F0217E17D400BA95E2 /* NoblePhantasmContentTableViewCell.xib in Resources */,
+				60EF05EA217E0DE600BA95E2 /* NoblePhantasmNameTableViewCell.xib in Resources */,
 				60F3FBA8215BBF5C00572EFB /* LaunchScreen.storyboard in Resources */,
+				60EF05F7217E204600BA95E2 /* NoblePhantasmBonusTableViewCell.xib in Resources */,
 				60F3FBA5215BBF5C00572EFB /* Assets.xcassets in Resources */,
 				60F3FBA3215BBF5A00572EFB /* Main.storyboard in Resources */,
 				6096E5A22174C5ED001807A3 /* ServantTableViewCell.xib in Resources */,
@@ -147,7 +192,10 @@
 			files = (
 				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
+				60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */,
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
+				60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */,
+				60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

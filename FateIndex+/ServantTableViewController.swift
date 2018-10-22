@@ -6,7 +6,6 @@
 //  Copyright © 2018 管君. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class ServantTableViewController: UITableViewController {
@@ -19,6 +18,9 @@ class ServantTableViewController: UITableViewController {
                                                            action: #selector(closeBtnClick))
         
         tableView.register(UINib(nibName: "ServantTableViewCell", bundle: nil), forCellReuseIdentifier: "ServantTableViewCell")
+        
+        tableView.register(UINib(nibName: "NoblePhantasmNameTableViewCell", bundle: nil), forCellReuseIdentifier: "NoblePhantasmNameTableViewCell")
+        
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -35,13 +37,21 @@ class ServantTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
-        let img = "Servant00" + String(indexPath.row + 1)
-        cell.servantIcon.image = UIImage(imageLiteralResourceName: img)
-        cell.servantNumberLabel.text = "00" + String(indexPath.row + 1)
-        cell.servantTopNameLabel.text = name1[indexPath.row]
-        cell.servantMidNameLabel.text = name2[indexPath.row]
-        cell.servantBotNameLabel.text = name3[indexPath.row]
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
+//        let img = "Servant00" + String(indexPath.row + 1)
+//        cell.servantIcon.image = UIImage(imageLiteralResourceName: img)
+//        cell.servantNumberLabel.text = "00" + String(indexPath.row + 1)
+//        cell.servantTopNameLabel.text = name1[indexPath.row]
+//        cell.servantMidNameLabel.text = name2[indexPath.row]
+//        cell.servantBotNameLabel.text = name3[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NoblePhantasmNameTableViewCell", for: indexPath) as! NoblePhantasmNameTableViewCell
+        
+        cell.noblePhantasmIcon.image = UIImage(imageLiteralResourceName: "Arts")
+        cell.phantasmTopLabel.text = "穢れを漱げ、青く美しきナイル"
+        cell.phantasmMidLabel.text = "Sneferu Iteru Nile"
+        cell.phantasmBotLabel.text = "洗刷污秽吧，青色美丽的尼罗河"
+        
+        
         return cell
     }
     

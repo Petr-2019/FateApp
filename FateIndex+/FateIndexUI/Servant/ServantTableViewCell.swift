@@ -6,7 +6,6 @@
 //  Copyright © 2018 管君. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class ServantTableViewCell: UITableViewCell {

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoblePhantasmContentTableViewCell" id="q54-Ec-O1b" customClass="NoblePhantasmContentTableViewCell" customModule="FateIndex_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q54-Ec-O1b" id="ibi-Lz-MdP">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="对敌方单体发动超强大的攻击&lt;宝具升级效果提升&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2w1-tP-GDW">
+                        <rect key="frame" x="26" y="21" width="323" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="mMJ-pG-dA4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPE-AO-xep">
+                        <rect key="frame" x="0.0" y="48" width="375" height="51.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rar-w1-HyM">
+                                <rect key="frame" x="20" y="15" width="56" height="20"/>
+                                <string key="text">1200%	</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1600%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZ9-HH-Bg5">
+                                <rect key="frame" x="96" y="15" width="50" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1800%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WC9-em-tSV">
+                                <rect key="frame" x="162.5" y="15" width="50" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1900%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn9-QX-O0H">
+                                <rect key="frame" x="225" y="15" width="50" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56j-ec-XzW">
+                                <rect key="frame" x="295" y="15" width="52" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nZ9-HH-Bg5" firstAttribute="leading" secondItem="Rar-w1-HyM" secondAttribute="trailing" constant="20" id="29H-Ps-0dX"/>
+                            <constraint firstItem="WC9-em-tSV" firstAttribute="top" secondItem="mPE-AO-xep" secondAttribute="top" constant="15" id="CGh-Z8-qLM"/>
+                            <constraint firstItem="WC9-em-tSV" firstAttribute="centerX" secondItem="mPE-AO-xep" secondAttribute="centerX" id="Kx5-eL-ssE"/>
+                            <constraint firstItem="Rar-w1-HyM" firstAttribute="top" secondItem="mPE-AO-xep" secondAttribute="top" constant="15" id="NUO-zJ-E8x"/>
+                            <constraint firstItem="56j-ec-XzW" firstAttribute="leading" secondItem="Wn9-QX-O0H" secondAttribute="trailing" constant="20" id="Uf1-GT-j9Q"/>
+                            <constraint firstItem="nZ9-HH-Bg5" firstAttribute="top" secondItem="mPE-AO-xep" secondAttribute="top" constant="15" id="WyJ-DK-c0t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="56j-ec-XzW" secondAttribute="trailing" constant="20" id="c8L-hN-Hf4"/>
+                            <constraint firstItem="Wn9-QX-O0H" firstAttribute="top" secondItem="mPE-AO-xep" secondAttribute="top" constant="15" id="qfk-cc-Em8"/>
+                            <constraint firstItem="Rar-w1-HyM" firstAttribute="leading" secondItem="mPE-AO-xep" secondAttribute="leading" constant="20" id="snJ-z9-xSn"/>
+                            <constraint firstItem="56j-ec-XzW" firstAttribute="top" secondItem="mPE-AO-xep" secondAttribute="top" constant="15" id="zuY-Cw-jOQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2w1-tP-GDW" firstAttribute="top" secondItem="ibi-Lz-MdP" secondAttribute="topMargin" constant="10" id="2PN-jy-jWM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2w1-tP-GDW" secondAttribute="trailing" constant="10" id="A5l-S1-oki"/>
+                    <constraint firstItem="mPE-AO-xep" firstAttribute="top" secondItem="2w1-tP-GDW" secondAttribute="bottom" constant="10" id="BZd-IP-zIb"/>
+                    <constraint firstItem="2w1-tP-GDW" firstAttribute="leading" secondItem="ibi-Lz-MdP" secondAttribute="leadingMargin" constant="10" id="Jnv-v0-q2S"/>
+                    <constraint firstItem="mPE-AO-xep" firstAttribute="leading" secondItem="ibi-Lz-MdP" secondAttribute="leading" id="Yq3-ad-e5R"/>
+                    <constraint firstAttribute="bottom" secondItem="mPE-AO-xep" secondAttribute="bottom" id="c3c-VQ-ygP"/>
+                    <constraint firstAttribute="trailing" secondItem="mPE-AO-xep" secondAttribute="trailing" id="y9D-8o-Q34"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="phantasmLabel01" destination="Rar-w1-HyM" id="jjI-xd-SmS"/>
+                <outlet property="phantasmLabel02" destination="nZ9-HH-Bg5" id="tvg-ld-gz0"/>
+                <outlet property="phantasmLabel03" destination="WC9-em-tSV" id="BjO-Lr-W4D"/>
+                <outlet property="phantasmLabel04" destination="Wn9-QX-O0H" id="Khr-Bp-sKO"/>
+                <outlet property="phantasmLabel05" destination="56j-ec-XzW" id="igV-j3-xy0"/>
+                <outlet property="phantasmTopLabel" destination="2w1-tP-GDW" id="gB6-0S-ofY"/>
+            </connections>
+            <point key="canvasLocation" x="-278.5" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>
