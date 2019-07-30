@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,6 +22,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="ov6-bh-pro" kind="relationship" relationship="viewControllers" id="suV-of-F0V"/>
+                        <segue destination="xe7-oq-15s" kind="relationship" relationship="viewControllers" id="yLS-vo-sA6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nF9-FT-mVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -45,6 +47,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etO-rN-hMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1247" y="430"/>
+        </scene>
+        <!--英灵图鉴-->
+        <scene sceneID="oiG-KL-hQi">
+            <objects>
+                <viewController id="xe7-oq-15s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4iM-fl-6ps">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NSg-ca-j0z"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="英灵图鉴" id="V06-9I-x4x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CbS-Fn-ram" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1247" y="1164"/>
         </scene>
     </scenes>
 </document>

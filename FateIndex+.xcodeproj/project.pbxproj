@@ -21,6 +21,7 @@
 		60F3FBA8215BBF5C00572EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */; };
 		60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */; };
 		60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB3215BD72300572EFB /* ServantTableViewCell.swift */; };
+		D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		60F3FBA9215BBF5C00572EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantTableViewController.swift; sourceTree = "<group>"; };
 		60F3FBB3215BD72300572EFB /* ServantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantTableViewCell.swift; sourceTree = "<group>"; };
+		D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		60F3FB9C215BBF5A00572EFB /* FateIndex+ */ = {
 			isa = PBXGroup;
 			children = (
+				D4B4003322F08D7F00EDEC39 /* FateIndexVC */,
 				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
 				60F3FB9F215BBF5A00572EFB /* ViewController.swift */,
@@ -110,9 +113,17 @@
 				60F3FBA4215BBF5C00572EFB /* Assets.xcassets */,
 				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
 				60F3FBA9215BBF5C00572EFB /* Info.plist */,
-				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
 			);
 			path = "FateIndex+";
+			sourceTree = "<group>";
+		};
+		D4B4003322F08D7F00EDEC39 /* FateIndexVC */ = {
+			isa = PBXGroup;
+			children = (
+				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
+				D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */,
+			);
+			path = FateIndexVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
 				60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */,
 				60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */,
+				D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 989J8CH29N;
+				DEVELOPMENT_TEAM = Y92H4T5NG8;
 				INFOPLIST_FILE = "FateIndex+/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,7 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guanit.FateIndex-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -362,7 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 989J8CH29N;
+				DEVELOPMENT_TEAM = Y92H4T5NG8;
 				INFOPLIST_FILE = "FateIndex+/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -371,7 +383,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guanit.FateIndex-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
