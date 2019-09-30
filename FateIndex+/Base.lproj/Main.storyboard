@@ -23,6 +23,7 @@
                     <connections>
                         <segue destination="ov6-bh-pro" kind="relationship" relationship="viewControllers" id="suV-of-F0V"/>
                         <segue destination="xe7-oq-15s" kind="relationship" relationship="viewControllers" id="yLS-vo-sA6"/>
+                        <segue destination="zyo-1S-tao" kind="relationship" relationship="viewControllers" id="4Jo-92-S0Z"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nF9-FT-mVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,7 +63,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CbS-Fn-ram" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1247" y="1164"/>
+            <point key="canvasLocation" x="-55" y="1279"/>
+        </scene>
+        <!--设置-->
+        <scene sceneID="Yzh-4E-xsh">
+            <objects>
+                <viewController id="zyo-1S-tao" customClass="SettingsViewController" customModule="FateIndex_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYf-dd-fta">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gcy-4C-UWP"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="设置" id="kMa-If-MGZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nXk-hC-yaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1268" y="1272"/>
         </scene>
     </scenes>
 </document>

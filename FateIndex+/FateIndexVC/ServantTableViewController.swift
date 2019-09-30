@@ -10,23 +10,30 @@ import UIKit
 
 class ServantTableViewController: UITableViewController {
     
+    private struct Constants {
+        static let defaultCellHeight: CGFloat = 75.0
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
-                                                           target: self,
-                                                           action: #selector(closeBtnClick))
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
+//                                                           target: self,
+//                                                           action: #selector(closeBtnClick))
+//
+//        tableView.register(UINib(nibName: "ServantTableViewCell", bundle: nil), forCellReuseIdentifier: "ServantTableViewCell")
+//
+//        tableView.register(UINib(nibName: "NoblePhantasmNameTableViewCell", bundle: nil), forCellReuseIdentifier: "NoblePhantasmNameTableViewCell")
         
-        tableView.register(UINib(nibName: "ServantTableViewCell", bundle: nil), forCellReuseIdentifier: "ServantTableViewCell")
-        
-        tableView.register(UINib(nibName: "NoblePhantasmNameTableViewCell", bundle: nil), forCellReuseIdentifier: "NoblePhantasmNameTableViewCell")
+        tableView.register(ServantTableViewCell.self, forCellReuseIdentifier: ServantTableViewCell.identifier)
+        tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
         
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 10
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
@@ -37,30 +44,41 @@ class ServantTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
-//        let img = "Servant00" + String(indexPath.row + 1)
-//        cell.servantIcon.image = UIImage(imageLiteralResourceName: img)
-//        cell.servantNumberLabel.text = "00" + String(indexPath.row + 1)
-//        cell.servantTopNameLabel.text = name1[indexPath.row]
-//        cell.servantMidNameLabel.text = name2[indexPath.row]
-//        cell.servantBotNameLabel.text = name3[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "NoblePhantasmNameTableViewCell", for: indexPath) as! NoblePhantasmNameTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
+
+        cell.avatar = UIImage(named: "Servant00\(indexPath.row + 1)")
+        cell.title = name1[indexPath.row]
         
-        cell.noblePhantasmIcon.image = UIImage(imageLiteralResourceName: "Arts")
-        cell.phantasmTopLabel.text = "穢れを漱げ、青く美しきナイル"
-        cell.phantasmMidLabel.text = "Sneferu Iteru Nile"
-        cell.phantasmBotLabel.text = "洗刷污秽吧，青色美丽的尼罗河"
+//        cell.imageView?.image = UIImage(named: "Servant001")?.withAlignmentRectInsets(UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0))
         
-        
+//        cell.noblePhantasmIcon.image = UIImage(imageLiteralResourceName: "Arts")
+//        cell.phantasmTopLabel.text = "穢れを漱げ、青く美しきナイル"
+//        cell.phantasmMidLabel.text = "Sneferu Iteru Nile"
+//        cell.phantasmBotLabel.text = "洗刷污秽吧，青色美丽的尼罗河"
+
+
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return Constants.defaultCellHeight
     }
- 
-    @objc func closeBtnClick(sender: UIBarButtonItem) {
-        dismiss(animated: false, completion: nil)
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
+        
+        headerView.title = "Shielder"
+        
+        return headerView
     }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 37.5
+    }
+    
+//
+//    @objc func closeBtnClick(sender: UIBarButtonItem) {
+//        dismiss(animated: false, completion: nil)
+//    }
     
 }
