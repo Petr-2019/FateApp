@@ -9,55 +9,71 @@
 import UIKit
 
 class ServantTableViewController: UITableViewController {
-    
+
     private struct Constants {
         static let defaultCellHeight: CGFloat = 75.0
+
+        static let servantClasses = [
+            "Saber", "Archer", "Lancer", "Rider", "Caster", "Assassin", "Berserker",
+            "Shielder", "Ruler", "Avenger", "MoonCancer", "Alterego", "Foreigner"
+        ]
     }
-    
+
+    private let searchController = UISearchController(searchResultsController: nil)
+
+    private var servants = ServantManager.shared.allServants()
+
+    private lazy var servantsDict = {
+        return Dictionary(grouping: servants, by: { $0.classType })
+    }()
+
+    private var filteredServants = [Servant]()
+    // private var filteredServants = [ServantClass : [Servant]]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
-//                                                           target: self,
-//                                                           action: #selector(closeBtnClick))
-//
-//        tableView.register(UINib(nibName: "ServantTableViewCell", bundle: nil), forCellReuseIdentifier: "ServantTableViewCell")
-//
-//        tableView.register(UINib(nibName: "NoblePhantasmNameTableViewCell", bundle: nil), forCellReuseIdentifier: "NoblePhantasmNameTableViewCell")
-        
+
         tableView.register(ServantTableViewCell.self, forCellReuseIdentifier: ServantTableViewCell.identifier)
         tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
-        
+
+        setupSearchViewController()
     }
-    
+
+    // MARK:- UITableViewDataSource
+
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 10
+        if isFiltering() {
+            return 1
+        }
+        else {
+            return Constants.servantClasses.count
+        }
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        if isFiltering() {
+            return filteredServants.count
+        }
+        else {
+            let servantClass = ServantClass(name: Constants.servantClasses[section])
+            return servantsDict[servantClass]?.count ?? 0
+        }
     }
-    
-    let name1 = ["玛修・基列莱特", "阿尔托莉雅・潘德拉贡", "阿尔托莉雅・潘德拉贡(Alter)", "阿尔托莉雅・潘德拉贡(Lily)", "尼禄・克劳狄乌斯"]
-    let name2 = ["マシュ・キリエライト", "アルトリア・ペンドラゴン", "アルトリア・ペンドラゴン〔オルタ〕", "アルトリア・ペンドラゴン〔リリィ〕", "ネロ・クラウディウス"]
-    let name3 = ["Mash Kyrielight", "Altria Pendragon", "Altria Pendragon (Alter)", "Altria Pendragon (Lily)", "Nero Claudius"]
-    
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
 
-        cell.avatar = UIImage(named: "Servant00\(indexPath.row + 1)")
-        cell.title = name1[indexPath.row]
-        
-//        cell.imageView?.image = UIImage(named: "Servant001")?.withAlignmentRectInsets(UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0))
-        
-//        cell.noblePhantasmIcon.image = UIImage(imageLiteralResourceName: "Arts")
-//        cell.phantasmTopLabel.text = "穢れを漱げ、青く美しきナイル"
-//        cell.phantasmMidLabel.text = "Sneferu Iteru Nile"
-//        cell.phantasmBotLabel.text = "洗刷污秽吧，青色美丽的尼罗河"
-
-
-        return cell
+        if isFiltering() {
+            cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].id)")
+            cell.title = filteredServants[indexPath.row].name
+            return cell
+        }
+        else {
+            let servantClass = ServantClass(name: Constants.servantClasses[indexPath.section])
+            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].id)")
+            cell.title = servantsDict[servantClass]?[indexPath.row].name
+            return cell
+        }
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -65,9 +81,18 @@ class ServantTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if isFiltering() {
+            return nil
+        }
+
+        let servantClass = ServantClass(name: Constants.servantClasses[section])
+        if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
+            return nil
+        }
+
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
-        
-        headerView.title = "Shielder"
+
+        headerView.title = servantClass.name
         
         return headerView
     }
@@ -75,10 +100,73 @@ class ServantTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 37.5
     }
-    
-//
-//    @objc func closeBtnClick(sender: UIBarButtonItem) {
-//        dismiss(animated: false, completion: nil)
-//    }
-    
+
+    // MARK:- UITableViewDelegate
+
+    private func setupSearchViewController() {
+        // Setup the Search Controller
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "搜索从者"
+
+        searchController.searchBar.scopeButtonTitles = [
+            "编号", "ATK降序", "HP降序", "活动赠送"
+        ]
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
+    }
+}
+
+extension ServantTableViewController: UISearchResultsUpdating {
+
+    func updateSearchResults(for searchController: UISearchController) {
+        let searchBar = searchController.searchBar
+        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
+        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+    }
+
+    private func searchBarIsEmpty() -> Bool {
+        // Returns true if the text is empty or nil
+        return searchController.searchBar.text?.isEmpty ?? true
+    }
+
+    private func filterContentForSearchText(_ searchText: String, scope: String = "编号") {
+        filteredServants = servants.filter { servant in
+            if searchText == "" {
+                return true
+            }
+            return servant.name.lowercased().contains(searchText.lowercased())
+        }.sorted {
+            if scope == "编号" {
+                return $0.id < $1.id
+            }
+            else if scope == "ATK降序" {
+                return $0.maxATK > $1.maxATK
+            }
+            else if scope == "HP降序" {
+                return $0.maxHP > $1.maxHP
+            }
+            else {
+                return $0.id < $1.id
+            }
+        }
+
+        if scope == "活动赠送" {
+            filteredServants = filteredServants.filter { $0.giftFromEvent }
+        }
+
+        tableView.reloadData()
+    }
+
+    private func isFiltering() -> Bool {
+      let searchBarScopeIsFiltering = searchController.searchBar.selectedScopeButtonIndex != 0
+      return searchController.isActive && (!searchBarIsEmpty() || searchBarScopeIsFiltering)
+    }
+
+}
+
+extension ServantTableViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+      filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+    }
 }

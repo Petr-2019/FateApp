@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +19,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ov6-bh-pro" kind="relationship" relationship="viewControllers" id="suV-of-F0V"/>
+                        <segue destination="qgB-Zq-xfl" kind="relationship" relationship="viewControllers" id="suV-of-F0V"/>
                         <segue destination="xe7-oq-15s" kind="relationship" relationship="viewControllers" id="yLS-vo-sA6"/>
                         <segue destination="zyo-1S-tao" kind="relationship" relationship="viewControllers" id="4Jo-92-S0Z"/>
                     </connections>
@@ -30,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="-54" y="439"/>
         </scene>
-        <!--Item-->
+        <!--Servant Table View Controller-->
         <scene sceneID="1aP-5O-obb">
             <objects>
                 <tableViewController id="ov6-bh-pro" customClass="ServantTableViewController" customModule="FateIndex_" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,11 +41,11 @@
                             <outlet property="delegate" destination="ov6-bh-pro" id="X2g-oq-CF6"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="HhA-sP-cDN"/>
+                    <navigationItem key="navigationItem" id="359-gQ-lfN"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etO-rN-hMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1247" y="430"/>
+            <point key="canvasLocation" x="2184.8000000000002" y="429.53523238380814"/>
         </scene>
         <!--英灵图鉴-->
         <scene sceneID="oiG-KL-hQi">
@@ -80,6 +78,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXk-hC-yaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1268" y="1272"/>
+        </scene>
+        <!--英灵图鉴-->
+        <scene sceneID="2AW-CN-se8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qgB-Zq-xfl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="英灵图鉴" id="HhA-sP-cDN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qxZ-kK-FMq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ov6-bh-pro" kind="relationship" relationship="rootViewController" id="Pc2-We-n73"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yEg-lY-kMo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1245.5999999999999" y="429.53523238380814"/>
         </scene>
     </scenes>
 </document>

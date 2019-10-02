@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7B23435B3B004C6376 /* Servant.swift */; };
+		04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7D23436261004C6376 /* ServantClass.swift */; };
+		04E8AA8023443D45004C6376 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7F23443D45004C6376 /* Gender.swift */; };
 		60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */; };
 		60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */; };
 		60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E8AA7B23435B3B004C6376 /* Servant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servant.swift; sourceTree = "<group>"; };
+		04E8AA7D23436261004C6376 /* ServantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClass.swift; sourceTree = "<group>"; };
+		04E8AA7F23443D45004C6376 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmNameTableViewCell.swift; sourceTree = "<group>"; };
 		60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmContentTableViewCell.swift; sourceTree = "<group>"; };
 		60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmBonusTableViewCell.swift; sourceTree = "<group>"; };
@@ -147,6 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				D42BE9622340EB1000C662F2 /* ServantManager.swift */,
+				04E8AA7B23435B3B004C6376 /* Servant.swift */,
+				04E8AA7D23436261004C6376 /* ServantClass.swift */,
+				04E8AA7F23443D45004C6376 /* Gender.swift */,
 			);
 			path = FateModel;
 			sourceTree = "<group>";
@@ -224,15 +233,18 @@
 			files = (
 				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
+				04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */,
 				60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */,
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
+				04E8AA8023443D45004C6376 /* Gender.swift in Sources */,
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
 				D4B4003B22F1C30600EDEC39 /* ThemeManager.swift in Sources */,
 				60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */,
 				60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */,
 				D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */,
 				D4B4003E22F1C53B00EDEC39 /* SettingsManager.swift in Sources */,
+				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */,
 				D4B4003922F1BFFC00EDEC39 /* SettingsTableView.swift in Sources */,
 				D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */,
