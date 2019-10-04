@@ -11,7 +11,7 @@ import UIKit
 class ServantTableViewController: UITableViewController {
 
     private struct Constants {
-        static let defaultCellHeight: CGFloat = 75.0
+        static let defaultCellHeight: CGFloat = 78.0
 
         static let servantClasses = [
             "Saber", "Archer", "Lancer", "Rider", "Caster", "Assassin", "Berserker",
@@ -28,7 +28,6 @@ class ServantTableViewController: UITableViewController {
     }()
 
     private var filteredServants = [Servant]()
-    // private var filteredServants = [ServantClass : [Servant]]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -102,6 +101,21 @@ class ServantTableViewController: UITableViewController {
     }
 
     // MARK:- UITableViewDelegate
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if isFiltering() {
+            let vc = ServantDetailTableViewController(servant: filteredServants[indexPath.row])
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        else {
+            let servantClass = ServantClass(name: Constants.servantClasses[indexPath.section])
+
+            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+
+
+    }
 
     private func setupSearchViewController() {
         // Setup the Search Controller

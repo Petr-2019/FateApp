@@ -40,32 +40,17 @@ class ServantTableViewCell: UITableViewCell {
     }
     
     private func setup() {
-//        self.contentView.layoutMargins = UIEdgeInsets(top: Constants.avatarTopMargin, left: Constants.avatarLeadMargin, bottom: Constants.avatarTopMargin, right: Constants.avatarLeadMargin)
-//
-
-//        contentView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
-//
-//        self.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
-//
-//        imageView?.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
-//
-        // self.contentView.layoutMargins = UIEdgeInsets.zero
-
         imageView?.layer.cornerRadius = 8.0
         imageView?.clipsToBounds = true
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        
-        
+
         let avatarHeight = bounds.height - 2 * Constants.avatarTopMargin
         let avatarWidth = avatarHeight
         
         imageView?.frame = CGRect(x: Constants.avatarLeadMargin, y: Constants.avatarTopMargin, width: avatarWidth, height: avatarHeight)
-        
-        // imageView?.frame = CGRect(x: 0, y: 0, width: avatarWidth, height: avatarHeight)
     }
     
     override func prepareForReuse() {

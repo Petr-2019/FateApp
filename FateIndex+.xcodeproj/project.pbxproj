@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */; };
+		047BF0F6234566CD0084796A /* ServantDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F5234566CD0084796A /* ServantDetailTableViewCell.swift */; };
+		047BF0F82346044B0084796A /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F72346044B0084796A /* CardType.swift */; };
+		047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F92346E7CA0084796A /* ServantCardSequenceTableViewCell.swift */; };
+		047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0FB2346E8FD0084796A /* CardSequenceView.swift */; };
 		04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7B23435B3B004C6376 /* Servant.swift */; };
 		04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7D23436261004C6376 /* ServantClass.swift */; };
 		04E8AA8023443D45004C6376 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7F23443D45004C6376 /* Gender.swift */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantDetailTableViewController.swift; sourceTree = "<group>"; };
+		047BF0F5234566CD0084796A /* ServantDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantDetailTableViewCell.swift; sourceTree = "<group>"; };
+		047BF0F72346044B0084796A /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		047BF0F92346E7CA0084796A /* ServantCardSequenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantCardSequenceTableViewCell.swift; sourceTree = "<group>"; };
+		047BF0FB2346E8FD0084796A /* CardSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSequenceView.swift; sourceTree = "<group>"; };
 		04E8AA7B23435B3B004C6376 /* Servant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servant.swift; sourceTree = "<group>"; };
 		04E8AA7D23436261004C6376 /* ServantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClass.swift; sourceTree = "<group>"; };
 		04E8AA7F23443D45004C6376 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
@@ -94,6 +104,9 @@
 			children = (
 				60F3FBB3215BD72300572EFB /* ServantTableViewCell.swift */,
 				D4B4004222F31C9C00EDEC39 /* ServantTableViewHeaderView.swift */,
+				047BF0F5234566CD0084796A /* ServantDetailTableViewCell.swift */,
+				047BF0F92346E7CA0084796A /* ServantCardSequenceTableViewCell.swift */,
+				047BF0FB2346E8FD0084796A /* CardSequenceView.swift */,
 			);
 			path = Servant;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
 				D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */,
 				D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */,
+				047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */,
 			);
 			path = FateIndexVC;
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 				04E8AA7B23435B3B004C6376 /* Servant.swift */,
 				04E8AA7D23436261004C6376 /* ServantClass.swift */,
 				04E8AA7F23443D45004C6376 /* Gender.swift */,
+				047BF0F72346044B0084796A /* CardType.swift */,
 			);
 			path = FateModel;
 			sourceTree = "<group>";
@@ -235,6 +250,8 @@
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
 				04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */,
 				60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */,
+				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
+				047BF0F6234566CD0084796A /* ServantDetailTableViewCell.swift in Sources */,
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
 				04E8AA8023443D45004C6376 /* Gender.swift in Sources */,
@@ -244,8 +261,11 @@
 				60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */,
 				D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */,
 				D4B4003E22F1C53B00EDEC39 /* SettingsManager.swift in Sources */,
+				047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */,
+				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
 				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */,
+				047BF0F82346044B0084796A /* CardType.swift in Sources */,
 				D4B4003922F1BFFC00EDEC39 /* SettingsTableView.swift in Sources */,
 				D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */,
 				D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */,

@@ -19,7 +19,11 @@ class Servant {
 
     let giftFromEvent: Bool
 
-    init(id: Int, name: String, classType: ServantClass, gender: Gender, maxATK: Int, maxHP: Int, giftFromEvent: Bool) {
+    let painter: String
+
+    let cardSequence: [CardType]
+
+    init(id: Int, name: String, classType: ServantClass, gender: Gender, maxATK: Int, maxHP: Int, giftFromEvent: Bool, painter: String, cardSequence: [CardType]) {
         self.id = id
         self.name = name
         self.classType = classType
@@ -29,5 +33,9 @@ class Servant {
         self.maxHP = maxHP
 
         self.giftFromEvent = giftFromEvent
+
+        self.painter = painter
+
+        self.cardSequence = cardSequence
     }
 }

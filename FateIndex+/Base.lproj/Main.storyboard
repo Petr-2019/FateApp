@@ -47,7 +47,7 @@
             </objects>
             <point key="canvasLocation" x="2184.8000000000002" y="429.53523238380814"/>
         </scene>
-        <!--英灵图鉴-->
+        <!--礼装图鉴-->
         <scene sceneID="oiG-KL-hQi">
             <objects>
                 <viewController id="xe7-oq-15s" sceneMemberID="viewController">
@@ -57,7 +57,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NSg-ca-j0z"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="英灵图鉴" id="V06-9I-x4x"/>
+                    <tabBarItem key="tabBarItem" title="礼装图鉴" image="shield" catalog="system" selectedImage="shield.fill" id="V06-9I-x4x"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CbS-Fn-ram" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,7 +73,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gcy-4C-UWP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="设置" id="kMa-If-MGZ"/>
+                    <tabBarItem key="tabBarItem" title="设置" image="gear" catalog="system" id="kMa-If-MGZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXk-hC-yaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +83,7 @@
         <scene sceneID="2AW-CN-se8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qgB-Zq-xfl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="英灵图鉴" id="HhA-sP-cDN"/>
+                    <tabBarItem key="tabBarItem" title="英灵图鉴" image="person" catalog="system" selectedImage="person.fill" id="HhA-sP-cDN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qxZ-kK-FMq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -99,4 +99,11 @@
             <point key="canvasLocation" x="1245.5999999999999" y="429.53523238380814"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gear" catalog="system" width="64" height="60"/>
+        <image name="person" catalog="system" width="64" height="60"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="shield" catalog="system" width="60" height="64"/>
+        <image name="shield.fill" catalog="system" width="60" height="64"/>
+    </resources>
 </document>
