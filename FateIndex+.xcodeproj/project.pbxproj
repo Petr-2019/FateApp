@@ -12,12 +12,17 @@
 		047BF0F82346044B0084796A /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F72346044B0084796A /* CardType.swift */; };
 		047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F92346E7CA0084796A /* ServantCardSequenceTableViewCell.swift */; };
 		047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0FB2346E8FD0084796A /* CardSequenceView.swift */; };
+		04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A82F742349DFD200146CA1 /* NoblePhantasmDetailView.swift */; };
+		04A82F772349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A82F762349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift */; };
+		04A82F792349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A82F782349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift */; };
+		04A82F7B234A031600146CA1 /* DisclosureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */; };
+		04A82F7D234A04B200146CA1 /* NoblePhantasmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A82F7C234A04B200146CA1 /* NoblePhantasmDetailViewController.swift */; };
+		04B8AB1323497B4A0061FB02 /* NoblePhantasmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AB1223497B4A0061FB02 /* NoblePhantasmView.swift */; };
+		04B8AB1523497D590061FB02 /* NoblePhantasmAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AB1423497D590061FB02 /* NoblePhantasmAvatarView.swift */; };
+		04B8AB18234982E60061FB02 /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AB17234982E60061FB02 /* EquipmentTableViewController.swift */; };
 		04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7B23435B3B004C6376 /* Servant.swift */; };
 		04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7D23436261004C6376 /* ServantClass.swift */; };
 		04E8AA8023443D45004C6376 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7F23443D45004C6376 /* Gender.swift */; };
-		60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */; };
-		60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */; };
-		60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */; };
 		60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */; };
 		60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9F215BBF5A00572EFB /* ViewController.swift */; };
 		60F3FBA3215BBF5A00572EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA1215BBF5A00572EFB /* Main.storyboard */; };
@@ -41,12 +46,17 @@
 		047BF0F72346044B0084796A /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
 		047BF0F92346E7CA0084796A /* ServantCardSequenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantCardSequenceTableViewCell.swift; sourceTree = "<group>"; };
 		047BF0FB2346E8FD0084796A /* CardSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSequenceView.swift; sourceTree = "<group>"; };
+		04A82F742349DFD200146CA1 /* NoblePhantasmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmDetailView.swift; sourceTree = "<group>"; };
+		04A82F762349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmDetailTopContainerView.swift; sourceTree = "<group>"; };
+		04A82F782349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmDetailBottomContainerView.swift; sourceTree = "<group>"; };
+		04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureTableViewCell.swift; sourceTree = "<group>"; };
+		04A82F7C234A04B200146CA1 /* NoblePhantasmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmDetailViewController.swift; sourceTree = "<group>"; };
+		04B8AB1223497B4A0061FB02 /* NoblePhantasmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmView.swift; sourceTree = "<group>"; };
+		04B8AB1423497D590061FB02 /* NoblePhantasmAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmAvatarView.swift; sourceTree = "<group>"; };
+		04B8AB17234982E60061FB02 /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
 		04E8AA7B23435B3B004C6376 /* Servant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servant.swift; sourceTree = "<group>"; };
 		04E8AA7D23436261004C6376 /* ServantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClass.swift; sourceTree = "<group>"; };
 		04E8AA7F23443D45004C6376 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
-		60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmNameTableViewCell.swift; sourceTree = "<group>"; };
-		60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmContentTableViewCell.swift; sourceTree = "<group>"; };
-		60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmBonusTableViewCell.swift; sourceTree = "<group>"; };
 		60F3FB9A215BBF5A00572EFB /* FateIndex+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateIndex+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F3FB9F215BBF5A00572EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,14 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B8AB16234982B10061FB02 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				04B8AB17234982E60061FB02 /* EquipmentTableViewController.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
 		60EF05F1217E1C3B00BA95E2 /* FateIndexUI */ = {
 			isa = PBXGroup;
 			children = (
+				04B8AB16234982B10061FB02 /* Equipment */,
 				60EF05F3217E1C8D00BA95E2 /* Servant */,
 				60EF05F2217E1C6500BA95E2 /* NoblePhantasm */,
 				D4B4003822F1BFFC00EDEC39 /* SettingsTableView.swift */,
 				D4B4003A22F1C30600EDEC39 /* ThemeManager.swift */,
 				D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */,
+				04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */,
 			);
 			path = FateIndexUI;
 			sourceTree = "<group>";
@@ -92,9 +112,11 @@
 		60EF05F2217E1C6500BA95E2 /* NoblePhantasm */ = {
 			isa = PBXGroup;
 			children = (
-				60EF05EB217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift */,
-				60EF05ED217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift */,
-				60EF05F4217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift */,
+				04B8AB1223497B4A0061FB02 /* NoblePhantasmView.swift */,
+				04B8AB1423497D590061FB02 /* NoblePhantasmAvatarView.swift */,
+				04A82F742349DFD200146CA1 /* NoblePhantasmDetailView.swift */,
+				04A82F762349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift */,
+				04A82F782349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift */,
 			);
 			path = NoblePhantasm;
 			sourceTree = "<group>";
@@ -151,6 +173,7 @@
 				D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */,
 				D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */,
 				047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */,
+				04A82F7C234A04B200146CA1 /* NoblePhantasmDetailViewController.swift */,
 			);
 			path = FateIndexVC;
 			sourceTree = "<group>";
@@ -248,24 +271,29 @@
 			files = (
 				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
+				04B8AB18234982E60061FB02 /* EquipmentTableViewController.swift in Sources */,
 				04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */,
-				60EF05EC217E126F00BA95E2 /* NoblePhantasmNameTableViewCell.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
 				047BF0F6234566CD0084796A /* ServantDetailTableViewCell.swift in Sources */,
+				04A82F7B234A031600146CA1 /* DisclosureTableViewCell.swift in Sources */,
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
+				04A82F792349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
 				04E8AA8023443D45004C6376 /* Gender.swift in Sources */,
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
+				04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */,
 				D4B4003B22F1C30600EDEC39 /* ThemeManager.swift in Sources */,
-				60EF05F5217E202D00BA95E2 /* NoblePhantasmBonusTableViewCell.swift in Sources */,
-				60EF05EE217E17B300BA95E2 /* NoblePhantasmContentTableViewCell.swift in Sources */,
 				D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */,
 				D4B4003E22F1C53B00EDEC39 /* SettingsManager.swift in Sources */,
+				04A82F7D234A04B200146CA1 /* NoblePhantasmDetailViewController.swift in Sources */,
 				047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */,
 				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
 				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* ServantTableViewCell.swift in Sources */,
+				04B8AB1523497D590061FB02 /* NoblePhantasmAvatarView.swift in Sources */,
 				047BF0F82346044B0084796A /* CardType.swift in Sources */,
+				04B8AB1323497B4A0061FB02 /* NoblePhantasmView.swift in Sources */,
+				04A82F772349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift in Sources */,
 				D4B4003922F1BFFC00EDEC39 /* SettingsTableView.swift in Sources */,
 				D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */,
 				D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */,
@@ -417,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
 				INFOPLIST_FILE = "FateIndex+/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
 				INFOPLIST_FILE = "FateIndex+/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

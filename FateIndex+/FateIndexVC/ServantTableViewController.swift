@@ -13,10 +13,18 @@ class ServantTableViewController: UITableViewController {
     private struct Constants {
         static let defaultCellHeight: CGFloat = 78.0
 
-        static let servantClasses = [
-            "Saber", "Archer", "Lancer", "Rider", "Caster", "Assassin", "Berserker",
-            "Shielder", "Ruler", "Avenger", "MoonCancer", "Alterego", "Foreigner"
+        static let servantClasses: [ServantClass] = [
+            .saber, .archer, .lancer, .rider,
+            .caster, .assassin, .berserker, .shielder,
+            .ruler, .avenger, .moonCancer, .alterego,
+            .foreigner
         ]
+
+        static let placeHolder = "搜索从者"
+        static let idName = "编号"
+        static let atkDesc = "ATK降序"
+        static let hpDesc = "HP降序"
+        static let giftFromEvent = "活动赠送"
     }
 
     private let searchController = UISearchController(searchResultsController: nil)
@@ -41,12 +49,7 @@ class ServantTableViewController: UITableViewController {
     // MARK:- UITableViewDataSource
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        if isFiltering() {
-            return 1
-        }
-        else {
-            return Constants.servantClasses.count
-        }
+        return isFiltering() ? 1 : Constants.servantClasses.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,13 +57,13 @@ class ServantTableViewController: UITableViewController {
             return filteredServants.count
         }
         else {
-            let servantClass = ServantClass(name: Constants.servantClasses[section])
+            let servantClass = Constants.servantClasses[section]
             return servantsDict[servantClass]?.count ?? 0
         }
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ServantTableViewCell", for: indexPath) as! ServantTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: ServantTableViewCell.identifier, for: indexPath) as! ServantTableViewCell
 
         if isFiltering() {
             cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].id)")
@@ -68,7 +71,7 @@ class ServantTableViewController: UITableViewController {
             return cell
         }
         else {
-            let servantClass = ServantClass(name: Constants.servantClasses[indexPath.section])
+            let servantClass = Constants.servantClasses[indexPath.section]
             cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].id)")
             cell.title = servantsDict[servantClass]?[indexPath.row].name
             return cell
@@ -84,14 +87,14 @@ class ServantTableViewController: UITableViewController {
             return nil
         }
 
-        let servantClass = ServantClass(name: Constants.servantClasses[section])
+        let servantClass = Constants.servantClasses[section]
         if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
             return nil
         }
 
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
 
-        headerView.title = servantClass.name
+        headerView.title = servantClass.description()
         
         return headerView
     }
@@ -108,7 +111,7 @@ class ServantTableViewController: UITableViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }
         else {
-            let servantClass = ServantClass(name: Constants.servantClasses[indexPath.section])
+            let servantClass = Constants.servantClasses[indexPath.section]
 
             let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
             self.navigationController?.pushViewController(vc, animated: true)
@@ -121,10 +124,10 @@ class ServantTableViewController: UITableViewController {
         // Setup the Search Controller
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "搜索从者"
+        searchController.searchBar.placeholder = Constants.placeHolder
 
         searchController.searchBar.scopeButtonTitles = [
-            "编号", "ATK降序", "HP降序", "活动赠送"
+            Constants.idName, Constants.atkDesc, Constants.hpDesc, Constants.giftFromEvent
         ]
         navigationItem.searchController = searchController
         definesPresentationContext = true
@@ -144,32 +147,34 @@ extension ServantTableViewController: UISearchResultsUpdating {
         return searchController.searchBar.text?.isEmpty ?? true
     }
 
-    private func filterContentForSearchText(_ searchText: String, scope: String = "编号") {
+    private func filterContentForSearchText(_ searchText: String, scope: String = Constants.idName) {
         filteredServants = servants.filter { servant in
             if searchText == "" {
                 return true
             }
             return servant.name.lowercased().contains(searchText.lowercased())
         }.sorted {
-            if scope == "编号" {
-                return $0.id < $1.id
-            }
-            else if scope == "ATK降序" {
-                return $0.maxATK > $1.maxATK
-            }
-            else if scope == "HP降序" {
-                return $0.maxHP > $1.maxHP
-            }
-            else {
-                return $0.id < $1.id
-            }
+            return sortHelper(lhs: $0, rhs: $1, scope: scope)
         }
 
-        if scope == "活动赠送" {
+        if scope == Constants.giftFromEvent {
             filteredServants = filteredServants.filter { $0.giftFromEvent }
         }
 
         tableView.reloadData()
+    }
+
+    private func sortHelper(lhs: Servant, rhs: Servant, scope: String) -> Bool {
+        switch scope {
+        case Constants.idName:
+            return lhs.id < rhs.id
+        case Constants.atkDesc:
+            return lhs.maxATK > rhs.maxATK
+        case Constants.hpDesc:
+            return lhs.maxHP > rhs.maxHP
+        default:
+            return lhs.id < rhs.id
+        }
     }
 
     private func isFiltering() -> Bool {
@@ -180,7 +185,9 @@ extension ServantTableViewController: UISearchResultsUpdating {
 }
 
 extension ServantTableViewController: UISearchBarDelegate {
+
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
       filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
+
 }

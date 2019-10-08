@@ -10,6 +10,13 @@ import UIKit
 
 class ServantDetailTableViewController: UITableViewController {
 
+    private struct Constants {
+        static let sectionBasicTitle = "基础数据"
+        static let sectionCardTitle = "配卡"
+        static let sectionSkillTitle = "职阶技能"
+
+    }
+
     private let servant: Servant
 
     init(servant: Servant) {
@@ -28,6 +35,7 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantDetailTableViewCell.self, forCellReuseIdentifier: ServantDetailTableViewCell.identifier)
         tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
+        tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
 
         self.navigationItem.title = servant.name
     }
@@ -40,16 +48,32 @@ class ServantDetailTableViewController: UITableViewController {
     // MARK:- UITableViewDataSource
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        if section == 0 {
+            return 14
+        }
+        else if section == 1 {
+            return 2
+        }
+        else if section == 2 {
+            return 6
+        }
+        else if section == 3 {
+            return 6
+        }
+        else {
+            return 1
+        }
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell2 = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+        cell2.configure("Test", trailingText: "Again")
 
         if indexPath.section == 0 {
 
@@ -100,9 +124,71 @@ class ServantDetailTableViewController: UITableViewController {
             return cell
         }
         else if indexPath.section == 1 {
+            if indexPath.row == 0 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
+
+                cell.configure(text: "配卡",cardSequence: servant.cardSequence)
+
+                return cell
+            }
+            else if indexPath.row == 1 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: DisclosureTableViewCell.identifier, for: indexPath) as! DisclosureTableViewCell
+
+                cell.textLabel?.text = "宝具详情"
+                return cell
+            }
+
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
             cell.configure(text: "配卡",cardSequence: servant.cardSequence)
+
+            return cell
+        }
+        else if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+            if indexPath.row == 0 {
+                cell.configure("出星率", trailingText: "10.2%")
+            }
+            else if indexPath.row == 1 {
+                cell.configure("被即死率", trailingText: "31.5%")
+            }
+            else if indexPath.row == 2 {
+                cell.configure("暴击星分配权重", trailingText: "98")
+            }
+            else if indexPath.row == 3 {
+                cell.configure("特性", trailingText: "骑乘、所爱之人")
+            }
+            else if indexPath.row == 4 {
+                cell.configure("人型", trailingText: "是")
+            }
+            else if indexPath.row == 5 {
+                cell.configure("被EA特攻", trailingText: "是")
+            }
+
+            return cell
+        }
+        else if indexPath.section == 3 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+            if indexPath.row == 0 {
+                cell.configure("Quick", trailingText: "0.65%")
+            }
+            else if indexPath.row == 1 {
+                cell.configure("Arts", trailingText: "0.65%")
+            }
+            else if indexPath.row == 2 {
+                cell.configure("Buster", trailingText: "0.65%")
+            }
+            else if indexPath.row == 3 {
+                cell.configure("Extra", trailingText: "0.65%")
+            }
+            else if indexPath.row == 4 {
+                cell.configure("宝具", trailingText: "0.65%")
+            }
+            else if indexPath.row == 5 {
+                cell.configure("受击", trailingText: "3%")
+            }
 
             return cell
         }
@@ -120,9 +206,24 @@ class ServantDetailTableViewController: UITableViewController {
             headerView.title = "配卡"
         }
         else if section == 2 {
-            headerView.title = "职阶技能"
+            headerView.title = "职阶特性"
+        }
+        else if section == 3 {
+            headerView.title = "NP获得率"
         }
 
         return headerView
+    }
+
+    // MARK:- UITableView Delegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        if indexPath.section == 1 {
+            if indexPath.row == 1 {
+                let vc = NoblePhantasmDetailViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+
     }
 }
