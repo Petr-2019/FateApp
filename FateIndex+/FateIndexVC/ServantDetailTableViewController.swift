@@ -8,6 +8,26 @@
 
 import UIKit
 
+enum ServantDetailSection {
+    case basicInfo // 基础数据
+    case actionCard // 配卡
+    case classSpec // 职阶特性
+    case npRelated // NP获得率
+
+    func title() -> String {
+        switch self {
+        case .basicInfo:
+            return "基础数据"
+        case .actionCard:
+            return "配卡"
+        case .classSpec:
+            return "职阶特性"
+        case .npRelated:
+            return "NP获得率"
+        }
+    }
+}
+
 class ServantDetailTableViewController: UITableViewController {
 
     private struct Constants {
@@ -18,6 +38,8 @@ class ServantDetailTableViewController: UITableViewController {
     }
 
     private let servant: Servant
+
+    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .classSpec, .npRelated]
 
     init(servant: Servant) {
         self.servant = servant
@@ -197,33 +219,62 @@ class ServantDetailTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        guard let section = servantDetailSection(at: section) else {
+            return nil
+        }
+
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
 
-        if section == 0 {
-            headerView.title = "基础数据"
-        }
-        else if section == 1 {
-            headerView.title = "配卡"
-        }
-        else if section == 2 {
-            headerView.title = "职阶特性"
-        }
-        else if section == 3 {
-            headerView.title = "NP获得率"
+        let title: String
+
+        switch section {
+            case .basicInfo:
+                title = "基础数据"
+            case .actionCard:
+                title = "配卡"
+            case .classSpec:
+                title = "职阶特性"
+            case .npRelated:
+                title = "NP获得率"
         }
 
+        headerView.title = title
         return headerView
     }
 
     // MARK:- UITableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-        if indexPath.section == 1 {
-            if indexPath.row == 1 {
-                let vc = NoblePhantasmDetailViewController()
-                self.navigationController?.pushViewController(vc, animated: true)
-            }
+        guard let section = servantDetailSection(at: indexPath) else {
+            return
         }
 
+        switch section {
+        case .basicInfo:
+            break
+        case .actionCard:
+            if indexPath.row == 1 {
+                let vc = NoblePhantasmDetailViewController()
+                navigationController?.pushViewController(vc, animated: true)
+            }
+        case .classSpec:
+            break
+        case .npRelated:
+            break
+        }
     }
+
+    // MARK:- Helper
+
+    private func servantDetailSection(at indexPath: IndexPath) -> ServantDetailSection? {
+        return servantDetailSection(at: indexPath.section)
+    }
+
+    private func servantDetailSection(at section: Int) -> ServantDetailSection? {
+        guard section >= 0, section < sections.count else {
+            return nil
+        }
+
+        return sections[section]
+    }
+
 }

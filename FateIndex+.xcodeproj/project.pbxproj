@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040D434F2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D434E2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift */; };
 		047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */; };
 		047BF0F6234566CD0084796A /* ServantDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F5234566CD0084796A /* ServantDetailTableViewCell.swift */; };
 		047BF0F82346044B0084796A /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BF0F72346044B0084796A /* CardType.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040D434E2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmAvatarCell.swift; sourceTree = "<group>"; };
 		047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantDetailTableViewController.swift; sourceTree = "<group>"; };
 		047BF0F5234566CD0084796A /* ServantDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantDetailTableViewCell.swift; sourceTree = "<group>"; };
 		047BF0F72346044B0084796A /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				04A82F742349DFD200146CA1 /* NoblePhantasmDetailView.swift */,
 				04A82F762349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift */,
 				04A82F782349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift */,
+				040D434E2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift */,
 			);
 			path = NoblePhantasm;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
+				040D434F2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift in Sources */,
 				04B8AB18234982E60061FB02 /* EquipmentTableViewController.swift in Sources */,
 				04E8AA7E23436261004C6376 /* ServantClass.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
