@@ -1,0 +1,191 @@
+{
+  "servant": {
+    "no": "59",
+    "name": "ジャンヌ・ダルク",
+    "clazz": "ruler",
+    "rare": 5,
+    "cost": 16,
+    "tenchizin": "hoshi"
+  },
+  "card": {
+    "arts": {
+      "count": 3,
+      "hit": 2
+    },
+    "quick": {
+      "count": 1,
+      "hit": 2
+    },
+    "buster": {
+      "count": 1,
+      "hit": 1
+    }
+  },
+  "status": [
+    {
+      "level": "Lv90",
+      "hp": 16500,
+      "atk": 9593
+    }
+  ],
+  "hidden": {
+    "na": 0.76,
+    "nd": null,
+    "dr": 21,
+    "starcollection": 99,
+    "staroccurrence": 10.1,
+    "tag": [
+      "秩序",
+      "善",
+      "女",
+      "サーヴァント",
+      "人型",
+      "アルトリア顔"
+    ]
+  },
+  "classskill": [
+    {
+      "name": "対魔力EX",
+      "effect": [
+        {
+          "type": "弱体耐性アップ",
+          "desc": "自身の弱体耐性をアップ",
+          "magnification": "25"
+        }
+      ]
+    }
+  ],
+  "hogu": {
+    "name": "我が神はここにありて(リュミノジテ・エテルネッル)",
+    "card": "a",
+    "effect": [
+      {
+        "type": "無敵付与",
+        "tern":  1,
+        "count": 0,
+        "target": "self-other",
+        "beforeafter": "before",
+        "lvoc": "lv",
+        "desc": "味方全体に無敵状態を付与(1T)",
+        "v1": "",
+        "v2": "",
+        "v3": "",
+        "v4": "",
+        "v5": ""
+      },
+      {
+        "type": "防御力アップ",
+        "tern":  3,
+        "count": 0,
+        "target": "self-other",
+        "beforeafter": "before",
+        "lvoc": "lv",
+        "desc": "＆防御力をアップ[Lv](3T)",
+        "v1": "5",
+        "v2": "15",
+        "v3": "20",
+        "v4": "22.5",
+        "v5": "25"
+      },
+      {
+        "type": "HP回復",
+        "tern":  2,
+        "count": 0,
+        "target": "self-other",
+        "beforeafter": "before",
+        "lvoc": "lv",
+        "desc": "＆毎ターンHP回復状態を付与(2T)<OC:効果アップ>",
+        "v1": "1000",
+        "v2": "1500",
+        "v3": "2000",
+        "v4": "2500",
+        "v5": "3000"
+      },
+      {
+        "type": "弱体解除",
+        "tern": 0,
+        "count": 0,
+        "target": "self-other",
+        "beforeafter": "before",
+        "lvoc": "lv",
+        "desc": "＆弱体状態を解除",
+        "v1": "",
+        "v2": "",
+        "v3": "",
+        "v4": "",
+        "v5": ""
+      }
+    ],
+    "type": "support",
+    "hit": 0
+  },
+  "skill1": {
+    "name": "啓示A",
+    "ct": 8,
+    "effects": [
+      {
+        "type": "スター獲得",
+        "tern":  3,
+        "count": 0,
+        "target": "self",
+        "desc": "自身に毎ターンスター獲得を付与[Lv](3T)",
+        "v1": "3",
+        "v2": "4",
+        "v3": "5",
+        "v4": "6",
+        "v5": "7",
+        "v6": "8",
+        "v7": "9",
+        "v8": "3",
+        "v9": "3",
+        "v10": "3"
+      }
+    ]
+  },
+  "skill2": {
+    "name": "真名看破B",
+    "ct": 7,
+    "effects": [
+      {
+        "type": "宝具威力ダウン",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-single",
+        "desc": "敵単体〔サーヴァント〕の宝具威力を大ダウン[Lv](1T)",
+        "v1": "15",
+        "v2": "16.5",
+        "v3": "18",
+        "v4": "19.5",
+        "v5": "21",
+        "v6": "22.5",
+        "v7": "24",
+        "v8": "25.5",
+        "v9": "27",
+        "v10": "30"
+      }
+    ]
+  },
+  "skill3": {
+    "name": "神明裁決A",
+    "ct": 8,
+    "effects": [
+      {
+        "type": "スタン付与",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-single",
+        "desc": "敵単体〔サーヴァント〕を確率で行動不能状態にする[Lv:確率](1T)",
+        "v1": "70",
+        "v2": "75",
+        "v3": "80",
+        "v4": "85",
+        "v5": "90",
+        "v6": "95",
+        "v7": "100",
+        "v8": "105",
+        "v9": "110",
+        "v10": "120"
+      }
+    ]
+  }
+}

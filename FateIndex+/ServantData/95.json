@@ -1,0 +1,212 @@
+{
+  "servant": {
+    "no": "95",
+    "name": "子ギル",
+    "clazz": "archer",
+    "rare": 3,
+    "cost": 7,
+    "tenchizin": "ten"
+  },
+  "card": {
+    "arts": {
+      "count": 2,
+      "hit": 3
+    },
+    "quick": {
+      "count": 1,
+      "hit": 3
+    },
+    "buster": {
+      "count": 2,
+      "hit": 3
+    }
+  },
+  "status": [
+    {
+      "level": "Lv70",
+      "hp": 8731,
+      "atk": 7696
+    }
+  ],
+  "hidden": {
+    "na": 0.62,
+    "nd": 3,
+    "dr": 36,
+    "starcollection": 153,
+    "staroccurrence": 7.9,
+    "tag": [
+      "混沌",
+      "善",
+      "男",
+      "サーヴァント",
+      "人型",
+      "神性",
+      "王"
+    ]
+  },
+  "classskill": [
+    {
+      "name": "対魔力E",
+      "effect": [
+        {
+          "type": "弱体耐性アップ",
+          "desc": "自身の弱体耐性を少しアップ",
+          "magnification": "10"
+        }
+      ]
+    },
+    {
+      "name": "単独行動A",
+      "effect": [
+        {
+          "type": "クリティカル威力アップ",
+          "desc": "自身のクリティカル威力をアップ",
+          "magnification": "10"
+        }
+      ]
+    },
+    {
+      "name": "神性B",
+      "effect": [
+        {
+          "type": "与ダメージプラス付与",
+          "desc": "自身に与ダメージプラス状態を付与",
+          "magnification": "175"
+        }
+      ]
+    }
+  ],
+  "hogu": {
+    "name": "王の財宝(ゲート・オブ・バビロン)",
+    "card": "b",
+    "effect": [
+      {
+        "type": "攻撃",
+        "tern": 0,
+        "count": 0,
+        "target": "enemy-all",
+        "beforeafter": "before",
+        "lvoc": "lv",
+        "desc": "敵全体に強力な攻撃[Lv]",
+        "v1": "400",
+        "v2": "500",
+        "v3": "550",
+        "v4": "575",
+        "v5": "600"
+      },
+      {
+        "type": "宝具威力ダウン",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-all",
+        "beforeafter": "after",
+        "lvoc": "oc",
+        "desc": "＆宝具威力ダウン(1T)<OC:効果UP>",
+        "v1": "50",
+        "v2": "60",
+        "v3": "70",
+        "v4": "80",
+        "v5": "90"
+      },
+      {
+        "type": "クリティカル威力ダウン",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-all",
+        "beforeafter": "after",
+        "lvoc": "oc",
+        "desc": "＆クリティカル威力ダウン(1T)<OC:効果UP>",
+        "v1": "50",
+        "v2": "60",
+        "v3": "70",
+        "v4": "80",
+        "v5": "90"
+      },
+      {
+        "type": "弱体耐性ダウン",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-all",
+        "beforeafter": "after",
+        "lvoc": "oc",
+        "desc": "＆弱体耐性ダウン(1T)<OC:効果UP>",
+        "v1": "20",
+        "v2": "25",
+        "v3": "30",
+        "v4": "35",
+        "v5": "40"
+      }
+    ],
+    "type": "all",
+    "hit": 10
+  },
+  "skill1": {
+    "name": "カリスマA+",
+    "ct": 7,
+    "effects": [
+      {
+        "type": "攻撃力アップ",
+        "tern":  3,
+        "count": 0,
+        "target": "self-other",
+        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "v1": "10.5",
+        "v2": "11.6",
+        "v3": "12.6",
+        "v4": "13.7",
+        "v5": "14.7",
+        "v6": "15.8",
+        "v7": "16.8",
+        "v8": "17.9",
+        "v9": "18.9",
+        "v10": "21"
+      }
+    ]
+  },
+  "skill2": {
+    "name": "紅顔の美少年C",
+    "ct": 9,
+    "effects": [
+      {
+        "type": "魅了状態付与",
+        "tern":  1,
+        "count": 0,
+        "target": "enemy-single",
+        "desc": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
+        "v1": "45",
+        "v2": "48",
+        "v3": "51",
+        "v4": "54",
+        "v5": "57",
+        "v6": "60",
+        "v7": "63",
+        "v8": "66",
+        "v9": "69",
+        "v10": "75"
+      }
+    ]
+  },
+  "skill3": {
+    "name": "黄金律A",
+    "ct": 8,
+    "effects": [
+      {
+        "type": "NP獲得量アップ",
+        "tern":  3,
+        "count": 0,
+        "target": "self",
+        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "v1": "20",
+        "v2": "23",
+        "v3": "26",
+        "v4": "29",
+        "v5": "32",
+        "v6": "35",
+        "v7": "38",
+        "v8": "41",
+        "v9": "44",
+        "v10": "50"
+      }
+    ]
+  }
+}

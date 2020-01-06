@@ -13,11 +13,11 @@ class ServantTableViewController: UITableViewController {
     private struct Constants {
         static let defaultCellHeight: CGFloat = 78.0
 
-        static let servantClasses: [ServantClass] = [
-            .saber, .archer, .lancer, .rider,
-            .caster, .assassin, .berserker, .shielder,
-            .ruler, .avenger, .moonCancer, .alterego,
-            .foreigner
+        static let servantClasses: [String] = [
+            "saber", "archer", "lancer", "rider",
+            "caster", "assassin", "berserker", "shielder",
+            "ruler", "avenger", "moonCancer", "alterego",
+            "foreigner"
         ]
 
         static let placeHolder = "搜索从者"
@@ -32,7 +32,7 @@ class ServantTableViewController: UITableViewController {
     private var servants = ServantManager.shared.allServants()
 
     private lazy var servantsDict = {
-        return Dictionary(grouping: servants, by: { $0.classType })
+        return Dictionary(grouping: servants, by: { $0.servant.no })
     }()
 
     private var filteredServants = [Servant]()
@@ -58,24 +58,26 @@ class ServantTableViewController: UITableViewController {
         }
         else {
             let servantClass = Constants.servantClasses[section]
-            return servantsDict[servantClass]?.count ?? 0
+            return 0
+            // return servantsDict[servantClass]?.count ?? 0
         }
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ServantTableViewCell.identifier, for: indexPath) as! ServantTableViewCell
 
-        if isFiltering() {
-            cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].id)")
-            cell.title = filteredServants[indexPath.row].name
-            return cell
-        }
-        else {
-            let servantClass = Constants.servantClasses[indexPath.section]
-            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].id)")
-            cell.title = servantsDict[servantClass]?[indexPath.row].name
-            return cell
-        }
+        return cell
+//        if isFiltering() {
+//            cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].id)")
+//            cell.title = filteredServants[indexPath.row].name
+//            return cell
+//        }
+//        else {
+//            let servantClass = Constants.servantClasses[indexPath.section]
+//            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].id)")
+//            cell.title = servantsDict[servantClass]?[indexPath.row].name
+//            return cell
+//        }
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -88,13 +90,13 @@ class ServantTableViewController: UITableViewController {
         }
 
         let servantClass = Constants.servantClasses[section]
-        if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
-            return nil
-        }
+//        if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
+//            return nil
+//        }
 
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
 
-        headerView.title = servantClass.description()
+        headerView.title = servantClass
         
         return headerView
     }
@@ -106,16 +108,16 @@ class ServantTableViewController: UITableViewController {
     // MARK:- UITableViewDelegate
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if isFiltering() {
-            let vc = ServantDetailTableViewController(servant: filteredServants[indexPath.row])
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
-        else {
-            let servantClass = Constants.servantClasses[indexPath.section]
-
-            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
+//        if isFiltering() {
+//            let vc = ServantDetailTableViewController(servant: filteredServants[indexPath.row])
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        }
+//        else {
+//            let servantClass = Constants.servantClasses[indexPath.section]
+//
+//            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        }
 
 
     }
@@ -152,14 +154,14 @@ extension ServantTableViewController: UISearchResultsUpdating {
             if searchText == "" {
                 return true
             }
-            return servant.name.lowercased().contains(searchText.lowercased())
+            return servant.servant.name.lowercased().contains(searchText.lowercased())
         }.sorted {
             return sortHelper(lhs: $0, rhs: $1, scope: scope)
         }
 
-        if scope == Constants.giftFromEvent {
-            filteredServants = filteredServants.filter { $0.giftFromEvent }
-        }
+//        if scope == Constants.giftFromEvent {
+//            filteredServants = filteredServants.filter { $0.giftFromEvent }
+//        }
 
         tableView.reloadData()
     }
@@ -167,13 +169,13 @@ extension ServantTableViewController: UISearchResultsUpdating {
     private func sortHelper(lhs: Servant, rhs: Servant, scope: String) -> Bool {
         switch scope {
         case Constants.idName:
-            return lhs.id < rhs.id
+            return lhs.servant.no < rhs.servant.no
         case Constants.atkDesc:
-            return lhs.maxATK > rhs.maxATK
+            return lhs.status[0].atk > rhs.status[0].atk
         case Constants.hpDesc:
-            return lhs.maxHP > rhs.maxHP
+            return lhs.status[0].hp > rhs.status[0].hp
         default:
-            return lhs.id < rhs.id
+            return lhs.servant.no < rhs.servant.no
         }
     }
 

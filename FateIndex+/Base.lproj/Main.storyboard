@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLT-4u-WH5">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,8 +19,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="qgB-Zq-xfl" kind="relationship" relationship="viewControllers" id="suV-of-F0V"/>
-                        <segue destination="xe7-oq-15s" kind="relationship" relationship="viewControllers" id="yLS-vo-sA6"/>
-                        <segue destination="zyo-1S-tao" kind="relationship" relationship="viewControllers" id="4Jo-92-S0Z"/>
+                        <segue destination="TDM-S2-nDe" kind="relationship" relationship="viewControllers" id="yLS-vo-sA6"/>
+                        <segue destination="7c5-90-va4" kind="relationship" relationship="viewControllers" id="4Jo-92-S0Z"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nF9-FT-mVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -46,7 +46,7 @@
             </objects>
             <point key="canvasLocation" x="2184.8000000000002" y="429.53523238380814"/>
         </scene>
-        <!--礼装图鉴-->
+        <!--Equipment Table View Controller-->
         <scene sceneID="oiG-KL-hQi">
             <objects>
                 <viewController id="xe7-oq-15s" customClass="EquipmentTableViewController" customModule="FateIndex_" customModuleProvider="target" sceneMemberID="viewController">
@@ -56,13 +56,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NSg-ca-j0z"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="礼装图鉴" image="shield" catalog="system" selectedImage="shield.fill" id="V06-9I-x4x"/>
+                    <navigationItem key="navigationItem" id="yHo-cl-EpX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CbS-Fn-ram" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-55" y="1279"/>
+            <point key="canvasLocation" x="884" y="1278.7106446776613"/>
         </scene>
-        <!--设置-->
+        <!--Settings View Controller-->
         <scene sceneID="Yzh-4E-xsh">
             <objects>
                 <viewController id="zyo-1S-tao" customClass="SettingsViewController" customModule="FateIndex_" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,11 +72,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gcy-4C-UWP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="设置" image="gear" catalog="system" id="kMa-If-MGZ"/>
+                    <navigationItem key="navigationItem" id="4dF-Fa-b3Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXk-hC-yaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1268" y="1272"/>
+            <point key="canvasLocation" x="3146.4000000000001" y="1270.6146926536733"/>
         </scene>
         <!--英灵图鉴-->
         <scene sceneID="2AW-CN-se8">
@@ -97,12 +97,50 @@
             </objects>
             <point key="canvasLocation" x="1245.5999999999999" y="429.53523238380814"/>
         </scene>
+        <!--设置-->
+        <scene sceneID="qFn-5B-nNZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7c5-90-va4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="设置" image="gear" catalog="system" id="kMa-If-MGZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p6S-Wl-jJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zyo-1S-tao" kind="relationship" relationship="rootViewController" id="6FZ-is-qh2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mik-bf-uXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2207.1999999999998" y="1270.6146926536733"/>
+        </scene>
+        <!--礼装图鉴-->
+        <scene sceneID="zke-Og-uzA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TDM-S2-nDe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="礼装图鉴" image="shield" catalog="system" selectedImage="shield.fill" id="V06-9I-x4x"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="T3I-zl-v8S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xe7-oq-15s" kind="relationship" relationship="rootViewController" id="39E-w4-eh2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLj-Kx-p0I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="1278.7106446776613"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="gear" catalog="system" width="64" height="60"/>
-        <image name="person" catalog="system" width="64" height="60"/>
+        <image name="gear" catalog="system" width="64" height="58"/>
+        <image name="person" catalog="system" width="64" height="58"/>
         <image name="person.fill" catalog="system" width="64" height="60"/>
-        <image name="shield" catalog="system" width="60" height="64"/>
-        <image name="shield.fill" catalog="system" width="60" height="64"/>
+        <image name="shield" catalog="system" width="64" height="60"/>
+        <image name="shield.fill" catalog="system" width="64" height="56"/>
     </resources>
 </document>

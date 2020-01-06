@@ -30,10 +30,14 @@ class CardSequenceView: UIView {
         cardViews.forEach { addSubview($0) }
     }
 
-    func configure(cardSequence: [CardType]) {
-        for (index, element) in cardSequence.enumerated() {
-            cardViews[index].image = UIImage(named: element.imgURL())
-        }
+    func configure(servant: Servant) {
+//        let arts = servant.card.arts.count
+//        let quick = servant.card.quick.count
+//        let buster = servant.card.buster.count
+//
+//        for (index, element) in cardSequence.enumerated() {
+//            cardViews[index].image = UIImage(named: element.rawValue)
+//        }
     }
 
     override func layoutSubviews() {

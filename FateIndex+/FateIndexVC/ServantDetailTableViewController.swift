@@ -59,7 +59,7 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
 
-        self.navigationItem.title = servant.name
+        self.navigationItem.title = servant.servant.name
     }
 
     override func viewDidLayoutSubviews() {
@@ -102,7 +102,7 @@ class ServantDetailTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
             if indexPath.row == 0 {
-                cell.configure("画师", trailingText: servant.painter)
+                // cell.configure("画师", trailingText: servant.painter)
             }
             else if indexPath.row == 1 {
                 cell.configure("声优", trailingText: "World")
@@ -149,7 +149,7 @@ class ServantDetailTableViewController: UITableViewController {
             if indexPath.row == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
-                cell.configure(text: "配卡",cardSequence: servant.cardSequence)
+                // cell.configure(text: "配卡",cardSequence: servant.cardSequence)
 
                 return cell
             }
@@ -162,7 +162,7 @@ class ServantDetailTableViewController: UITableViewController {
 
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
-            cell.configure(text: "配卡",cardSequence: servant.cardSequence)
+            // cell.configure(text: "配卡",cardSequence: servant.cardSequence)
 
             return cell
         }
