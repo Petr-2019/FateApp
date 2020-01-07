@@ -31,13 +31,32 @@ class CardSequenceView: UIView {
     }
 
     func configure(servant: Servant) {
-//        let arts = servant.card.arts.count
-//        let quick = servant.card.quick.count
-//        let buster = servant.card.buster.count
-//
-//        for (index, element) in cardSequence.enumerated() {
-//            cardViews[index].image = UIImage(named: element.rawValue)
-//        }
+        let arts = servant.card.arts.count
+        let quicks = servant.card.quick.count
+        let busters = servant.card.buster.count
+
+        var count = 0
+        for _ in 1...arts {
+            if let image = UIImage(named: "Arts") {
+                cardViews[count].image = image
+                count += 1
+            }
+        }
+
+        for _ in 1...quicks {
+            if let image = UIImage(named: "Quick") {
+                cardViews[count].image = image
+                count += 1
+            }
+        }
+
+        for _ in 1...busters {
+            if let image = UIImage(named: "Buster") {
+                cardViews[count].image = image
+                count += 1
+            }
+        }
+
     }
 
     override func layoutSubviews() {

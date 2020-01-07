@@ -75,10 +75,10 @@ class ServantDetailTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return 14
+            return 6
         }
         else if section == 1 {
-            return 2
+            return 5
         }
         else if section == 2 {
             return 6
@@ -102,54 +102,31 @@ class ServantDetailTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
             if indexPath.row == 0 {
-                // cell.configure("画师", trailingText: servant.painter)
+                cell.configure("编号", trailingText: servant.servant.no)
             }
             else if indexPath.row == 1 {
-                cell.configure("声优", trailingText: "World")
+                cell.configure("姓名", trailingText: servant.servant.name)
             }
             else if indexPath.row == 2 {
-                cell.configure("职阶", trailingText: "World")
+                cell.configure("职阶", trailingText: servant.servant.clazz)
             }
             else if indexPath.row == 3 {
-                cell.configure("性别", trailingText: "World")
+                cell.configure("稀有度", trailingText: "\(servant.servant.rare)")
             }
             else if indexPath.row == 4 {
-                cell.configure("身高", trailingText: "World")
+                cell.configure("消耗", trailingText: "\(servant.servant.cost)")
             }
             else if indexPath.row == 5 {
-                cell.configure("体重", trailingText: "World")
+                cell.configure("天地人特性", trailingText: servant.servant.tenchizin)
             }
-            else if indexPath.row == 6 {
-                cell.configure("属性", trailingText: "World")
-            }
-            else if indexPath.row == 7 {
-                cell.configure("隐藏属性", trailingText: "World")
-            }
-            else if indexPath.row == 8 {
-                cell.configure("筋力", trailingText: "World")
-            }
-            else if indexPath.row == 9 {
-                cell.configure("耐久", trailingText: "World")
-            }
-            else if indexPath.row == 10 {
-                cell.configure("敏捷", trailingText: "World")
-            }
-            else if indexPath.row == 11 {
-                cell.configure("魔力", trailingText: "World")
-            }
-            else if indexPath.row == 12 {
-                cell.configure("幸运", trailingText: "World")
-            }
-            else if indexPath.row == 13 {
-                cell.configure("宝具", trailingText: "World")
-            }
+
             return cell
         }
         else if indexPath.section == 1 {
             if indexPath.row == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
-                // cell.configure(text: "配卡",cardSequence: servant.cardSequence)
+                cell.configure(text: "配卡", servant: servant)
 
                 return cell
             }
@@ -157,6 +134,24 @@ class ServantDetailTableViewController: UITableViewController {
                 let cell = tableView.dequeueReusableCell(withIdentifier: DisclosureTableViewCell.identifier, for: indexPath) as! DisclosureTableViewCell
 
                 cell.textLabel?.text = "宝具详情"
+                return cell
+            }
+            else if indexPath.row == 2 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+                cell.configure("Arts Hit", trailingText: "\(servant.card.arts.hit)")
+                return cell
+            }
+            else if indexPath.row == 3 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+                cell.configure("Quick Hit", trailingText: "\(servant.card.quick.hit)")
+                return cell
+            }
+            else if indexPath.row == 4 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+
+                cell.configure("Buster Hit", trailingText: "\(servant.card.buster.hit)")
                 return cell
             }
 

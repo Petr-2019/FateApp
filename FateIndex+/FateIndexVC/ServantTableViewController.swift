@@ -24,7 +24,6 @@ class ServantTableViewController: UITableViewController {
         static let idName = "编号"
         static let atkDesc = "ATK降序"
         static let hpDesc = "HP降序"
-        static let giftFromEvent = "活动赠送"
     }
 
     private let searchController = UISearchController(searchResultsController: nil)
@@ -32,7 +31,7 @@ class ServantTableViewController: UITableViewController {
     private var servants = ServantManager.shared.allServants()
 
     private lazy var servantsDict = {
-        return Dictionary(grouping: servants, by: { $0.servant.no })
+        return Dictionary(grouping: servants, by: { $0.servant.clazz })
     }()
 
     private var filteredServants = [Servant]()
@@ -58,26 +57,24 @@ class ServantTableViewController: UITableViewController {
         }
         else {
             let servantClass = Constants.servantClasses[section]
-            return 0
-            // return servantsDict[servantClass]?.count ?? 0
+            return servantsDict[servantClass]?.count ?? 0
         }
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ServantTableViewCell.identifier, for: indexPath) as! ServantTableViewCell
 
-        return cell
-//        if isFiltering() {
-//            cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].id)")
-//            cell.title = filteredServants[indexPath.row].name
-//            return cell
-//        }
-//        else {
-//            let servantClass = Constants.servantClasses[indexPath.section]
-//            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].id)")
-//            cell.title = servantsDict[servantClass]?[indexPath.row].name
-//            return cell
-//        }
+        if isFiltering() {
+            cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].servant.no)")
+            cell.title = filteredServants[indexPath.row].servant.name
+            return cell
+        }
+        else {
+            let servantClass = Constants.servantClasses[indexPath.section]
+            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].servant.no)")
+            cell.title = servantsDict[servantClass]?[indexPath.row].servant.name
+            return cell
+        }
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -90,9 +87,9 @@ class ServantTableViewController: UITableViewController {
         }
 
         let servantClass = Constants.servantClasses[section]
-//        if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
-//            return nil
-//        }
+        if let hasServant = servantsDict[servantClass], hasServant.isEmpty {
+            return nil
+        }
 
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
 
@@ -108,18 +105,16 @@ class ServantTableViewController: UITableViewController {
     // MARK:- UITableViewDelegate
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if isFiltering() {
-//            let vc = ServantDetailTableViewController(servant: filteredServants[indexPath.row])
-//            self.navigationController?.pushViewController(vc, animated: true)
-//        }
-//        else {
-//            let servantClass = Constants.servantClasses[indexPath.section]
-//
-//            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
-//            self.navigationController?.pushViewController(vc, animated: true)
-//        }
+        if isFiltering() {
+            let vc = ServantDetailTableViewController(servant: filteredServants[indexPath.row])
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        else {
+            let servantClass = Constants.servantClasses[indexPath.section]
 
-
+            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 
     private func setupSearchViewController() {
@@ -129,7 +124,7 @@ class ServantTableViewController: UITableViewController {
         searchController.searchBar.placeholder = Constants.placeHolder
 
         searchController.searchBar.scopeButtonTitles = [
-            Constants.idName, Constants.atkDesc, Constants.hpDesc, Constants.giftFromEvent
+            Constants.idName, Constants.atkDesc, Constants.hpDesc
         ]
         navigationItem.searchController = searchController
         definesPresentationContext = true
@@ -158,10 +153,6 @@ extension ServantTableViewController: UISearchResultsUpdating {
         }.sorted {
             return sortHelper(lhs: $0, rhs: $1, scope: scope)
         }
-
-//        if scope == Constants.giftFromEvent {
-//            filteredServants = filteredServants.filter { $0.giftFromEvent }
-//        }
 
         tableView.reloadData()
     }

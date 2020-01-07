@@ -34,7 +34,7 @@ class ServantCardSequenceTableViewCell: UITableViewCell {
 
     func configure(text: String, servant: Servant) {
         textLabel?.text = text
-        // cardSequenceView.configure(cardSequence: cardSequence)
+        cardSequenceView.configure(servant: servant)
     }
 
     override func layoutSubviews() {
