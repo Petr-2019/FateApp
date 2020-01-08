@@ -2,7 +2,7 @@
   "servant": {
     "no": "19",
     "name": "武蔵坊弁慶",
-    "clazz": "luncer",
+    "clazz": "lancer",
     "rare": 2,
     "cost": 4,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.79,
-    "nd": null,
+    "nd": 4,
     "dr": 36,
     "starcollection": 89,
     "staroccurrence": 11.9,

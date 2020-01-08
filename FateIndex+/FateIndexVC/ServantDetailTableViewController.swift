@@ -21,9 +21,9 @@ enum ServantDetailSection {
         case .actionCard:
             return "配卡"
         case .classSpec:
-            return "职阶特性"
-        case .npRelated:
             return "NP获得率"
+        case .npRelated:
+            return "职阶特性"
         }
     }
 }
@@ -59,7 +59,7 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
 
-        self.navigationItem.title = servant.servant.name
+        // self.navigationItem.title = servant.servant.name
     }
 
     override func viewDidLayoutSubviews() {
@@ -75,13 +75,13 @@ class ServantDetailTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return 6
+            return 9
         }
         else if section == 1 {
-            return 5
+            return 4
         }
         else if section == 2 {
-            return 6
+            return 5
         }
         else if section == 3 {
             return 6
@@ -119,6 +119,21 @@ class ServantDetailTableViewController: UITableViewController {
             else if indexPath.row == 5 {
                 cell.configure("天地人特性", trailingText: servant.servant.tenchizin)
             }
+            else if indexPath.row == 6 {
+                if !servant.status.isEmpty {
+                    cell.configure("满级", trailingText: servant.status[0].level)
+                }
+            }
+            else if indexPath.row == 7 {
+                if !servant.status.isEmpty {
+                    cell.configure("满级 HP", trailingText: "\(servant.status[0].hp)")
+                }
+            }
+            else if indexPath.row == 8 {
+                if !servant.status.isEmpty {
+                    cell.configure("满级 ATK", trailingText: "\(servant.status[0].atk)")
+                }
+            }
 
             return cell
         }
@@ -131,29 +146,29 @@ class ServantDetailTableViewController: UITableViewController {
                 return cell
             }
             else if indexPath.row == 1 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: DisclosureTableViewCell.identifier, for: indexPath) as! DisclosureTableViewCell
-
-                cell.textLabel?.text = "宝具详情"
-                return cell
-            }
-            else if indexPath.row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
                 cell.configure("Arts Hit", trailingText: "\(servant.card.arts.hit)")
                 return cell
             }
-            else if indexPath.row == 3 {
+            else if indexPath.row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
                 cell.configure("Quick Hit", trailingText: "\(servant.card.quick.hit)")
                 return cell
             }
-            else if indexPath.row == 4 {
+            else if indexPath.row == 3 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
                 cell.configure("Buster Hit", trailingText: "\(servant.card.buster.hit)")
                 return cell
             }
+//            else if indexPath.row == 4 {
+//                let cell = tableView.dequeueReusableCell(withIdentifier: DisclosureTableViewCell.identifier, for: indexPath) as! DisclosureTableViewCell
+//
+//                cell.textLabel?.text = "宝具详情"
+//                return cell
+//            }
 
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
@@ -164,23 +179,34 @@ class ServantDetailTableViewController: UITableViewController {
         else if indexPath.section == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
+//            "na": 0.84,
+//            "nd": null,
+//            "dr": 24.5,
+//            "starcollection": 99,
+//            "staroccurrence": 9.9,
+//            "tag": [
+//              "秩序",
+//              "善",
+//              "女",
+//              "サーヴァント",
+//              "騎乗スキル",
+//              "人型"
+//            ]
+
             if indexPath.row == 0 {
-                cell.configure("出星率", trailingText: "10.2%")
+                cell.configure("NP获得率(攻击)", trailingText: "\(servant.hidden.na)%")
             }
             else if indexPath.row == 1 {
-                cell.configure("被即死率", trailingText: "31.5%")
+                cell.configure("NP获得率(受击)", trailingText: "\(servant.hidden.nd)%")
             }
             else if indexPath.row == 2 {
-                cell.configure("暴击星分配权重", trailingText: "98")
+                cell.configure("被即死率", trailingText: "\(servant.hidden.dr)%")
             }
             else if indexPath.row == 3 {
-                cell.configure("特性", trailingText: "骑乘、所爱之人")
+                cell.configure("出星率", trailingText: "\(servant.hidden.staroccurrence)%")
             }
             else if indexPath.row == 4 {
-                cell.configure("人型", trailingText: "是")
-            }
-            else if indexPath.row == 5 {
-                cell.configure("被EA特攻", trailingText: "是")
+                cell.configure("暴击星分配权重", trailingText: "\(servant.hidden.starcollection)")
             }
 
             return cell
@@ -228,9 +254,9 @@ class ServantDetailTableViewController: UITableViewController {
             case .actionCard:
                 title = "配卡"
             case .classSpec:
-                title = "职阶特性"
-            case .npRelated:
                 title = "NP获得率"
+            case .npRelated:
+                title = "职阶特性"
         }
 
         headerView.title = title

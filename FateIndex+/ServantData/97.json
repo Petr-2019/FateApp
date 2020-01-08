@@ -2,7 +2,7 @@
   "servant": {
     "no": "97",
     "name": "ナイチンゲール",
-    "clazz": "barserker",
+    "clazz": "berserker",
     "rare": 5,
     "cost": 16,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.5,
-    "nd": null,
+    "nd": 5,
     "dr": 56.8,
     "starcollection": 10,
     "staroccurrence": 5,

@@ -2,7 +2,7 @@
   "servant": {
     "no": "109",
     "name": "エミヤ〔アサシン〕",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 4,
     "cost": 12,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.46,
-    "nd": null,
+    "nd": 4,
     "dr": 44,
     "starcollection": 97,
     "staroccurrence": 25.6,

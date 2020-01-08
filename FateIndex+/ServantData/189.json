@@ -2,7 +2,7 @@
   "servant": {
     "no": "189",
     "name": "刑部姫(おさかべひめ)",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 5,
     "cost": 16,
     "tenchizin": "chi"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.83,
-    "nd": null,
+    "nd": 4,
     "dr": 31.6,
     "starcollection": 102,
     "staroccurrence": 24.6,

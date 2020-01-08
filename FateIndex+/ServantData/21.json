@@ -2,7 +2,7 @@
   "servant": {
     "no": "21",
     "name": "レオニダス一世",
-    "clazz": "luncer",
+    "clazz": "lancer",
     "rare": 2,
     "cost": 4,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 1.07,
-    "nd": null,
+    "nd": 4,
     "dr": 32,
     "starcollection": 89,
     "staroccurrence": 11.8,

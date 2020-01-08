@@ -2,7 +2,7 @@
   "servant": {
     "no": "41",
     "name": "ステンノ",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 4,
     "cost": 12,
     "tenchizin": "ten"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 2.26,
-    "nd": null,
+    "nd": 4,
     "dr": 27.5,
     "starcollection": 104,
     "staroccurrence": 25,

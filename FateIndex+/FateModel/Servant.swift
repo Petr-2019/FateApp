@@ -40,7 +40,7 @@ struct Servant: Codable {
     struct Hidden: Codable {
 
         let na: Double
-        let nd: Double?
+        let nd: Double
         let dr: Double
         let starcollection: Int
         let staroccurrence: Double

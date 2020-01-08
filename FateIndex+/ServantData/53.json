@@ -2,7 +2,7 @@
   "servant": {
     "no": "53",
     "name": "アステリオス",
-    "clazz": "barserker",
+    "clazz": "berserker",
     "rare": 1,
     "cost": 3,
     "tenchizin": "chi"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.68,
-    "nd": null,
+    "nd": 5,
     "dr": 58.5,
     "starcollection": 9,
     "staroccurrence": 4.9,

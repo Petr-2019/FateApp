@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.85,
-    "nd": null,
+    "nd": 3,
     "dr": 45,
     "starcollection": 196,
     "staroccurrence": 8.9,

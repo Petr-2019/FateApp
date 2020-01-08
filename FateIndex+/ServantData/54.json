@@ -2,7 +2,7 @@
   "servant": {
     "no": "54",
     "name": "カリギュラ",
-    "clazz": "barserker",
+    "clazz": "berserker",
     "rare": 2,
     "cost": 4,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.68,
-    "nd": null,
+    "nd": 5,
     "dr": 56.8,
     "starcollection": 9,
     "staroccurrence": 5,

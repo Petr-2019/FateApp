@@ -2,7 +2,7 @@
   "servant": {
     "no": "110",
     "name": "百貌のハサン",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 3,
     "cost": 7,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 0.48,
-    "nd": null,
+    "nd": 4,
     "dr": 44,
     "starcollection": 97,
     "staroccurrence": 25.5,

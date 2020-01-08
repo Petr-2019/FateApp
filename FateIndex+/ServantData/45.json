@@ -2,7 +2,7 @@
   "servant": {
     "no": "45",
     "name": "マタ・ハリ",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 1,
     "cost": 3,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 2.1,
-    "nd": null,
+    "nd": 4,
     "dr": 55,
     "starcollection": 98,
     "staroccurrence": 24.6,

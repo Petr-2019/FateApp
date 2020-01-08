@@ -2,7 +2,7 @@
   "servant": {
     "no": "81",
     "name": "ヘンリー・ジキル＆ハイド",
-    "clazz": "asasin",
+    "clazz": "assassin",
     "rare": 3,
     "cost": 7,
     "tenchizin": "chi"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 1.05,
-    "nd": null,
+    "nd": 4,
     "dr": 55,
     "starcollection": 99,
     "staroccurrence": 25.6,

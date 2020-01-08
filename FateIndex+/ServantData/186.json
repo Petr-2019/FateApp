@@ -2,7 +2,7 @@
   "servant": {
     "no": "186",
     "name": "宝蔵院胤舜(ほうぞういんいんしゅん)",
-    "clazz": "luncer",
+    "clazz": "lancer",
     "rare": 3,
     "cost": 7,
     "tenchizin": "hito"
@@ -30,7 +30,7 @@
   ],
   "hidden": {
     "na": 1.06,
-    "nd": null,
+    "nd": 4,
     "dr": 36,
     "starcollection": 90,
     "staroccurrence": 12.2,

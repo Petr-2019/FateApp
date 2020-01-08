@@ -23,13 +23,14 @@
   },
   "status": [
     {
+      "level": "Lv65",
       "hp": 7981,
       "atk": 5683
     }
   ],
   "hidden": {
     "na": 0.79,
-    "nd": null,
+    "nd": 5,
     "dr": 9,
     "starcollection": 29,
     "staroccurrence": 6,

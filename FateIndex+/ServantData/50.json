@@ -2,7 +2,7 @@
   "servant": {
     "no": "50",
     "name": "スパルタクス",
-    "clazz": "barserker",
+    "clazz": "berserker",
     "rare": 1,
     "cost": 3,
     "tenchizin": "hito"
