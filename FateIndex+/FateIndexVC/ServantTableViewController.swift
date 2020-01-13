@@ -122,6 +122,7 @@ class ServantTableViewController: UITableViewController {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = Constants.placeHolder
+        searchController.searchBar.delegate = self
 
         searchController.searchBar.scopeButtonTitles = [
             Constants.idName, Constants.atkDesc, Constants.hpDesc
@@ -137,6 +138,11 @@ extension ServantTableViewController: UISearchResultsUpdating {
         let searchBar = searchController.searchBar
         let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
         filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+
+//        let scopes = [Constants.atkDesc, Constants.hpDesc]
+//        if scopes.contains(scope) {
+//            searchBar.resignFirstResponder()
+//        }
     }
 
     private func searchBarIsEmpty() -> Bool {
@@ -180,7 +186,8 @@ extension ServantTableViewController: UISearchResultsUpdating {
 extension ServantTableViewController: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-      filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+        searchBar.resignFirstResponder()
     }
 
 }

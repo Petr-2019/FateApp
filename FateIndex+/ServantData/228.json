@@ -103,8 +103,8 @@
       },
       {
         "type": "HP回復",
-        "tern": 0,
-        "count": は",
+        "tern": 5,
+        "count": 3,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",

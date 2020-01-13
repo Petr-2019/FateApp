@@ -15,8 +15,8 @@ class ServantManager {
     func allServants() -> [Servant] {
         var servants = [Servant]()
 
-        // 1 - 100 safe 110 unsafe
-        for i in 1...125 {
+        // 227-230
+        for i in 1...275 {
             let sName = String(i)
 
             if let path = Bundle.main.path(forResource: sName, ofType: "json") {
