@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A++",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11.5"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -81,13 +81,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身のBusterカード性能をアップ(1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -109,13 +109,13 @@
         "v5": "600"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力大ダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力大down(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -131,11 +131,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の弱体耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -228,11 +228,11 @@
         "v10": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

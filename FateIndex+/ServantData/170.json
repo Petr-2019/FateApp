@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "気配遮断D",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "4"
         }
       ]
@@ -102,13 +102,13 @@
         "v5": "1000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身のクリティカル威力をアップ(3T)<OC:効果UP>",
+        "desc": "＋自身のクリティカル威力を up (3T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -124,11 +124,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](3T)",
+        "desc": "敵単体の防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -147,11 +147,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力アップ(3T) [Lv] 確率60％",
+        "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
         "v1": "18",
         "v2": "20",
         "v3": "22",
@@ -164,11 +164,11 @@
         "v10": "38"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ(3T) [Lv] 確率60％",
+        "desc": "＆防御力を up (3T) [Lv] 確率60％",
         "v1": "18",
         "v2": "20",
         "v3": "22",
@@ -204,11 +204,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -221,11 +221,11 @@
         "v10": "20"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "other-all",
-        "desc": "＆自身をのぞく味方全体のクイックカード性能をアップ[Lv](3T)",
+        "desc": "＆自身をのぞく味方全体のクイック Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

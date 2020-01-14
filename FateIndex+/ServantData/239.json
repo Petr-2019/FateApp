@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -69,18 +69,18 @@
       "name": "単独顕現C",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "6"
         },
         {
-          "type": "即死耐性アップ",
-          "desc": "＆即死耐性をアップ",
+          "type": "即死耐性 up",
+          "desc": "＆即死耐性を up",
           "magnification": "6"
         },
         {
-          "type": "精神異常耐性アップ",
-          "desc": "＆精神異常耐性をアップ",
+          "type": "精神異常耐性 up",
+          "desc": "＆精神異常耐性を up",
           "magnification": "6"
         }
       ]
@@ -89,8 +89,8 @@
       "name": "愛神の神核B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "225"
         },
         {
@@ -106,13 +106,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のQuickカード性能をアップ(3T)<OC:効果UP>",
+        "desc": "自身の Quick Card 性能を up (3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -156,7 +156,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "最大HPダウン",
+        "type": "最大HPdown",
         "tern": 0,
         "count": 0,
         "target": "other-single",
@@ -230,11 +230,11 @@
         "v10": "2000"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -287,11 +287,11 @@
         "v10": "攻撃相性: 200防御相性: 50"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ(3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -304,11 +304,11 @@
         "v10": "20"
       },
       {
-        "type": "魅了耐性ダウン",
+        "type": "魅了耐性down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体の魅了耐性をダウン[Lv](1T)",
+        "desc": "＋敵全体の魅了耐性をdown[Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

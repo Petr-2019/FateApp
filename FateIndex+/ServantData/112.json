@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "気配遮断C",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "6"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -86,13 +86,13 @@
         "v5": "900"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆弱体耐性を小ダウン(3T)",
+        "desc": "＆弱体耐性を小down(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -100,13 +100,13 @@
         "v5": "10"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆防御力を小ダウン(3T)",
+        "desc": "＆防御力を小down(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -114,13 +114,13 @@
         "v5": "10"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆攻撃力を小ダウン(3T)",
+        "desc": "＆攻撃力を小down(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -128,13 +128,13 @@
         "v5": "10"
       },
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆宝具威力を小ダウン(3T)",
+        "desc": "＆宝具威力を小down(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -142,13 +142,13 @@
         "v5": "10"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率を小ダウン(3T)",
+        "desc": "＆クリティカル発生率を小down(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -176,7 +176,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆毒状態を付与(5T)<OC:効果UP>",
+        "desc": "＆毒状態を付与(5T)<OC:効果 up >",
         "v1": "1000",
         "v2": "2000",
         "v3": "3000",
@@ -223,11 +223,11 @@
         "v10": "60"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -246,11 +246,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -263,11 +263,11 @@
         "v10": "20"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の宝具威力をアップ[Lv](3T)",
+        "desc": "＋自身の宝具威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -5,7 +5,7 @@
     "clazz": "ruler",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力EX",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
       ]
@@ -74,13 +74,13 @@
         "v5": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "5",
         "v2": "15",
         "v3": "20",
@@ -94,7 +94,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆毎ターンHP回復状態を付与(2T)<OC:効果アップ>",
+        "desc": "＆毎ターンHP回復状態を付与(2T)<OC:効果 up >",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -116,7 +116,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -147,11 +147,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体〔サーヴァント〕の宝具威力を大ダウン[Lv](1T)",
+        "desc": "敵単体〔サーヴァント〕の宝具威力を大down[Lv](1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",

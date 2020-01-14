@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,13 +49,13 @@
       "name": "復讐者B-",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "17.5"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "7.5"
         }
       ]
@@ -64,8 +64,8 @@
       "name": "忘却補正E",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力を少しアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を少し up",
           "magnification": "2"
         }
       ]
@@ -120,7 +120,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔神性〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔神性〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162",
         "v3": "175",
@@ -150,11 +150,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身に毎ターン徐々に攻撃力がアップする効果を付与[Lv](3T)",
+        "desc": "自身に毎ターン徐々に攻撃力が up する効果を付与[Lv](3T)",
         "v1": "初期(1T目)",
         "v2": "20",
         "v3": "21",
@@ -241,11 +241,11 @@
         "v10": ""
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆強化解除耐性をアップ[Lv](1T)",
+        "desc": "＆強化解除耐性を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化A",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆低確率でスタン状態を付与(1T)<OC:確率UP>",
+        "desc": "＆低確率でスタン状態を付与(1T)<OC:確率 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -95,11 +95,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "9",
         "v2": "10.8",
         "v3": "12.6",
@@ -112,11 +112,11 @@
         "v10": "27"
       },
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性をアップ[Lv](3T)",
+        "desc": "＆精神異常耐性を up [Lv](3T)",
         "v1": "18",
         "v2": "19.8",
         "v3": "21.6",
@@ -135,11 +135,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力をアップ[Lv](3T)",
+        "desc": "自身の防御力を up [Lv](3T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -152,11 +152,11 @@
         "v10": "25"
       },
       {
-        "type": "攻撃強化成功率ダウン",
+        "type": "攻撃強化成功率down",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃強化成功率ダウン(3T)【デメリット】",
+        "desc": "＆攻撃強化成功率down(3T)【デメリット】",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -175,11 +175,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の宝具威力をアップ[Lv](1T)",
+        "desc": "自身の宝具威力を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -192,11 +192,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ(1T)",
+        "desc": "＆スター集中度を up (1T)",
         "v1": "3000",
         "v2": "3000",
         "v3": "3000",
@@ -209,11 +209,11 @@
         "v10": "3000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体(自身を除く)の防御力をダウン(1T)【デメリット】",
+        "desc": "＋味方全体(自身を除く)の防御力をdown(1T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",

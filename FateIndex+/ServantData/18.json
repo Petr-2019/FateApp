@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -90,7 +90,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(3T)<OC:効果UP>",
+        "desc": "＆呪い状態を付与(3T)<OC:効果 up >",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -98,13 +98,13 @@
         "v5": "2500"
       },
       {
-        "type": "強化成功率ダウン",
+        "type": "強化成功率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆強化成功率をダウン(3T)",
+        "desc": "＆強化成功率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -120,11 +120,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -137,11 +137,11 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋自身を除く味方全体の〔女性〕の攻撃力をアップ[Lv](3T)",
+        "desc": "＋自身を除く味方全体の〔女性〕の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -160,11 +160,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](3T)",
+        "desc": "敵単体の防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆攻撃力をダウン(3T)<OC:効果UP>",
+        "desc": "＆攻撃力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -95,11 +95,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "精神異常付与成功率アップ",
+        "type": "精神異常付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の精神異常付与成功率をアップ[Lv](3T)",
+        "desc": "自身の精神異常付与成功率を up [Lv](3T)",
         "v1": "5",
         "v2": "7",
         "v3": "9",
@@ -112,11 +112,11 @@
         "v10": "25"
       },
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性をアップ[Lv](3T)",
+        "desc": "＆精神異常耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -135,11 +135,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体〔サーヴァント〕の宝具威力をダウン[Lv](1T)",
+        "desc": "敵単体〔サーヴァント〕の宝具威力をdown[Lv](1T)",
         "v1": "5.5",
         "v2": "6.1",
         "v3": "6.6",

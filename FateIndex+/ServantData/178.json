@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化C",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔神性〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔神性〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -113,11 +113,11 @@
         "v10": ""
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -193,11 +193,11 @@
     "ct": 6,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -227,11 +227,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔炎上〕しているフィールドで攻撃力がアップ[Lv](3T)",
+        "desc": "＆〔炎上〕しているフィールドで攻撃力が up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

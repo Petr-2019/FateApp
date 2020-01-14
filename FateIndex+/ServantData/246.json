@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -104,7 +104,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆〔回避状態(解除不能な状態を除く)〕特攻<OC:効果UP>",
+        "desc": "＆〔回避状態(解除不能な状態を除く)〕特攻<OC:効果 up >",
         "v1": "200",
         "v2": "212.5",
         "v3": "225",
@@ -160,11 +160,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -200,7 +200,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
@@ -217,11 +217,11 @@
         "v10": "1000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

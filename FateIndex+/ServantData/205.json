@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗EX",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -72,13 +72,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -100,13 +100,13 @@
         "v5": "500"
       },
       {
-        "type": "Busterカード耐性ダウン",
+        "type": "Buster Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆Buster攻撃耐性をダウン(3T)",
+        "desc": "＆Buster攻撃耐性をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -122,11 +122,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量をアップ[Lv](3T)",
+        "desc": "自身のNP獲得量を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -179,11 +179,11 @@
         "v10": "5"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -219,11 +219,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体の攻撃力をダウン[Lv](3T)",
+        "desc": "＋敵全体の攻撃力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

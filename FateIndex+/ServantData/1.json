@@ -5,7 +5,7 @@
     "clazz": "shielder",
     "rare": 3,
     "cost": 0,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "騎乗C",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能を少しアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "星見の旅路",
       "effect": [
         {
-          "type": "追加ダメージ",
-          "desc": "第二部のメインクエストクリア時に味方全体<控え含む>の絆獲得量をアップ(サポート時は無効)",
+          "type": "追加 damage",
+          "desc": "第二部のメインクエストクリア時に味方全体<控え含む>の絆獲得量を up (サポート時は無効)",
           "magnification": "20"
         }
       ]
@@ -80,13 +80,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "味方全体の防御力をアップ(3T)<OC:効果UP>",
+        "desc": "味方全体の防御力を up (3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -94,13 +94,13 @@
         "v5": "50"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆被ダメージカット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与[Lv](3T)",
         "v1": "100",
         "v2": "550",
         "v3": "775",
@@ -108,7 +108,7 @@
         "v5": "1000"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -116,11 +116,11 @@
     "ct": 6,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern": 3,
         "count": 1,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1回・3T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1回・3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -133,11 +133,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern": 3,
         "count": 1,
         "target": "self",
-        "desc": "＆Buster攻撃のクリティカル威力をアップ[Lv](1回・3T)",
+        "desc": "＆Buster攻撃のクリティカル威力を up [Lv](1回・3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -156,11 +156,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern": 1,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(1T)",
+        "desc": "自身に target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -213,11 +213,11 @@
         "v10": ""
       },
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern": 1,
         "count": 0,
         "target": "self",
-        "desc": "＆ターゲット集中状態を付与(1T)",
+        "desc": "＆ target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",

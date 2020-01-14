@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -90,7 +90,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔毒〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔毒〕特攻<OC:特攻威力 up >",
         "v1": "200",
         "v2": "212.5",
         "v3": "225",
@@ -106,11 +106,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の攻撃力をダウン[Lv](3T)",
+        "desc": "敵全体の攻撃力をdown[Lv](3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -129,11 +129,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "desc": "自身のNP獲得量 up [Lv](3T)",
         "v1": "12",
         "v2": "13.8",
         "v3": "15.6",

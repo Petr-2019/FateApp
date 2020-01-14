@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -102,13 +102,13 @@
         "v5": "60"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -124,11 +124,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -141,11 +141,11 @@
         "v10": "30"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Artsカード性能をアップ[Lv](3T)",
+        "desc": "＆Arts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -181,11 +181,11 @@
         "v10": "3000"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

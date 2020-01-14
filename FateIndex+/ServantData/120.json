@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "道具作成B+",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "9"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -87,7 +87,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に確率で即死<OC:確率アップ>",
+        "desc": "敵全体に確率で即死<OC:確率 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -109,13 +109,13 @@
         "v5": "900"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -131,11 +131,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "即死付与成功率アップ",
+        "type": "即死付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の即死付与成功率をアップ[Lv](3T)",
+        "desc": "自身の即死付与成功率を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

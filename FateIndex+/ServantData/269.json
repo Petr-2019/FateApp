@@ -4,7 +4,7 @@
 		"clazz": "archer",
 		"rare": 4,
 		"cost": 12,
-		"tenchizin": "hito",
+		"tenchizin": "人",
 		"no": "269"
 	},
 	"card": {
@@ -59,9 +59,9 @@
 			"name": "対魔力C",
 			"effect": [
 				{
-					"type": "弱体耐性アップ",
+					"type": "弱体耐性 up",
 					"magnification": "15",
-					"desc": "自身の弱体耐性を少しアップ"
+					"desc": "自身の弱体耐性を少し up"
 				}
 			]
 		},
@@ -69,9 +69,9 @@
 			"name": "騎乗A",
 			"effect": [
 				{
-					"type": "Quickカード性能アップ",
+					"type": "Quick Card 性能 up",
 					"magnification": "10",
-					"desc": "自身のQuickカードの性能をアップ"
+					"desc": "自身の Quick Card の性能を up"
 				}
 			]
         },
@@ -79,9 +79,9 @@
 			"name": "気配遮断A",
 			"effect": [
 				{
-					"type": "スター発生率アップ",
+					"type": "スター発生率 up",
 					"magnification": "10",
-					"desc": "自身のスター発生率をアップ"
+					"desc": "自身のスター発生率を up"
 				}
 			]
         },
@@ -89,9 +89,9 @@
 			"name": "単独行動A++",
 			"effect": [
 				{
-					"type": "クリティカル威力アップ",
+					"type": "クリティカル威力 up",
 					"magnification": "11",
-					"desc": "自身のクリティカル威力をアップ"
+					"desc": "自身のクリティカル威力を up"
 				}
 			]
 		}
@@ -101,11 +101,11 @@
 		"ct": 7,
 		"effects": [
 			{
-				"type": "攻撃力ダウン",
+				"type": "攻撃力down",
 				"tern": 3,
 				"count": 0,
 				"target": "enemy-all",
-				"desc": "敵全体の攻撃力をダウン(3T)",
+				"desc": "敵全体の攻撃力をdown(3T)",
 				"v1": "10",
 				"v2": "10",
 				"v3": "10",
@@ -119,11 +119,11 @@
 				"condition": ""
 			},
 			{
-				"type": "クリティカル発生率ダウン",
+				"type": "クリティカル発生率down",
 				"tern": 3,
 				"count": 0,
 				"target": "enemy-all",
-				"desc": "＆クリティカル発生率をダウン[Lv](3T)",
+				"desc": "＆クリティカル発生率をdown[Lv](3T)",
 				"v1": "9",
 				"v2": "10",
 				"v3": "11",
@@ -161,11 +161,11 @@
 				"condition": ""
 			},
 			{
-				"type": "攻撃力アップ",
+				"type": "攻撃力 up",
 				"tern": 3,
 				"count": 0,
 				"target": "self",
-				"desc": "＋自身の攻撃力をアップ[Lv](3T)",
+				"desc": "＋自身の攻撃力を up [Lv](3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -179,11 +179,11 @@
 				"condition": ""
 			},
 			{
-				"type": "攻撃力アップ",
+				"type": "攻撃力 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＋自身を除く味方全体の攻撃力を確率でアップ[Lv](3T)　確率80%",
+				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -201,7 +201,7 @@
 				"tern": 0,
 				"count": 0,
 				"target": "self-other",
-				"desc": "＋自身を除く味方全体の攻撃力を確率でアップ[Lv](3T)　確率80%",
+				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
 				"v1": "10",
 				"v2": "10",
 				"v3": "10",
@@ -221,11 +221,11 @@
 		"ct": 8,
 		"effects": [
 			{
-				"type": "強化成功率アップ",
+				"type": "強化成功率 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "味方単体の強化成功率をアップ[Lv](3T)",
+				"desc": "味方単体の強化成功率を up [Lv](3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -239,11 +239,11 @@
 				"condition": ""
 			},
 			{
-				"type": "クリティカル威力アップ",
+				"type": "クリティカル威力 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが10個以上ある場合、クリティカル威力をアップ[Lv](3T)",
+				"desc": "＆スターが10個以上ある場合、クリティカル威力を up [Lv](3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -257,11 +257,11 @@
 				"condition": "star:10"
 			},
 			{
-				"type": "スター集中アップ",
+				"type": "スター集中 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが20個以上ある場合、スター集中度をアップ[Lv](3T)",
+				"desc": "＆スターが20個以上ある場合、スター集中度を up [Lv](3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -352,13 +352,13 @@
 				"condition": ""
 			},
 			{
-				"type": "防御力ダウン",
+				"type": "防御力down",
 				"tern": 2,
 				"count": 0,
 				"target": "enemy-single",
 				"beforeafter": "before",
 				"lvoc": "oc",
-				"desc": "＋敵単体の防御力をダウン(2T)<OC:効果UP>",
+				"desc": "＋敵単体の防御力をdown(2T)<OC:効果 up >",
 				"v1": "10",
 				"v2": "15",
 				"v3": "20",
@@ -367,13 +367,13 @@
 				"condition": ""
 			},
 			{
-				"type": "Quickカード耐性ダウン",
+				"type": "Quick Card 耐性down",
 				"tern": 2,
 				"count": 0,
 				"target": "enemy-single",
 				"beforeafter": "before",
 				"lvoc": "oc",
-				"desc": "＆Quick攻撃耐性をダウン(2T)<OC:効果UP>",
+				"desc": "＆Quick攻撃耐性をdown(2T)<OC:効果 up >",
 				"v1": "10",
 				"v2": "15",
 				"v3": "20",

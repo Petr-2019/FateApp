@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "単独行動C",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力を少しアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
       ]
@@ -106,7 +106,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔神性〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔神性〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -122,11 +122,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -139,11 +139,11 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の攻撃力をアップ(1T)",
+        "desc": "＋自身の攻撃力を up (1T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -162,11 +162,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](1T)",
+        "desc": "味方全体の宝具威力を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -179,11 +179,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆スター発生率をアップ[Lv](1T)",
+        "desc": "＆スター発生率を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

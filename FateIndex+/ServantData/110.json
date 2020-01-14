@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "1800"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -87,13 +87,13 @@
         "v5": "100"
       },
       {
-        "type": "Artsカード耐性ダウン",
+        "type": "Arts Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆Artsカード耐性をダウン(3T)",
+        "desc": "＆Arts Card 耐性をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -109,11 +109,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量をアップ[Lv](3T)",
+        "desc": "自身のNP獲得量を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -126,11 +126,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -149,11 +149,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能を30％アップ(3T) [Lv:確率]",
+        "desc": "自身のBuster Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -166,11 +166,11 @@
         "v10": "80"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Artsカード性能を30％アップ(3T) [Lv:確率]",
+        "desc": "＆Arts Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -183,11 +183,11 @@
         "v10": "80"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Quickカード性能を30％アップ(3T) [Lv:確率]",
+        "desc": "＆Quick Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",

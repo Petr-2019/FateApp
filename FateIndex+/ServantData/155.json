@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -52,8 +52,8 @@
       "name": "狂化C",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "オルトリアクターA",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -94,7 +94,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔セイバークラスのサーヴァント〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔セイバークラスのサーヴァント〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -114,7 +114,7 @@
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のHP回復量をアップ[Lv](3T)",
+        "desc": "自身のHP回復量を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -161,11 +161,11 @@
         "v10": "1000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Quickカードのクリティカル威力をアップ[Lv](1回・3T)",
+        "desc": "＆Quick Card のクリティカル威力を up [Lv](1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -178,11 +178,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Artsカードのクリティカル威力をアップ[Lv](1回・3T)",
+        "desc": "＆Arts Card のクリティカル威力を up [Lv](1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,11 +195,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Busterカードのクリティカル威力をアップ[Lv](1回・3T)",
+        "desc": "＆Buster Card のクリティカル威力を up [Lv](1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -218,11 +218,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -258,11 +258,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中ダウン",
+        "type": "スター集中down",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のスター集中度をダウン(1T)",
+        "desc": "味方単体のスター集中度をdown(1T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -275,11 +275,11 @@
         "v10": "100"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の攻撃力をアップ(3T)[Lv]",
+        "desc": "＋味方全体の攻撃力を up (3T)[Lv]",
         "v1": "10",
         "v2": "11",
         "v3": "12",

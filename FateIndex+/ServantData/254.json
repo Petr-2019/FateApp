@@ -4,7 +4,7 @@
 		"clazz": "saber",
 		"rare": 1,
 		"cost": 3,
-		"tenchizin": "chi",
+		"tenchizin": "地",
 		"no": "254"
 	},
 	"card": {
@@ -52,9 +52,9 @@
 			"name": "対魔力B",
 			"effect": [
 				{
-					"type": "弱体耐性アップ",
+					"type": "弱体耐性 up",
 					"magnification": "17.5",
-					"desc": "自身の弱体耐性をアップ"
+					"desc": "自身の弱体耐性を up"
 				}
 			]
 		},
@@ -62,9 +62,9 @@
 			"name": "騎乗B",
 			"effect": [
 				{
-					"type": "Quickカード性能アップ",
+					"type": "Quick Card 性能 up",
 					"magnification": "8",
-					"desc": "自身のQuickカードの性能をアップ"
+					"desc": "自身の Quick Card の性能を up"
 				}
 			]
 		}
@@ -134,11 +134,11 @@
 				"condition": ""
 			},
 			{
-				"type": "スター集中アップ",
+				"type": "スター集中 up",
 				"tern": 1,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スター集中度をアップ[Lv](1T)",
+				"desc": "＆スター集中度を up [Lv](1T)",
 				"v1": "500",
 				"v2": "550",
 				"v3": "600",
@@ -152,11 +152,11 @@
 				"condition": ""
 			},
 			{
-				"type": "防御力ダウン",
+				"type": "防御力down",
 				"tern": 1,
 				"count": 0,
 				"target": "self",
-				"desc": "＋自身の防御力をダウン(1T)【デメリット】",
+				"desc": "＋自身の防御力をdown(1T)【デメリット】",
 				"v1": "20",
 				"v2": "20",
 				"v3": "20",
@@ -176,11 +176,11 @@
 		"ct": 8,
 		"effects": [
 			{
-				"type": "攻撃力アップ",
+				"type": "攻撃力 up",
 				"tern": 3,
 				"count": 0,
 				"target": "self-other",
-				"desc": "味方全体の攻撃力をアップ[Lv](3T)",
+				"desc": "味方全体の攻撃力を up [Lv](3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -212,11 +212,11 @@
 				"condition": "attr:アルゴー号ゆかりの者"
 			},
 			{
-				"type": "クリティカル威力アップ",
+				"type": "クリティカル威力 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆クリティカル威力をアップ[Lv](3T)",
+				"desc": "＆クリティカル威力を up [Lv](3T)",
 				"v1": "20",
 				"v2": "21",
 				"v3": "22",
@@ -230,11 +230,11 @@
 				"condition": ""
 			},
 			{
-				"type": "スター発生率アップ",
+				"type": "スター発生率 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スター発生率をアップ[Lv](3T)",
+				"desc": "＆スター発生率を up [Lv](3T)",
 				"v1": "20",
 				"v2": "21",
 				"v3": "22",
@@ -256,13 +256,13 @@
 		"hit": 5,
 		"effect": [
 			{
-				"type": "Artsカード性能アップ",
+				"type": "Arts Card 性能 up",
 				"tern": 3,
 				"count": 0,
 				"target": "self",
 				"beforeafter": "before",
 				"lvoc": "oc",
-				"desc": "自身のArtsカード性能をアップ(3T)<OC:効果UP>",
+				"desc": "自身のArts Card 性能を up (3T)<OC:効果 up >",
 				"v1": "20",
 				"v2": "25",
 				"v3": "30",

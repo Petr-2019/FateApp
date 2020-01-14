@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "道具作成(偽)A",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "10"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -70,8 +70,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -96,13 +96,13 @@
         "v5": "750"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -110,13 +110,13 @@
         "v5": "40"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＋味方全体の防御力をアップ(3T)",
+        "desc": "＋味方全体の防御力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -132,11 +132,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のスター発生率を大アップ[Lv](3T)",
+        "desc": "味方全体のスター発生率を大 up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -155,11 +155,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10.5",
         "v2": "11.6",
         "v3": "12.6",
@@ -178,11 +178,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArtsカード性能をアップ[Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,11 +195,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体付与成功率アップ",
+        "type": "弱体付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆弱体付与成功率をアップ[Lv](3T)",
+        "desc": "＆弱体付与成功率を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

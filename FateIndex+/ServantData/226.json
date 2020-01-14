@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,13 +47,13 @@
       "name": "凶化A+",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカード性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card 性能を up",
           "magnification": "8"
         },
         {
-          "type": "クリティカル威力アップ",
-          "desc": "＆クリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "＆クリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -64,13 +64,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -117,11 +117,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -140,11 +140,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -157,11 +157,11 @@
         "v10": "30"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -174,11 +174,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

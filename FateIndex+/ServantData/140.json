@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -94,7 +94,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔悪〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔悪〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の弱体耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -144,11 +144,11 @@
         "v10": "2500"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](1T)",
+        "desc": "＆防御力を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -161,11 +161,11 @@
         "v10": "40"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -184,11 +184,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](1T)",
+        "desc": "味方全体の宝具威力を up [Lv](1T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -224,11 +224,11 @@
         "v10": "5"
       },
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆ターゲット集中状態を付与(1T)",
+        "desc": "＆ target 集中状態を付与(1T)",
         "v1": "100",
         "v2": "120",
         "v3": "140",

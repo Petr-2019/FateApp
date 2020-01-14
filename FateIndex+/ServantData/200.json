@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -108,13 +108,13 @@
         "v5": ""
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆攻撃力をダウン(3T)<OC:効果UP>",
+        "desc": "＆攻撃力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -130,11 +130,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](3T)",
+        "desc": "自身のBuster Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",
@@ -164,11 +164,11 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量アップ[Lv](3T)",
+        "desc": "＆NP獲得量 up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -227,7 +227,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "最大HPダウン",
+        "type": "最大HPdown",
         "tern":  3,
         "count": 0,
         "target": "self",
@@ -244,11 +244,11 @@
         "v10": "2000"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆被ダメージカット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与[Lv](3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",

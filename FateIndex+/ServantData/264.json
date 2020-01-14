@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "神性E",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "100"
         }
       ]
@@ -72,13 +72,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -148,11 +148,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](3T)",
+        "desc": "自身のスター集中度を up [Lv](3T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -188,11 +188,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -205,11 +205,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆「クリティカル攻撃時に自身のクリティカル威力をアップ[Lv](3T)する状態」を付与(3T)",
+        "desc": "＆「クリティカル攻撃時に自身のクリティカル威力を up [Lv](3T)する状態」を付与(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 1,
     "cost": 3,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -62,13 +62,13 @@
         "v5": "60"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆攻撃力を大ダウン(1T)<OC:効果UP>",
+        "desc": "＆攻撃力を大down(1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -76,13 +76,13 @@
         "v5": "40"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆防御力を大ダウン(1T)<OC:効果UP>",
+        "desc": "＆防御力を大down(1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -90,7 +90,7 @@
         "v5": "40"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -98,11 +98,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率をアップ[Lv](3T)",
+        "desc": "自身のスター発生率を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -138,11 +138,11 @@
         "v10": "60"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -178,11 +178,11 @@
         "v10": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

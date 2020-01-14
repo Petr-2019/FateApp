@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "騎乗EX",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
       "name": "女神の神核B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "225"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "＆弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
       ]
@@ -86,13 +86,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のQuickカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身の Quick Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -122,11 +122,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のQuickカード性能をアップ[Lv](3T)",
+        "desc": "味方全体の Quick Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -139,11 +139,11 @@
         "v10": "20"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -156,11 +156,11 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆NP獲得量をアップ[Lv](3T)",
+        "desc": "＆NP獲得量を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -196,11 +196,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -236,11 +236,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ(1T) [Lv]",
+        "desc": "＆クリティカル威力を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -253,11 +253,11 @@
         "v10": "50"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ(1T) [Lv]",
+        "desc": "＆スター発生率を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -270,11 +270,11 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ(1T) [Lv]",
+        "desc": "＆NP獲得量を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -287,11 +287,11 @@
         "v10": "50"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ(1T) [Lv]",
+        "desc": "＆弱体耐性を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -308,7 +308,7 @@
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆HP回復効果量をアップ(1T) [Lv]",
+        "desc": "＆HP回復効果量を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",

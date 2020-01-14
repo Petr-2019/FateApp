@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -114,7 +114,7 @@
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に通常攻撃のヒット数が2倍になる状態を付与[Lv:総ダメージ威力+](1T)",
+        "desc": "自身に通常攻撃のヒット数が2倍になる状態を付与[Lv:総 damage 威力+](1T)",
         "v1": "0",
         "v2": "3",
         "v3": "6",
@@ -150,11 +150,11 @@
         "v10": ""
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -190,11 +190,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

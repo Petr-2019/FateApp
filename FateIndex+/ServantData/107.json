@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 0,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,13 +47,13 @@
       "name": "復讐者A",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "20"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "10"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "忘却補正A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -104,7 +104,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆HPを回復<OC:効果UP>",
+        "desc": "＆HPを回復<OC:効果 up >",
         "v1": "1000",
         "v2": "2000",
         "v3": "3000",
@@ -118,7 +118,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵のターン終了時に、自身がそのターン中に受けたダメージを、敵全体に倍化して返す[Lv]",
+        "desc": "＆敵のターン終了時に、自身がそのターン中に受けた damage を、敵全体に倍化して返す[Lv]",
         "v1": "200",
         "v2": "250(200)",
         "v3": "275(200)",
@@ -126,7 +126,7 @@
         "v5": "300"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -134,11 +134,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -174,11 +174,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をダウン[Lv](3T)",
+        "desc": "＆攻撃力をdown[Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -197,11 +197,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身に毎ターン徐々にQuickカード性能がアップする効果を付与[Lv]",
+        "desc": "自身に毎ターン徐々にQuick Card 性能が up する効果を付与[Lv]",
         "v1": "初期(1T目)",
         "v2": "20",
         "v3": "22",

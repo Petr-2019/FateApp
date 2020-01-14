@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗A+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -70,8 +70,8 @@
       "name": "神性B-",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "170"
         }
       ]
@@ -102,7 +102,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆確率でチャージを減らす<OC:確率UP>",
+        "desc": "＆確率でチャージを減らす<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -118,11 +118,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -158,11 +158,11 @@
         "v10": "10"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -181,11 +181,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArtsカード性能をアップ[Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

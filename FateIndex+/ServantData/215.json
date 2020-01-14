@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "陣地作成EX",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "道具作成A",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
       "name": "女神の神核A",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "250"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
       ]
@@ -86,13 +86,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  5,
         "count": 3,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体のクリティカル威力をアップ[Lv](3回・5T)",
+        "desc": "味方全体のクリティカル威力を up [Lv](3回・5T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -128,13 +128,13 @@
         "v5": ""
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆被ダメージカット状態を付与(3T)<OC:効果UP>",
+        "desc": "＆被 damage カット状態を付与(3T)<OC:効果 up >",
         "v1": "500",
         "v2": "750",
         "v3": "1000",
@@ -142,7 +142,7 @@
         "v5": "1500"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -150,11 +150,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のQuickカード性能をアップ[Lv](3T)",
+        "desc": "味方単体の Quick Card 性能を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -167,11 +167,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆Quickカードのクリティカル威力をアップ[Lv](3T)",
+        "desc": "＆Quick Card のクリティカル威力を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -190,11 +190,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力をダウン[Lv](3T)",
+        "desc": "敵全体の防御力をdown[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -207,11 +207,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

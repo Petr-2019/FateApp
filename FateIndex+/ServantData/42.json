@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断B",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆中確率で即死効果<OC:確率UP>",
+        "desc": "＆中確率で即死効果<OC:確率 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -93,7 +93,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果UP>",
+        "desc": "＋スターを大量獲得<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -123,11 +123,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ(3T)",
+        "desc": "自身のスター集中度を up (3T)",
         "v1": "200",
         "v2": "200",
         "v3": "200",
@@ -163,11 +163,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率をアップ[Lv](3T)",
+        "desc": "自身のスター発生率を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -186,11 +186,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](1T)",
+        "desc": "自身の Quick Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -203,11 +203,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

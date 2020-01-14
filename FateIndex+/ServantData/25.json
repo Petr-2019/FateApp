@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力E",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆低確率でチャージを減らす<OC:確率UP>",
+        "desc": "＆低確率でチャージを減らす<OC:確率 up >",
         "v1": "40",
         "v2": "50",
         "v3": "60",
@@ -109,11 +109,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](1T)",
+        "desc": "味方全体の宝具威力を up [Lv](1T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -126,11 +126,11 @@
         "v10": "16"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆攻撃力をアップ[Lv](1T)",
+        "desc": "＆攻撃力を up [Lv](1T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -149,11 +149,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "9",
         "v2": "10.8",
         "v3": "12.6",
@@ -183,11 +183,11 @@
         "v10": "1"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をダウン(3T)【デメリット】",
+        "desc": "＆弱体耐性をdown(3T)【デメリット】",
         "v1": "50",
         "v2": "50",
         "v3": "50",

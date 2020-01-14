@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成D",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率を少しアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を少し up",
           "magnification": "4"
         }
       ]
@@ -83,13 +83,13 @@
         "v5": "750"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -97,13 +97,13 @@
         "v5": "20"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋味方全体のクリティカル威力をアップ(3T)<OC:効果UP>",
+        "desc": "＋味方全体のクリティカル威力を up (3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -119,11 +119,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "9.5",
         "v2": "10.5",
         "v3": "11.5",
@@ -136,11 +136,11 @@
         "v10": "19.5"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率をアップ[Lv](3T)",
+        "desc": "＆味方全体の〔男性〕のスター発生率を up [Lv](3T)",
         "v1": "21",
         "v2": "23",
         "v3": "25",
@@ -216,11 +216,11 @@
         "v10": ""
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

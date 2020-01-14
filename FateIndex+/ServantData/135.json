@@ -5,7 +5,7 @@
     "clazz": "ruler",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力EX",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "敵単体の防御力をダウン(1T)<OC:効果UP>",
+        "desc": "敵単体の防御力をdown(1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -112,11 +112,11 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔水辺〕のあるフィールドにおいてのみ、自身の攻撃力をアップ[Lv](3T)",
+        "desc": "＆〔水辺〕のあるフィールドにおいてのみ、自身の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

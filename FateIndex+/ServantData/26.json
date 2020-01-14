@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -71,13 +71,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体の防御力をアップ[Lv](3T)",
+        "desc": "味方全体の防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "15",
         "v3": "17.5",
@@ -85,13 +85,13 @@
         "v5": "20"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆防御力を大アップ(1T)<OC:効果UP>",
+        "desc": "＆防御力を大 up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -99,13 +99,13 @@
         "v5": "40"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆攻撃力をアップ(3T)<OC:効果UP>",
+        "desc": "＆攻撃力を up (3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -113,7 +113,7 @@
         "v5": "40"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -138,11 +138,11 @@
         "v10": "60"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -184,11 +184,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArtsカード性能をアップ[Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -117,7 +117,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＋スターを獲得<OC:効果UP>」",
+        "desc": "＋スターを獲得<OC:効果 up >」",
         "v1": "5",
         "v2": "10",
         "v3": "15",
@@ -139,7 +139,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -147,11 +147,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -164,11 +164,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 3,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3回・3T)",
+        "desc": "＆クリティカル威力を up [Lv](3回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -244,11 +244,11 @@
         "v10": "30"
       },
       {
-        "type": "強化成功率アップ",
+        "type": "強化成功率 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆強化成功率をアップ[Lv](3T)",
+        "desc": "＆強化成功率を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

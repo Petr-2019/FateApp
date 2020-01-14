@@ -5,7 +5,7 @@
     "clazz": "ruler",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B+",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "18"
         }
       ]
@@ -74,13 +74,13 @@
         "v5": ""
       },
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆ターゲット集中状態を付与(1T)",
+        "desc": "＆ target 集中状態を付与(1T)",
         "v1": "500",
         "v2": "500",
         "v3": "500",
@@ -88,13 +88,13 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆攻撃力をアップ(3T)<OC:効果UP>",
+        "desc": "＆攻撃力を up (3T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -102,13 +102,13 @@
         "v5": "100"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "50",
         "v2": "75",
         "v3": "87.5",
@@ -116,13 +116,13 @@
         "v5": "100"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆スター集中度をアップ(3T)",
+        "desc": "＆スター集中度を up (3T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -130,7 +130,7 @@
         "v5": "300"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -155,11 +155,11 @@
         "v10": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -195,11 +195,11 @@
         "v10": "70"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の攻撃力をアップ[Lv](3T)",
+        "desc": "＋自身の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

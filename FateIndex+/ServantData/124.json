@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断A+",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10.5"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -117,7 +117,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆確率で即死させる<OC:確率アップ>",
+        "desc": "＆確率で即死させる<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -164,11 +164,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -244,11 +244,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "即死付与成功率アップ",
+        "type": "即死付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の即死付与成功率をアップ[Lv](3T)",
+        "desc": "自身の即死付与成功率を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -261,11 +261,11 @@
         "v10": "50"
       },
       {
-        "type": "弱体付与成功率アップ",
+        "type": "弱体付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体成功率をアップ[Lv](3T)",
+        "desc": "＆弱体成功率を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

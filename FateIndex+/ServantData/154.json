@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "単独行動B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -83,8 +83,8 @@
           "magnification": ""
         },
         {
-          "type": "魅了耐性アップ",
-          "desc": "自身の魅了耐性をアップ",
+          "type": "魅了耐性 up",
+          "desc": "自身の魅了耐性を up",
           "magnification": "100"
         },
         {
@@ -120,7 +120,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆高確率で即死効果<OC:確率UP>",
+        "desc": "＆高確率で即死効果<OC:確率 up >",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -159,11 +159,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の弱体耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -193,11 +193,11 @@
         "v10": "2500"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](1T)",
+        "desc": "＆防御力を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -210,11 +210,11 @@
         "v10": "40"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -233,11 +233,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "即死耐性ダウン",
+        "type": "即死耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の即死耐性をダウン[Lv](3T)",
+        "desc": "敵全体の即死耐性をdown[Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -250,11 +250,11 @@
         "v10": "100"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "＆自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

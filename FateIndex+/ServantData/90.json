@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -52,8 +52,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -94,7 +94,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(5T)<OC:効果UP>",
+        "desc": "＆やけど状態を付与(5T)<OC:効果 up >",
         "v1": "1000",
         "v2": "1250",
         "v3": "1500",
@@ -102,13 +102,13 @@
         "v5": "2000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(5T)<OC:効果UP>",
+        "desc": "＆防御力をdown(5T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -116,13 +116,13 @@
         "v5": "40"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(5T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(5T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -138,11 +138,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体にNP獲得アップ状態を付与[Lv](3T)",
+        "desc": "味方単体にNP獲得 up 状態を付与[Lv](3T)",
         "v1": "35",
         "v2": "36",
         "v3": "37",
@@ -178,11 +178,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方単体の攻撃力を up [Lv](3T)",
         "v1": "30",
         "v2": "31",
         "v3": "32",
@@ -195,11 +195,11 @@
         "v10": "40"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -235,11 +235,11 @@
         "v10": "3000"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

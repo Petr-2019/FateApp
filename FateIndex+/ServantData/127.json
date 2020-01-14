@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成A",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "威力アップ",
+        "type": "威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身に宝具威力アップ状態を付与(1T)<OC:効果UP>",
+        "desc": "自身に宝具威力 up 状態を付与(1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -97,13 +97,13 @@
         "v5": "900"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -119,11 +119,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力をアップ(3T) [Lv] 確率85％",
+        "desc": "自身の防御力を up (3T) [Lv] 確率85％",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -136,11 +136,11 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ(1T) [Lv] 確率85％",
+        "desc": "＆宝具威力を up (1T) [Lv] 確率85％",
         "v1": "20",
         "v2": "21",
         "v3": "22",

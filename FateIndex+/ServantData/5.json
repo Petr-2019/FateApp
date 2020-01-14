@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -52,8 +52,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -88,13 +88,13 @@
         "v5": "900"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(1T)<OC:効果UP>",
+        "desc": "＆防御力をdown(1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -127,11 +127,11 @@
         "v10": "30"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔水辺〕または〔都市〕のフィールドの時、Artsカード性能をアップ[Lv](3T)",
+        "desc": "＆〔水辺〕または〔都市〕のフィールドの時、Arts Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -144,11 +144,11 @@
         "v10": "20"
       },
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性をアップ[Lv](3T)",
+        "desc": "＆精神異常耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -184,11 +184,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力アップ(3T) [Lv] 確率60％",
+        "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",
@@ -201,11 +201,11 @@
         "v10": "44"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ(3T) [Lv]  確率60％",
+        "desc": "＆防御力を up (3T) [Lv]  確率60％",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",

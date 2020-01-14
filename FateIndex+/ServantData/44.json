@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "900"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性ダウン(6T)<OC:効果UP>",
+        "desc": "＆弱体耐性down(6T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -112,11 +112,11 @@
         "v10": "3"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をダウン【デメリット】",
+        "desc": "＆防御力をdown【デメリット】",
         "v1": "14",
         "v2": "14",
         "v3": "14",
@@ -158,11 +158,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "精神異常付与成功率アップ",
+        "type": "精神異常付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の精神異常付与成功率をアップ[Lv](3T)",
+        "desc": "自身の精神異常付与成功率を up [Lv](3T)",
         "v1": "5",
         "v2": "7",
         "v3": "9",
@@ -175,11 +175,11 @@
         "v10": "25"
       },
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性をアップ[Lv](3T)",
+        "desc": "＆精神異常耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

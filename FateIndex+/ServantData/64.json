@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -85,13 +85,13 @@
         "v5": "600"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -107,11 +107,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](1T)",
+        "desc": "味方全体の宝具威力を up [Lv](1T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",

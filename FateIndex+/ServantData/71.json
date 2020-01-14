@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -94,7 +94,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(5T)<OC:効果UP>",
+        "desc": "＆呪い状態を付与(5T)<OC:効果 up >",
         "v1": "500",
         "v2": "750",
         "v3": "1000",
@@ -127,11 +127,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -150,11 +150,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体〔女性〕の攻撃力を大ダウン[Lv](1T)",
+        "desc": "敵全体〔女性〕の攻撃力を大down[Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -173,11 +173,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を大アップ[Lv](3T)",
+        "desc": "自身のスター発生率を大 up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

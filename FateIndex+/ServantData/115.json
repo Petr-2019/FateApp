@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -61,13 +61,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のQuickカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身の Quick Card 性能を up (1T)<OC:効果 up >",
         "v1": "10",
         "v2": "30",
         "v3": "50",
@@ -97,11 +97,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -114,11 +114,11 @@
         "v10": "30"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -160,11 +160,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
         "v1": "60",
         "v2": "66",
         "v3": "72",

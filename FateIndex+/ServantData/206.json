@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -51,8 +51,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -61,8 +61,8 @@
       "name": "騎乗A+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -71,8 +71,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -83,13 +83,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のQuickカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身の Quick Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -119,11 +119,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -136,11 +136,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -176,11 +176,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -199,11 +199,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(1T)",
+        "desc": "自身に target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -216,11 +216,11 @@
         "v10": "300"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ[Lv](1T)",
+        "desc": "＆NP獲得量を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -100,13 +100,13 @@
         "v5": "1500"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身の防御力を大アップ(1T)<OC:効果UP>",
+        "desc": "＋自身の防御力を大 up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -122,11 +122,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(3T)",
+        "desc": "自身に target 集中状態を付与(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -139,11 +139,11 @@
         "v10": "100"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -162,11 +162,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の精神異常耐性を大アップ[Lv](3T)",
+        "desc": "自身の精神異常耐性を大 up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化B",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -74,13 +74,13 @@
         "v5": "600"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆攻撃力をダウン(3T)<OC:効果UP>",
+        "desc": "＆攻撃力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -88,13 +88,13 @@
         "v5": "30"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -110,11 +110,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "desc": "自身のNP獲得量 up [Lv](3T)",
         "v1": "18",
         "v2": "20.7",
         "v3": "23.4",

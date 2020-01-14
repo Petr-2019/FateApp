@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断D",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "4"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔女性〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔女性〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -101,13 +101,13 @@
         "v5": "2000"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆攻撃力をアップ(3T)",
+        "desc": "＆攻撃力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -163,11 +163,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](3T)",
+        "desc": "敵単体の防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -186,11 +186,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

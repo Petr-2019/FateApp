@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -104,7 +104,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆高確率でスキル封印状態を付与(1T)<OC:確率UP>",
+        "desc": "＆高確率でスキル封印状態を付与(1T)<OC:確率 up >",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -120,11 +120,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大アップ(1T)",
+        "desc": "自身の防御力を大 up (1T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -217,11 +217,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",

@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "単独行動C",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力を少しアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
       ]
@@ -83,13 +83,13 @@
         "v5": "750"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆弱体耐性をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -97,13 +97,13 @@
         "v5": "30"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -159,11 +159,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "与ダメージアップ",
+        "type": "与 damage  up",
         "tern":  5,
         "count": 5,
         "target": "self",
-        "desc": "自身に与ダメージをアップする状態を付与[Lv](5回、5T)",
+        "desc": "自身に与 damage を up する状態を付与[Lv](5回、5T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -199,11 +199,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "自身のArts Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "陣地作成C",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能を少しアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -69,13 +69,13 @@
       "name": "オーバーホールE",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         },
         {
-          "type": "スター発生率アップ",
-          "desc": "＆スター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "＆スター発生率を up",
           "magnification": "20"
         }
       ]
@@ -86,13 +86,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のArtsカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身のArts Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -210,11 +210,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -233,11 +233,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](3T)",
+        "desc": "味方全体の宝具威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

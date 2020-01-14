@@ -5,7 +5,7 @@
     "clazz": "ruler",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -51,8 +51,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -61,8 +61,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -73,13 +73,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のQuickカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身の Quick Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -87,13 +87,13 @@
         "v5": "40"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Artsカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "＆Arts Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -101,13 +101,13 @@
         "v5": "40"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Busterカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "＆Buster Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -185,11 +185,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern": 0,
         "count": 1,
         "target": "self",
-        "desc": "＆「1ターン後に自身の攻撃力をアップ[Lv](1T)する状態」を付与(1回)",
+        "desc": "＆「1ターン後に自身の攻撃力を up [Lv](1T)する状態」を付与(1回)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -204,15 +204,15 @@
     ]
   },
   "skill2": {
-    "name": "ロイヤルカードC+",
+    "name": "ロイヤル Card C+",
     "ct": 8,
     "effects": [
       {
-        "type": "コマンドカード配り直し",
+        "type": "コマンド Card 配り直し",
         "tern": 0,
         "count": 0,
         "target": "self",
-        "desc": "コマンドカードを配り直す",
+        "desc": "コマンド Card を配り直す",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -225,11 +225,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体のクリティカル威力をアップ[Lv](3T)",
+        "desc": "＋味方全体のクリティカル威力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -248,11 +248,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -265,11 +265,11 @@
         "v10": "40"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](1T)",
+        "desc": "＆スター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",

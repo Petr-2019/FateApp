@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -68,13 +68,13 @@
       "name": "女神の神核EX",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "300"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "30"
         }
       ]
@@ -119,7 +119,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆高確率で魅了状態を付与[男性限定](1T)<OC:確率UP>",
+        "desc": "＆高確率で魅了状態を付与[男性限定](1T)<OC:確率 up >",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -127,13 +127,13 @@
         "v5": "200"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆攻撃力をダウン(3T)",
+        "desc": "＆攻撃力をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -212,11 +212,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

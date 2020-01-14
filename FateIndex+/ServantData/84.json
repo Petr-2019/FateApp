@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -122,13 +122,13 @@
         "v5": "80"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -144,11 +144,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率をアップ[Lv](3T)",
+        "desc": "自身のスター発生率を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -241,11 +241,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -258,11 +258,11 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ[Lv](1T)",
+        "desc": "＆宝具威力を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

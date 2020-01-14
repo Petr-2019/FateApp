@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断A+",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10.5"
         }
       ]
@@ -65,7 +65,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身に〔女性〕特攻状態を付与(1T)<OC:効果UP>",
+        "desc": "自身に〔女性〕特攻状態を付与(1T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -95,11 +95,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](1T)",
+        "desc": "自身の Quick Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -152,11 +152,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

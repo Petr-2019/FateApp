@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化B",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -88,13 +88,13 @@
         "v5": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力ダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力down(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -127,11 +127,11 @@
         "v10": "20"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の宝具威力をアップ[Lv](3T)",
+        "desc": "＋自身の宝具威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -190,11 +190,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大アップ(1T)",
+        "desc": "自身の防御力を大 up (1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -207,11 +207,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

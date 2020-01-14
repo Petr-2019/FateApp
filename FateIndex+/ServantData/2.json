@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -53,8 +53,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -63,8 +63,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -95,7 +95,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋ 自身のNPをリチャージ<OC:効果UP>",
+        "desc": "＋ 自身のNPをリチャージ<OC:効果 up >",
         "v1": "20",
         "v2": "27.5",
         "v3": "35",
@@ -111,11 +111,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

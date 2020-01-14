@@ -5,7 +5,7 @@
     "clazz": "moonCancer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成A",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "10"
         }
       ]
@@ -67,8 +67,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -93,13 +93,13 @@
         "v5": "1500"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆弱体耐性をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -226,11 +226,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3T)",
+        "desc": "自身のクリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -243,11 +243,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](3T)",
+        "desc": "＆スター集中度を up [Lv](3T)",
         "v1": "400",
         "v2": "440",
         "v3": "480",

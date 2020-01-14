@@ -11,8 +11,8 @@ import UIKit
 enum ServantDetailSection {
     case basicInfo // 基础数据
     case actionCard // 配卡
-    case classSpec // 职阶特性
     case npRelated // NP获得率
+    case classSkill // 职阶技能
 
     func title() -> String {
         switch self {
@@ -20,10 +20,10 @@ enum ServantDetailSection {
             return "基础数据"
         case .actionCard:
             return "配卡"
-        case .classSpec:
-            return "NP获得率"
         case .npRelated:
-            return "职阶特性"
+            return "NP获得率"
+        case .classSkill:
+            return "职阶技能"
         }
     }
 }
@@ -39,7 +39,7 @@ class ServantDetailTableViewController: UITableViewController {
 
     private let servant: Servant
 
-    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .classSpec, .npRelated]
+    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .npRelated, .classSkill]
 
     init(servant: Servant) {
         self.servant = servant
@@ -58,6 +58,8 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
+
+        tableView.register(ServantClassSkillCell.self, forCellReuseIdentifier: ServantClassSkillCell.identifier)
 
         // self.navigationItem.title = servant.servant.name
     }
@@ -84,7 +86,7 @@ class ServantDetailTableViewController: UITableViewController {
             return 5
         }
         else if section == 3 {
-            return 6
+            return servant.classskill.count
         }
         else {
             return 1
@@ -212,26 +214,13 @@ class ServantDetailTableViewController: UITableViewController {
             return cell
         }
         else if indexPath.section == 3 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: ServantClassSkillCell.identifier, for: indexPath) as! ServantClassSkillCell
 
-            if indexPath.row == 0 {
-                cell.configure("Quick", trailingText: "0.65%")
-            }
-            else if indexPath.row == 1 {
-                cell.configure("Arts", trailingText: "0.65%")
-            }
-            else if indexPath.row == 2 {
-                cell.configure("Buster", trailingText: "0.65%")
-            }
-            else if indexPath.row == 3 {
-                cell.configure("Extra", trailingText: "0.65%")
-            }
-            else if indexPath.row == 4 {
-                cell.configure("宝具", trailingText: "0.65%")
-            }
-            else if indexPath.row == 5 {
-                cell.configure("受击", trailingText: "3%")
-            }
+            let classSkill = servant.classskill[indexPath.row]
+
+            let bottomText = classSkill.effect[0].desc + "(" + classSkill.effect[0].magnification + "%)"
+            cell.configure(topText: classSkill.name, bottomText: bottomText)
+            // cell.skillImage = UIImage(named: "magic_resistance")
 
             return cell
         }
@@ -253,10 +242,10 @@ class ServantDetailTableViewController: UITableViewController {
                 title = "基础数据"
             case .actionCard:
                 title = "配卡"
-            case .classSpec:
-                title = "NP获得率"
             case .npRelated:
-                title = "职阶特性"
+                title = "NP获得率"
+        case .classSkill:
+                title = "职阶技能"
         }
 
         headerView.title = title
@@ -277,9 +266,9 @@ class ServantDetailTableViewController: UITableViewController {
                 let vc = NoblePhantasmDetailViewController()
                 navigationController?.pushViewController(vc, animated: true)
             }
-        case .classSpec:
-            break
         case .npRelated:
+            break
+        case .classSkill:
             break
         }
     }

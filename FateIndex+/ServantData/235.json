@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,13 +47,13 @@
       "name": "老練A+",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカード性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card 性能を up",
           "magnification": "8"
         },
         {
-          "type": "スター発生率アップ",
-          "desc": "＆スター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "＆スター発生率を up",
           "magnification": "8"
         }
       ]
@@ -64,13 +64,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "敵単体の防御力をダウン(3T)<OC:効果UP>",
+        "desc": "敵単体の防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -131,11 +131,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -171,11 +171,11 @@
         "v10": ""
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](1T)",
+        "desc": "＆スター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -211,11 +211,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](1T)",
+        "desc": "自身の攻撃力を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -228,11 +228,11 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

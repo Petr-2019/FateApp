@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -53,8 +53,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -85,7 +85,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆〔竜〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔竜〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -93,13 +93,13 @@
         "v5": "200"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＋ 自身のNP獲得量をアップ(3T)",
+        "desc": "＋ 自身のNP獲得量を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -115,11 +115,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "desc": "自身のNP獲得量 up [Lv](3T)",
         "v1": "15",
         "v2": "17.3",
         "v3": "19.5",
@@ -212,11 +212,11 @@
         "v10": "30"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

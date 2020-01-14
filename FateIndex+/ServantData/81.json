@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -74,13 +74,13 @@
         "v5": ""
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆最大HP大アップ[Lv]",
+        "desc": "＆最大HP大 up [Lv]",
         "v1": "3000",
         "v2": "4500",
         "v3": "5250",
@@ -102,13 +102,13 @@
         "v5": "100"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Busterカード性能アップ<OC:効果UP>",
+        "desc": "＆Buster Card 性能 up <OC:効果 up >",
         "v1": "40",
         "v2": "50",
         "v3": "60",
@@ -116,7 +116,7 @@
         "v5": "80"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -124,11 +124,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -141,11 +141,11 @@
         "v10": "15"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆ハイド時さらに攻撃力をアップ[Lv](3T)",
+        "desc": "＆ハイド時さらに攻撃力を up [Lv](3T)",
         "v1": "25",
         "v2": "26",
         "v3": "27",
@@ -168,7 +168,7 @@
         "tern": 0,
         "count": 1,
         "target": "self",
-        "desc": "自身のスタン状態付与成功率をアップ[Lv](1回)",
+        "desc": "自身のスタン状態付与成功率を up [Lv](1回)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -185,7 +185,7 @@
         "tern": 0,
         "count": 1,
         "target": "self",
-        "desc": "＆ハイド時さらにスタン状態付与成功率をアップ[Lv](1回)",
+        "desc": "＆ハイド時さらにスタン状態付与成功率を up [Lv](1回)",
         "v1": "85",
         "v2": "90",
         "v3": "95",
@@ -221,11 +221,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3T)",
+        "desc": "自身のクリティカル威力を up [Lv](3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -238,11 +238,11 @@
         "v10": "15"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆ハイド時さらにクリティカル威力をアップ[Lv](3T)",
+        "desc": "＆ハイド時さらにクリティカル威力を up [Lv](3T)",
         "v1": "25",
         "v2": "26",
         "v3": "27",

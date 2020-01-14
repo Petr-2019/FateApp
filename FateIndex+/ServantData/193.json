@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の宝具威力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -109,11 +109,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -126,11 +126,11 @@
         "v10": "20"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -143,11 +143,11 @@
         "v10": "20"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -206,11 +206,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",

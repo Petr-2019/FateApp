@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "陣地作成A+",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -58,13 +58,13 @@
       "name": "気配遮断(陰)B",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＆弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＆弱体耐性をdown【デメリット】",
           "magnification": "10"
         }
       ]
@@ -73,8 +73,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -85,13 +85,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体の防御力をアップ(3T)",
+        "desc": "味方全体の防御力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -99,13 +99,13 @@
         "v5": "20"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Quickカード性能をアップ(3T)<OC:効果UP>",
+        "desc": "＆Quick Card 性能を up (3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -113,13 +113,13 @@
         "v5": "50"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Busterカード性能をアップ(3T)<OC:効果UP>",
+        "desc": "＆Buster Card 性能を up (3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -127,13 +127,13 @@
         "v5": "50"
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆最大HPをアップ[Lv](3T)",
+        "desc": "＆最大HPを up [Lv](3T)",
         "v1": "2000",
         "v2": "3000",
         "v3": "3500",
@@ -141,7 +141,7 @@
         "v5": "4000"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -149,11 +149,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大アップ(1T)",
+        "desc": "自身の防御力を大 up (1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -166,11 +166,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -183,11 +183,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -200,11 +200,11 @@
         "v10": "40"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体のクリティカル威力をアップ[Lv](3T)",
+        "desc": "＋味方全体のクリティカル威力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -240,11 +240,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -263,11 +263,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](1T)",
+        "desc": "敵単体の防御力をdown[Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

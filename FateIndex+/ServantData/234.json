@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -78,8 +78,8 @@
       "name": "お宿作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -106,7 +106,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身に〔混沌〕特攻状態を付与(1T)<OC:効果UP>",
+        "desc": "自身に〔混沌〕特攻状態を付与(1T)<OC:効果 up >",
         "v1": "40",
         "v2": "45",
         "v3": "50",
@@ -120,7 +120,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆〔悪〕特攻状態を付与(1T)<OC:効果UP>",
+        "desc": "＆〔悪〕特攻状態を付与(1T)<OC:効果 up >",
         "v1": "40",
         "v2": "45",
         "v3": "50",
@@ -167,11 +167,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -190,11 +190,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力をダウン[Lv](3T)",
+        "desc": "敵全体の防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -207,11 +207,11 @@
         "v10": "20"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -264,11 +264,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -281,11 +281,11 @@
         "v10": "20"
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆強化解除耐性をアップ[Lv](1T)",
+        "desc": "＆強化解除耐性を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

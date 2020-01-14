@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "8"
         }
       ]
@@ -90,7 +90,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆中確率でスタン状態を付与(1T)<OC:確率UP>",
+        "desc": "＆中確率でスタン状態を付与(1T)<OC:確率 up >",
         "v1": "50",
         "v2": "57.5",
         "v3": "65",
@@ -112,13 +112,13 @@
         "v5": "1000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆防御力を大ダウン[Lv](3T)",
+        "desc": "＆防御力を大down[Lv](3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -126,7 +126,7 @@
         "v5": "50"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のクリティカル威力をアップ[Lv](3T)",
+        "desc": "味方単体のクリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -174,11 +174,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の防御力をアップ[Lv](3T)",
+        "desc": "味方全体の防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -191,11 +191,11 @@
         "v10": "30"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆被ダメージカット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与[Lv](3T)",
         "v1": "200",
         "v2": "230",
         "v3": "260",
@@ -231,11 +231,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -248,11 +248,11 @@
         "v10": "30"
       },
       {
-        "type": "与ダメージプラス付与",
+        "type": "与 damage プラス付与",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆与ダメージプラス状態を付与[Lv](3T)",
+        "desc": "＆与 damage プラス状態を付与[Lv](3T)",
         "v1": "200",
         "v2": "230",
         "v3": "260",

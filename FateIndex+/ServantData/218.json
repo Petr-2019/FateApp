@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "気配遮断C-",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "5.5"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "騎乗A+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -109,13 +109,13 @@
         "v5": ""
       },
       {
-        "type": "Quickカード耐性ダウン",
+        "type": "Quick Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆Quick攻撃耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆Quick攻撃耐性をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -171,11 +171,11 @@
         "v10": ""
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Quickカード性能をアップ[Lv](3T)",
+        "desc": "＆Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -194,11 +194,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",

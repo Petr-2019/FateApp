@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力E",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -95,13 +95,13 @@
         "v5": "600"
       },
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆宝具威力ダウン(1T)<OC:効果UP>",
+        "desc": "＆宝具威力down(1T)<OC:効果 up >",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -109,13 +109,13 @@
         "v5": "90"
       },
       {
-        "type": "クリティカル威力ダウン",
+        "type": "クリティカル威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル威力ダウン(1T)<OC:効果UP>",
+        "desc": "＆クリティカル威力down(1T)<OC:効果 up >",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -123,13 +123,13 @@
         "v5": "90"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性ダウン(1T)<OC:効果UP>",
+        "desc": "＆弱体耐性down(1T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -145,11 +145,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10.5",
         "v2": "11.6",
         "v3": "12.6",
@@ -191,11 +191,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "desc": "自身のNP獲得量 up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

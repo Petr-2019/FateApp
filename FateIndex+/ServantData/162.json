@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化E+",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "3"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "500"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -93,7 +93,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(5T)<OC:効果UP>",
+        "desc": "＆やけど状態を付与(5T)<OC:効果 up >",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -126,11 +126,11 @@
         "v10": "10"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆被ダメージ時のNP獲得量をアップ[Lv](3T)",
+        "desc": "＆被 damage 時のNP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -166,11 +166,11 @@
         "v10": "5"
       },
       {
-        "type": "スター集中ダウン",
+        "type": "スター集中down",
         "tern":  3,
         "count": 0,
         "target": "other-all",
-        "desc": "＆自身をのぞく味方全体のスター集中度をダウン(3T)",
+        "desc": "＆自身をのぞく味方全体のスター集中度をdown(3T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -189,11 +189,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  5,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体にターン毎に効果量が大きくなる防御力ダウン状態を付与[Lv](5T)",
+        "desc": "敵単体にターン毎に効果量が大きくなる防御力down状態を付与[Lv](5T)",
         "v1": "初期(1T目)",
         "v2": "10",
         "v3": "初期(1T目)",

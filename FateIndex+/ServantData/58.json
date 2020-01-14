@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化C",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -80,7 +80,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身に毎ターンＨＰ回復状態を付与(3T)<OC:効果UP>",
+        "desc": "＋自身に毎ターンＨＰ回復状態を付与(3T)<OC:効果 up >",
         "v1": "3000",
         "v2": "4000",
         "v3": "5000",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  2,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](2T)",
+        "desc": "自身の攻撃力を up [Lv](2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -173,11 +173,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力をアップ[Lv](3T)",
+        "desc": "自身の防御力を up [Lv](3T)",
         "v1": "18",
         "v2": "18.9",
         "v3": "19.8",
@@ -190,11 +190,11 @@
         "v10": "27"
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆最大HPがアップする状態を付与[Lv](3T)",
+        "desc": "＆最大HPが up する状態を付与[Lv](3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",

@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -70,13 +70,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のBusterカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身のBuster Card 性能を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "40",
         "v3": "60",
@@ -84,13 +84,13 @@
         "v5": "100"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆NP獲得量をアップ(3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -98,13 +98,13 @@
         "v5": "20"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆スター発生率をアップ(3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -126,13 +126,13 @@
         "v5": "1200"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＋自身の攻撃力と防御力をダウン(3T)【デメリット】",
+        "desc": "＋自身の攻撃力と防御力をdown(3T)【デメリット】",
         "v1": "各10",
         "v2": "各10",
         "v3": "各10",
@@ -148,11 +148,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -188,11 +188,11 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ[Lv](3T)",
+        "desc": "＆NP獲得量を up [Lv](3T)",
         "v1": "18",
         "v2": "19",
         "v3": "20",

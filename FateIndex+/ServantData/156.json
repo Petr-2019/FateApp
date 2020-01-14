@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -69,13 +69,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "敵単体の防御力をダウン(3T)<OC:効果UP>",
+        "desc": "敵単体の防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -122,11 +122,11 @@
         "v10": ""
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](1T)",
+        "desc": "＆スター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -162,11 +162,11 @@
         "v10": "50"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ(3T)",
+        "desc": "＆宝具威力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -202,11 +202,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -219,11 +219,11 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆自身を除く味方全体の〔悪〕特性の攻撃力をアップ[Lv](3T)",
+        "desc": "＆自身を除く味方全体の〔悪〕特性の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

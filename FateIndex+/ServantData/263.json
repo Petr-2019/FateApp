@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "気配遮断B",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         }
       ]
@@ -83,13 +83,13 @@
         "v5": "1000"
       },
       {
-        "type": "Quickカード耐性ダウン",
+        "type": "Quick Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆Quick攻撃耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆Quick攻撃耐性をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -136,11 +136,11 @@
         "v10": "100"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル攻撃に対する防御力をダウン[Lv](3T)",
+        "desc": "＆クリティカル攻撃に対する防御力をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -193,11 +193,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -267,11 +267,11 @@
         "v10": "2000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -90,7 +90,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔騎乗スキル〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔騎乗スキル〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -106,11 +106,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNP獲得量をアップ[Lv](3T)",
+        "desc": "味方全体のNP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -152,11 +152,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](3T)",
+        "desc": "自身のスター集中度を up [Lv](3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -169,11 +169,11 @@
         "v10": "600"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

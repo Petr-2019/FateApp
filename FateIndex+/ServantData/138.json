@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "陣地作成C",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能を少しアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -101,7 +101,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(5T)<OC:効果UP>",
+        "desc": "＆やけど状態を付与(5T)<OC:効果 up >",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -134,11 +134,11 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ[Lv](1T)",
+        "desc": "＆NP獲得量を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -157,11 +157,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -174,11 +174,11 @@
         "v10": "40"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ(1T)",
+        "desc": "＆防御力を up (1T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -214,11 +214,11 @@
         "v10": "100"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のBusterカード性能をアップ(3T) [Lv]",
+        "desc": "＋自身のBuster Card 性能を up (3T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -265,11 +265,11 @@
         "v10": "3000"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "または味方全体の攻撃力アップ(1T) [Lv]",
+        "desc": "または味方全体の攻撃力 up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",

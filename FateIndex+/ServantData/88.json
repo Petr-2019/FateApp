@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "神性E",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "100"
         }
       ]
@@ -101,7 +101,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔愛する者〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔愛する者〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -109,13 +109,13 @@
         "v5": "200"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆味方全体のスター発生率をアップ(3T)",
+        "desc": "＆味方全体のスター発生率を up (3T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -131,11 +131,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -148,11 +148,11 @@
         "v10": "25"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ[Lv](1T)",
+        "desc": "＆宝具威力を up [Lv](1T)",
         "v1": "8",
         "v2": "8.7",
         "v3": "9.4",
@@ -171,11 +171,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -188,11 +188,11 @@
         "v10": "50"
       },
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆宝具威力をダウン[Lv](1T)",
+        "desc": "＆宝具威力をdown[Lv](1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",
@@ -211,11 +211,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のスター集中度をアップ[Lv](3T)",
+        "desc": "味方単体のスター集中度を up [Lv](3T)",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -228,11 +228,11 @@
         "v10": "3000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

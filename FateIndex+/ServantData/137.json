@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "単独行動B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -97,13 +97,13 @@
         "v5": "1500"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -136,11 +136,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "18",
         "v2": "19.8",
         "v3": "21.6",
@@ -159,11 +159,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "自身のArts Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",
@@ -176,11 +176,11 @@
         "v10": "35"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Quickカード性能をアップ[Lv](1T)",
+        "desc": "＆Quick Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",
@@ -193,11 +193,11 @@
         "v10": "35"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",
@@ -233,11 +233,11 @@
         "v10": "50"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -250,11 +250,11 @@
         "v10": "100"
       },
       {
-        "type": "強化成功率アップ",
+        "type": "強化成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の〔イリヤ〕の強化成功率をアップ(3T)",
+        "desc": "＋味方全体の〔イリヤ〕の強化成功率を up (3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",

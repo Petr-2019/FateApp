@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 1,
     "cost": 3,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断D",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "4"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身のQuickカード性能をアップ(3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -93,7 +93,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果UP>",
+        "desc": "＋スターを大量獲得<OC:効果 up >",
         "v1": "15",
         "v2": "20",
         "v3": "25",
@@ -126,11 +126,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -206,11 +206,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "30",
         "v2": "36",
         "v3": "42",
@@ -223,11 +223,11 @@
         "v10": "90"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](3T)",
+        "desc": "＆スター集中度を up [Lv](3T)",
         "v1": "200",
         "v2": "230",
         "v3": "260",

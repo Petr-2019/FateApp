@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化EX",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(3T)<OC:効果UP>",
+        "desc": "＆やけど状態を付与(3T)<OC:効果 up >",
         "v1": "3000",
         "v2": "3500",
         "v3": "4000",
@@ -113,11 +113,11 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ[Lv](3T)",
+        "desc": "＆NP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -136,11 +136,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -176,11 +176,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

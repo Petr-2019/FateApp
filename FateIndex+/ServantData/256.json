@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -99,13 +99,13 @@
         "v5": "1000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -161,11 +161,11 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆「被ダメージ時に自身の攻撃力をアップ[Lv](1回・5T)する状態」を付与(3T)",
+        "desc": "＆「被 damage 時に自身の攻撃力を up [Lv](1回・5T)する状態」を付与(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -184,11 +184,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(1T)",
+        "desc": "自身に target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -201,11 +201,11 @@
         "v10": "300"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を大アップ[Lv](1T)",
+        "desc": "＆防御力を大 up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -218,11 +218,11 @@
         "v10": "40"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ[Lv](1T)",
+        "desc": "＆NP獲得量を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "騎乗C+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能を少しアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を少し up",
           "magnification": "7"
         }
       ]
@@ -98,13 +98,13 @@
         "v5": "2400"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -120,11 +120,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](1T)",
+        "desc": "自身のクリティカル威力を up [Lv](1T)",
         "v1": "60",
         "v2": "66",
         "v3": "72",
@@ -183,11 +183,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "16",
         "v2": "17.6",
         "v3": "19.2",

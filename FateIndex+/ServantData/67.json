@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "8"
         }
       ]
@@ -98,13 +98,13 @@
         "v5": "6000"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆弱体耐性大アップ(3T)<OC:効果UP>",
+        "desc": "＆弱体耐性大 up (3T)<OC:効果 up >",
         "v1": "40",
         "v2": "60",
         "v3": "80",
@@ -112,7 +112,7 @@
         "v5": "120"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -187,7 +187,7 @@
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHP回復量をアップ[Lv](1T)",
+        "desc": "味方単体のHP回復量を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -200,11 +200,11 @@
         "v10": "100"
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆強化解除耐性をアップ[Lv](3T)",
+        "desc": "＆強化解除耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

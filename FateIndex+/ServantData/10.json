@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -77,7 +77,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に確率で魅了状態を付与(1T)<OC:確率UP>",
+        "desc": "敵全体に確率で魅了状態を付与(1T)<OC:確率 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -85,13 +85,13 @@
         "v5": "70"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆攻撃力をダウン[Lv](3T)",
+        "desc": "＆攻撃力をdown[Lv](3T)",
         "v1": "10",
         "v2": "20",
         "v3": "25",
@@ -99,13 +99,13 @@
         "v5": "30"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "20",
         "v3": "25",
@@ -113,7 +113,7 @@
         "v5": "30"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -138,11 +138,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -178,11 +178,11 @@
         "v10": ""
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性を大アップ[Lv](3T)",
+        "desc": "＆弱体耐性を大 up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -201,11 +201,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(3T)",
+        "desc": "自身に target 集中状態を付与(3T)",
         "v1": "100",
         "v2": "120",
         "v3": "140",

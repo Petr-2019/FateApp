@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "道具作成(偽)A",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "10"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "600"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "12.5",
         "v3": "15",
@@ -95,11 +95,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量をアップ[Lv](3T)",
+        "desc": "自身のNP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -112,11 +112,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](1T)",
+        "desc": "＆スター集中度を up [Lv](1T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -135,11 +135,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -175,11 +175,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の宝具威力をアップ(1T) [Lv]",
+        "desc": "自身の宝具威力を up (1T) [Lv]",
         "v1": "15",
         "v2": "16",
         "v3": "17",

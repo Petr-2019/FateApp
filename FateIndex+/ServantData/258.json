@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成C",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能を少しアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "8"
         }
       ]
@@ -83,13 +83,13 @@
         "v5": "1500"
       },
       {
-        "type": "威力アップ",
+        "type": "威力 up",
         "tern": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆<OC:威力アップ>",
+        "desc": "＆<OC:威力 up >",
         "v1": "0",
         "v2": "225",
         "v3": "450",
@@ -119,11 +119,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体にターゲット集中状態を付与(1T)",
+        "desc": "味方単体に target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -136,11 +136,11 @@
         "v10": "300"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "＋敵全体のクリティカル発生率をdown[Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -159,11 +159,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の防御力をアップ[Lv](3T)",
+        "desc": "味方全体の防御力を up [Lv](3T)",
         "v1": "14",
         "v2": "15",
         "v3": "16",
@@ -176,11 +176,11 @@
         "v10": "24"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆被ダメージカット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与[Lv](3T)",
         "v1": "200",
         "v2": "215",
         "v3": "230",
@@ -216,11 +216,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のBusterカード性能をアップ[Lv](1T)",
+        "desc": "味方単体のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -233,11 +233,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＋味方単体の〔バーサーカー〕のクリティカル威力をアップ[Lv](1T)",
+        "desc": "＋味方単体の〔バーサーカー〕のクリティカル威力を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -250,7 +250,7 @@
         "v10": "100"
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern":  1,
         "count": 0,
         "target": "other-single",

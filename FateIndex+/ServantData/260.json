@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化C-",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "5.5"
         }
       ]
@@ -93,7 +93,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆呪厄状態を付与(5T)<OC:効果UP>",
+        "desc": "＆呪厄状態を付与(5T)<OC:効果 up >",
         "v1": "200",
         "v2": "250",
         "v3": "300",
@@ -126,11 +126,11 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -166,11 +166,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

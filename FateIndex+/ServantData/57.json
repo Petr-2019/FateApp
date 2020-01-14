@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化B",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の攻撃力を大アップ(1T)<OC:効果UP>",
+        "desc": "自身の攻撃力を大 up (1T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  2,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の攻撃力をダウン[Lv](2T)",
+        "desc": "敵単体の攻撃力をdown[Lv](2T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -127,11 +127,11 @@
         "v10": "15"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  2,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力をダウン[Lv](2T)",
+        "desc": "＆防御力をdown[Lv](2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -190,7 +190,7 @@
         "v10": ""
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern":  3,
         "count": 0,
         "target": "self",

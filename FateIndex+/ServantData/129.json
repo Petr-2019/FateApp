@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -51,8 +51,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -61,8 +61,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -71,8 +71,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -117,7 +117,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身のNPをリチャージする<OC:効果UP>",
+        "desc": "＋自身のNPをリチャージする<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -133,11 +133,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -150,11 +150,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の防御力をアップ[Lv](3T)",
+        "desc": "＋味方全体の防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -213,11 +213,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "8",
         "v2": "9",
         "v3": "10",
@@ -230,11 +230,11 @@
         "v10": "18"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率をアップ[Lv](3T)",
+        "desc": "＆味方全体の〔男性〕のスター発生率を up [Lv](3T)",
         "v1": "18",
         "v2": "20",
         "v3": "22",

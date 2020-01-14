@@ -47,8 +47,8 @@
       "name": "獣の権能D",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -57,18 +57,18 @@
       "name": "単独顕現E",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "2"
         },
         {
-          "type": "即死耐性アップ",
-          "desc": "＆即死耐性をアップ",
+          "type": "即死耐性 up",
+          "desc": "＆即死耐性を up",
           "magnification": "2"
         },
         {
-          "type": "精神異常耐性アップ",
-          "desc": "＆精神異常耐性をアップ",
+          "type": "精神異常耐性 up",
+          "desc": "＆精神異常耐性を up",
           "magnification": "2"
         }
       ]
@@ -77,8 +77,8 @@
       "name": "ロゴスイーターC",
       "effect": [
         {
-          "type": "防御力アップ",
-          "desc": "自身の〔人型〕の敵からの攻撃に対する防御力をアップ",
+          "type": "防御力 up",
+          "desc": "自身の〔人型〕の敵からの攻撃に対する防御力を up",
           "magnification": "16"
         }
       ]
@@ -133,7 +133,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身のHPを回復<OC:効果UP>",
+        "desc": "＋自身のHPを回復<OC:効果 up >",
         "v1": "2000",
         "v2": "3000",
         "v3": "4000",
@@ -149,11 +149,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の弱体耐性をダウン[Lv](1T)",
+        "desc": "敵単体の弱体耐性をdown[Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -166,11 +166,11 @@
         "v10": "100"
       },
       {
-        "type": "Artsカード耐性ダウン",
+        "type": "Arts Card 耐性down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆Artsカード耐性をダウン[Lv](1T)",
+        "desc": "＆Arts Card 耐性をdown[Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -240,11 +240,11 @@
         "v10": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -280,11 +280,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ(1T) [Lv]",
+        "desc": "＆クリティカル威力を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -297,11 +297,11 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量をアップ(1T) [Lv]",
+        "desc": "＆NP獲得量を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -314,11 +314,11 @@
         "v10": "50"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ(1T) [Lv]",
+        "desc": "＆弱体耐性を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -335,7 +335,7 @@
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆HP回復効果量をアップ(1T) [Lv]",
+        "desc": "＆HP回復効果量を up (1T) [Lv]",
         "v1": "30",
         "v2": "32",
         "v3": "34",

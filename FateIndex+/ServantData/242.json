@@ -5,7 +5,7 @@
     "clazz": "ruler",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
       "name": "女神の神核B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "225"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "＆弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
       ]
@@ -106,7 +106,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔悪〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔悪〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162",
         "v3": "175",
@@ -136,11 +136,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方単体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -153,11 +153,11 @@
         "v10": "20"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -170,11 +170,11 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NP獲得量をアップ[Lv](3T)",
+        "desc": "＆NP獲得量を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -193,11 +193,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "自身のArts Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -250,11 +250,11 @@
         "v10": "-5\n個"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のスター集中度をアップ[Lv](1T)",
+        "desc": "＋自身のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -267,11 +267,11 @@
         "v10": "500"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

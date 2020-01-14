@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆確率でチャージを減らす<OC:確率UP>",
+        "desc": "＆確率でチャージを減らす<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -87,13 +87,13 @@
         "v5": "100"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆防御力をダウン(3T)",
+        "desc": "＆防御力をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -109,11 +109,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3T)",
+        "desc": "自身のクリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -126,11 +126,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](3T)",
+        "desc": "＆スター集中度を up [Lv](3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -149,11 +149,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大アップ(1T)",
+        "desc": "自身の防御力を大 up (1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -166,11 +166,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -183,11 +183,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

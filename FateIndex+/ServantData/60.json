@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -84,13 +84,13 @@
         "v5": "1800"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆攻撃力を大ダウン(3T)",
+        "desc": "＆攻撃力を大down(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -112,13 +112,13 @@
         "v5": ""
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大アップ[Lv](1T)",
+        "desc": "自身の防御力を大 up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -151,11 +151,11 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ(3T)",
+        "desc": "＆攻撃力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -168,11 +168,11 @@
         "v10": "20"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ(3T)",
+        "desc": "＆弱体耐性を up (3T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -231,11 +231,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "17",
         "v2": "18.7",
         "v3": "20.4",

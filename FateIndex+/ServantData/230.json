@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "気配遮断B",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         }
       ]
@@ -88,13 +88,13 @@
         "v5": ""
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆Busterカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "＆Buster Card 性能を up (1T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -195,11 +195,11 @@
         "v10": "1000"
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆強化解除耐性をアップ[Lv](1T)",
+        "desc": "＆強化解除耐性を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

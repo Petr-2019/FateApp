@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "気配遮断E",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率を少しアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を少し up",
           "magnification": "2"
         }
       ]
@@ -80,7 +80,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆低確率で即死<OC:確率UP>",
+        "desc": "＆低確率で即死<OC:確率 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -96,11 +96,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(1T)",
+        "desc": "自身に target 集中状態を付与(1T)",
         "v1": "100",
         "v2": "120",
         "v3": "140",
@@ -113,11 +113,11 @@
         "v10": "300"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -153,11 +153,11 @@
         "v10": "3000"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆被ダメージカット状態を付与[Lv](1T)",
+        "desc": "＆被 damage カット状態を付与[Lv](1T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -193,11 +193,11 @@
         "v10": ""
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Quickカード性能をアップ[Lv](1T)",
+        "desc": "＆Quick Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

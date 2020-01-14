@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  5,
         "count": 3,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身に「通常攻撃時に敵単体の防御力をダウン(3T)する状態」を付与(3回・5T)",
+        "desc": "自身に「通常攻撃時に敵単体の防御力をdown(3T)する状態」を付与(3回・5T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -88,13 +88,13 @@
         "v5": ""
       },
       {
-        "type": "クリティカル威力ダウン",
+        "type": "クリティカル威力down",
         "tern":  5,
         "count": 3,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆「被ダメージ時に敵単体のクリティカル威力をダウン(3T)する状態」を付与(3回・5T)",
+        "desc": "＆「被 damage 時に敵単体のクリティカル威力をdown(3T)する状態」を付与(3回・5T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -108,7 +108,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆「被クリティカルダメージ時に味方全体のHPを回復する状態」を付与(3回・5T)(HPが0の対象は回復不能)<OC:効果UP>",
+        "desc": "＆「被クリティカル damage 時に味方全体のHPを回復する状態」を付与(3回・5T)(HPが0の対象は回復不能)<OC:効果 up >",
         "v1": "2000",
         "v2": "2500",
         "v3": "3000",
@@ -116,13 +116,13 @@
         "v5": "4000"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆攻撃力を大アップ[Lv](3T)",
+        "desc": "＆攻撃力を大 up [Lv](3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -130,7 +130,7 @@
         "v5": "50"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -138,11 +138,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -155,11 +155,11 @@
         "v10": "20"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Artsカード性能をアップ[Lv](3T)",
+        "desc": "＆Arts Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -172,11 +172,11 @@
         "v10": "20"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,11 +195,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -229,11 +229,11 @@
         "v10": ""
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  3,
         "count": 3,
         "target": "self",
-        "desc": "＆強化解除耐性をアップ[Lv](3回・3T)",
+        "desc": "＆強化解除耐性を up [Lv](3回・3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

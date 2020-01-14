@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -76,13 +76,13 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋味方全体の攻撃力をアップ(3T)<OC:効果UP>",
+        "desc": "＋味方全体の攻撃力を up (3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -98,11 +98,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -155,11 +155,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力アップ(3T) [Lv] 確率60％",
+        "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",
@@ -172,11 +172,11 @@
         "v10": "44"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ(3T) [Lv] 確率60％",
+        "desc": "＆防御力を up (3T) [Lv] 確率60％",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",
@@ -229,11 +229,11 @@
         "v10": "1000"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

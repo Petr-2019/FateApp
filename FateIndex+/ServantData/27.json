@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -85,13 +85,13 @@
         "v5": "2400"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身のスター発生率を大アップ(3T)<OC:効果UP>",
+        "desc": "＋自身のスター発生率を大 up (3T)<OC:効果 up >",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -107,11 +107,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNP獲得量をアップ[Lv](3T)",
+        "desc": "味方全体のNP獲得量を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -124,11 +124,11 @@
         "v10": "20"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "＋自身の Quick Card 性能を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -147,11 +147,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -187,11 +187,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](1T)",
+        "desc": "＆スター発生率を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

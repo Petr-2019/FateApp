@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "陣地作成A+",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -69,13 +69,13 @@
       "name": "女神の神核B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "225"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "＆弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
       ]
@@ -86,13 +86,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のBusterカード性能をアップ(1T)<OC:効果UP>",
+        "desc": "自身のBuster Card 性能を up (1T)<OC:効果 up >",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -114,13 +114,13 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＋冥界の護り状態の味方全体の攻撃力をアップ(3T)",
+        "desc": "＋冥界の護り状態の味方全体の攻撃力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -170,11 +170,11 @@
         "v10": "80"
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆強化解除耐性をアップ(1T) [Lv:確率]",
+        "desc": "＆強化解除耐性を up (1T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -210,11 +210,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -267,11 +267,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -284,11 +284,11 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆NP獲得量をアップ[Lv](3T)",
+        "desc": "＆NP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -301,11 +301,11 @@
         "v10": "30"
       },
       {
-        "type": "最大HPアップ",
+        "type": "最大HP up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆最大HPをアップ[Lv](3T)",
+        "desc": "＆最大HPを up [Lv](3T)",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",

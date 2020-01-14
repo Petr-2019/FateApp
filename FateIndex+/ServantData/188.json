@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断A",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "10"
         }
       ]
@@ -79,7 +79,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔魔性〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔魔性〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -95,11 +95,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -112,11 +112,11 @@
         "v10": "30"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -152,11 +152,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率をアップ[Lv](1T)",
+        "desc": "＆スター発生率を up [Lv](1T)",
         "v1": "25",
         "v2": "27",
         "v3": "29",
@@ -192,11 +192,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率をアップ[Lv](1T)",
+        "desc": "＆スター発生率を up [Lv](1T)",
         "v1": "25",
         "v2": "27",
         "v3": "29",

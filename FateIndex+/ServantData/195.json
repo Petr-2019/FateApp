@@ -5,7 +5,7 @@
     "clazz": "foreigner",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -55,8 +55,8 @@
           "magnification": "2"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "＆弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "＆弱体耐性を up",
           "magnification": "12"
         }
       ]
@@ -65,8 +65,8 @@
       "name": "狂気B",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -75,8 +75,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -115,13 +115,13 @@
         "v5": "1000"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(1T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -154,11 +154,11 @@
         "v10": "10"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆宝具威力をアップ[Lv](3T)",
+        "desc": "＆宝具威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -194,11 +194,11 @@
         "v10": "50"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆防御力をダウン[Lv](3T)",
+        "desc": "＆防御力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -234,11 +234,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をダウン[Lv](3T)",
+        "desc": "＆攻撃力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

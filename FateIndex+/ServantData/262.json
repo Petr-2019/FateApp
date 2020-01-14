@@ -5,7 +5,7 @@
     "clazz": "archer",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "神性C-",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "145"
         }
       ]
@@ -78,13 +78,13 @@
       "name": "要塞構築B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカード性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card 性能を up",
           "magnification": "8"
         },
         {
-          "type": "ダメージカット付与",
-          "desc": "＆被ダメージカット状態を付与",
+          "type": " damage カット付与",
+          "desc": "＆被 damage カット状態を付与",
           "magnification": "200"
         }
       ]
@@ -109,13 +109,13 @@
         "v5": "500"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋ 味方全体のBusterカード性能をアップ(3T)<OC:効果UP>",
+        "desc": "＋ 味方全体のBuster Card 性能を up (3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -123,13 +123,13 @@
         "v5": "40"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル威力をアップ(3T)<OC:効果UP>",
+        "desc": "＆クリティカル威力を up (3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -145,11 +145,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 3,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3回・3T)",
+        "desc": "自身のクリティカル威力を up [Lv](3回・3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -185,11 +185,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体にターゲット集中状態を付与(3T)【デメリット】",
+        "desc": "敵単体に target 集中状態を付与(3T)【デメリット】",
         "v1": "100",
         "v2": "120",
         "v3": "140",
@@ -202,11 +202,11 @@
         "v10": "300"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "＋味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -242,11 +242,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3T)",
+        "desc": "自身のArts Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -259,11 +259,11 @@
         "v10": "30"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

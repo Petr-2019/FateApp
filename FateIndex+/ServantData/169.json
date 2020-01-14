@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成A++",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "11.5"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身の宝具威力をアップ(1T)",
+        "desc": "自身の宝具威力を up (1T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -93,7 +93,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔王〕特攻<OC:特攻威力UP>",
+        "desc": "＆〔王〕特攻<OC:特攻威力 up >",
         "v1": "200",
         "v2": "225",
         "v3": "250",
@@ -101,13 +101,13 @@
         "v5": "300"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 1,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆弱体耐性を大ダウン(1回・3T)",
+        "desc": "＆弱体耐性を大down(1回・3T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -140,11 +140,11 @@
         "v10": "100"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "＋自身のArts Card 性能を up [Lv](1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -180,11 +180,11 @@
         "v10": "60"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  2,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の防御力をアップ[Lv](2T)",
+        "desc": "＋自身の防御力を up [Lv](2T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -237,11 +237,11 @@
         "v10": "500"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＋〔王〕特性の敵単体の攻撃力をダウン[Lv](1T)",
+        "desc": "＋〔王〕特性の敵単体の攻撃力をdown[Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

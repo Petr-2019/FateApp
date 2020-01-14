@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,13 +47,13 @@
       "name": "復讐者B",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "18"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "8"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "忘却補正C",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "6"
         }
       ]
@@ -104,7 +104,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(5T)<OC:効果UP>",
+        "desc": "＆呪い状態を付与(5T)<OC:効果 up >",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  2,
         "count": 4,
         "target": "self",
-        "desc": "自身の攻撃力を大アップ[Lv](4回・2T)",
+        "desc": "自身の攻撃力を大 up [Lv](4回・2T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -151,11 +151,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカードのスター集中度をアップ[Lv](1T)",
+        "desc": "＆Buster Card のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -191,11 +191,11 @@
         "v10": "3000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

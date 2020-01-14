@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化EX",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "宝具威力ダウン",
+        "type": "宝具威力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "敵全体の宝具威力ダウン(1T)<OC:効果UP>",
+        "desc": "敵全体の宝具威力down(1T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -73,13 +73,13 @@
         "v5": "100"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆攻撃力を大ダウン(1T)",
+        "desc": "＆攻撃力を大down(1T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -115,7 +115,7 @@
         "v5": "5000"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -220,11 +220,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のBusterカード性能をアップ[Lv](3T)",
+        "desc": "味方単体のBuster Card 性能を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

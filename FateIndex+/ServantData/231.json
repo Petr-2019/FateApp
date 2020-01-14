@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "騎乗EX",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -82,7 +82,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆確率でスキル封印状態を付与(1T)<OC:確率UP>",
+        "desc": "＆確率でスキル封印状態を付与(1T)<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -98,11 +98,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](3回・5T)",
+        "desc": "自身の Quick Card 性能を up [Lv](3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -115,11 +115,11 @@
         "v10": "30"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3回・5T)",
+        "desc": "＆スター発生率を up [Lv](3回・5T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -138,11 +138,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ(1T) [Lv]",
+        "desc": "自身のスター集中度を up (1T) [Lv]",
         "v1": "確率",
         "v2": "60",
         "v3": "62",
@@ -212,11 +212,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3回・5T)",
+        "desc": "自身のクリティカル威力を up [Lv](3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -229,11 +229,11 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3回・5T)",
+        "desc": "＆攻撃力を up [Lv](3回・5T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 2,
     "cost": 4,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "狂化A+",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -81,7 +81,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆高確率で宝具封印状態を付与(3T)<OC:確率UP>",
+        "desc": "＆高確率で宝具封印状態を付与(3T)<OC:確率 up >",
         "v1": "70",
         "v2": "75",
         "v3": "80",
@@ -89,7 +89,7 @@
         "v5": "90"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -97,11 +97,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -114,11 +114,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をダウン(3T)【デメリット】",
+        "desc": "＆防御力をdown(3T)【デメリット】",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -137,11 +137,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力アップ(3T) [Lv] 確率60％",
+        "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -154,11 +154,11 @@
         "v10": "40"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ(3T) [Lv] 確率60％",
+        "desc": "＆防御力を up (3T) [Lv] 確率60％",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -194,11 +194,11 @@
     "ct": 5,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

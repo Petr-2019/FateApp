@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "気配遮断B",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身のスター発生率を大アップ(3T)<OC:効果UP>",
+        "desc": "自身のスター発生率を大 up (3T)<OC:効果 up >",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -112,11 +112,11 @@
         "v10": "100"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -152,11 +152,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "16",
         "v2": "17.6",
         "v3": "19.2",
@@ -175,11 +175,11 @@
     "ct": 5,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",

@@ -5,7 +5,7 @@
     "clazz": "foreigner",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hoshi"
+    "tenchizin": "星"
   },
   "card": {
     "arts": {
@@ -59,8 +59,8 @@
           "magnification": "2"
         },
         {
-          "type": "弱体耐性アップ",
-          "desc": "＆弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "＆弱体耐性を up",
           "magnification": "4"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "コスモリアクターB",
       "effect": [
         {
-          "type": "スター発生率アップ",
-          "desc": "自身のスター発生率をアップ",
+          "type": "スター発生率 up",
+          "desc": "自身のスター発生率を up",
           "magnification": "8"
         }
       ]
@@ -79,8 +79,8 @@
       "name": "単独行動A",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
@@ -89,8 +89,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -101,13 +101,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の攻撃力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の攻撃力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -168,11 +168,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆自身の攻撃力をアップ[Lv](1T)",
+        "desc": "＆自身の攻撃力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -208,11 +208,11 @@
         "v10": "20"
       },
       {
-        "type": "スター集中ダウン",
+        "type": "スター集中down",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のスター集中度をダウン[Lv](1T)",
+        "desc": "＋自身のスター集中度をdown[Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

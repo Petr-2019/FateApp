@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -70,8 +70,8 @@
       "name": "神性A",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "200"
         }
       ]
@@ -96,13 +96,13 @@
         "v5": "500"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋自身のクリティカル威力をアップ(3T)<OC:効果UP>",
+        "desc": "＋自身のクリティカル威力を up (3T)<OC:効果 up >",
         "v1": "40",
         "v2": "50",
         "v3": "60",
@@ -118,11 +118,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -135,11 +135,11 @@
         "v10": "40"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](1T)",
+        "desc": "＆スター発生率を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -175,11 +175,11 @@
         "v10": "100"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をダウン[Lv](1T)",
+        "desc": "＆攻撃力をdown[Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -232,11 +232,11 @@
         "v10": ""
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ(3T)",
+        "desc": "＆宝具威力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",

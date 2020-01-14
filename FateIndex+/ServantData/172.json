@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -84,13 +84,13 @@
         "v5": "600"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -106,11 +106,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力をアップ[Lv](1T)",
+        "desc": "味方全体の宝具威力を up [Lv](1T)",
         "v1": "7",
         "v2": "7.7",
         "v3": "8.4",
@@ -123,11 +123,11 @@
         "v10": "14"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆攻撃力をアップ[Lv](1T)",
+        "desc": "＆攻撃力を up [Lv](1T)",
         "v1": "7",
         "v2": "7.7",
         "v3": "8.4",
@@ -186,11 +186,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ(3T)[Lv]",
+        "desc": "自身のBuster Card 性能を up (3T)[Lv]",
         "v1": "10",
         "v2": "11",
         "v3": "12",

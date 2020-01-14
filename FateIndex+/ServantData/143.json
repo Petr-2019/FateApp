@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "敵単体の防御力をダウン(3T)<OC:効果UP>",
+        "desc": "敵単体の防御力をdown(3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -123,11 +123,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -140,11 +140,11 @@
         "v10": "50"
       },
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆QuickカードまたはArtsカード性能をランダムにアップ[Lv](1T)",
+        "desc": "＆Quick Card またはArts Card 性能をランダムに up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -163,11 +163,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

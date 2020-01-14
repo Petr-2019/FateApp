@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "対魔力D",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
@@ -73,13 +73,13 @@
         "v5": "2400"
       },
       {
-        "type": "絆獲得量アップ",
+        "type": "絆獲得量 up",
         "tern": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆自身のHPが少ないほど威力の高い追加ダメージ<OC:威力UP>{追加ダメージ倍率*(1-HP/MAXHP)}",
+        "desc": "＆自身のHPが少ないほど威力の高い追加 damage <OC:威力 up >{追加 damage 倍率*(1-HP/MAXHP)}",
         "v1": "1200",
         "v2": "1400",
         "v3": "1600",
@@ -95,11 +95,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を大アップ[Lv](3T)",
+        "desc": "自身のスター発生率を大 up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -118,11 +118,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](1T)",
+        "desc": "自身のクリティカル威力を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -141,11 +141,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](1T)",
+        "desc": "自身の攻撃力を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -158,11 +158,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度をアップ[Lv](1T)",
+        "desc": "＆スター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",

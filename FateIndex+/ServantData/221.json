@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力B+",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "18"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -86,13 +86,13 @@
         "v5": "1500"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆確率で「NiceShot!」を最大5回付与し「NiceShot!」の数だけ防御力をダウン(3T)",
+        "desc": "＆確率で「NiceShot!」を最大5回付与し「NiceShot!」の数だけ防御力をdown(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -106,7 +106,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "NiceShot!判定 (1～4回目)<OC:確率UP>",
+        "desc": "NiceShot!判定 (1～4回目)<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -193,11 +193,11 @@
         "v10": "60"
       },
       {
-        "type": "Artsカード耐性ダウン",
+        "type": "Arts Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆Arts攻撃耐性をダウン[Lv](3T)",
+        "desc": "＆Arts攻撃耐性をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -216,11 +216,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力をアップ[Lv](3T)",
+        "desc": "味方全体の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -233,11 +233,11 @@
         "v10": "20"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋自身を除く味方全体のクリティカル威力をアップ[Lv](3T)",
+        "desc": "＋自身を除く味方全体のクリティカル威力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

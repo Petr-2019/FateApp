@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "狂化 EXEX(C相当)",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "神性C",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "150"
         }
       ]
@@ -71,13 +71,13 @@
     "card": "b",
     "effect": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の攻撃力をアップ(1T)<OC:効果UP>",
+        "desc": "自身の攻撃力を up (1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -85,13 +85,13 @@
         "v5": "70"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆防御力をアップ(1T)<OC:効果UP>",
+        "desc": "＆防御力を up (1T)<OC:効果 up >",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -121,11 +121,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体のクリティカル発生率をダウン[Lv](3T)",
+        "desc": "敵全体のクリティカル発生率をdown[Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -138,11 +138,11 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆攻撃力をダウン[Lv](3T)",
+        "desc": "＆攻撃力をdown[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -178,11 +178,11 @@
         "v10": ""
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "7",
         "v2": "7.7",
         "v3": "8.4",

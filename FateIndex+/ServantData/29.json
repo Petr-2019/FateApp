@@ -5,7 +5,7 @@
     "clazz": "rider",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "騎乗A+",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -90,7 +90,7 @@
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋味方全体のHPを回復<OC:効果UP>",
+        "desc": "＋味方全体のHPを回復<OC:効果 up >",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -112,13 +112,13 @@
         "v5": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル威力をアップ(3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -197,11 +197,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "精神異常付与成功率アップ",
+        "type": "精神異常付与成功率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の精神異常付与成功率アップ[Lv](3T)",
+        "desc": "自身の精神異常付与成功率 up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

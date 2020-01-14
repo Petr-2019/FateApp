@@ -5,7 +5,7 @@
     "clazz": "moonCancer",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "ten"
+    "tenchizin": "天"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "対魔力A",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "騎乗A",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -69,8 +69,8 @@
       "name": "神性B",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "175"
         }
       ]
@@ -81,13 +81,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体の防御力をダウン(3T)",
+        "desc": "敵全体の防御力をdown(3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -129,7 +129,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆HPを回復<OC:効果UP>",
+        "desc": "＆HPを回復<OC:効果 up >",
         "v1": "2000",
         "v2": "3000",
         "v3": "4000",
@@ -162,11 +162,11 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -202,11 +202,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ターゲット集中付与",
+        "type": "Target 集中付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にターゲット集中状態を付与(1T)",
+        "desc": "自身に target 集中状態を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -219,11 +219,11 @@
         "v10": "300"
       },
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆被ダメージカット状態を付与(1T)",
+        "desc": "＆被 damage カット状態を付与(1T)",
         "v1": "1000",
         "v2": "1000",
         "v3": "1000",
@@ -236,11 +236,11 @@
         "v10": "1000"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -276,11 +276,11 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NP獲得量をアップ[Lv](1T)",
+        "desc": "＆NP獲得量を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

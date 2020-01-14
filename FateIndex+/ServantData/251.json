@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化D",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
       ]
@@ -87,13 +87,13 @@
         "v5": "1000"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -109,11 +109,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力をアップ[Lv](3T)",
+        "desc": "自身のクリティカル威力を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -126,11 +126,11 @@
         "v10": "100"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性を大アップ(3T)",
+        "desc": "＆弱体耐性を大 up (3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -143,11 +143,11 @@
         "v10": "100"
       },
       {
-        "type": "強化成功率ダウン",
+        "type": "強化成功率down",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆強化成功率を大ダウン<強化扱い>(3T)【デメリット】",
+        "desc": "＆強化成功率を大down<強化扱い>(3T)【デメリット】",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -183,11 +183,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "<追加効果> 自身の攻撃力アップ(3T)[Lv]",
+        "desc": "<追加効果> 自身の攻撃力 up (3T)[Lv]",
         "v1": "10",
         "v2": "10.5",
         "v3": "11",
@@ -200,11 +200,11 @@
         "v10": "15"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "<追加効果> ＆防御力ダウン(3T)【デメリット】",
+        "desc": "<追加効果> ＆防御力down(3T)【デメリット】",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -223,7 +223,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",

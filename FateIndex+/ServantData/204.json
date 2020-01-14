@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,13 +48,13 @@
       "name": "復讐者C",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "16"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "6"
         }
       ]
@@ -63,8 +63,8 @@
       "name": "忘却補正B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -99,13 +99,13 @@
         "v5": "750"
       },
       {
-        "type": "Artsカード耐性ダウン",
+        "type": "Arts Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆Arts攻撃耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆Arts攻撃耐性をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -113,13 +113,13 @@
         "v5": "30"
       },
       {
-        "type": "スター発生率ダウン",
+        "type": "スター発生率down",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＋味方全体のスター発生率をダウン(3T)【デメリット】",
+        "desc": "＋味方全体のスター発生率をdown(3T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -152,11 +152,11 @@
         "v10": "5"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3回・5T)",
+        "desc": "＆クリティカル威力を up [Lv](3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -175,11 +175,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  5,
         "count": 3,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](3回・5T)",
+        "desc": "自身のArts Card 性能を up [Lv](3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -198,11 +198,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  5,
         "count": 3,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](3回・5T)",
+        "desc": "敵単体の防御力をdown[Lv](3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

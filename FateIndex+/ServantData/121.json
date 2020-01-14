@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力B",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性をアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -72,13 +72,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身のArtsカード性能をアップ(1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -100,13 +100,13 @@
         "v5": "1500"
       },
       {
-        "type": "被ダメージアップ",
+        "type": "被 damage  up",
         "tern":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆被ダメージが増える状態を付与(5T)<OC:効果UP>",
+        "desc": "＆被 damage が増える状態を付与(5T)<OC:効果 up >",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -162,11 +162,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](3T)",
+        "desc": "自身のスター集中度を up [Lv](3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -202,11 +202,11 @@
         "v10": "15"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "狂化EX",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -81,7 +81,7 @@
         "target": "self",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果UP>",
+        "desc": "＋スターを大量獲得<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -137,11 +137,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力をアップ[Lv](3T)",
+        "desc": "自身の防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -154,11 +154,11 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "狂化E",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "2"
         }
       ]
@@ -59,8 +59,8 @@
       "name": "神性D",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "125"
         }
       ]
@@ -91,7 +91,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆中確率でスタン状態を付与(1T)<OC:確率UP>",
+        "desc": "＆中確率でスタン状態を付与(1T)<OC:確率 up >",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -107,11 +107,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を大アップ[Lv](1T)",
+        "desc": "自身の攻撃力を大 up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -153,11 +153,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
         "v1": "60",
         "v2": "66",
         "v3": "72",

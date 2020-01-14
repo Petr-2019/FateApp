@@ -5,7 +5,7 @@
     "clazz": "lancer",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "対魔力D+",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "13"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -74,13 +74,13 @@
         "v5": "50"
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆スター発生率を大アップ(3T)<OC:効果UP>",
+        "desc": "＆スター発生率を大 up (3T)<OC:効果 up >",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -88,13 +88,13 @@
         "v5": "200"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆クリティカル威力を大アップ(3T)",
+        "desc": "＆クリティカル威力を大 up (3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -130,7 +130,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -155,11 +155,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率をアップ[Lv](3T)",
+        "desc": "＆スター発生率を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -178,11 +178,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](1T)",
+        "desc": "自身の Quick Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -195,11 +195,11 @@
         "v10": "50"
       },
       {
-        "type": "精神異常耐性アップ",
+        "type": "精神異常耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性を大アップ(3T)",
+        "desc": "＆精神異常耐性を大 up (3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -235,11 +235,11 @@
         "v10": ""
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力ダウン[Lv](3T)",
+        "desc": "＆防御力down[Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

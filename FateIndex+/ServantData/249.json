@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "道具作成EX",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "12"
         }
       ]
@@ -70,8 +70,8 @@
       "name": "神性A",
       "effect": [
         {
-          "type": "与ダメージプラス付与",
-          "desc": "自身に与ダメージプラス状態を付与",
+          "type": "与 damage プラス付与",
+          "desc": "自身に与 damage プラス状態を付与",
           "magnification": "200"
         }
       ]
@@ -102,7 +102,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＋ 味方全体に毎ターンHP回復状態を付与(3T)<OC:効果UP>",
+        "desc": "＋ 味方全体に毎ターンHP回復状態を付与(3T)<OC:効果 up >",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -124,7 +124,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -149,11 +149,11 @@
         "v10": "5000"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -189,11 +189,11 @@
         "v10": "100"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体のNP獲得量をアップ[Lv](3T)",
+        "desc": "＋味方全体のNP獲得量を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

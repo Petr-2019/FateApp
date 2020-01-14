@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "狂化C",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "対魔力E",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
     "card": "q",
     "effect": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "自身の攻撃力をアップ(3T)<OC:効果UP>",
+        "desc": "自身の攻撃力を up (3T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -105,11 +105,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](3T)",
+        "desc": "自身のスター集中度を up [Lv](3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -128,11 +128,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター発生率アップ",
+        "type": "スター発生率 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率をアップ[Lv](3T)",
+        "desc": "自身のスター発生率を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -151,11 +151,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量をアップ[Lv](1T)",
+        "desc": "自身のNP獲得量を up [Lv](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -168,11 +168,11 @@
         "v10": "100"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](3T)",
+        "desc": "＆クリティカル威力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

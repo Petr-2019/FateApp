@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成A",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "8"
         }
       ]
@@ -83,13 +83,13 @@
         "v5": "900"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -97,13 +97,13 @@
         "v5": "50"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン(3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -111,13 +111,13 @@
         "v5": "50"
       },
       {
-        "type": "弱体耐性ダウン",
+        "type": "弱体耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆弱体耐性をdown(3T)<OC:効果 up >",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -173,11 +173,11 @@
         "v10": "5"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆確率で宝具威力を(50%)アップ[Lv:確率](1T)",
+        "desc": "＆確率で宝具威力を(50%) up [Lv:確率](1T)",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -196,11 +196,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArtsカード性能をアップ[Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",
@@ -213,11 +213,11 @@
         "v10": "20"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Busterカード性能をアップ[Lv](3T)",
+        "desc": "＆Buster Card 性能を up [Lv](3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",
@@ -230,11 +230,11 @@
         "v10": "20"
       },
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Quickカード性能をアップ[Lv](3T)",
+        "desc": "＆Quick Card 性能を up [Lv](3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",

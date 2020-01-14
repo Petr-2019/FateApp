@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,13 +47,13 @@
       "name": "復讐者A",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "20"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "10"
         }
       ]
@@ -62,8 +62,8 @@
       "name": "忘却補正B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -98,13 +98,13 @@
         "v5": "1200"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(3T)<OC:効果UP>",
+        "desc": "＆防御力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -118,7 +118,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(5T)<OC:効果UP>",
+        "desc": "＆呪い状態を付与(5T)<OC:効果 up >",
         "v1": "500",
         "v2": "750",
         "v3": "1000",
@@ -165,11 +165,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](1T)",
+        "desc": "＆攻撃力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -182,11 +182,11 @@
         "v10": "50"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "14",
         "v2": "15.8",
         "v3": "17.6",
@@ -205,11 +205,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量アップ[Lv](3T)",
+        "desc": "自身のNP獲得量 up [Lv](3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

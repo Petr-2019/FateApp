@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -51,8 +51,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -61,8 +61,8 @@
       "name": "陣地作成A+",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
@@ -72,7 +72,7 @@
       "effect": [
         {
           "type": "HP回復",
-          "desc": "自身のHP回復量をアップ",
+          "desc": "自身のHP回復量を up",
           "magnification": "10"
         }
       ]
@@ -97,13 +97,13 @@
         "v5": ""
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆宝具威力をアップ(1T)<OC:効果UP>",
+        "desc": "＆宝具威力を up (1T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -150,11 +150,11 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆HPが50%以下の間NP獲得量がアップ[Lv](3T)",
+        "desc": "＆HPが50%以下の間NP獲得量が up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -173,11 +173,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -190,11 +190,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -247,11 +247,11 @@
         "v10": "1"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆攻撃力をアップ[Lv](3T)",
+        "desc": "＆攻撃力を up [Lv](3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

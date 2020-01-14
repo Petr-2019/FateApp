@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化EX",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
@@ -80,7 +80,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆低確率でスタン状態を付与(1T)<OC:確率UP>",
+        "desc": "＆低確率でスタン状態を付与(1T)<OC:確率 up >",
         "v1": "50",
         "v2": "57.5",
         "v3": "65",
@@ -94,7 +94,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(10T)<OC:効果UP>",
+        "desc": "＆やけど状態を付与(10T)<OC:効果 up >",
         "v1": "500",
         "v2": "600",
         "v3": "700",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力をアップ[Lv](3T)",
+        "desc": "自身の防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -150,11 +150,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をダウン[Lv](3T)",
+        "desc": "敵単体の防御力をdown[Lv](3T)",
         "v1": "12",
         "v2": "13.2",
         "v3": "14.4",
@@ -167,11 +167,11 @@
         "v10": "24"
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をアップ(3T)【デメリット】",
+        "desc": "＆攻撃力を up (3T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -207,11 +207,11 @@
         "v10": ""
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

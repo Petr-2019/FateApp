@@ -5,7 +5,7 @@
     "clazz": "avenger",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,13 +48,13 @@
       "name": "復讐者A",
       "effect": [
         {
-          "type": "被ダメNP獲得量アップ",
-          "desc": "自身の被ダメージ時に獲得するNPアップ",
+          "type": "被ダメNP獲得量 up",
+          "desc": "自身の被 damage 時に獲得するNP up",
           "magnification": "20"
         },
         {
-          "type": "弱体耐性ダウン",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+          "type": "弱体耐性down",
+          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
           "magnification": "10"
         }
       ]
@@ -63,8 +63,8 @@
       "name": "忘却補正B",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
@@ -99,13 +99,13 @@
         "v5": ""
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆クリティカル威力をアップ(3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -133,7 +133,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆中確率で即死<OC:確率UP>",
+        "desc": "＆中確率で即死<OC:確率 up >",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -149,11 +149,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "600",
         "v2": "660",
         "v3": "720",
@@ -166,11 +166,11 @@
         "v10": "1200"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](1T)",
+        "desc": "＆防御力を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -189,11 +189,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  2,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](2T)",
+        "desc": "自身の攻撃力を up [Lv](2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -212,11 +212,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "即死耐性ダウン",
+        "type": "即死耐性down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の即死耐性をダウン[Lv](1T)",
+        "desc": "敵単体の即死耐性をdown[Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -229,11 +229,11 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をダウン[Lv](1T)",
+        "desc": "＆攻撃力をdown[Lv](1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

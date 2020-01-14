@@ -5,7 +5,7 @@
     "clazz": "saber",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -50,8 +50,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -60,8 +60,8 @@
       "name": "騎乗B",
       "effect": [
         {
-          "type": "Quickカード性能アップ",
-          "desc": "自身のQuickカードの性能をアップ",
+          "type": "Quick Card 性能 up",
+          "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -86,13 +86,13 @@
         "v5": "1500"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆攻撃力をダウン(3T)<OC:効果UP>",
+        "desc": "＆攻撃力をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -108,11 +108,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "自身のArts Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -125,11 +125,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Artsカードのスター集中度をアップ[Lv](1T)",
+        "desc": "＆Arts Card のスター集中度を up [Lv](1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -142,11 +142,11 @@
         "v10": "500"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ(1T)",
+        "desc": "＆弱体耐性を up (1T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -182,11 +182,11 @@
         "v10": ""
       },
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力をアップ[Lv](1T)",
+        "desc": "＆攻撃力を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -205,11 +205,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の攻撃力を大ダウン[Lv](1T)",
+        "desc": "敵単体の攻撃力を大down[Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -222,11 +222,11 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量アップ",
+        "type": "NP獲得量 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のNP獲得量をアップ[Lv](1T)",
+        "desc": "＋自身のNP獲得量を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 5,
     "cost": 16,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -47,8 +47,8 @@
       "name": "陣地作成C+",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "7"
         }
       ]
@@ -57,8 +57,8 @@
       "name": "道具作成C",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率をアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を up",
           "magnification": "6"
         }
       ]
@@ -89,7 +89,7 @@
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆〔魔性〕特攻<OC:効果UP>",
+        "desc": "＆〔魔性〕特攻<OC:効果 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -119,11 +119,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力ダウン[Lv](3T)",
+        "desc": "敵全体の防御力down[Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -193,11 +193,11 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ[Lv](3T)",
+        "desc": "＆宝具威力を up [Lv](3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -216,11 +216,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ダメージカット付与",
+        "type": " damage カット付与",
         "tern":  3,
         "count": 3,
         "target": "self-other",
-        "desc": "味方全体に被ダメージカット状態を付与[Lv](3回・3T)",
+        "desc": "味方全体に被 damage カット状態を付与[Lv](3回・3T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -250,11 +250,11 @@
         "v10": ""
       },
       {
-        "type": "強化解除耐性アップ",
+        "type": "強化解除耐性 up",
         "tern":  3,
         "count": 1,
         "target": "self-other",
-        "desc": "＆強化解除耐性をアップ(1回・3T)",
+        "desc": "＆強化解除耐性を up (1回・3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",

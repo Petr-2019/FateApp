@@ -4,7 +4,7 @@
 		"clazz": "caster",
 		"rare": 3,
 		"cost": 7,
-		"tenchizin": "hito",
+		"tenchizin": "人",
 		"no": "79"
 	},
 	"card": {
@@ -48,9 +48,9 @@
 			"name": "陣地作成A",
 			"effect": [
 				{
-					"type": "Artsカード性能アップ",
+					"type": "Arts Card 性能 up",
 					"magnification": "10",
-					"desc": "自身のArtsカードの性能をアップ"
+					"desc": "自身のArts Card の性能を up"
 				}
 			]
 		},
@@ -58,9 +58,9 @@
 			"name": "道具作成EX",
 			"effect": [
 				{
-					"type": "弱体付与成功率アップ",
+					"type": "弱体付与成功率 up",
 					"magnification": "12",
-					"desc": "自身の弱体付与成功率をアップ"
+					"desc": "自身の弱体付与成功率を up"
 				}
 			]
 		}
@@ -93,11 +93,11 @@
 		"ct": 9,
 		"effects": [
 			{
-				"type": "Artsカード性能アップ",
+				"type": "Arts Card 性能 up",
 				"tern": 3,
 				"count": 0,
 				"target": "self-other",
-				"desc": "味方全体のArtsカード性能をアップ[Lv](3T)",
+				"desc": "味方全体のArts Card 性能を up [Lv](3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -133,11 +133,11 @@
 				"v10": "3000"
 			},
 			{
-				"type": "NP獲得量アップ",
+				"type": "NP獲得量 up",
 				"tern": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "NP獲得アップ状態を付与[Lv](3T)",
+				"desc": "NP獲得 up 状態を付与[Lv](3T)",
 				"v1": "30",
 				"v2": "32",
 				"v3": "34",
@@ -172,13 +172,13 @@
 				"v5": "600"
 			},
 			{
-				"type": "攻撃力ダウン",
+				"type": "攻撃力down",
 				"tern": 3,
 				"count": 0,
 				"target": "enemy-all",
 				"beforeafter": "after",
 				"lvoc": "oc",
-				"desc": "＆攻撃力をダウン(3T)<OC:効果UP>",
+				"desc": "＆攻撃力をdown(3T)<OC:効果 up >",
 				"v1": "10",
 				"v2": "15",
 				"v3": "20",

@@ -5,7 +5,7 @@
     "clazz": "assassin",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "単独行動A+",
       "effect": [
         {
-          "type": "クリティカル威力アップ",
-          "desc": "自身のクリティカル威力をアップ",
+          "type": "クリティカル威力 up",
+          "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "対魔力C",
       "effect": [
         {
-          "type": "弱体耐性アップ",
-          "desc": "自身の弱体耐性を少しアップ",
+          "type": "弱体耐性 up",
+          "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
@@ -68,8 +68,8 @@
       "name": "王の映し身A",
       "effect": [
         {
-          "type": "NP獲得量アップ",
-          "desc": "自身のNP獲得量をアップ",
+          "type": "NP獲得量 up",
+          "desc": "自身のNP獲得量を up",
           "magnification": "10"
         }
       ]
@@ -94,13 +94,13 @@
         "v5": "500"
       },
       {
-        "type": "Quickカード耐性ダウン",
+        "type": "Quick Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆Quick攻撃耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆Quick攻撃耐性をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -108,13 +108,13 @@
         "v5": "40"
       },
       {
-        "type": "Busterカード耐性ダウン",
+        "type": "Buster Card 耐性down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆Buster攻撃耐性をダウン(3T)<OC:効果UP>",
+        "desc": "＆Buster攻撃耐性をdown(3T)<OC:効果 up >",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -130,11 +130,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -170,11 +170,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](1T)",
+        "desc": "自身の Quick Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -187,11 +187,11 @@
         "v10": "40"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -244,11 +244,11 @@
         "v10": "20"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性をアップ[Lv](3T)",
+        "desc": "＆弱体耐性を up [Lv](3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

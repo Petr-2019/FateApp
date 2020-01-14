@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 4,
     "cost": 12,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -49,8 +49,8 @@
       "name": "狂化E-",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能を少しアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を少し up",
           "magnification": "1"
         }
       ]
@@ -89,13 +89,13 @@
         "v5": "1100"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をダウン[Lv](3T)<OC:効果UP>",
+        "desc": "＆クリティカル発生率をdown[Lv](3T)<OC:効果 up >",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -111,11 +111,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](1T)",
+        "desc": "自身の攻撃力を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -128,11 +128,11 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力アップ",
+        "type": "宝具威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力をアップ[Lv](1T)",
+        "desc": "＆宝具威力を up [Lv](1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -151,11 +151,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",
@@ -168,11 +168,11 @@
         "v10": "5000"
       },
       {
-        "type": "クリティカル威力アップ",
+        "type": "クリティカル威力 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力をアップ[Lv](1T)",
+        "desc": "＆クリティカル威力を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

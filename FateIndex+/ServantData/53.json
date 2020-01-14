@@ -5,7 +5,7 @@
     "clazz": "berserker",
     "rare": 1,
     "cost": 3,
-    "tenchizin": "chi"
+    "tenchizin": "地"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "狂化B",
       "effect": [
         {
-          "type": "Busterカード性能アップ",
-          "desc": "自身のBusterカードの性能をアップ",
+          "type": "Buster Card 性能 up",
+          "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "a",
     "effect": [
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体の攻撃力をダウン[Lv](6T)",
+        "desc": "敵全体の攻撃力をdown[Lv](6T)",
         "v1": "10",
         "v2": "15",
         "v3": "17.5",
@@ -74,13 +74,13 @@
         "v5": "20"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆防御力をダウン(6T)<OC:効果UP>",
+        "desc": "＆防御力をdown(6T)<OC:効果 up >",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -88,13 +88,13 @@
         "v5": "30"
       },
       {
-        "type": "攻撃力ダウン",
+        "type": "攻撃力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆攻撃力を大ダウン(1T)",
+        "desc": "＆攻撃力を大down(1T)",
         "v1": "40",
         "v2": "40",
         "v3": "40",
@@ -102,13 +102,13 @@
         "v5": "40"
       },
       {
-        "type": "防御力ダウン",
+        "type": "防御力down",
         "tern":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆防御力を大ダウン(1T)",
+        "desc": "＆防御力を大down(1T)",
         "v1": "40",
         "v2": "40",
         "v3": "40",
@@ -116,7 +116,7 @@
         "v5": "40"
       }
     ],
-    "type": "support",
+    "type": "s up port",
     "hit": 0
   },
   "skill1": {
@@ -124,11 +124,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力アップ",
+        "type": "攻撃力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力をアップ[Lv](3T)",
+        "desc": "自身の攻撃力を up [Lv](3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -147,11 +147,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃弱体耐性をアップ[Lv](3T)",
+        "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -164,11 +164,11 @@
         "v10": "100"
       },
       {
-        "type": "防御力アップ",
+        "type": "防御力 up",
         "tern":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力をアップ[Lv](3T)",
+        "desc": "＆防御力を up [Lv](3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -187,11 +187,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中アップ",
+        "type": "スター集中 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度をアップ[Lv](1T)",
+        "desc": "自身のスター集中度を up [Lv](1T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -204,11 +204,11 @@
         "v10": "6000"
       },
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Busterカード性能をアップ[Lv](1T)",
+        "desc": "＆Buster Card 性能を up [Lv](1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

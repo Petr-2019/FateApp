@@ -5,7 +5,7 @@
     "clazz": "caster",
     "rare": 3,
     "cost": 7,
-    "tenchizin": "hito"
+    "tenchizin": "人"
   },
   "card": {
     "arts": {
@@ -48,8 +48,8 @@
       "name": "陣地作成B",
       "effect": [
         {
-          "type": "Artsカード性能アップ",
-          "desc": "自身のArtsカードの性能をアップ",
+          "type": "Arts Card 性能 up",
+          "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
@@ -58,8 +58,8 @@
       "name": "道具作成C",
       "effect": [
         {
-          "type": "弱体付与成功率アップ",
-          "desc": "自身の弱体付与成功率を少しアップ",
+          "type": "弱体付与成功率 up",
+          "desc": "自身の弱体付与成功率を少し up",
           "magnification": "6"
         }
       ]
@@ -84,13 +84,13 @@
         "v5": "900"
       },
       {
-        "type": "クリティカル発生率ダウン",
+        "type": "クリティカル発生率down",
         "tern":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をダウン(3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -104,7 +104,7 @@
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＋味方全体のHPを回復<OC:効果UP>",
+        "desc": "＋味方全体のHPを回復<OC:効果 up >",
         "v1": "1000",
         "v2": "1250",
         "v3": "1500",
@@ -112,13 +112,13 @@
         "v5": "2000"
       },
       {
-        "type": "弱体耐性アップ",
+        "type": "弱体耐性 up",
         "tern":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
         "lvoc": "oc",
-        "desc": "＆弱体耐性をアップ(3T)<OC:効果UP>",
+        "desc": "＆弱体耐性を up (3T)<OC:効果 up >",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Busterカード性能アップ",
+        "type": "Buster Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBusterカード性能をアップ[Lv](1T)",
+        "desc": "自身のBuster Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -157,11 +157,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Artsカード性能アップ",
+        "type": "Arts Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArtsカード性能をアップ[Lv](1T)",
+        "desc": "自身のArts Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -180,11 +180,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quickカード性能アップ",
+        "type": "Quick Card 性能 up",
         "tern":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のQuickカード性能をアップ[Lv](1T)",
+        "desc": "自身の Quick Card 性能を up [Lv](1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
