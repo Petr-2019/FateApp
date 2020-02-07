@@ -31,7 +31,7 @@ class ClassSkillDetailViewController: UIViewController {
 
         view.addSubview(label)
 
-        label.text = classSkill.effect[0].
+        // label.text = classSkill.effect[0].
     }
 
     required init?(coder: NSCoder) {
