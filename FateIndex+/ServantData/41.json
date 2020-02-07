@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -82,11 +82,11 @@
   ],
   "hogu": {
     "name": "女神の微笑(スマイル・オブ・ザ・ステンノ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -100,7 +100,7 @@
       },
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -113,8 +113,8 @@
         "v5": "200"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -128,7 +128,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -141,7 +141,7 @@
         "v5": ""
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -149,8 +149,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを中確率で減らす[Lv:確率]",
@@ -166,8 +166,8 @@
         "v10": "80"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋自身のNPを増やす[Lv]",
@@ -190,7 +190,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)",
@@ -212,8 +212,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -229,8 +229,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆〔神性〕特性の味方全体の攻撃力を up [Lv](3T)",

@@ -39,7 +39,7 @@
       "善",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性",
       "王",
@@ -48,7 +48,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A+",
+      "type": "riding", "name": "骑乘A+",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -80,11 +80,11 @@
   ],
   "hogu": {
     "name": "始まりの蹂躙制覇(ブケファラス)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -97,8 +97,8 @@
         "v5": "1200"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -115,12 +115,12 @@
     "hit": 1
   },
   "skill1": {
-    "name": "カリスマC",
+    "name": "领袖气质C",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -143,7 +143,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
@@ -160,7 +160,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "＋敵単体の強化状態を解除",
@@ -183,7 +183,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の Quick Card 性能を up [Lv](3T)",

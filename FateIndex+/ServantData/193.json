@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "地飛爽霊火尖槍(ちひそうれいかせんそう)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -88,7 +88,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -126,8 +126,8 @@
         "v10": "20"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](3T)",
@@ -144,7 +144,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -166,8 +166,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
@@ -183,8 +183,8 @@
         "v10": "2000"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -207,7 +207,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -223,8 +223,8 @@
         "v10": "500"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆弱体状態を解除",

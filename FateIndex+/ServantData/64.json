@@ -39,14 +39,14 @@
       "中庸",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "ギリシャ神話系男性"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -68,11 +68,11 @@
   ],
   "hogu": {
     "name": "不毀の極槍(ドゥリンダナ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -85,8 +85,8 @@
         "v5": "600"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -107,8 +107,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の宝具威力を up [Lv](1T)",
@@ -131,7 +131,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に中確率でスタン状態を付与[Lv:確率](1T)",
@@ -147,8 +147,8 @@
         "v10": "80"
       },
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆チャージを中確率で減らす[Lv:確率]",
@@ -170,8 +170,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身の弱体状態を解除",
@@ -187,8 +187,8 @@
         "v10": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",

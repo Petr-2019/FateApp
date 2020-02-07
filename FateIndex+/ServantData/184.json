@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -68,7 +68,7 @@
       "type": "rage_become", "name": "狂化E",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "2"
         }
@@ -77,11 +77,11 @@
   ],
   "hogu": {
     "name": "真言・聖観世音菩薩(オン・アロリキヤ・ソワカ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -95,7 +95,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -109,7 +109,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -123,7 +123,7 @@
       },
       {
         "type": "延焼状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -144,8 +144,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -161,8 +161,8 @@
         "v10": "19"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＋自身の宝具威力を up [Lv](3T)",
@@ -185,7 +185,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身にスター集中状態を付与[Lv](3T)",
@@ -202,7 +202,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体のスター発生率を up [Lv](3T)",
@@ -224,8 +224,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
@@ -242,7 +242,7 @@
       },
       {
         "type": "最大HP up",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "＆最大HPを up [Lv](5T)",

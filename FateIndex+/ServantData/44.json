@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A",
+      "type": "breath_hide", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "地獄にこそ響け我が愛の唄(クリスティーヌ・クリスティーヌ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  6,
+        "turn":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -95,8 +95,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得状態を付与[Lv](3T)",
@@ -112,8 +112,8 @@
         "v10": "3"
       },
       {
-        "type": "防御力down",
-        "tern": 0,
+        "type": "def_down",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆防御力をdown【デメリット】",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)",
@@ -159,7 +159,7 @@
     "effects": [
       {
         "type": "精神異常付与成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の精神異常付与成功率を up [Lv](3T)",
@@ -176,7 +176,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を up [Lv](3T)",

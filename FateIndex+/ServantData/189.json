@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A+",
+      "type": "field_build", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "breath_hide", "name": "気配遮断(陰)B",
+      "type": "breath_hide", "name": "气息遮断(陰)B",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -82,11 +82,11 @@
   ],
   "hogu": {
     "name": "白鷺城の百鬼八天堂様(はくろじょうのひゃっきはちてんどうさま)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -100,7 +100,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -113,8 +113,8 @@
         "v5": "50"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -128,7 +128,7 @@
       },
       {
         "type": "最大HP up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -141,7 +141,7 @@
         "v5": "4000"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -150,7 +150,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の防御力を大 up (1T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -184,7 +184,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up [Lv](3T)",
@@ -201,7 +201,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体のクリティカル威力を up [Lv](3T)",
@@ -223,8 +223,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす[Lv]",
@@ -241,7 +241,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆スター発生率を up [Lv](3T)",
@@ -263,8 +263,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力down",
-        "tern":  1,
+        "type": "def_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の防御力をdown[Lv](1T)",
@@ -281,7 +281,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆強化状態を解除",

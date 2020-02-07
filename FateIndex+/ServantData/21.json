@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,12 +56,12 @@
     }
   ],
   "hogu": {
-    "name": "炎門の守護者(テルモピュライ・エノモタイア)",
-    "card": "b",
+    "name": "炎门守护者",
+    "card": "Buster",
     "effect": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "Target 集中付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -88,8 +88,8 @@
         "v5": "500"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -102,7 +102,7 @@
         "v5": "25"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -111,7 +111,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -127,8 +127,8 @@
         "v10": "250"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量 up [Lv](3T)",
@@ -150,8 +150,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
@@ -173,8 +173,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のBuster Card 性能を up [Lv](3T)",

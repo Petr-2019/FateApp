@@ -65,7 +65,7 @@ struct Servant: Codable {
 
         struct Effect: Codable {
             let type: String
-            let tern: Int
+            let turn: Int
             let count: Int
             let target: String
             let beforeafter: String
@@ -89,7 +89,7 @@ struct Servant: Codable {
 
         struct Effects: Codable {
             let type: String
-            let tern: Int
+            let turn: Int
             let count: Int
             let target: String
             let desc: String

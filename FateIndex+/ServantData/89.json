@@ -49,7 +49,7 @@
       "type": "rage_become", "name": "狂化E-",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "1"
         }
@@ -58,11 +58,11 @@
   ],
   "hogu": {
     "name": "源流闘争(グレンデル・バスター)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "必中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -76,7 +76,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -90,7 +90,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -111,8 +111,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](1T)",
@@ -128,8 +128,8 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](1T)",
@@ -152,7 +152,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -169,7 +169,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -185,8 +185,8 @@
         "v10": "50"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スターを大量獲得[Lv]",
@@ -208,8 +208,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  4,
+        "type": "gatsu",
+        "turn":  4,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・4T)を付与[Lv]",

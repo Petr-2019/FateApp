@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "復讐者A",
+      "type": "avenger", "name": "复仇者A",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -73,7 +73,7 @@
       "type": "magic_self_recover", "name": "自己回復(魔力)B",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3.5"
         }
@@ -82,11 +82,11 @@
   ],
   "hogu": {
     "name": "遥かなる者への斬罪(フリーレン・シャルフリヒター)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "必中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -100,7 +100,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -114,7 +114,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -128,7 +128,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -150,7 +150,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](1T)",
@@ -189,8 +189,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  2,
+        "type": "atk_up",
+        "turn":  2,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](2T)",
@@ -213,7 +213,7 @@
     "effects": [
       {
         "type": "即死耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の即死耐性をdown[Lv](1T)",
@@ -229,8 +229,8 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力down",
-        "tern":  1,
+        "type": "atk_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆攻撃力をdown[Lv](1T)",
@@ -247,7 +247,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆強化状態を解除",

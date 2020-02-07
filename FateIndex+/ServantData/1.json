@@ -39,13 +39,13 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗C",
+      "type": "riding", "name": "骑乘C",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -77,11 +77,11 @@
   ],
   "hogu": {
     "name": "仮想宝具疑似展開／人理の礎(ロード・カルデアス)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -95,7 +95,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -108,7 +108,7 @@
         "v5": "1000"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -116,8 +116,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern": 3,
+        "type": "buster_up",
+        "turn": 3,
         "count": 1,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1回・3T)",
@@ -134,7 +134,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern": 3,
+        "turn": 3,
         "count": 1,
         "target": "self",
         "desc": "＆Buster攻撃のクリティカル威力を up [Lv](1回・3T)",
@@ -157,7 +157,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern": 1,
+        "turn": 1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -173,8 +173,8 @@
         "v10": "300"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -197,7 +197,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern": 1,
+        "turn": 1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -214,7 +214,7 @@
       },
       {
         "type": "Target 集中付与",
-        "tern": 1,
+        "turn": 1,
         "count": 0,
         "target": "self",
         "desc": "＆ target 集中状態を付与(1T)",
@@ -231,7 +231,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを減らす[Lv]【デメリット】",

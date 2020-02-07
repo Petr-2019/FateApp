@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "口寄せ・伊吹大明神縁起(くちよせ・いぶきだいみょうじんえんぎ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "スキル封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -88,7 +88,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
     "effects": [
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に高確率で宝具封印状態を付与[Lv:確率](1T)",
@@ -132,8 +132,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](3T)",
@@ -150,7 +150,7 @@
       },
       {
         "type": "呪い付与(通常攻撃時)",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆通常攻撃時に呪い状態(3T)を付与する状態を付与(3T)",
@@ -172,8 +172,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -189,8 +189,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

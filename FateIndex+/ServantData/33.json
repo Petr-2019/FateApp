@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成D",
+      "type": "field_build", "name": "阵地作成D",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "4"
         }
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "貴方のための物語(メルヒェン・マイネスレーベンス)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "攻撃力 up",
-        "tern": 0,
+        "type": "atk_up",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -97,8 +97,8 @@
         "v5": "40"
       },
       {
-        "type": "HP回復",
-        "tern":  3,
+        "type": "hp_regen",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -111,7 +111,7 @@
         "v5": "3000"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -120,7 +120,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のクリティカル威力を up [Lv](3T)",
@@ -142,8 +142,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPをすごく増やす[Lv]",
@@ -165,8 +165,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体に毎ターンスター獲得状態を付与[Lv](3T)",
@@ -182,8 +182,8 @@
         "v10": "15"
       },
       {
-        "type": "NP獲得状態付与",
-        "tern":  3,
+        "type": "np_gain_each_turn",
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆毎ターンNP獲得状態を付与[Lv](3T)",

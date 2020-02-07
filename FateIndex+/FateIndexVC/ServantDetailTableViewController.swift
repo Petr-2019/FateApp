@@ -13,6 +13,8 @@ enum ServantDetailSection {
     case actionCard // 配卡
     case npRelated // NP获得率
     case classSkill // 职阶技能
+    case noblePhantasm // 宝具
+    case activeSkill // 主动技能
 
     func title() -> String {
         switch self {
@@ -24,22 +26,19 @@ enum ServantDetailSection {
             return "NP获得率"
         case .classSkill:
             return "职阶技能"
+        case .noblePhantasm:
+            return "宝具"
+        case .activeSkill:
+            return "主动技能"
         }
     }
 }
 
 class ServantDetailTableViewController: UITableViewController {
 
-    private struct Constants {
-        static let sectionBasicTitle = "基础数据"
-        static let sectionCardTitle = "配卡"
-        static let sectionSkillTitle = "职阶技能"
-
-    }
-
     private let servant: Servant
 
-    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .npRelated, .classSkill]
+    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .npRelated, .classSkill, .noblePhantasm, .activeSkill]
 
     init(servant: Servant) {
         self.servant = servant
@@ -72,7 +71,7 @@ class ServantDetailTableViewController: UITableViewController {
     // MARK:- UITableViewDataSource
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 6
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -87,6 +86,12 @@ class ServantDetailTableViewController: UITableViewController {
         }
         else if section == 3 {
             return servant.classskill.count
+        }
+        else if section == 4 {
+            return 1
+        }
+        else if section == 5 {
+            return 3
         }
         else {
             return 1
@@ -206,6 +211,36 @@ class ServantDetailTableViewController: UITableViewController {
             cell.accessoryType = .disclosureIndicator
             return cell
         }
+        else if indexPath.section == 4 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
+
+            let hogu = servant.hogu
+
+            cell.avatar = UIImageUtility.classSkillImage(named: hogu.card)
+            cell.title = hogu.name
+            cell.accessoryType = .disclosureIndicator
+            return cell
+        }
+        else if indexPath.section == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
+
+            let skill: Servant.Skill
+
+            if indexPath.row == 0 {
+                skill = servant.skill1
+            }
+            else if indexPath.row == 1 {
+                skill = servant.skill2
+            }
+            else {
+                skill = servant.skill3
+            }
+
+            cell.avatar = UIImageUtility.classSkillImage(named: skill.effects[0].type)
+            cell.title = skill.name
+            cell.accessoryType = .disclosureIndicator
+            return cell
+        }
 
         return cell2
     }
@@ -220,14 +255,18 @@ class ServantDetailTableViewController: UITableViewController {
         let title: String
 
         switch section {
-            case .basicInfo:
-                title = "基础数据"
-            case .actionCard:
-                title = "配卡"
-            case .npRelated:
-                title = "NP获得率"
+        case .basicInfo:
+            title = "基础数据"
+        case .actionCard:
+            title = "配卡"
+        case .npRelated:
+            title = "NP获得率"
         case .classSkill:
-                title = "职阶技能"
+            title = "职阶技能"
+        case .noblePhantasm:
+            title = "宝具"
+        case .activeSkill:
+            title = "主动技能"
         }
 
         headerView.title = title

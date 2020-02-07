@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A++",
+      "type": "field_build", "name": "阵地作成A++",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11.5"
         }
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "千夜一夜物語(アルフ・ライラ・ワ・ライラ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -88,7 +88,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -102,7 +102,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -123,8 +123,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを高確率で1減らす[Lv:確率]",
@@ -140,8 +140,8 @@
         "v10": "100"
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＋自身のArts Card 性能を up [Lv](1T)",
@@ -164,7 +164,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体〔男性〕に低確率で魅了付与[Lv:確率](1T)",
@@ -181,7 +181,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  2,
+        "turn":  2,
         "count": 0,
         "target": "self",
         "desc": "＋自身の防御力を up [Lv](2T)",
@@ -199,12 +199,12 @@
     ]
   },
   "skill3": {
-    "name": "対英雄(譚)EX",
+    "name": "对英雄(譚)EX",
     "ct": 8,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与[Lv](1回・5T)",
@@ -220,8 +220,8 @@
         "v10": "3000"
       },
       {
-        "type": "ガッツ付与",
-        "tern":  2,
+        "type": "gatsu",
+        "turn":  2,
         "count": 1,
         "target": "self-other",
         "desc": "＋自身を除く味方全体にガッツ状態を付与(1回・2T)",
@@ -237,8 +237,8 @@
         "v10": "500"
       },
       {
-        "type": "攻撃力down",
-        "tern":  1,
+        "type": "atk_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＋〔王〕特性の敵単体の攻撃力をdown[Lv](1T)",

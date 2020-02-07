@@ -39,7 +39,7 @@
       "中庸",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "セイバークラスのサーヴァント",
       "愛する者"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A+",
+      "type": "magic_resistance", "name": "对魔力A+",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "憤怒の波濤(モラ・ルタ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -87,7 +87,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -101,7 +101,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -122,8 +122,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -140,7 +140,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Quick Card 性能を up [Lv](1T)",
@@ -156,8 +156,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](1T)",
@@ -180,7 +180,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](3T)",
@@ -196,8 +196,8 @@
         "v10": "600"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆スターを獲得[Lv]",
@@ -220,7 +220,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の防御力を up [Lv](3T)",
@@ -236,8 +236,8 @@
         "v10": "30"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](3T)",

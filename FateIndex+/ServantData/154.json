@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "breath_hide", "name": "気配遮断A",
+      "type": "breath_hide", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -97,11 +97,11 @@
   ],
   "hogu": {
     "name": "死告天使(アズライール)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -115,7 +115,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -136,8 +136,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
@@ -160,7 +160,7 @@
     "effects": [
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の弱体耐性を up [Lv](3T)",
@@ -176,8 +176,8 @@
         "v10": "100"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを大回復[Lv]",
@@ -194,7 +194,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](1T)",
@@ -210,8 +210,8 @@
         "v10": "40"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](3T)",
@@ -234,7 +234,7 @@
     "effects": [
       {
         "type": "即死耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体の即死耐性をdown[Lv](3T)",
@@ -250,8 +250,8 @@
         "v10": "100"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆自身のBuster Card 性能を up [Lv](1T)",

@@ -39,7 +39,7 @@
       "夏",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "ローマ",
       "アルトリア顔",
@@ -48,7 +48,7 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -58,10 +58,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成A+",
+      "type": "field_build", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
@@ -71,7 +71,7 @@
       "type": "item_make", "name": "道具作成(奇)EX",
       "effect": [
         {
-          "type": "HP回復",
+          "type": "hp_regen",
           "desc": "自身のHP回復量を up",
           "magnification": "10"
         }
@@ -80,11 +80,11 @@
   ],
   "hogu": {
     "name": "誉れ歌う黄金劇場(ラウダレントゥム・ドムス・イルステリアス)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -97,8 +97,8 @@
         "v5": ""
       },
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -112,7 +112,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -133,8 +133,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -150,8 +150,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆HPが50%以下の間NP獲得量が up [Lv](3T)",
@@ -173,8 +173,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -191,7 +191,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -208,7 +208,7 @@
       },
       {
         "type": "クラス相性の防御不利を打ち消す状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クラス相性の防御不利を打ち消す状態を付与(3T)",
@@ -230,8 +230,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "other-single",
         "desc": "味方単体にガッツ状態を付与(1回・3T)",
@@ -247,8 +247,8 @@
         "v10": "1"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆攻撃力を up [Lv](3T)",

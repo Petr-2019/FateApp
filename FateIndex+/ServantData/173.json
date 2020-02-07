@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成EX",
+      "type": "field_build", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "初歩的なことだ、友よ(エレメンタリー・マイ・ディア)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "無敵貫通付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -89,7 +89,7 @@
       },
       {
         "type": "防御無視付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -103,7 +103,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
         "v5": "100"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -125,7 +125,7 @@
     "effects": [
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に宝具封印状態を付与(1T)",
@@ -141,8 +141,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スター獲得[Lv]",
@@ -165,7 +165,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -182,7 +182,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体無効状態を付与(3T)",
@@ -204,8 +204,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](1T)",
@@ -221,8 +221,8 @@
         "v10": "50"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆回避状態を付与(1T)",

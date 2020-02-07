@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "不滅の混沌旅団(イモータル・カオス・ブリゲイド)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "混乱状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -87,8 +87,8 @@
         "v5": "70"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体の攻撃力をdown(3T)",
@@ -127,7 +127,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆クリティカル発生率をdown[Lv](3T)",
@@ -149,8 +149,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体に回避状態を付与(1T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆スター発生率を up [Lv](1T)",
@@ -190,7 +190,7 @@
     "effects": [
       {
         "type": "弱体耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体の弱体耐性をdown[Lv](1T)",
@@ -206,8 +206,8 @@
         "v10": "100"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆防御力をdown[Lv](3T)",
@@ -224,7 +224,7 @@
       },
       {
         "type": "強化無効付与",
-        "tern": 0,
+        "turn": 0,
         "count": 1,
         "target": "enemy-all",
         "desc": "＆強化無効状態を付与(1回)",

@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -58,11 +58,11 @@
   ],
   "hogu": {
     "name": "死神のための葬送曲(レクイエム・フォー・デス)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "攻撃力down",
-        "tern": 0,
+        "type": "atk_down",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -76,7 +76,7 @@
       },
       {
         "type": "",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -90,7 +90,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -103,7 +103,7 @@
         "v5": "2500"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -111,8 +111,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のArts Card 性能を up [Lv](1T)",
@@ -135,7 +135,7 @@
     "effects": [
       {
         "type": "宝具威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔サーヴァント〕の宝具威力をdown[Lv](1T)",
@@ -157,8 +157,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "スターを大量獲得[Lv]",

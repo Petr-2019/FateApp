@@ -39,13 +39,13 @@
       "善",
       "-",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A+",
+      "type": "riding", "name": "骑乘A+",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -77,11 +77,11 @@
   ],
   "hogu": {
     "name": "この世ならざる幻馬(ヒポグリフ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -94,8 +94,8 @@
         "v5": "1200"
       },
       {
-        "type": "回避付与",
-        "tern": 0,
+        "type": "dodge",
+        "turn": 0,
         "count": 3,
         "target": "self",
         "beforeafter": "after",
@@ -108,8 +108,8 @@
         "v5": ""
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -130,8 +130,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](1T)",
@@ -154,7 +154,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に確率でスタン状態を付与[Lv:確率](1T)",
@@ -176,8 +176,8 @@
     "ct": 10,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  5,
+        "type": "star_gain",
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターン確率でスターを獲得する状態を付与[Lv](5T) 確率65％",
@@ -194,7 +194,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "＆スター発生率を確率で up [Lv](5T) 確率65％",
@@ -211,7 +211,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を確率で up [Lv](5T) 確率65％",
@@ -227,8 +227,8 @@
         "v10": "40"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

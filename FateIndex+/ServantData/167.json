@@ -78,7 +78,7 @@
       "effect": [
         {
           "type": "防御力 up",
-          "desc": "自身の〔人型〕の敵からの攻撃に対する防御力を up",
+          "desc": "自身の〔人型〕の敵からの攻撃に对する防御力を up",
           "magnification": "16"
         }
       ]
@@ -87,7 +87,7 @@
       "type": "nega_saver", "name": "ネガ・セイヴァーA",
       "effect": [
         {
-          "type": "特攻付与",
+          "type": "special_attack_up",
           "desc": "自身に〔ルーラー〕クラスへの特攻状態を付与(*4)",
           "magnification": "150"
         }
@@ -96,11 +96,11 @@
   ],
   "hogu": {
     "name": "快楽天・胎蔵曼荼羅(アミダアミデュラ・ヘブンズホール)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -114,7 +114,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -127,8 +127,8 @@
         "v5": "750"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -150,7 +150,7 @@
     "effects": [
       {
         "type": "弱体耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の弱体耐性をdown[Lv](1T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "Arts Card 耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆Arts Card 耐性をdown[Lv](1T)",
@@ -183,8 +183,8 @@
         "v10": "30"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋自身のNPを増やす[Lv]",
@@ -206,8 +206,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体のチャージを1減らす",
@@ -224,7 +224,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆強化状態を解除",
@@ -240,8 +240,8 @@
         "v10": ""
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆防御力をdown[Lv](3T)",
@@ -264,7 +264,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -281,7 +281,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up (1T) [Lv]",
@@ -297,8 +297,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  1,
+        "type": "np_gain_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up (1T) [Lv]",
@@ -315,7 +315,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up (1T) [Lv]",
@@ -331,8 +331,8 @@
         "v10": "50"
       },
       {
-        "type": "HP回復",
-        "tern":  1,
+        "type": "hp_regen",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆HP回復効果量を up (1T) [Lv]",
@@ -349,7 +349,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを減少【デメリット】",

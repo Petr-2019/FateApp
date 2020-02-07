@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断E",
+      "type": "breath_hide", "name": "气息遮断E",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "蹴り穿つ死翔の槍(ゲイ・ボルク・オルタナティブ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -97,7 +97,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -114,7 +114,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -136,8 +136,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHPを回復[Lv]",
@@ -154,7 +154,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆被 damage カット状態を付与[Lv](1T)",
@@ -177,7 +177,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -194,7 +194,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Quick Card 性能を up [Lv](1T)",

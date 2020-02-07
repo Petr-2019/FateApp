@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -68,11 +68,11 @@
   ],
   "hogu": {
     "name": "人類神話・雷電降臨(システム・ケラウノス)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -86,7 +86,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -100,7 +100,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -114,7 +114,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -135,8 +135,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量を up [Lv](3T)",
@@ -152,8 +152,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋自身を除く味方全体のNP獲得量を up [Lv](3T)",
@@ -176,7 +176,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の防御力を up [Lv](3T) 確率80％",
@@ -192,8 +192,8 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](3T) 確率80％",
@@ -209,8 +209,8 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力 up [Lv](3T)",
@@ -226,8 +226,8 @@
         "v10": "20"
       },
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆ガッツ状態を付与[Lv](1回・3T)",
@@ -249,8 +249,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -267,7 +267,7 @@
       },
       {
         "type": "無敵貫通付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆無敵貫通状態を付与(3T)",
@@ -283,8 +283,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スターを獲得",

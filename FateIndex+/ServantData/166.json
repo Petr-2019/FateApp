@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -64,10 +64,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -76,11 +76,11 @@
   ],
   "hogu": {
     "name": "Ｃ.Ｃ.Ｃ.(カースド・キューピッド・クレンザー)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -94,7 +94,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -107,8 +107,8 @@
         "v5": "50"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -129,8 +129,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体の弱体状態を解除",
@@ -146,8 +146,8 @@
         "v10": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "＆HPを回復[Lv]",
@@ -164,7 +164,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "other-single",
         "desc": "＆弱体無効状態(1回、3T)を付与",
@@ -187,7 +187,7 @@
     "effects": [
       {
         "type": "無敵解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の無敵状態を解除",
@@ -204,7 +204,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆確率でスタン状態を付与[Lv:確率](1T)",
@@ -227,7 +227,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -244,7 +244,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](3T)",

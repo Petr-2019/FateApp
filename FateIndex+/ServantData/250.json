@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "復讐者B-",
+      "type": "avenger", "name": "复仇者B-",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -74,7 +74,7 @@
       "type": "magic_self_recover", "name": "自己回復(魔力)C",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3.3"
         }
@@ -83,11 +83,11 @@
   ],
   "hogu": {
     "name": "波旬変生・三千大千天魔王(はじゅんへんじょう・さんぜんだいせんてんまおう)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -101,7 +101,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -115,7 +115,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -129,7 +129,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -150,8 +150,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターン徐々に攻撃力が up する効果を付与[Lv](3T)",
@@ -168,7 +168,7 @@
       },
       {
         "type": "",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "",
@@ -185,7 +185,7 @@
       },
       {
         "type": "炎上フィールド特性付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆フィールドを〔炎上〕特性にする状態を付与(3T)",
@@ -202,7 +202,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆やけど(非重複)状態を付与(3T)【デメリット】",
@@ -225,7 +225,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -242,7 +242,7 @@
       },
       {
         "type": "強化解除耐性 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆強化解除耐性を up [Lv](1T)",
@@ -264,8 +264,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得状態を付与[Lv](3T)",
@@ -281,8 +281,8 @@
         "v10": "5"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

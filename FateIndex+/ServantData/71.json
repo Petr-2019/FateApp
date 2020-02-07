@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "破魔の紅薔薇、必滅の黄薔薇(ゲイ・ジャルグ＆ゲイ・ボウ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -89,7 +89,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,8 +110,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -128,7 +128,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -150,8 +150,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力down",
-        "tern":  1,
+        "type": "atk_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体〔女性〕の攻撃力を大down[Lv](1T)",
@@ -174,7 +174,7 @@
     "effects": [
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のスター発生率を大 up [Lv](3T)",

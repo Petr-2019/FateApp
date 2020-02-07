@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成EX",
+      "type": "field_build", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
@@ -83,11 +83,11 @@
   ],
   "hogu": {
     "name": "死溢るる魔境への門(ゲート･オブ･スカイ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "クリティカル威力 up",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self-other",
         "beforeafter": "before",
@@ -100,8 +100,8 @@
         "v5": "50"
       },
       {
-        "type": "回避付与",
-        "tern":  3,
+        "type": "dodge",
+        "turn":  3,
         "count": 1,
         "target": "self-other",
         "beforeafter": "before",
@@ -115,7 +115,7 @@
       },
       {
         "type": "即死無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self-other",
         "beforeafter": "before",
@@ -129,7 +129,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -142,7 +142,7 @@
         "v5": "1500"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -151,7 +151,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体の Quick Card 性能を up [Lv](3T)",
@@ -168,7 +168,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆Quick Card のクリティカル威力を up [Lv](3T)",
@@ -190,8 +190,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体の防御力をdown[Lv](3T)",
@@ -208,7 +208,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆クリティカル発生率をdown[Lv](3T)",
@@ -230,8 +230,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす[Lv]",

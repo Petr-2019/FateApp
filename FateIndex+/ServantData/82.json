@@ -47,7 +47,7 @@
       "type": "rage_become", "name": "狂化D",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "磔刑の雷樹(ブラステッド・ツリー)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -88,7 +88,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  2,
+        "turn":  2,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量を up [Lv](3T)",
@@ -133,7 +133,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に中確率でスタン状態を付与(1T) 確率60％",
@@ -149,8 +149,8 @@
         "v10": "60"
       },
       {
-        "type": "防御力down",
-        "tern":  1,
+        "type": "def_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆防御力をdown[Lv](1T)",
@@ -172,8 +172,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の宝具威力を up (1T) [Lv]",
@@ -190,7 +190,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "＆自身にやけど(非重複)状態を付与(5T)【デメリット】",

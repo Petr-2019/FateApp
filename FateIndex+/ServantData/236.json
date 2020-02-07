@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       "type": "magic_infinite", "name": "無限の魔力供給B",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "4"
         }
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "星天を照らせ地の朔月(ほしにねがいを)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "朔月の加護状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -83,8 +83,8 @@
         "v5": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -97,8 +97,8 @@
         "v5": "10"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -111,8 +111,8 @@
         "v5": "1000"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -126,7 +126,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -139,7 +139,7 @@
         "v5": ""
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -147,8 +147,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](3T)",
@@ -165,7 +165,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3回・3T)",
@@ -187,8 +187,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
@@ -205,7 +205,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆弱体無効状態を付与(1回・3T)",
@@ -227,8 +227,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす[Lv]",
@@ -245,7 +245,7 @@
       },
       {
         "type": "強化成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆強化成功率を up [Lv](3T)",

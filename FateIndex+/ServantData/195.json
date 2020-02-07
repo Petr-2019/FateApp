@@ -50,7 +50,7 @@
       "type": "outer_life", "name": "領域外の生命EX",
       "effect": [
         {
-          "type": "スター獲得",
+          "type": "star_gain",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
@@ -65,7 +65,7 @@
       "type": "rage_breathe", "name": "狂気B",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -84,11 +84,11 @@
   ],
   "hogu": {
     "name": "光殻湛えし虚樹(クリフォー・ライゾォム)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -102,7 +102,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -137,8 +137,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得状態付与",
-        "tern":  3,
+        "type": "np_gain_each_turn",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体に毎ターンNP獲得状態を付与(3T)",
@@ -154,8 +154,8 @@
         "v10": "10"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆宝具威力を up [Lv](3T)",
@@ -178,7 +178,7 @@
     "effects": [
       {
         "type": "恐怖状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "enemy-all",
         "desc": "敵全体に恐怖状態を付与[Lv:毎ターン確率](3T、1回)",
@@ -194,8 +194,8 @@
         "v10": "50"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆防御力をdown[Lv](3T)",
@@ -217,8 +217,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを1減らす",
@@ -234,8 +234,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆攻撃力をdown[Lv](3T)",

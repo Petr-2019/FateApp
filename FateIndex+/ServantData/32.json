@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "螺湮城教本(プレラーティーズ・スペルブック)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -73,8 +73,8 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -96,7 +96,7 @@
     "effects": [
       {
         "type": "精神異常付与成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の精神異常付与成功率を up [Lv](3T)",
@@ -113,7 +113,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を up [Lv](3T)",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "宝具威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔サーヴァント〕の宝具威力をdown[Lv](1T)",
@@ -159,7 +159,7 @@
     "effects": [
       {
         "type": "恐怖状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 1,
         "target": "enemy-all",
         "desc": "敵全体に恐怖状態を付与[Lv:毎ターン確率](5T、1回)",

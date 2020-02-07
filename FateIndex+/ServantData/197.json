@@ -39,7 +39,7 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性",
       "王",
@@ -48,7 +48,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗EX",
+      "type": "riding", "name": "骑乘EX",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -90,11 +90,11 @@
   ],
   "hogu": {
     "name": "聖夜の虹、軍神の剣(キャンディスター・フォトン・レイ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -107,8 +107,8 @@
         "v5": "2000"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -129,8 +129,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす[Lv]",
@@ -147,7 +147,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆スター発生率を up (3T)",
@@ -169,8 +169,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体の宝具威力を up [Lv](1T)",
@@ -187,7 +187,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -210,7 +210,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(3T)",
@@ -227,7 +227,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中状態を付与[Lv](3T)",
@@ -244,7 +244,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -261,7 +261,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆3ターン後にスタン状態(1T)になる状態を付与【デメリット】",

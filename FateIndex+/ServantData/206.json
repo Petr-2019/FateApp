@@ -39,7 +39,7 @@
       "中庸",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性",
       "愛する者",
@@ -48,7 +48,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A+",
+      "type": "riding", "name": "骑乘A+",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -80,11 +80,11 @@
   ],
   "hogu": {
     "name": "疾風怒濤の不死戦車(トロイアス・トラゴーイディア)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -98,7 +98,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -120,7 +120,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -137,7 +137,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -160,7 +160,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  5,
+        "turn":  5,
         "count": 2,
         "target": "self",
         "desc": "自身に無敵状態(2回・5T)を付与",
@@ -177,7 +177,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -200,7 +200,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -216,8 +216,8 @@
         "v10": "300"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  1,
+        "type": "np_gain_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](1T)",
@@ -233,8 +233,8 @@
         "v10": "30"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

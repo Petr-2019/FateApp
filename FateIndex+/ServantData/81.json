@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A",
+      "type": "breath_hide", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "密やかなる罪の遊戯(デンジャラス・ゲーム)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "人格入れ替え",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "最大HP up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -88,8 +88,8 @@
         "v5": "6000"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -102,8 +102,8 @@
         "v5": "100"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern": 0,
+        "type": "buster_up",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
         "v5": "80"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -124,8 +124,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -141,8 +141,8 @@
         "v10": "15"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆ハイド時さらに攻撃力を up [Lv](3T)",
@@ -165,7 +165,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern": 0,
+        "turn": 0,
         "count": 1,
         "target": "self",
         "desc": "自身のスタン状態付与成功率を up [Lv](1回)",
@@ -182,7 +182,7 @@
       },
       {
         "type": "スタン付与",
-        "tern": 0,
+        "turn": 0,
         "count": 1,
         "target": "self",
         "desc": "＆ハイド時さらにスタン状態付与成功率を up [Lv](1回)",
@@ -199,7 +199,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＋敵単体に低確率でスタン状態を付与(1T) 確率10％",
@@ -222,7 +222,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -239,7 +239,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆ハイド時さらにクリティカル威力を up [Lv](3T)",

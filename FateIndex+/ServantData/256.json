@@ -39,14 +39,14 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "愛する者"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -68,11 +68,11 @@
   ],
   "hogu": {
     "name": "猛り狂う乙女狼(イーラ・ルプス)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -86,7 +86,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -99,8 +99,8 @@
         "v5": "1000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -121,8 +121,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・3T)を付与[Lv]",
@@ -144,8 +144,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -161,8 +161,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆「被 damage 時に自身の攻撃力を up [Lv](1回・5T)する状態」を付与(3T)",
@@ -185,7 +185,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -202,7 +202,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を大 up [Lv](1T)",
@@ -218,8 +218,8 @@
         "v10": "40"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  1,
+        "type": "np_gain_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](1T)",

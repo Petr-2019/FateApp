@@ -39,7 +39,7 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "竜",
       "アルトリア顔",
@@ -54,7 +54,7 @@
       "type": "outer_life", "name": "領域外の生命D",
       "effect": [
         {
-          "type": "スター獲得",
+          "type": "star_gain",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A",
+      "type": "riding", "name": "骑乘A",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -98,11 +98,11 @@
   ],
   "hogu": {
     "name": "蒼輝銀河即ちコスモス(エーテル宇宙然るに秩序)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -130,7 +130,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -152,7 +152,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -168,8 +168,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆自身の攻撃力を up [Lv](1T)",
@@ -191,8 +191,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "スターを獲得[Lv]",
@@ -209,7 +209,7 @@
       },
       {
         "type": "スター集中down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＋自身のスター集中度をdown[Lv](1T)",
@@ -232,7 +232,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -248,8 +248,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを獲得[Lv]",
@@ -265,8 +265,8 @@
         "v10": "30"
       },
       {
-        "type": "特攻付与",
-        "tern":  1,
+        "type": "special_attack_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆〔人類の脅威〕特攻状態を付与[Lv](1T)",

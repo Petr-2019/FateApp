@@ -39,7 +39,7 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "ローマ",
       "アルトリア顔",
@@ -49,7 +49,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -70,12 +70,12 @@
     }
   ],
   "hogu": {
-    "name": "童女謳う華の帝政(ラウス・セント・クラウディウス)",
-    "card": "a",
+    "name": "童女讴歌的荣华帝政",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -88,8 +88,8 @@
         "v5": "900"
       },
       {
-        "type": "防御力down",
-        "tern":  1,
+        "type": "def_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -110,8 +110,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -127,8 +127,8 @@
         "v10": "30"
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆〔水辺〕または〔都市〕のフィールドの時、Arts Card 性能を up [Lv](3T)",
@@ -145,7 +145,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を up [Lv](3T)",
@@ -161,8 +161,8 @@
         "v10": "100"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",
@@ -184,8 +184,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
@@ -202,7 +202,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up (3T) [Lv]  確率60％",
@@ -218,8 +218,8 @@
         "v10": "44"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HP回復 [Lv]",
@@ -241,8 +241,8 @@
     "ct": 12,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "自身にガッツ状態(3回・5T)を付与[Lv]",

@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "神槍无二打(しんそうにのうちいらず)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -87,8 +87,8 @@
         "v5": "80"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
     "effects": [
       {
         "type": "必中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に必中状態を付与(1T)",
@@ -127,7 +127,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -149,8 +149,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](1T)",
@@ -190,7 +190,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -206,8 +206,8 @@
         "v10": ""
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Arts Card 性能を up [Lv](1T)",

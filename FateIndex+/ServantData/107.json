@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "復讐者A",
+      "type": "avenger", "name": "复仇者A",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -72,7 +72,7 @@
       "type": "magic_self_recover", "name": "自己回復(魔力)E",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "2"
         }
@@ -81,11 +81,11 @@
   ],
   "hogu": {
     "name": "偽り写し記す万象(ヴェルグ・アヴェスター)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -98,8 +98,8 @@
         "v5": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -113,7 +113,7 @@
       },
       {
         "type": "",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -126,7 +126,7 @@
         "v5": "300"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -135,7 +135,7 @@
     "effects": [
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
@@ -157,8 +157,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを減らす",
@@ -174,8 +174,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆攻撃力をdown[Lv](3T)",
@@ -198,7 +198,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターン徐々にQuick Card 性能が up する効果を付与[Lv]",
@@ -215,7 +215,7 @@
       },
       {
         "type": "",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "",
@@ -231,8 +231,8 @@
         "v10": "200"
       },
       {
-        "type": "ガッツ付与",
-        "tern": 0,
+        "type": "gatsu",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆自身にガッツ状態を付与(1回・6T・他のガッツ状態と重複可能）",
@@ -249,7 +249,7 @@
       },
       {
         "type": "",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆5ターン後に戦闘不能【デメリット】",

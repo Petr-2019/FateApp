@@ -39,7 +39,7 @@
       "善",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "セイバークラスのサーヴァント",
       "愛する者"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A",
+      "type": "riding", "name": "骑乘A",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -68,12 +68,12 @@
     }
   ],
   "hogu": {
-    "name": "蘭陵王入陣曲(いさましきはかめんのもの、おんようけんびのりょうおうなり)",
-    "card": "a",
+    "name": "蘭陵王入阵曲(いさましきはかめんのもの、おんようけんびのりょうおうなり)",
+    "card": "Arts",
     "effect": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -87,7 +87,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -100,8 +100,8 @@
         "v5": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -115,7 +115,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -128,7 +128,7 @@
         "v5": "1500"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -137,7 +137,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  3,
+        "turn":  3,
         "count": 2,
         "target": "self",
         "desc": "自身に無敵状態を付与(2回・3T)",
@@ -153,8 +153,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体の攻撃力を up [Lv](3T)",
@@ -176,8 +176,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす[Lv]",
@@ -194,7 +194,7 @@
       },
       {
         "type": "強化成功率 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆強化成功率を up [Lv](1T)",
@@ -216,8 +216,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のArts Card 性能を up [Lv](3T)",
@@ -234,7 +234,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆確率でスター発生率を up [Lv](3T) 確率60％",
@@ -251,7 +251,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆確率でクリティカル威力を up [Lv](3T) 確率60％",

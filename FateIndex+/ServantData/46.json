@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断D",
+      "type": "breath_hide", "name": "气息遮断D",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "幻想の鉄処女(ファントム・メイデン)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -87,8 +87,8 @@
         "v5": "200"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -101,8 +101,8 @@
         "v5": "2000"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -123,8 +123,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを中確率で減らす[Lv:確率]",
@@ -140,8 +140,8 @@
         "v10": "80"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋自身のNPを増やす[Lv]",
@@ -163,8 +163,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の防御力をdown[Lv](3T)",
@@ -187,7 +187,7 @@
     "effects": [
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
@@ -203,8 +203,8 @@
         "v10": "50"
       },
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＋自身に毎ターンスター獲得状態を付与[Lv](3T)",

@@ -50,13 +50,13 @@
 			"女",
 			"サーヴァント",
             "人型",
-            "騎乗",
+            "骑乘",
 			"愛する者"
 		]
 	},
 	"classskill": [
 		{
-			"type": "magic_resistance", "name": "対魔力C",
+			"type": "magic_resistance", "name": "对魔力C",
 			"effect": [
 				{
 					"type": "弱体耐性 up",
@@ -66,7 +66,7 @@
 			]
 		},
 		{
-			"type": "riding", "name": "騎乗A",
+			"type": "riding", "name": "骑乘A",
 			"effect": [
 				{
 					"type": "Quick Card 性能 up",
@@ -76,7 +76,7 @@
 			]
         },
         {
-			"type": "breath_hide", "name": "気配遮断A",
+			"type": "breath_hide", "name": "气息遮断A",
 			"effect": [
 				{
 					"type": "スター発生率 up",
@@ -86,7 +86,7 @@
 			]
         },
         {
-			"type": "acting_alone", "name": "単独行動A++",
+			"type": "acting_alone", "name": "单独行动A++",
 			"effect": [
 				{
 					"type": "クリティカル威力 up",
@@ -101,8 +101,8 @@
 		"ct": 7,
 		"effects": [
 			{
-				"type": "攻撃力down",
-				"tern": 3,
+				"type": "atk_down",
+				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",
 				"desc": "敵全体の攻撃力をdown(3T)",
@@ -120,7 +120,7 @@
 			},
 			{
 				"type": "クリティカル発生率down",
-				"tern": 3,
+				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",
 				"desc": "＆クリティカル発生率をdown[Lv](3T)",
@@ -143,8 +143,8 @@
 		"ct": 8,
 		"effects": [
 			{
-				"type": "チャージ減",
-				"tern": 0,
+				"type": "charge_reduce",
+				"turn": 0,
 				"count": 0,
 				"target": "enemy-all",
 				"desc": "敵全体のチャージを減らす",
@@ -161,8 +161,8 @@
 				"condition": ""
 			},
 			{
-				"type": "攻撃力 up",
-				"tern": 3,
+				"type": "atk_up",
+				"turn": 3,
 				"count": 0,
 				"target": "self",
 				"desc": "＋自身の攻撃力を up [Lv](3T)",
@@ -179,8 +179,8 @@
 				"condition": ""
 			},
 			{
-				"type": "攻撃力 up",
-				"tern": 3,
+				"type": "atk_up",
+				"turn": 3,
 				"count": 0,
 				"target": "other-all",
 				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
@@ -197,8 +197,8 @@
 				"condition": ""
             },
             {
-				"type": "NP獲得",
-				"tern": 0,
+				"type": "np_charge",
+				"turn": 0,
 				"count": 0,
 				"target": "self-other",
 				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
@@ -222,7 +222,7 @@
 		"effects": [
 			{
 				"type": "強化成功率 up",
-				"tern": 3,
+				"turn": 3,
 				"count": 0,
 				"target": "other-single",
 				"desc": "味方単体の強化成功率を up [Lv](3T)",
@@ -240,7 +240,7 @@
 			},
 			{
 				"type": "クリティカル威力 up",
-				"tern": 3,
+				"turn": 3,
 				"count": 0,
 				"target": "other-single",
 				"desc": "＆スターが10個以上ある場合、クリティカル威力を up [Lv](3T)",
@@ -258,7 +258,7 @@
 			},
 			{
 				"type": "スター集中 up",
-				"tern": 3,
+				"turn": 3,
 				"count": 0,
 				"target": "other-single",
 				"desc": "＆スターが20個以上ある場合、スター集中度を up [Lv](3T)",
@@ -275,8 +275,8 @@
 				"condition": "star:20"
 			},
 			{
-				"type": "回避付与",
-				"tern": 1,
+				"type": "dodge",
+				"turn": 1,
 				"count": 0,
 				"target": "other-all",
 				"desc": "＆スターが30個以上ある場合、回避状態を付与(1T)",
@@ -294,7 +294,7 @@
 			},
 			{
 				"type": "無敵貫通付与",
-				"tern": 3,
+				"turn": 3,
 				"count": 0,
 				"target": "other-all",
 				"desc": "＆スターが40個以上ある場合、無敵貫通状態を付与(3T)",
@@ -311,8 +311,8 @@
 				"condition": "star:40"
 			},
 			{
-				"type": "NP獲得",
-				"tern": 0,
+				"type": "np_charge",
+				"turn": 0,
 				"count": 0,
 				"target": "other-all",
 				"desc": "＆スターが50個以上ある場合、NPを増やす[Lv]",
@@ -333,12 +333,12 @@
 	"hogu": {
 		"name": "死を招く黒の一手(スペース・デッドマンズ・ハンド)",
 		"type": "single",
-		"card": "q",
+		"card": "Quick",
 		"hit": 5,
 		"effect": [
 			{
 				"type": "必中付与",
-				"tern": 1,
+				"turn": 1,
 				"count": 0,
 				"target": "self",
 				"beforeafter": "before",
@@ -352,8 +352,8 @@
 				"condition": ""
 			},
 			{
-				"type": "防御力down",
-				"tern": 2,
+				"type": "def_down",
+				"turn": 2,
 				"count": 0,
 				"target": "enemy-single",
 				"beforeafter": "before",
@@ -368,7 +368,7 @@
 			},
 			{
 				"type": "Quick Card 耐性down",
-				"tern": 2,
+				"turn": 2,
 				"count": 0,
 				"target": "enemy-single",
 				"beforeafter": "before",
@@ -383,7 +383,7 @@
 			},
 			{
 				"type": "攻撃",
-				"tern": 0,
+				"turn": 0,
 				"count": 0,
 				"target": "enemy-single",
 				"beforeafter": "before",

@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,10 +56,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成A+",
+      "type": "field_build", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
@@ -83,11 +83,11 @@
   ],
   "hogu": {
     "name": "霊峰踏抱く冥府の鞴(クル・キガル・イルカルラ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -101,7 +101,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -114,8 +114,8 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -137,7 +137,7 @@
     "effects": [
       {
         "type": "弱体無効付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に弱体無効状態を付与(1T) [Lv:確率]",
@@ -154,7 +154,7 @@
       },
       {
         "type": "即死無効付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆即死無効状態を付与(1T) [Lv:確率]",
@@ -171,7 +171,7 @@
       },
       {
         "type": "強化解除耐性 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆強化解除耐性を up (1T) [Lv:確率]",
@@ -188,7 +188,7 @@
       },
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆無敵状態を付与(1T)",
@@ -210,8 +210,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -227,8 +227,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -251,7 +251,7 @@
     "effects": [
       {
         "type": "冥界の護り状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体に冥界の護り状態を付与(3T)",
@@ -268,7 +268,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆防御力を up [Lv](3T)",
@@ -284,8 +284,8 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆NP獲得量を up [Lv](3T)",
@@ -302,7 +302,7 @@
       },
       {
         "type": "最大HP up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆最大HPを up [Lv](3T)",

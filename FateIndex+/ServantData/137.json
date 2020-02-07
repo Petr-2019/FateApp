@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "鶴翼三連(かくよくさんれん)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "必中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -98,7 +98,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -119,8 +119,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -137,7 +137,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -159,8 +159,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](1T)",
@@ -177,7 +177,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Quick Card 性能を up [Lv](1T)",
@@ -193,8 +193,8 @@
         "v10": "35"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](1T)",
@@ -216,8 +216,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -234,7 +234,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター発生率を up [Lv](3T)",
@@ -251,7 +251,7 @@
       },
       {
         "type": "強化成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体の〔イリヤ〕の強化成功率を up (3T)",

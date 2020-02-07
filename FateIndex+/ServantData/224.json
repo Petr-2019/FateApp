@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,10 +56,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -103,11 +103,11 @@
   ],
   "hogu": {
     "name": "吼えよ我が友、我が力(オプタテシケ・オキムンペ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -120,8 +120,8 @@
         "v5": "1500"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -135,7 +135,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -148,8 +148,8 @@
         "v5": "40"
       },
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -171,7 +171,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -188,7 +188,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self-other",
         "desc": "＋味方全体に被 damage カット状態を付与[Lv](3回・3T)",
@@ -210,8 +210,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](3T)",
@@ -228,7 +228,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆弱体無効状態を付与(1回・3T)",
@@ -250,8 +250,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を(20%) up (3T) [Lv:確率]",
@@ -267,8 +267,8 @@
         "v10": "80"
       },
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターンスター(10個)獲得状態を付与(3T) [Lv:確率]",
@@ -284,8 +284,8 @@
         "v10": "80"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす [Lv]",

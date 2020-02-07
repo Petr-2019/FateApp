@@ -50,7 +50,7 @@
       "type": "rage_become", "name": "狂化B",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "射殺す百頭(ナインライブズ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -86,8 +86,8 @@
         "v5": "1000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -108,8 +108,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -126,7 +126,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を up [Lv](3T)",
@@ -148,8 +148,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -166,7 +166,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -188,8 +188,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",

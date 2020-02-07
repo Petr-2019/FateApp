@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動C",
+      "type": "acting_alone", "name": "单独行动C",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "凱旋を高らかに告げる虹弓(アルク・ドゥ・トリオンフ・ドゥ・レトワール)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "防御無視付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -87,7 +87,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -101,7 +101,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -118,12 +118,12 @@
     "hit": 5
   },
   "skill1": {
-    "name": "凱旋のカリスマB",
+    "name": "凱旋の领袖气质B",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -139,8 +139,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＋自身の攻撃力を up (1T)",
@@ -162,8 +162,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の宝具威力を up [Lv](1T)",
@@ -180,7 +180,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "＆スター発生率を up [Lv](1T)",
@@ -202,8 +202,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -220,7 +220,7 @@
       },
       {
         "type": "無敵貫通付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆無敵貫通状態を付与(3T)",
@@ -236,8 +236,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターンスター獲得状態を付与[Lv](3T)",

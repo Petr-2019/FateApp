@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,12 +66,12 @@
     }
   ],
   "hogu": {
-    "name": "無限の剣製(アンリミテッドブレイドワークス)",
-    "card": "b",
+    "name": "无限剑制",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -84,8 +84,8 @@
         "v5": "600"
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -106,8 +106,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -124,7 +124,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -147,7 +147,7 @@
     "effects": [
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のスター発生率を up [Lv](3T)",
@@ -164,7 +164,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -186,8 +186,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](1T)",
@@ -204,7 +204,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Quick Card 性能を up [Lv](1T)",
@@ -220,8 +220,8 @@
         "v10": "40"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](1T)",

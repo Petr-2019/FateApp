@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -58,12 +58,12 @@
     }
   ],
   "hogu": {
-    "name": "すべては我が槍に通ずる(マグナ・ウォルイッセ・マグヌム)",
-    "card": "b",
+    "name": "吾枪通达万物",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -76,8 +76,8 @@
         "v5": "500"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -99,7 +99,7 @@
     "effects": [
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
@@ -115,8 +115,8 @@
         "v10": "100"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを大回復[Lv]",
@@ -132,8 +132,8 @@
         "v10": "4000"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす",
@@ -155,8 +155,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
@@ -173,7 +173,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up (3T) [Lv] 確率60％",
@@ -189,8 +189,8 @@
         "v10": "44"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HP回復 [Lv]",
@@ -212,8 +212,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  1,
+        "type": "gatsu",
+        "turn":  1,
         "count": 1,
         "target": "other-single",
         "desc": "味方単体にガッツ状態を付与(1回・1T)",
@@ -229,8 +229,8 @@
         "v10": "1000"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆Buster Card 性能を up [Lv](1T)",

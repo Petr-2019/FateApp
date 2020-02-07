@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "金星神・火炎天主(サナト・クマラ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -83,8 +83,8 @@
         "v5": "900"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -98,7 +98,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -112,7 +112,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -133,8 +133,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のNPを増やす[Lv]",
@@ -156,8 +156,8 @@
     "ct": 10,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  5,
+        "type": "star_gain",
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得状態を付与(5T)",
@@ -173,8 +173,8 @@
         "v10": "5"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆確率で宝具威力を(50%) up [Lv:確率](1T)",
@@ -196,8 +196,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のArts Card 性能を up [Lv](3T)",
@@ -213,8 +213,8 @@
         "v10": "20"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆Buster Card 性能を up [Lv](3T)",
@@ -231,7 +231,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆Quick Card 性能を up [Lv](3T)",

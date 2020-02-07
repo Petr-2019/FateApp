@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断C",
+      "type": "breath_hide", "name": "气息遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "千紫万紅・神便鬼毒(せんしばんこう・しんぺんきどく)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -87,7 +87,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -100,8 +100,8 @@
         "v5": "10"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -114,8 +114,8 @@
         "v5": "10"
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -129,7 +129,7 @@
       },
       {
         "type": "宝具威力down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -143,7 +143,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -157,7 +157,7 @@
       },
       {
         "type": "スキル封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -171,7 +171,7 @@
       },
       {
         "type": "毒状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -185,7 +185,7 @@
       },
       {
         "type": "毒状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -207,7 +207,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "敵全体に確率で魅了状態を付与(1T) 確率60％",
@@ -223,8 +223,8 @@
         "v10": "60"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆防御力をdown[Lv](3T)",
@@ -246,8 +246,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -263,8 +263,8 @@
         "v10": "20"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＋自身の宝具威力を up [Lv](3T)",
@@ -286,8 +286,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",

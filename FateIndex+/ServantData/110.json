@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A",
+      "type": "breath_hide", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "妄想幻像(ザバーニーヤ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -88,7 +88,7 @@
       },
       {
         "type": "Arts Card 耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量を up [Lv](3T)",
@@ -127,7 +127,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター発生率を up [Lv](3T)",
@@ -149,8 +149,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を30％ up (3T) [Lv:確率]",
@@ -166,8 +166,8 @@
         "v10": "80"
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Arts Card 性能を30％ up (3T) [Lv:確率]",
@@ -184,7 +184,7 @@
       },
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Quick Card 性能を30％ up (3T) [Lv:確率]",
@@ -200,8 +200,8 @@
         "v10": "80"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆回避状態を付与(1T)",
@@ -223,8 +223,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のHPを回復[Lv]",
@@ -241,7 +241,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆強化状態を解除【デメリット】",

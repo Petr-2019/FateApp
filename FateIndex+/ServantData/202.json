@@ -49,7 +49,7 @@
       "type": "beast_become", "name": "獣化B",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card 性能を up",
           "magnification": "8"
         },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -73,11 +73,11 @@
   ],
   "hogu": {
     "name": "闇天蝕射(タウロポロス・スキア・セルモクラスィア)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -91,7 +91,7 @@
       },
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -105,7 +105,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -127,7 +127,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -143,8 +143,8 @@
         "v10": "6000"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆スターを獲得[Lv]",
@@ -167,7 +167,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の Quick Card 性能を up [Lv](1T)",
@@ -189,8 +189,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -207,7 +207,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",

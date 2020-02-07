@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -68,7 +68,7 @@
       "type": "outer_life", "name": "領域外の生命B",
       "effect": [
         {
-          "type": "スター獲得",
+          "type": "star_gain",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
@@ -97,11 +97,11 @@
   ],
   "hogu": {
     "name": "Ｃ.Ｃ.Ｃ.(カースド・カッティング・クレーター)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -114,8 +114,8 @@
         "v5": "500"
       },
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -128,8 +128,8 @@
         "v5": ""
       },
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -151,7 +151,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -168,7 +168,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](3T)",
@@ -190,8 +190,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -207,8 +207,8 @@
         "v10": "50"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",
@@ -224,8 +224,8 @@
         "v10": "3000"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](3T)",
@@ -241,8 +241,8 @@
         "v10": "20"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](3T)",
@@ -258,8 +258,8 @@
         "v10": "50"
       },
       {
-        "type": "回避付与",
-        "tern":  3,
+        "type": "dodge",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆回避状態を付与(1回・3T)",
@@ -282,7 +282,7 @@
     "effects": [
       {
         "type": "コマンド Card 固定",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身にパーティ全体の手札を固定する状態<パーティメンバーが変更、または Card がシャッフルされると強制解除>を付与(3T)",
@@ -298,8 +298,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターンスター獲得状態を付与(3T) [Lv]",

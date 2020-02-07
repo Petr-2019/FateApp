@@ -45,10 +45,10 @@
 	},
 	"classskill": [
 		{
-			"type": "field_build", "name": "陣地作成A",
+			"type": "field_build", "name": "阵地作成A",
 			"effect": [
 				{
-					"type": "Arts Card 性能 up",
+					"type": "arts_up",
 					"magnification": "10",
 					"desc": "自身のArts Card の性能を up"
 				}
@@ -70,8 +70,8 @@
 		"ct": 10,
 		"effects": [
 			{
-				"type": "NP獲得",
-				"tern": 0,
+				"type": "np_charge",
+				"turn": 0,
 				"count": 0,
 				"target": "self",
 				"desc": "自身のNPをすごく増やす[Lv]",
@@ -93,8 +93,8 @@
 		"ct": 9,
 		"effects": [
 			{
-				"type": "Arts Card 性能 up",
-				"tern": 3,
+				"type": "arts_up",
+				"turn": 3,
 				"count": 0,
 				"target": "self-other",
 				"desc": "味方全体のArts Card 性能を up [Lv](3T)",
@@ -116,8 +116,8 @@
 		"ct": 10,
 		"effects": [
 			{
-				"type": "ガッツ付与",
-				"tern": 3,
+				"type": "gatsu",
+				"turn": 3,
 				"count": 1,
 				"target": "other-single",
 				"desc": "味方単体にガッツ状態(1回・3T)を付与[Lv]",
@@ -133,8 +133,8 @@
 				"v10": "3000"
 			},
 			{
-				"type": "NP獲得量 up",
-				"tern": 3,
+				"type": "np_gain_up",
+				"turn": 3,
 				"count": 0,
 				"target": "other-single",
 				"desc": "NP獲得 up 状態を付与[Lv](3T)",
@@ -154,12 +154,12 @@
 	"hogu": {
 		"name": "元素使いの魔剣(ソード・オブ・パラケルスス)",
 		"type": "all",
-		"card": "a",
+		"card": "Arts",
 		"hit": 3,
 		"effect": [
 			{
 				"type": "攻撃",
-				"tern": 0,
+				"turn": 0,
 				"count": 0,
 				"target": "enemy-all",
 				"beforeafter": "before",
@@ -172,8 +172,8 @@
 				"v5": "600"
 			},
 			{
-				"type": "攻撃力down",
-				"tern": 3,
+				"type": "atk_down",
+				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",
 				"beforeafter": "after",

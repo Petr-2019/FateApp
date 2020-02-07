@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断D",
+      "type": "breath_hide", "name": "气息遮断D",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "死は明日への希望なり(ラモール・エスポワール)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -87,8 +87,8 @@
         "v5": "80"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に〔悪〕特攻状態を付与[Lv](3T)",
@@ -132,8 +132,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHPを大回復[Lv]",
@@ -149,8 +149,8 @@
         "v10": "3000"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "＆弱体状態を解除",
@@ -172,8 +172,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に〔人間〕特攻状態を付与[Lv](3T)",

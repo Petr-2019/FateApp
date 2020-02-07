@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A+",
+      "type": "acting_alone", "name": "单独行动A+",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -65,10 +65,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -77,11 +77,11 @@
   ],
   "hogu": {
     "name": "唯識・歪曲の魔眼(ゆいしき・わいきょくのまがん)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -95,7 +95,7 @@
       },
       {
         "type": "強化無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -108,8 +108,8 @@
         "v5": ""
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -130,8 +130,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](3T)",
@@ -148,7 +148,7 @@
       },
       {
         "type": "防御無視付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御無視状態を付与(3T)",
@@ -164,8 +164,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量 up [Lv](3T)",
@@ -188,7 +188,7 @@
     "effects": [
       {
         "type": "必中付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に必中状態を付与(3T)",
@@ -204,8 +204,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆スター獲得[Lv]",
@@ -228,7 +228,7 @@
     "effects": [
       {
         "type": "最大HPdown",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に最大HPが2000減る状態を付与(3T)【デメリット】",
@@ -245,7 +245,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆被 damage カット状態を付与[Lv](3T)",
@@ -261,8 +261,8 @@
         "v10": "2000"
       },
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆ガッツ状態を付与(1回・3T)",

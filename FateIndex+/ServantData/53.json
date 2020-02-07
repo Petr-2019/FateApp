@@ -48,7 +48,7 @@
       "type": "rage_become", "name": "狂化B",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "万古不易の迷宮(ケイオス・ラビュリントス)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "攻撃力down",
-        "tern":  6,
+        "type": "atk_down",
+        "turn":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,8 +74,8 @@
         "v5": "20"
       },
       {
-        "type": "防御力down",
-        "tern":  6,
+        "type": "def_down",
+        "turn":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -88,8 +88,8 @@
         "v5": "30"
       },
       {
-        "type": "攻撃力down",
-        "tern":  1,
+        "type": "atk_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -102,8 +102,8 @@
         "v5": "40"
       },
       {
-        "type": "防御力down",
-        "tern":  1,
+        "type": "def_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
         "v5": "40"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -124,8 +124,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -148,7 +148,7 @@
     "effects": [
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
@@ -165,7 +165,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -188,7 +188,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -204,8 +204,8 @@
         "v10": "6000"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](1T)",

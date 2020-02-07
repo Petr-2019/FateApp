@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "復讐者A",
+      "type": "avenger", "name": "复仇者A",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -72,7 +72,7 @@
       "type": "magic_self_recover", "name": "自己回復(魔力)D",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3"
         }
@@ -81,11 +81,11 @@
   ],
   "hogu": {
     "name": "虎よ、煌々と燃え盛れ(アンフェル・シャトー・ディフ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -98,8 +98,8 @@
         "v5": "1200"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -113,7 +113,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -127,7 +127,7 @@
       },
       {
         "type": "呪厄付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -149,7 +149,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -165,8 +165,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](1T)",
@@ -183,7 +183,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up [Lv](3T)",
@@ -205,8 +205,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量 up [Lv](3T)",
@@ -228,8 +228,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを減らす",
@@ -245,8 +245,8 @@
         "v10": ""
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "+ 自身の弱体状態を解除",
@@ -262,8 +262,8 @@
         "v10": ""
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "+ スターを獲得[Lv]",

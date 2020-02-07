@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -68,11 +68,11 @@
   ],
   "hogu": {
     "name": "灼き尽くす炎の檻(ウィッカーマン)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -86,7 +86,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -99,8 +99,8 @@
         "v5": "600"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -114,7 +114,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  0,
+        "turn":  0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -153,7 +153,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up [Lv](3T)",
@@ -169,8 +169,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -192,8 +192,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "回避付与",
-        "tern": 0,
+        "type": "dodge",
+        "turn": 0,
         "count": 3,
         "target": "self",
         "desc": "自身に回避状態を付与(3回)",
@@ -210,7 +210,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -232,8 +232,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身の弱体状態を解除",
@@ -249,8 +249,8 @@
         "v10": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",

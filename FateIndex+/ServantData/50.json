@@ -48,7 +48,7 @@
       "type": "rage_become", "name": "狂化EX",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "疵獣の咆吼(クライング・ウォーモンガー)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,8 +74,8 @@
         "v5": "600"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -96,8 +96,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "HP回復",
-        "tern":  5,
+        "type": "hp_regen",
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンHP回復状態を付与[Lv](5T)",
@@ -119,8 +119,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与(1回・5T)",
@@ -136,8 +136,8 @@
         "v10": "1"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -159,8 +159,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -176,8 +176,8 @@
         "v10": "40"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",

@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -72,11 +72,11 @@
   ],
   "hogu": {
     "name": "女神の抱擁(カレス・オブ・ザ・メドゥーサ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -90,7 +90,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -104,7 +104,7 @@
       },
       {
         "type": "Quick Card 耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -126,7 +126,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)",
@@ -143,7 +143,7 @@
       },
       {
         "type": "Quick Card 耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＋敵単体のQuick攻撃耐性をdown[Lv](3T)",
@@ -165,8 +165,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](1T)",
@@ -188,8 +188,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
@@ -206,7 +206,7 @@
       },
       {
         "type": "無敵付与",
-        "tern": 0,
+        "turn": 0,
         "count": 1,
         "target": "self",
         "desc": "＆無敵状態を付与(1回)",

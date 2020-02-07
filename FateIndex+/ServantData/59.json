@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力EX",
+      "type": "magic_resistance", "name": "对魔力EX",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "我が神はここにありて(リュミノジテ・エテルネッル)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -88,8 +88,8 @@
         "v5": "25"
       },
       {
-        "type": "HP回復",
-        "tern":  2,
+        "type": "hp_regen",
+        "turn":  2,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -102,8 +102,8 @@
         "v5": "3000"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
         "v5": ""
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -124,8 +124,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得を付与[Lv](3T)",
@@ -148,7 +148,7 @@
     "effects": [
       {
         "type": "宝具威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔サーヴァント〕の宝具威力を大down[Lv](1T)",
@@ -171,7 +171,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔サーヴァント〕を確率で行動不能状態にする[Lv:確率](1T)",

@@ -39,14 +39,14 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A",
+      "type": "riding", "name": "骑乘A",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -78,11 +78,11 @@
   ],
   "hogu": {
     "name": "死がふたりを分断つまで(ブリュンヒルデ・ロマンシア)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -131,8 +131,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -148,8 +148,8 @@
         "v10": "25"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](1T)",
@@ -172,7 +172,7 @@
     "effects": [
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
@@ -189,7 +189,7 @@
       },
       {
         "type": "宝具威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆宝具威力をdown[Lv](1T)",
@@ -212,7 +212,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のスター集中度を up [Lv](3T)",
@@ -229,7 +229,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -245,8 +245,8 @@
         "v10": "40"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "＆HPを回復[Lv]",

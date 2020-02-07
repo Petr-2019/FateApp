@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A",
+      "type": "breath_hide", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -68,11 +68,11 @@
   ],
   "hogu": {
     "name": "穢れを漱げ、青く美しきナイル(スネフェル・イオテル・ナイル)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -86,7 +86,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -99,8 +99,8 @@
         "v5": "750"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -122,7 +122,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の防御力を大 up (1T)",
@@ -139,7 +139,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -156,7 +156,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up (3T)",
@@ -179,7 +179,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -196,7 +196,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "＆被 damage カット状態を付与[Lv](3回、5T)",
@@ -218,8 +218,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -235,8 +235,8 @@
         "v10": "30"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](3T)",
@@ -252,8 +252,8 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](3T)",

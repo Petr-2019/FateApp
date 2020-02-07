@@ -40,13 +40,13 @@
       "女",
       "サーヴァント",
       "人型",
-      "騎乗スキル",
+      "骑乘スキル",
       ""
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -66,10 +66,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -77,12 +77,12 @@
     }
   ],
   "hogu": {
-    "name": "混元一陣(かたらずのじん)",
-    "card": "a",
+    "name": "混元一阵(かたらずのじん)",
+    "card": "Arts",
     "effect": [
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -110,7 +110,7 @@
       },
       {
         "type": "クラス相性の防御不利を打ち消す状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -123,8 +123,8 @@
         "v5": ""
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -137,7 +137,7 @@
         "v5": ""
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -146,7 +146,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の防御力を up [Lv](3T)",
@@ -163,7 +163,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆被 damage カット状態を付与[Lv](3T)",
@@ -179,8 +179,8 @@
         "v10": "400"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆NPを少し増やす",
@@ -202,8 +202,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のNPを増やす",
@@ -219,8 +219,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆攻撃力を up [Lv](3T)",
@@ -236,8 +236,8 @@
         "v10": "40"
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＋自身の攻撃力をdown(3T)【デメリット】",
@@ -260,7 +260,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  3,
+        "turn":  3,
         "count": 2,
         "target": "other-single",
         "desc": "味方単体に無敵状態を付与(2回・3T)",
@@ -277,7 +277,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆弱体耐性を up [Lv](3T)",

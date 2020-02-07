@@ -39,7 +39,7 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性",
       "王"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗EX",
+      "type": "riding", "name": "骑乘EX",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -84,11 +84,11 @@
   ],
   "hogu": {
     "name": "炎、神をも灼き尽くせ(シウ・コアトル)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -102,7 +102,7 @@
       },
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -116,7 +116,7 @@
       },
       {
         "type": "やけど状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -133,12 +133,12 @@
     "hit": 1
   },
   "skill1": {
-    "name": "カリスマA+",
+    "name": "领袖气质A+",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -160,8 +160,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "other-single",
         "desc": "味方単体にガッツ状態を付与(1回・3T)",
@@ -177,8 +177,8 @@
         "v10": "1000"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆Buster Card 性能を up [Lv](3T)",
@@ -201,7 +201,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -218,7 +218,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -234,8 +234,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

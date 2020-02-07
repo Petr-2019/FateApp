@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力EX",
+      "type": "magic_resistance", "name": "对魔力EX",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "荒れ狂う哀しき竜よ(タラスク)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "防御力down",
-        "tern":  1,
+        "type": "def_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -95,8 +95,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -112,8 +112,8 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆〔水辺〕のあるフィールドにおいてのみ、自身の攻撃力を up [Lv](3T)",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "弱体無効付与",
-        "tern": 0,
+        "turn": 0,
         "count": 1,
         "target": "self",
         "desc": "自身に弱体無効状態を付与(1回)",
@@ -152,8 +152,8 @@
         "v10": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",
@@ -175,8 +175,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  1,
+        "type": "special_attack_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に〔神性と悪魔と死霊〕特攻状態を付与[Lv](1T)",

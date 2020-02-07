@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -79,12 +79,12 @@
       "type": "root_consist", "name": "根源接続A",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card 性能を少し up",
           "magnification": "6"
         },
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card 性能を少し up",
           "magnification": "6"
         },
@@ -98,11 +98,11 @@
   ],
   "hogu": {
     "name": "無垢識・空の境界(むくしき・からのきょうかい)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -129,8 +129,8 @@
         "v5": "100"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -143,8 +143,8 @@
         "v5": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -166,7 +166,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -182,8 +182,8 @@
         "v10": ""
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Arts Card 性能を up [Lv](1T)",
@@ -200,7 +200,7 @@
       },
       {
         "type": "即死耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "＋敵全体の即死耐性をdown[Lv](1T)",
@@ -222,8 +222,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -240,7 +240,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を up [Lv](3T)",
@@ -262,8 +262,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のHPを回復[Lv]",
@@ -280,7 +280,7 @@
       },
       {
         "type": "NP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPが減少【デメリット】",

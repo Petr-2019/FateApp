@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -72,11 +72,11 @@
   ],
   "hogu": {
     "name": "白き聖杯よ、謳え(ソング・オブ・グレイル)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -89,8 +89,8 @@
         "v5": "3000"
       },
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self-other",
         "beforeafter": "before",
@@ -103,7 +103,7 @@
         "v5": "3000"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -112,7 +112,7 @@
     "effects": [
       {
         "type": "与回復量 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の与回復量を up [Lv](1T)",
@@ -135,7 +135,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -151,8 +151,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](3T)",
@@ -174,8 +174,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHPを回復[Lv]",

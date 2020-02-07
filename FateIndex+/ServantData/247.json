@@ -48,7 +48,7 @@
       "type": "rage_become", "name": "狂化EX",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -67,11 +67,11 @@
   ],
   "hogu": {
     "name": "帰滅を裁定せし廻剣(マハー・プララヤ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "Buster Card 耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -85,7 +85,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -102,12 +102,12 @@
     "hit": 5
   },
   "skill1": {
-    "name": "対邪悪(特殊)EX",
+    "name": "对邪悪(特殊)EX",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -123,8 +123,8 @@
         "v10": "30"
       },
       {
-        "type": "弱体解除",
-        "tern":  3,
+        "type": "debuff_cure",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆〔弱体状態(解除不能な状態は除く)〕特攻状態を付与[Lv](3T)",
@@ -147,7 +147,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card のスター集中度を up [Lv](3T)",
@@ -163,8 +163,8 @@
         "v10": "6000"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -186,8 +186,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態(1回・3T)を付与[Lv]",
@@ -203,8 +203,8 @@
         "v10": "2000"
       },
       {
-        "type": "HP回復",
-        "tern":  3,
+        "type": "hp_regen",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターンHP回復状態を付与[Lv](3T)",

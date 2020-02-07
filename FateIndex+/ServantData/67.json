@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成B",
+      "type": "field_build", "name": "阵地作成B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -67,11 +67,11 @@
   ],
   "hogu": {
     "name": "修補すべき全ての疵(ペインブレイカー)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -84,8 +84,8 @@
         "v5": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -99,7 +99,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -112,7 +112,7 @@
         "v5": "120"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -120,8 +120,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPをものすごく増やす[Lv]",
@@ -144,7 +144,7 @@
     "effects": [
       {
         "type": "毒状態解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の毒状態を解除",
@@ -160,8 +160,8 @@
         "v10": ""
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆HPを回復[Lv]",
@@ -183,8 +183,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "HP回復",
-        "tern":  1,
+        "type": "hp_regen",
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHP回復量を up [Lv](1T)",
@@ -201,7 +201,7 @@
       },
       {
         "type": "強化解除耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆強化解除耐性を up [Lv](3T)",

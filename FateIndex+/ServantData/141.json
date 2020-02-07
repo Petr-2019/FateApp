@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A+",
+      "type": "magic_resistance", "name": "对魔力A+",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "優雅に歌え、かの聖誕を(ラ・グラスフィーユ・ノエル)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -88,8 +88,8 @@
         "v5": "10"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -102,8 +102,8 @@
         "v5": "30"
       },
       {
-        "type": "HP回復",
-        "tern":  1,
+        "type": "hp_regen",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -124,8 +124,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHPを大回復[Lv]",
@@ -142,7 +142,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "＆スター発生率 up (3T)",
@@ -164,8 +164,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす",
@@ -182,7 +182,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up [Lv](3T)",
@@ -204,8 +204,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -222,7 +222,7 @@
       },
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆無敵状態を付与(1T)",
@@ -239,7 +239,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを減少【デメリット】",

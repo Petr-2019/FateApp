@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -78,11 +78,11 @@
   ],
   "hogu": {
     "name": "冥鏡宝典(アンプゥ・ネブ・タ・ジェセル)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -110,7 +110,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -132,7 +132,7 @@
     "effects": [
       {
         "type": "即死付与成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の即死付与成功率を up [Lv](3T)",
@@ -148,8 +148,8 @@
         "v10": "100"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",
@@ -171,8 +171,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPをものすごく増やす[Lv]",
@@ -194,8 +194,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
@@ -211,8 +211,8 @@
         "v10": "2000"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆弱体状態を解除",

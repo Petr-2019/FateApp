@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "復讐者B",
+      "type": "avenger", "name": "复仇者B",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -72,7 +72,7 @@
       "type": "magic_self_recover", "name": "自己回復(魔力)A",
       "effect": [
         {
-          "type": "NP獲得状態付与",
+          "type": "np_gain_each_turn",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3.8"
         }
@@ -81,11 +81,11 @@
   ],
   "hogu": {
     "name": "強制封印・万魔神殿(パンデモニウム・ケトゥス)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -99,7 +99,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -112,8 +112,8 @@
         "v5": "3000"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -134,8 +134,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  2,
+        "type": "atk_up",
+        "turn":  2,
         "count": 4,
         "target": "self",
         "desc": "自身の攻撃力を大 up [Lv](4回・2T)",
@@ -152,7 +152,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card のスター集中度を up [Lv](1T)",
@@ -174,8 +174,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  5,
+        "type": "gatsu",
+        "turn":  5,
         "count": 1,
         "target": "self",
         "desc": "自身にガッツ状態を付与[Lv](1回・5T)",
@@ -192,7 +192,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -215,7 +215,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体を確率で行動不能状態にする[Lv:確率](1T)",

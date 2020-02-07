@@ -39,7 +39,7 @@
       "中庸",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "アルトリア顔",
       "セイバークラスのサーヴァント"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力E",
+      "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗E",
+      "type": "riding", "name": "骑乘E",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "無明三段突き(むみょうさんだんづき)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -86,8 +86,8 @@
         "v5": "2000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -109,7 +109,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](1T)",
@@ -132,7 +132,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を大 up [Lv](1T)",
@@ -154,8 +154,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -172,7 +172,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",

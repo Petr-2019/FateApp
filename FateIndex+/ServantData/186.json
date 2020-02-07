@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D+",
+      "type": "magic_resistance", "name": "对魔力D+",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "朧裏月十一式(おぼろうらづきじゅういちしき)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -89,7 +89,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -103,7 +103,7 @@
       },
       {
         "type": "即死無効付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -116,8 +116,8 @@
         "v5": ""
       },
       {
-        "type": "回避付与",
-        "tern": 0,
+        "type": "dodge",
+        "turn": 0,
         "count": 1,
         "target": "self",
         "beforeafter": "before",
@@ -130,7 +130,7 @@
         "v5": ""
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -139,7 +139,7 @@
     "effects": [
       {
         "type": "必中付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に必中状態を付与(3T)",
@@ -156,7 +156,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター発生率を up [Lv](3T)",
@@ -179,7 +179,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](1T)",
@@ -196,7 +196,7 @@
       },
       {
         "type": "精神異常耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆精神異常耐性を大 up (3T)",
@@ -219,7 +219,7 @@
     "effects": [
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に宝具封印状態を付与(1T)",
@@ -235,8 +235,8 @@
         "v10": ""
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆防御力down[Lv](3T)",

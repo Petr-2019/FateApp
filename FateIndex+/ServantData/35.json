@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成C+",
+      "type": "field_build", "name": "阵地作成C+",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "7"
         }
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "微睡む爆弾(チクタク・ボム)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -105,8 +105,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体のチャージを中確率で減らす[Lv:確率]",
@@ -128,8 +128,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得状態を付与[Lv](3T)",
@@ -145,8 +145,8 @@
         "v10": "3"
       },
       {
-        "type": "防御力down",
-        "tern": 0,
+        "type": "def_down",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆防御力をdown【デメリット】",
@@ -169,7 +169,7 @@
     "effects": [
       {
         "type": "強化無効付与",
-        "tern": 0,
+        "turn": 0,
         "count": 3,
         "target": "enemy-single",
         "desc": "敵単体に強化無効状態を付与(3回)",
@@ -186,7 +186,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆呪い状態を付与[Lv](5T)",

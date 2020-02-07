@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動EX",
+      "type": "acting_alone", "name": "单独行动EX",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -69,7 +69,7 @@
       "type": "symbol_of_anger", "name": "憤怒の化身EX",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card 性能を少し up",
           "magnification": "5"
         },
@@ -98,11 +98,11 @@
   ],
   "hogu": {
     "name": "転輪よ、憤炎を巻き起こせ(スダルシャンチャクラ・ヤムラージ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -116,7 +116,7 @@
       },
       {
         "type": "絆獲得量 up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -130,7 +130,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -152,7 +152,7 @@
     "effects": [
       {
         "type": "無敵付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵状態を付与(1T)",
@@ -168,8 +168,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",
@@ -191,8 +191,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](3T)",
@@ -208,8 +208,8 @@
         "v10": "30"
       },
       {
-        "type": "防御力down",
-        "tern":  5,
+        "type": "def_down",
+        "turn":  5,
         "count": 3,
         "target": "enemy-single",
         "desc": "＆Buster Card による攻撃時に敵単体に防御力down[Lv](3T)を付与する状態を付与(3回・5T)",
@@ -232,7 +232,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -249,7 +249,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "＆Quick Card による攻撃時に自身にクリティカル威力 up [Lv](3T)を付与する状態を付与(3回・5T)",

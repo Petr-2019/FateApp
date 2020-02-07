@@ -39,14 +39,14 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A++",
+      "type": "riding", "name": "骑乘A++",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -78,11 +78,11 @@
   ],
   "hogu": {
     "name": "愛知らぬ哀しき竜よ(タラスク)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -109,8 +109,8 @@
         "v5": "600"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -132,7 +132,7 @@
     "effects": [
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の弱体耐性を up [Lv](3T)",
@@ -148,8 +148,8 @@
         "v10": "100"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを大回復[Lv]",
@@ -171,8 +171,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のHPを回復[Lv]",
@@ -188,8 +188,8 @@
         "v10": "2000"
       },
       {
-        "type": "弱体解除",
-        "tern": 0,
+        "type": "debuff_cure",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆弱体状態を解除",
@@ -212,7 +212,7 @@
     "effects": [
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の強化状態を解除",
@@ -228,8 +228,8 @@
         "v10": ""
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆防御力をdown[Lv](3T)",

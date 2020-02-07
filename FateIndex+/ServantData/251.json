@@ -47,7 +47,7 @@
       "type": "rage_become", "name": "狂化D",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "人間無骨(にんげんむこつ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -87,8 +87,8 @@
         "v5": "1000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -127,7 +127,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を大 up (3T)",
@@ -144,7 +144,7 @@
       },
       {
         "type": "強化成功率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆強化成功率を大down<強化扱い>(3T)【デメリット】",
@@ -167,7 +167,7 @@
     "effects": [
       {
         "type": "",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "自身の攻撃時に追加効果が発生する状態を付与(3回・3T)",
@@ -183,8 +183,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "<追加効果> 自身の攻撃力 up (3T)[Lv]",
@@ -200,8 +200,8 @@
         "v10": "15"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "<追加効果> ＆防御力down(3T)【デメリット】",
@@ -224,7 +224,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身にスター集中状態を付与[Lv](1T)",
@@ -240,8 +240,8 @@
         "v10": "5000"
       },
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆「自身がやられた時にスターを獲得する状態」を付与(3T)",

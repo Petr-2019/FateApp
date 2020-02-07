@@ -47,7 +47,7 @@
       "type": "aggressive_become", "name": "凶化A+",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card 性能を up",
           "magnification": "8"
         },
@@ -61,11 +61,11 @@
   ],
   "hogu": {
     "name": "力抜山兮氣蓋世(ばつざんがいせい)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -79,7 +79,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -100,8 +100,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -118,7 +118,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -141,7 +141,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -157,8 +157,8 @@
         "v10": "30"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](3T)",
@@ -175,7 +175,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](1T)",
@@ -197,8 +197,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得状態を付与[Lv](3T)",
@@ -215,7 +215,7 @@
       },
       {
         "type": "無敵貫通付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆無敵貫通状態を付与(3T)",

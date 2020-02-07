@@ -26,12 +26,22 @@ class ClassSkillDetailViewController: UIViewController {
 
         imageView.image = UIImageUtility.classSkillImage(named: classSkill.type)
         view.addSubview(imageView)
-        view.backgroundColor = .white
+        if traitCollection.userInterfaceStyle == .dark {
+            view.backgroundColor = .black
+        }
+        else if traitCollection.userInterfaceStyle == .light {
+            view.backgroundColor = .white
+        }
+
         title = classSkill.name
 
         view.addSubview(label)
+        var text = ""
+        classSkill.effect.forEach { text += $0.desc + " " + $0.magnification + "%\n" }
 
-        // label.text = classSkill.effect[0].
+        label.text = text
+        label.textAlignment = .center
+        label.numberOfLines = 0
     }
 
     required init?(coder: NSCoder) {
@@ -44,5 +54,8 @@ class ClassSkillDetailViewController: UIViewController {
         let imageX = (view.bounds.width - Constants.imageSize) / 2
         let imageY = view.safeAreaInsets.top + Constants.topMargin
         imageView.frame = CGRect(x: imageX, y: imageY, width: Constants.imageSize, height: Constants.imageSize)
+
+        let labelSize = label.sizeThatFits(CGSize(width: view.bounds.width - 20.0, height: CGFloat.greatestFiniteMagnitude))
+        label.frame = CGRect(x: 10.0, y: (imageY + Constants.imageSize + 10.0), width: (view.bounds.width - 20.0), height: labelSize.height)
     }
 }

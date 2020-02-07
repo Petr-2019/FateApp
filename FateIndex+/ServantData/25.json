@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力E",
+      "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,12 +55,12 @@
     }
   ],
   "hogu": {
-    "name": "アン女王の復讐(クイーンアンズ・リベンジ)",
-    "card": "b",
+    "name": "安妮女王之复仇",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -73,8 +73,8 @@
         "v5": "600"
       },
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -87,8 +87,8 @@
         "v5": "80"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の宝具威力を up [Lv](1T)",
@@ -126,8 +126,8 @@
         "v10": "16"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "＆攻撃力を up [Lv](1T)",
@@ -149,8 +149,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -166,8 +166,8 @@
         "v10": "27"
       },
       {
-        "type": "ガッツ付与",
-        "tern": 0,
+        "type": "gatsu",
+        "turn": 0,
         "count": 1,
         "target": "self",
         "desc": "＆ガッツ状態を付与(1回)",
@@ -184,7 +184,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性をdown(3T)【デメリット】",
@@ -206,8 +206,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のHPを回復[Lv]",
@@ -223,8 +223,8 @@
         "v10": "2000"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＋自身を除く味方全体の〔女性〕のHPを回復[Lv]",

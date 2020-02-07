@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "妄想毒身(ザバーニーヤ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "毒状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "スキル封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -98,7 +98,7 @@
       },
       {
         "type": "宝具封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -112,7 +112,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -126,7 +126,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -147,8 +147,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の宝具チャージを減らす",
@@ -165,7 +165,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆クリティカル発生率をdown[Lv](3T)",
@@ -188,7 +188,7 @@
     "effects": [
       {
         "type": "毒状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に毒状態を付与(5T)",
@@ -205,7 +205,7 @@
       },
       {
         "type": "毒状態付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆蝕毒状態を付与(5T)",
@@ -221,8 +221,8 @@
         "v10": "100"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スターを獲得[Lv]",
@@ -245,7 +245,7 @@
     "effects": [
       {
         "type": "即死付与成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の即死付与成功率を up [Lv](3T)",
@@ -262,7 +262,7 @@
       },
       {
         "type": "弱体付与成功率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体成功率を up [Lv](3T)",

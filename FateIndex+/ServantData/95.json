@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力E",
+      "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -78,11 +78,11 @@
   ],
   "hogu": {
     "name": "王の財宝(ゲート・オブ・バビロン)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
       },
       {
         "type": "宝具威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -110,7 +110,7 @@
       },
       {
         "type": "クリティカル威力down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -124,7 +124,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -141,12 +141,12 @@
     "hit": 10
   },
   "skill1": {
-    "name": "カリスマA+",
+    "name": "领袖气质A+",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -169,7 +169,7 @@
     "effects": [
       {
         "type": "魅了状態付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
@@ -191,8 +191,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量 up [Lv](3T)",

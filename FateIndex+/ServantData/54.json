@@ -49,7 +49,7 @@
       "type": "rage_become", "name": "狂化A+",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "11"
         }
@@ -58,11 +58,11 @@
   ],
   "hogu": {
     "name": "我が心を喰らえ、月の光(フルクティクルス・ディアーナ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "スキル封印付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -76,7 +76,7 @@
       },
       {
         "type": "宝具封印付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -89,7 +89,7 @@
         "v5": "90"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -97,8 +97,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",
@@ -114,8 +114,8 @@
         "v10": "30"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力をdown(3T)【デメリット】",
@@ -137,8 +137,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力 up (3T) [Lv] 確率60％",
@@ -155,7 +155,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up (3T) [Lv] 確率60％",
@@ -171,8 +171,8 @@
         "v10": "40"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HP回復 [Lv]",
@@ -194,8 +194,8 @@
     "ct": 5,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -212,7 +212,7 @@
       },
       {
         "type": "HP減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPが減少【デメリット】",

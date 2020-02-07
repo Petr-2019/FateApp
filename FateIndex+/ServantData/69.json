@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -67,11 +67,11 @@
   ],
   "hogu": {
     "name": "三千世界(さんだんうち)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -85,12 +85,12 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔騎乗スキル〕特攻<OC:特攻威力 up >",
+        "desc": "＆〔骑乘スキル〕特攻<OC:特攻威力 up >",
         "v1": "150",
         "v2": "162.5",
         "v3": "175",
@@ -106,8 +106,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のNP獲得量を up [Lv](3T)",
@@ -129,8 +129,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  1,
+        "type": "special_attack_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に〔神性〕特攻状態を付与[Lv](1T)",
@@ -153,7 +153,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](3T)",
@@ -170,7 +170,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",

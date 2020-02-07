@@ -39,7 +39,7 @@
       "中庸",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "愛する者",
       "猛獣"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "騎乗EX",
+      "type": "riding", "name": "骑乘EX",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -59,11 +59,11 @@
   ],
   "hogu": {
     "name": "偽・軍神五兵(イミテーション・ゴッド・フォース)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -77,7 +77,7 @@
       },
       {
         "type": "スキル封印付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -99,7 +99,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3回・5T)",
@@ -116,7 +116,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "＆スター発生率を up [Lv](3回・5T)",
@@ -139,7 +139,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up (1T) [Lv]",
@@ -156,7 +156,7 @@
       },
       {
         "type": "",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "集中度",
@@ -173,7 +173,7 @@
       },
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆無敵貫通状態を付与(1T) [Lv:確率]",
@@ -189,8 +189,8 @@
         "v10": "80"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆回避状態を付与(1T)",
@@ -213,7 +213,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3回・5T)",
@@ -229,8 +229,8 @@
         "v10": "30"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  5,
+        "type": "atk_up",
+        "turn":  5,
         "count": 3,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](3回・5T)",

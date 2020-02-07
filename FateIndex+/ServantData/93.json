@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力A",
+      "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "双腕・零次集束(ツインアーム・ビッグクランチ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -88,7 +88,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern":  3,
+        "type": "star_gain",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンスター獲得を付与[Lv](3T)",
@@ -132,8 +132,8 @@
     "ct": 12,
     "effects": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔死霊と悪魔〕のチャージを減らす",
@@ -149,8 +149,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得",
-        "tern":  5,
+        "type": "np_charge",
+        "turn":  5,
         "count": 0,
         "target": "self",
         "desc": "＋自身のNPを毎ターン増やす[Lv](5T)",
@@ -173,7 +173,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体〔サーヴァント〕を確率で行動不能状態にする[Lv:確率](1T)",
@@ -189,8 +189,8 @@
         "v10": "100"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＋自身のBuster Card 性能を up [Lv](3T)",

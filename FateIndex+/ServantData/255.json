@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動EX",
+      "type": "acting_alone", "name": "单独行动EX",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "輝かしき終天の一矢(トロイア・ヴェロス)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -87,7 +87,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -101,7 +101,7 @@
       },
       {
         "type": "威力 up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -122,8 +122,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 1,
         "target": "self",
         "desc": "自身に回避状態を付与(1回・1T)",
@@ -140,7 +140,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "＋敵単体のクリティカル発生率をdown[Lv](1T)",
@@ -157,7 +157,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆強化状態を解除",
@@ -174,7 +174,7 @@
       },
       {
         "type": "(急所判明)状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆解除に成功した場合、〔急所判明〕状態を付与(3T)",
@@ -196,8 +196,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](1T)",
@@ -214,7 +214,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -231,7 +231,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up (3T)",
@@ -253,8 +253,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -270,8 +270,8 @@
         "v10": "20"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",

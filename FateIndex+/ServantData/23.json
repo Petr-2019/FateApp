@@ -39,14 +39,14 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗A+",
+      "type": "riding", "name": "骑乘A+",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動C",
+      "type": "acting_alone", "name": "单独行动C",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -87,12 +87,12 @@
     }
   ],
   "hogu": {
-    "name": "騎英の手綱(ベルレフォーン)",
-    "card": "q",
+    "name": "骑英之缰绳",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -106,7 +106,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -120,7 +120,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -142,7 +142,7 @@
     "effects": [
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体を確率で行動不能状態にする[Lv:確率](1T)",
@@ -164,8 +164,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  2,
+        "type": "atk_up",
+        "turn":  2,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](2T)",
@@ -187,8 +187,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす",
@@ -204,8 +204,8 @@
         "v10": "20"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆NP獲得量を up [Lv](3T)",

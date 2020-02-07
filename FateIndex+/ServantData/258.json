@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成C",
+      "type": "field_build", "name": "阵地作成C",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
@@ -65,12 +65,12 @@
     }
   ],
   "hogu": {
-    "name": "掎角一陣(きかくいちじん)",
-    "card": "a",
+    "name": "掎角一阵(きかくいちじん)",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "威力 up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -98,7 +98,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "beforeafter": "after",
@@ -120,7 +120,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体に target 集中状態を付与(1T)",
@@ -137,7 +137,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＋敵全体のクリティカル発生率をdown[Lv](3T)",
@@ -160,7 +160,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の防御力を up [Lv](3T)",
@@ -177,7 +177,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆被 damage カット状態を付与[Lv](3T)",
@@ -193,8 +193,8 @@
         "v10": "350"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆NPを少し増やす",
@@ -216,8 +216,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のBuster Card 性能を up [Lv](1T)",
@@ -234,7 +234,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＋味方単体の〔バーサーカー〕のクリティカル威力を up [Lv](1T)",
@@ -251,7 +251,7 @@
       },
       {
         "type": "最大HP up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "＆最大HPを増やす[Lv](1T)",

@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "解体聖母(マリア・ザ・リッパー)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
-        "type": "特攻付与",
-        "tern":  1,
+        "type": "special_attack_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -96,7 +96,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](1T)",
@@ -112,8 +112,8 @@
         "v10": "50"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆回避状態を付与(1T)",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の強化状態を解除",
@@ -153,7 +153,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "＆クリティカル発生率をdown[Lv](3T)",
@@ -175,8 +175,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のHPを回復[Lv]",

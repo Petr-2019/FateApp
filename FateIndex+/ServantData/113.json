@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A+",
+      "type": "field_build", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
@@ -67,11 +67,11 @@
   ],
   "hogu": {
     "name": "五行山・釈迦如来掌(ごぎょうさん・しゃかにょらいしょう)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -85,7 +85,7 @@
       },
       {
         "type": "クリティカル発生率down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -106,8 +106,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPをすごく増やす[Lv]",
@@ -123,8 +123,8 @@
         "v10": "80"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](1T)",
@@ -147,7 +147,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に target 集中状態を付与(1T)",
@@ -164,7 +164,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆被 damage カット状態を付与[Lv](1T)",
@@ -186,8 +186,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体のNP獲得量を up [Lv](3T)",
@@ -204,7 +204,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆スター発生率を up [Lv](3T)",
@@ -221,7 +221,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "desc": "＆弱体無効状態を付与(1T)",

@@ -49,14 +49,14 @@
       "type": "rage_become", "name": "狂化A+",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動B",
+      "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,10 +66,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成EX",
+      "type": "field_build", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
@@ -103,11 +103,11 @@
   ],
   "hogu": {
     "name": "巨影、生命の海より出ずる(アイラーヴァタ・キングサイズ)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -120,8 +120,8 @@
         "v5": "60"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -135,7 +135,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -157,7 +157,7 @@
     "effects": [
       {
         "type": "最大HP up",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身に〔無限増殖〕状態「10ターンの間、毎ターン自身に〔増殖〕状態(最大HPが up する状態[Lv])を付与する状態」を付与〈〔増殖〕状態は最大10個まで付与可能〉",
@@ -180,7 +180,7 @@
     "effects": [
       {
         "type": "スキルチャージ",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のスキルチャージを進める",
@@ -196,8 +196,8 @@
         "v10": "1"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを〔増殖〕状態の数だけ増やす[Lv]",
@@ -214,7 +214,7 @@
       },
       {
         "type": "無限増殖・増殖状態解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆〔無限増殖〕状態と〔増殖〕状態を解除【デメリット】",
@@ -236,8 +236,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の攻撃力を up [Lv](3T)",

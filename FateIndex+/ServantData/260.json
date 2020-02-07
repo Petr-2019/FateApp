@@ -47,7 +47,7 @@
       "type": "rage_become", "name": "狂化C-",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "5.5"
         }
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "あなたにくちづけしたわ(ファム・ファタル・ベゼ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -88,7 +88,7 @@
       },
       {
         "type": "呪厄付与",
-        "tern":  5,
+        "turn":  5,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -109,8 +109,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に〔秩序かつ善〕特攻状態を付与[Lv](3T)",
@@ -126,8 +126,8 @@
         "v10": "50"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](3T)",
@@ -150,7 +150,7 @@
     "effects": [
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "自身に弱体無効状態を付与(1回・3T)",
@@ -167,7 +167,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -184,7 +184,7 @@
       },
       {
         "type": "無敵付与",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆無敵状態を付与(1回・3T)",
@@ -206,8 +206,8 @@
     "ct": 9,
     "effects": [
       {
-        "type": "HP回復",
-        "tern":  7,
+        "type": "hp_regen",
+        "turn":  7,
         "count": 0,
         "target": "self",
         "desc": "自身に毎ターンHP回復状態を付与[Lv](7T)",
@@ -224,7 +224,7 @@
       },
       {
         "type": "強化解除",
-        "tern":  7,
+        "turn":  7,
         "count": 0,
         "target": "self",
         "desc": "＆「毎ターン自身の防御強化状態を1つ解除する状態」を付与<強化扱い>(7T)【デメリット】",
@@ -240,8 +240,8 @@
         "v10": ""
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 1,
         "target": "self-other",
         "desc": "＆「7ターン後に味方全体のNPをものすごく増やす状態」を付与[Lv](1回)",

@@ -52,7 +52,7 @@
       "type": "rage_become", "name": "狂化C",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
@@ -71,11 +71,11 @@
   ],
   "hogu": {
     "name": "黒竜双剋勝利剣(クロス・カリバー)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -89,7 +89,7 @@
       },
       {
         "type": "特攻",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -110,8 +110,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "HP回復",
-        "tern":  3,
+        "type": "hp_regen",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のHP回復量を up [Lv](3T)",
@@ -127,8 +127,8 @@
         "v10": "50"
       },
       {
-        "type": "HP回復",
-        "tern": 0,
+        "type": "hp_regen",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆HPを回復[Lv]",
@@ -144,8 +144,8 @@
         "v10": "2000"
       },
       {
-        "type": "HP回復",
-        "tern":  3,
+        "type": "hp_regen",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターンHP回復状態を付与[Lv](3T)",
@@ -162,7 +162,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆Quick Card のクリティカル威力を up [Lv](1回・3T)",
@@ -179,7 +179,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆Arts Card のクリティカル威力を up [Lv](1回・3T)",
@@ -196,7 +196,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 1,
         "target": "self",
         "desc": "＆Buster Card のクリティカル威力を up [Lv](1回・3T)",
@@ -219,7 +219,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -235,8 +235,8 @@
         "v10": "30"
       },
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スターを大量獲得[Lv]",
@@ -259,7 +259,7 @@
     "effects": [
       {
         "type": "スター集中down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のスター集中度をdown(1T)",
@@ -275,8 +275,8 @@
         "v10": "100"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体の攻撃力を up (3T)[Lv]",

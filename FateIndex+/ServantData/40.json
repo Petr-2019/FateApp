@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断A+",
+      "type": "breath_hide", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,11 +56,11 @@
   ],
   "hogu": {
     "name": "妄想心音(ザバーニーヤ)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -74,7 +74,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -95,8 +95,8 @@
     "ct": 6,
     "effects": [
       {
-        "type": "スター獲得",
-        "tern": 0,
+        "type": "star_gain",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "スターを獲得[Lv]",
@@ -112,8 +112,8 @@
         "v10": "15"
       },
       {
-        "type": "スター獲得",
-        "tern":  1,
+        "type": "star_gain",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆自身にターン終了時にスターを獲得する状態を付与[Lv](1T)",
@@ -136,7 +136,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -158,8 +158,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "回避付与",
-        "tern": 0,
+        "type": "dodge",
+        "turn": 0,
         "count": 3,
         "target": "self",
         "desc": "自身に回避状態を付与(3回)",
@@ -176,7 +176,7 @@
       },
       {
         "type": "スター発生率 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター発生率を up [Lv](3T)",

@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断(J)B-",
+      "type": "breath_hide", "name": "气息遮断(J)B-",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "type": "magic_resistance", "name": "対魔力(J)C",
+      "type": "magic_resistance", "name": "对魔力(J)C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -78,7 +78,7 @@
       "type": "outer_life", "name": "領域外の生命E",
       "effect": [
         {
-          "type": "スター獲得",
+          "type": "star_gain",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
@@ -92,11 +92,11 @@
   ],
   "hogu": {
     "name": "ジェット三段突き(じぇっとさんだんづき)",
-    "card": "q",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -110,7 +110,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -123,8 +123,8 @@
         "v5": ""
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "after",
@@ -138,7 +138,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "after",
@@ -160,7 +160,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](1T)",
@@ -177,7 +177,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](1T)",
@@ -194,7 +194,7 @@
       },
       {
         "type": "強化解除",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆防御強化状態を1つ解除【デメリット】",
@@ -216,8 +216,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -234,7 +234,7 @@
       },
       {
         "type": "必中付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆必中状態を付与(1T)",
@@ -250,8 +250,8 @@
         "v10": ""
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up [Lv](3T)",
@@ -274,7 +274,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -290,8 +290,8 @@
         "v10": "50"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆毎ターン徐々に防御力がdownする状態を付与(3T)<強化扱い>【デメリット】",

@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A+",
+      "type": "acting_alone", "name": "单独行动A+",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,11 +66,11 @@
   ],
   "hogu": {
     "name": "終局的犯罪(ザ・ダイナミクス・オブ・アン・アステロイド)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -84,7 +84,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -106,7 +106,7 @@
     "effects": [
       {
         "type": "無敵貫通付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に無敵貫通状態を付与(1T)",
@@ -123,7 +123,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](1T)",
@@ -145,8 +145,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv]",
@@ -162,8 +162,8 @@
         "v10": "50"
       },
       {
-        "type": "宝具威力 up",
-        "tern":  3,
+        "type": "hogu_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆宝具威力を up (3T)",
@@ -180,7 +180,7 @@
       },
       {
         "type": "(悪)特性付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋自身を除く味方全体に〔悪〕特性を付与(3T)",
@@ -198,12 +198,12 @@
     ]
   },
   "skill3": {
-    "name": "邪智のカリスマA",
+    "name": "邪智の领袖气质A",
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -219,8 +219,8 @@
         "v10": "20"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆自身を除く味方全体の〔悪〕特性の攻撃力を up [Lv](3T)",

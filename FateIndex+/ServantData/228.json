@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,11 +57,11 @@
   ],
   "hogu": {
     "name": "崇禎帝四詩歌(むよくにしてちゅうぎのうた)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
-        "type": "防御力down",
-        "tern":  5,
+        "type": "def_down",
+        "turn":  5,
         "count": 3,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -75,7 +75,7 @@
       },
       {
         "type": "強化解除",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -89,7 +89,7 @@
       },
       {
         "type": "クリティカル威力down",
-        "tern":  5,
+        "turn":  5,
         "count": 3,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -102,13 +102,13 @@
         "v5": "10"
       },
       {
-        "type": "HP回復",
-        "tern": 5,
+        "type": "hp_regen",
+        "turn": 5,
         "count": 3,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "oc",
-        "desc": "＆「被クリティカル damage 時に味方全体のHPを回復する状態」を付与(3回・5T)(HPが0の対象は回復不能)<OC:効果 up >",
+        "desc": "＆「被クリティカル damage 時に味方全体のHPを回復する状態」を付与(3回・5T)(HPが0の对象は回復不能)<OC:効果 up >",
         "v1": "2000",
         "v2": "2500",
         "v3": "3000",
@@ -116,8 +116,8 @@
         "v5": "4000"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "before",
@@ -130,7 +130,7 @@
         "v5": "50"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -139,7 +139,7 @@
     "effects": [
       {
         "type": "Quick Card 性能 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身の Quick Card 性能を up [Lv](3T)",
@@ -155,8 +155,8 @@
         "v10": "20"
       },
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Arts Card 性能を up [Lv](3T)",
@@ -173,7 +173,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3T)",
@@ -196,7 +196,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](1T)",
@@ -213,7 +213,7 @@
       },
       {
         "type": "弱体無効付与",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "＆弱体無効状態を付与(3回・3T)",
@@ -230,7 +230,7 @@
       },
       {
         "type": "強化解除耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "＆強化解除耐性を up [Lv](3回・3T)",
@@ -252,8 +252,8 @@
     "ct": 10,
     "effects": [
       {
-        "type": "ガッツ付与",
-        "tern":  3,
+        "type": "gatsu",
+        "turn":  3,
         "count": 2,
         "target": "self",
         "desc": "自身にガッツ状態(2回・3T)を付与",
@@ -269,8 +269,8 @@
         "v10": "1"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＆NPを増やす[Lv]",

@@ -39,14 +39,14 @@
       "善",
       "女",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "神性"
     ]
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力D",
+      "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -59,14 +59,14 @@
       "type": "rage_become", "name": "狂化EX",
       "effect": [
         {
-          "type": "Buster Card 性能 up",
+          "type": "buster_up",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "riding", "name": "騎乗A+",
+      "type": "riding", "name": "骑乘A+",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -88,11 +88,11 @@
   ],
   "hogu": {
     "name": "牛王招雷・天網恢々(ごおうしょうらい・てんもうかいかい)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "スター発生率 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -106,7 +106,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -128,7 +128,7 @@
     "effects": [
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のスター集中度を up [Lv](3T)",
@@ -145,7 +145,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "＆クリティカル威力を up [Lv](3回・3T)",
@@ -167,8 +167,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Buster Card 性能 up",
-        "tern":  1,
+        "type": "buster_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のBuster Card 性能を up [Lv](1T)",
@@ -184,8 +184,8 @@
         "v10": "30"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆回避状態を付与(1T)",
@@ -207,8 +207,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に〔魔性〕特攻状態を付与[Lv](3T)",
@@ -224,8 +224,8 @@
         "v10": "50"
       },
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆〔天または地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕特攻状態を付与[Lv](3T)",

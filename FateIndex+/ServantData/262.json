@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力B",
+      "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "単独行動A",
+      "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -78,7 +78,7 @@
       "type": "fortress_build", "name": "要塞構築B",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card 性能を up",
           "magnification": "8"
         },
@@ -92,11 +92,11 @@
   ],
   "hogu": {
     "name": "白鷺城・千式ミリミリナイトフィーバー！(はくろじょう・せんしきミリミリナイトフィーバー)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -109,8 +109,8 @@
         "v5": "500"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -124,7 +124,7 @@
       },
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -146,7 +146,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 3,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3回・3T)",
@@ -162,8 +162,8 @@
         "v10": "50"
       },
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 1,
         "target": "self",
         "desc": "＆回避状態を付与(1回・1T)",
@@ -186,7 +186,7 @@
     "effects": [
       {
         "type": "Target 集中付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体に target 集中状態を付与(3T)【デメリット】",
@@ -202,8 +202,8 @@
         "v10": "300"
       },
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＋味方全体の攻撃力を up [Lv](3T)",
@@ -220,7 +220,7 @@
       },
       {
         "type": "必中付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆必中状態を付与(3T)",
@@ -242,8 +242,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  3,
+        "type": "arts_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](3T)",
@@ -259,8 +259,8 @@
         "v10": "30"
       },
       {
-        "type": "Buster Card 性能 up",
-        "tern":  3,
+        "type": "buster_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆Buster Card 性能を up [Lv](3T)",

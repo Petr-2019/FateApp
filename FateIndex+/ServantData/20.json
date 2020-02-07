@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -66,12 +66,12 @@
     }
   ],
   "hogu": {
-    "name": "穿ちの朱槍(ゲイ・ボルク)",
-    "card": "q",
+    "name": "贯穿之朱枪",
+    "card": "Quick",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -84,8 +84,8 @@
         "v5": "2000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -99,7 +99,7 @@
       },
       {
         "type": "即死",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -121,7 +121,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のクリティカル威力を up [Lv](3T)",
@@ -138,7 +138,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up [Lv](3T)",
@@ -160,8 +160,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "回避付与",
-        "tern": 0,
+        "type": "dodge",
+        "turn": 0,
         "count": 3,
         "target": "self",
         "desc": "自身に回避状態を付与(3回)",
@@ -178,7 +178,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆防御力を up [Lv](3T)",
@@ -200,8 +200,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "特攻付与",
-        "tern":  3,
+        "type": "special_attack_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身に〔猛獣〕特攻状態を付与[Lv](3T)",
@@ -218,7 +218,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "＆スター集中度を up [Lv](3T)",

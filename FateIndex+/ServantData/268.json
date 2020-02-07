@@ -51,7 +51,7 @@
     },
     "classskill": [
       {
-        "type": "magic_resistance", "name": "対魔力C",
+        "type": "magic_resistance", "name": "对魔力C",
         "effect": [
           {
             "type": "弱体耐性 up",
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "type": "acting_alone", "name": "単独行動C",
+        "type": "acting_alone", "name": "单独行动C",
         "effect": [
           {
             "type": "クリティカル威力 up",
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "type": "avenger", "name": "復讐者Ex",
+        "type": "avenger", "name": "复仇者Ex",
         "effect": [
           {
             "type": "被ダメNP獲得量 up",
@@ -114,7 +114,7 @@
         "type": "magic_self_recover", "name": "自己回復(魔力) B",
         "effect": [
           {
-            "type": "NP獲得状態付与",
+            "type": "np_gain_each_turn",
             "desc": "自身に毎ターンNP獲得状態を付与",
             "magnification": "3.5"
           }
@@ -123,11 +123,11 @@
     ],
     "hogu": {
       "name": "原始宇宙に輝く王冠",
-      "card": "a",
+      "card": "Arts",
       "effect": [
         {
-          "type": "宝具威力 up",
-          "tern":  3,
+          "type": "hogu_up",
+          "turn":  3,
           "count": 0,
           "target": "self",
           "beforeafter": "before",
@@ -141,7 +141,7 @@
         },
         {
           "type": "A攻撃",
-          "tern": 0,
+          "turn": 0,
           "count": 0,
           "target": "enemy-all",
           "beforeafter": "before",
@@ -155,7 +155,7 @@
         },
         {
           "type": "B攻撃",
-          "tern": 0,
+          "turn": 0,
           "count": 0,
           "target": "enemy-all",
           "beforeafter": "before",
@@ -169,7 +169,7 @@
         },
         {
           "type": "Q攻撃",
-          "tern": 0,
+          "turn": 0,
           "count": 0,
           "target": "enemy-all",
           "beforeafter": "before",
@@ -183,7 +183,7 @@
         },
         {
             "type": "ExtraAttack威力 up",
-            "tern":  1,
+            "turn":  1,
             "count": 0,
             "target": "self",
             "beforeafter": "before",
@@ -204,8 +204,8 @@
       "ct": 7,
       "effects": [
         {
-          "type": "攻撃力 up",
-          "tern":  3,
+          "type": "atk_up",
+          "turn":  3,
           "count": 0,
           "target": "self",
           "desc": "自身の攻撃力を up [Lv](3T)",
@@ -221,8 +221,8 @@
           "v10": "20"
         },
         {
-            "type": "攻撃力 up",
-            "tern":  3,
+            "type": "atk_up",
+            "turn":  3,
             "count": 0,
             "target": "other-all",
             "desc": "＋自身を除く味方全体の攻撃力を up [Lv](3T)",
@@ -239,7 +239,7 @@
           },
         {
           "type": "魅了無効状態付与",
-          "tern":  3,
+          "turn":  3,
           "count": 0,
           "target": "self",
           "desc": "＆魅了無効状態を付与(3T)",
@@ -261,8 +261,8 @@
       "ct": 7,
       "effects": [
         {
-          "type": "宝具威力 up",
-          "tern": 3,
+          "type": "hogu_up",
+          "turn": 3,
           "count": 1,
           "target": "self",
           "desc": "自身の宝具威力を up [Lv](1回・3T)",
@@ -279,7 +279,7 @@
         },
         {
             "type": "無敵付与",
-            "tern": 3,
+            "turn": 3,
             "count": 1,
             "target": "self",
             "desc": "＆無敵状態を付与(1回・3T)",
@@ -296,7 +296,7 @@
           },
           {
             "type": "宝具 Card 変更",
-            "tern": 3,
+            "turn": 3,
             "count": 0,
             "target": "self",
             "desc": "＆宝具 Card のタイプを変化させる(3T)",
@@ -318,8 +318,8 @@
       "ct": 8,
       "effects": [
         {
-            "type": "NP獲得",
-            "tern": 0,
+            "type": "np_charge",
+            "turn": 0,
             "count": 0,
             "target": "self",
             "desc": "自身のNPを増やす",
@@ -336,7 +336,7 @@
         },
         {
             "type": "Quick Card 性能 up",
-            "tern":  3,
+            "turn":  3,
             "count": 0,
             "target": "self",
             "desc": "＆確率でQuick Card 性能を up (3T) 確率80",
@@ -352,8 +352,8 @@
             "v10": "20"
         },
         {
-            "type": "Arts Card 性能 up",
-            "tern":  3,
+            "type": "arts_up",
+            "turn":  3,
             "count": 0,
             "target": "self",
             "desc": "＆確率でArts Card 性能を up (3T) 確率80",
@@ -369,8 +369,8 @@
             "v10": "20"
         },
         {
-            "type": "Buster Card 性能 up",
-            "tern":  3,
+            "type": "buster_up",
+            "turn":  3,
             "count": 0,
             "target": "self",
             "desc": "＆確率でBuster Card 性能を up (3T) 確率80",

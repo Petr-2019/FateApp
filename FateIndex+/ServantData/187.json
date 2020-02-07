@@ -39,7 +39,7 @@
       "中庸",
       "男",
       "サーヴァント",
-      "騎乗スキル",
+      "骑乘スキル",
       "人型",
       "セイバークラスのサーヴァント",
       "愛する者"
@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "対魔力C",
+      "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "riding", "name": "騎乗B",
+      "type": "riding", "name": "骑乘B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -69,11 +69,11 @@
   ],
   "hogu": {
     "name": "剣術無双・剣禅一如(けんじゅつむそう・けんぜんいちにょ)",
-    "card": "a",
+    "card": "Arts",
     "effect": [
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "before",
@@ -86,8 +86,8 @@
         "v5": "1500"
       },
       {
-        "type": "攻撃力down",
-        "tern":  3,
+        "type": "atk_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-single",
         "beforeafter": "after",
@@ -108,8 +108,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Arts Card 性能 up",
-        "tern":  1,
+        "type": "arts_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身のArts Card 性能を up [Lv](1T)",
@@ -126,7 +126,7 @@
       },
       {
         "type": "スター集中 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆Arts Card のスター集中度を up [Lv](1T)",
@@ -143,7 +143,7 @@
       },
       {
         "type": "弱体耐性 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆弱体耐性を up (1T)",
@@ -165,8 +165,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "回避付与",
-        "tern":  1,
+        "type": "dodge",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "自身に回避状態を付与(1T)",
@@ -182,8 +182,8 @@
         "v10": ""
       },
       {
-        "type": "攻撃力 up",
-        "tern":  1,
+        "type": "atk_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＆攻撃力を up [Lv](1T)",
@@ -205,8 +205,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "攻撃力down",
-        "tern":  1,
+        "type": "atk_down",
+        "turn":  1,
         "count": 0,
         "target": "enemy-single",
         "desc": "敵単体の攻撃力を大down[Lv](1T)",
@@ -222,8 +222,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得量 up",
-        "tern":  1,
+        "type": "np_gain_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "desc": "＋自身のNP獲得量を up [Lv](1T)",

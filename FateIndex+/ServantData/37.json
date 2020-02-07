@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "陣地作成A",
+      "type": "field_build", "name": "阵地作成A",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -66,12 +66,12 @@
     }
   ],
   "hogu": {
-    "name": "石兵八陣(かえらずのじん)",
-    "card": "a",
+    "name": "石兵八阵(かえらずのじん)",
+    "card": "Arts",
     "effect": [
       {
-        "type": "チャージ減",
-        "tern": 0,
+        "type": "charge_reduce",
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -85,7 +85,7 @@
       },
       {
         "type": "スタン付与",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -99,7 +99,7 @@
       },
       {
         "type": "呪い付与",
-        "tern":  6,
+        "turn":  6,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -112,8 +112,8 @@
         "v5": "1000"
       },
       {
-        "type": "防御力down",
-        "tern":  3,
+        "type": "def_down",
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -126,7 +126,7 @@
         "v5": "50"
       }
     ],
-    "type": "s up port",
+    "type": "support",
     "hit": 0
   },
   "skill1": {
@@ -135,7 +135,7 @@
     "effects": [
       {
         "type": "クリティカル威力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "other-single",
         "desc": "味方単体のクリティカル威力を up [Lv](3T)",
@@ -151,8 +151,8 @@
         "v10": "50"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "other-single",
         "desc": "＆NPを増やす",
@@ -175,7 +175,7 @@
     "effects": [
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の防御力を up [Lv](3T)",
@@ -192,7 +192,7 @@
       },
       {
         "type": " damage カット付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆被 damage カット状態を付与[Lv](3T)",
@@ -208,8 +208,8 @@
         "v10": "500"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆NPを少し増やす",
@@ -231,8 +231,8 @@
     "ct": 8,
     "effects": [
       {
-        "type": "攻撃力 up",
-        "tern":  3,
+        "type": "atk_up",
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "味方全体の攻撃力を up [Lv](3T)",
@@ -249,7 +249,7 @@
       },
       {
         "type": "与 damage プラス付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "desc": "＆与 damage プラス状態を付与[Lv](3T)",
@@ -265,8 +265,8 @@
         "v10": "500"
       },
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self-other",
         "desc": "＆NPを少し増やす",

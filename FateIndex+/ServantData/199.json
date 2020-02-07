@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "気配遮断C+",
+      "type": "breath_hide", "name": "气息遮断C+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,10 +56,10 @@
       ]
     },
     {
-      "type": "field_build", "name": "陣地作成EX",
+      "type": "field_build", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "Arts Card 性能 up",
+          "type": "arts_up",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
@@ -88,11 +88,11 @@
   ],
   "hogu": {
     "name": "虚栄の空中庭園(ハンギングガーデンズ・オブ・バビロン)",
-    "card": "b",
+    "card": "Buster",
     "effect": [
       {
-        "type": "宝具威力 up",
-        "tern":  1,
+        "type": "hogu_up",
+        "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
@@ -106,7 +106,7 @@
       },
       {
         "type": "攻撃",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "enemy-all",
         "beforeafter": "before",
@@ -120,7 +120,7 @@
       },
       {
         "type": "防御力 up",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -134,7 +134,7 @@
       },
       {
         "type": "強化解除耐性 up",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "self-other",
         "beforeafter": "after",
@@ -155,8 +155,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得",
-        "tern": 0,
+        "type": "np_charge",
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "自身のNPを増やす[Lv]",
@@ -173,7 +173,7 @@
       },
       {
         "type": "弱体耐性down",
-        "tern":  1,
+        "turn":  1,
         "count": 0,
         "target": "enemy-all",
         "desc": "＋敵全体の弱体耐性をdown[Lv](1T)",
@@ -195,8 +195,8 @@
     "ct": 7,
     "effects": [
       {
-        "type": "NP獲得量 up",
-        "tern":  3,
+        "type": "np_gain_up",
+        "turn":  3,
         "count": 0,
         "target": "self",
         "desc": "自身のNP獲得量を up (3T) [Lv]",
@@ -212,11 +212,11 @@
         "v10": "40"
       },
       {
-        "type": "キャスターに対する相性不利を打ち消す状態付与",
-        "tern":  3,
+        "type": "キャスターに对する相性不利を打ち消す状態付与",
+        "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔キャスター〕クラスに対する相性不利を打ち消す状態を付与(3T)",
+        "desc": "＆〔キャスター〕クラスに对する相性不利を打ち消す状態を付与(3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -236,7 +236,7 @@
     "effects": [
       {
         "type": "毒状態付与",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "<スターが8個以上ある場合のみ使用可能>敵全体に毒状態を付与[Lv](3T)",
@@ -253,7 +253,7 @@
       },
       {
         "type": "Buster Card 耐性down",
-        "tern":  3,
+        "turn":  3,
         "count": 0,
         "target": "enemy-all",
         "desc": "＆Buster Card 耐性をdown[Lv](3T)",
@@ -270,7 +270,7 @@
       },
       {
         "type": "スター減少",
-        "tern": 0,
+        "turn": 0,
         "count": 0,
         "target": "self",
         "desc": "＋スターを8個減らす【デメリット】",
