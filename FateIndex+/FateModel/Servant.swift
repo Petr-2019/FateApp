@@ -56,6 +56,7 @@ struct Servant: Codable {
             let magnification: String
         }
 
+        let type: String
         let name: String
         let effect: [Effect]
     }

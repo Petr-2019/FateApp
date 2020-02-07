@@ -49,7 +49,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力B",
+      "type": "magic_resistance", "name": "対魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "騎乗B",
+      "type": "riding", "name": "騎乗B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "name": "単独行動EX",
+      "type": "acting_alone", "name": "単独行動EX",
       "effect": [
         {
           "type": "クリティカル威力 up",

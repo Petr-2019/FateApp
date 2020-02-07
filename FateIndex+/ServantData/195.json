@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "name": "領域外の生命EX",
+      "type": "outer_life", "name": "領域外の生命EX",
       "effect": [
         {
           "type": "スター獲得",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "狂気B",
+      "type": "rage_breathe", "name": "狂気B",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "神性B",
+      "type": "divinity", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",

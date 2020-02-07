@@ -59,7 +59,7 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
 
-        tableView.register(ServantClassSkillCell.self, forCellReuseIdentifier: ServantClassSkillCell.identifier)
+        tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
 
         // self.navigationItem.title = servant.servant.name
     }
@@ -103,6 +103,8 @@ class ServantDetailTableViewController: UITableViewController {
 
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
+            cell.selectionStyle = .none
+
             if indexPath.row == 0 {
                 cell.configure("编号", trailingText: servant.servant.no)
             }
@@ -140,6 +142,7 @@ class ServantDetailTableViewController: UITableViewController {
             return cell
         }
         else if indexPath.section == 1 {
+
             if indexPath.row == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
 
@@ -165,35 +168,15 @@ class ServantDetailTableViewController: UITableViewController {
                 cell.configure("Buster Hit", trailingText: "\(servant.card.buster.hit)")
                 return cell
             }
-//            else if indexPath.row == 4 {
-//                let cell = tableView.dequeueReusableCell(withIdentifier: DisclosureTableViewCell.identifier, for: indexPath) as! DisclosureTableViewCell
-//
-//                cell.textLabel?.text = "宝具详情"
-//                return cell
-//            }
 
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
-
-            // cell.configure(text: "配卡",cardSequence: servant.cardSequence)
 
             return cell
         }
         else if indexPath.section == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
-//            "na": 0.84,
-//            "nd": null,
-//            "dr": 24.5,
-//            "starcollection": 99,
-//            "staroccurrence": 9.9,
-//            "tag": [
-//              "秩序",
-//              "善",
-//              "女",
-//              "サーヴァント",
-//              "騎乗スキル",
-//              "人型"
-//            ]
+            cell.selectionStyle = .none
 
             if indexPath.row == 0 {
                 cell.configure("NP获得率(攻击)", trailingText: "\(servant.hidden.na)%")
@@ -214,14 +197,13 @@ class ServantDetailTableViewController: UITableViewController {
             return cell
         }
         else if indexPath.section == 3 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: ServantClassSkillCell.identifier, for: indexPath) as! ServantClassSkillCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
 
             let classSkill = servant.classskill[indexPath.row]
-
-            let bottomText = classSkill.effect[0].desc + "(" + classSkill.effect[0].magnification + "%)"
-            cell.configure(topText: classSkill.name, bottomText: bottomText)
-            // cell.skillImage = UIImage(named: "magic_resistance")
-
+            
+            cell.avatar = UIImageUtility.classSkillImage(named: classSkill.type)
+            cell.title = classSkill.name
+            cell.accessoryType = .disclosureIndicator
             return cell
         }
 
@@ -254,23 +236,29 @@ class ServantDetailTableViewController: UITableViewController {
 
     // MARK:- UITableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let section = servantDetailSection(at: indexPath) else {
-            return
-        }
+        if indexPath.section == 3 {
+            let classSkill = servant.classskill[indexPath.row]
 
-        switch section {
-        case .basicInfo:
-            break
-        case .actionCard:
-            if indexPath.row == 1 {
-                let vc = NoblePhantasmDetailViewController()
-                navigationController?.pushViewController(vc, animated: true)
-            }
-        case .npRelated:
-            break
-        case .classSkill:
-            break
+            let vc = ClassSkillDetailViewController(classSkill: classSkill)
+            navigationController?.pushViewController(vc, animated: true)
         }
+//        guard let section = servantDetailSection(at: indexPath) else {
+//            return
+//        }
+//
+//        switch section {
+//        case .basicInfo:
+//            break
+//        case .actionCard:
+//            if indexPath.row == 1 {
+//                let vc = NoblePhantasmDetailViewController()
+//                navigationController?.pushViewController(vc, animated: true)
+//            }
+//        case .npRelated:
+//            break
+//        case .classSkill:
+//            break
+//        }
     }
 
     // MARK:- Helper

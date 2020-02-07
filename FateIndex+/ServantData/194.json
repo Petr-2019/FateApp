@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成C",
+      "type": "field_build", "name": "陣地作成C",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",

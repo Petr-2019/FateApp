@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "狂化EX",
+      "type": "rage_become", "name": "狂化EX",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "神性B",
+      "type": "divinity", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",

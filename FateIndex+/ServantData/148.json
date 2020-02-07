@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "狂化E",
+      "type": "rage_become", "name": "狂化E",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "神性A",
+      "type": "divinity", "name": "神性A",
       "effect": [
         {
           "type": "与 damage プラス付与",

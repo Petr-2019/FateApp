@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "name": "騎乗EX",
+      "type": "riding", "name": "騎乗EX",
       "effect": [
         {
           "type": "Quick Card 性能 up",

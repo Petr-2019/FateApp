@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "凶化A+",
+      "type": "aggressive_become", "name": "凶化A+",
       "effect": [
         {
           "type": "Buster Card 性能 up",

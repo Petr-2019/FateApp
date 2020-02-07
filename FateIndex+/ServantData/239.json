@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "騎乗A",
+      "type": "riding", "name": "騎乗A",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "単独顕現C",
+      "type": "show_alone", "name": "単独顕現C",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "name": "愛神の神核B",
+      "type": "cupid_core", "name": "愛神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",

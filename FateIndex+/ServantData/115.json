@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "神性C",
+      "type": "divinity", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",

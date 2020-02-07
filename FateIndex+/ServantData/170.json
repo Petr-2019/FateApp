@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "気配遮断D",
+      "type": "breath_hide", "name": "気配遮断D",
       "effect": [
         {
           "type": "スター発生率 up",

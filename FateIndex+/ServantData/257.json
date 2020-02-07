@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "騎乗D",
+      "type": "riding", "name": "騎乗D",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "対魔力E",
+      "type": "magic_resistance", "name": "対魔力E",
       "effect": [
         {
           "type": "弱体耐性 up",

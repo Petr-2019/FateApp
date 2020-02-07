@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "単独行動A",
+      "type": "acting_alone", "name": "単独行動A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "騎乗C+",
+      "type": "riding", "name": "騎乗C+",
       "effect": [
         {
           "type": "Quick Card 性能 up",

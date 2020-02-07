@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成EX",
+      "type": "field_build", "name": "陣地作成EX",
       "effect": [
         {
           "type": "Arts Card 性能 up",

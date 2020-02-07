@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成EX",
+      "type": "field_build", "name": "陣地作成EX",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "妖精契約A",
+      "type": "elf_contract", "name": "妖精契約A",
       "effect": [
         {
           "type": "弱体耐性 up",

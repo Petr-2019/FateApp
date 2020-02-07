@@ -48,7 +48,7 @@
   },
   "classskill": [
     {
-      "name": "騎乗B",
+      "type": "riding", "name": "騎乗B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "name": "陣地作成A+",
+      "type": "field_build", "name": "陣地作成A+",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "name": "道具作成(奇)EX",
+      "type": "item_make", "name": "道具作成(奇)EX",
       "effect": [
         {
           "type": "HP回復",

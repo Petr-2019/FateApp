@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "単独行動A",
+      "type": "acting_alone", "name": "単独行動A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "気配遮断A",
+      "type": "breath_hide", "name": "気配遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "お宿作成B",
+      "type": "hotel_build", "name": "お宿作成B",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "腹話術EX",
+      "type": "ventriloquy", "name": "腹話術EX",
       "effect": [
         {
           "type": "スキル封印無効付与",

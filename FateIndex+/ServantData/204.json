@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "復讐者C",
+      "type": "avenger", "name": "復讐者C",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "name": "忘却補正B",
+      "type": "forget_correct", "name": "忘却補正B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "自己回復(魔力)C",
+      "type": "magic_self_recover", "name": "自己回復(魔力)C",
       "effect": [
         {
           "type": "NP獲得状態付与",

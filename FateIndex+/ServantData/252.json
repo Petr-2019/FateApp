@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力C",
+      "type": "magic_resistance", "name": "対魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "騎乗C",
+      "type": "riding", "name": "騎乗C",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "神性C",
+      "type": "divinity", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",

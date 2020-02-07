@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力B",
+      "type": "magic_resistance", "name": "対魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "気配遮断A",
+      "type": "breath_hide", "name": "気配遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "単独行動B",
+      "type": "acting_alone", "name": "単独行動B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "境界にてA",
+      "type": "state_stand", "name": "境界にてA",
       "effect": [
         {
           "type": "即死無効付与",

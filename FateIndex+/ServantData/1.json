@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "騎乗C",
+      "type": "riding", "name": "騎乗C",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "星見の旅路",
+      "type": "star_travel", "name": "星見の旅路",
       "effect": [
         {
           "type": "追加 damage",

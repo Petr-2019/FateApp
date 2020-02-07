@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力C",
+      "type": "magic_resistance", "name": "対魔力C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "単独行動C",
+      "type": "acting_alone", "name": "単独行動C",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "気配遮断A+",
+      "type": "breath_hide", "name": "気配遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "女神の神核C",
+      "type": "goddess_divinity", "name": "女神の神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "name": "ハイ・サーヴァントA",
+      "type": "high_servant", "name": "ハイ・サーヴァントA",
       "effect": [
         {
           "type": "効果なし",

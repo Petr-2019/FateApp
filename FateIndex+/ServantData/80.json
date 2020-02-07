@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "道具作成(偽)A",
+      "type": "item_make", "name": "道具作成(偽)A",
       "effect": [
         {
           "type": "弱体付与成功率 up",

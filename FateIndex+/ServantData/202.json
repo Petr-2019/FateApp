@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "獣化B",
+      "type": "beast_become", "name": "獣化B",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "name": "単独行動A",
+      "type": "acting_alone", "name": "単独行動A",
       "effect": [
         {
           "type": "クリティカル威力 up",

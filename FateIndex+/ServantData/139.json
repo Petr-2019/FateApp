@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "気配遮断B",
+      "type": "breath_hide", "name": "気配遮断B",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "神性D",
+      "type": "divinity", "name": "神性D",
       "effect": [
         {
           "type": "与 damage プラス付与",

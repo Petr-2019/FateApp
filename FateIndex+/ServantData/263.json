@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "単独行動A",
+      "type": "acting_alone", "name": "単独行動A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "気配遮断B",
+      "type": "breath_hide", "name": "気配遮断B",
       "effect": [
         {
           "type": "スター発生率 up",

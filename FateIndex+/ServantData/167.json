@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "獣の権能D",
+      "type": "beast_rightSkill", "name": "獣の権能D",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "単独顕現E",
+      "type": "show_alone", "name": "単独顕現E",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "name": "ロゴスイーターC",
+      "type": "rationale_eater", "name": "ロゴスイーターC",
       "effect": [
         {
           "type": "防御力 up",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "name": "ネガ・セイヴァーA",
+      "type": "nega_saver", "name": "ネガ・セイヴァーA",
       "effect": [
         {
           "type": "特攻付与",

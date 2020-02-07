@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "狂化A+",
+      "type": "rage_become", "name": "狂化A+",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "単独行動B",
+      "type": "acting_alone", "name": "単独行動B",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "陣地作成EX",
+      "type": "field_build", "name": "陣地作成EX",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "name": "女神の神核A",
+      "type": "goddess_divinity", "name": "女神の神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "name": "ハイ・サーヴァントEX",
+      "type": "high_servant", "name": "ハイ・サーヴァントEX",
       "effect": [
         {
           "type": "効果なし",

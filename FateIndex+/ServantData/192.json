@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成B",
+      "type": "field_build", "name": "陣地作成B",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "道具作成A",
+      "type": "item_make", "name": "道具作成A",
       "effect": [
         {
           "type": "弱体付与成功率 up",

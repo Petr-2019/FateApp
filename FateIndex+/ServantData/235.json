@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "老練A+",
+      "type": "veteran", "name": "老練A+",
       "effect": [
         {
           "type": "Arts Card 性能 up",

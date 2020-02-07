@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "気配遮断C",
+      "type": "breath_hide", "name": "気配遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "無頼漢A",
+      "type": "scoundrel", "name": "無頼漢A",
       "effect": [
         {
           "type": "Quick Card 性能 up",

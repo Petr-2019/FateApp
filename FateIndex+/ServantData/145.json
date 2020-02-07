@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "name": "道具作成(偽)A",
+      "type": "item_make", "name": "道具作成(偽)A",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "陣地作成A",
+      "type": "field_build", "name": "陣地作成A",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "神性B",
+      "type": "divinity", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",

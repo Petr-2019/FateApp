@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力A",
+      "type": "magic_resistance", "name": "対魔力A",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "女神の神核B",
+      "type": "goddess_divinity", "name": "女神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",

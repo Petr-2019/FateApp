@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "対魔力B",
+      "type": "magic_resistance", "name": "対魔力B",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "騎乗B",
+      "type": "riding", "name": "騎乗B",
       "effect": [
         {
           "type": "Quick Card 性能 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "単独行動A",
+      "type": "acting_alone", "name": "単独行動A",
       "effect": [
         {
           "type": "クリティカル威力 up",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "name": "女神の神核B",
+      "type": "goddess_divinity", "name": "女神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "name": "ハイ・サーヴァントA",
+      "type": "high_servant", "name": "ハイ・サーヴァントA",
       "effect": [
         {
           "type": "効果なし",

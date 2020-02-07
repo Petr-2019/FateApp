@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "狂化C",
+      "type": "rage_become", "name": "狂化C",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "対魔力E",
+      "type": "magic_resistance", "name": "対魔力E",
       "effect": [
         {
           "type": "弱体耐性 up",

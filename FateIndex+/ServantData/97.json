@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "name": "狂化EX",
+      "type": "rage_become", "name": "狂化EX",
       "effect": [
         {
           "type": "Buster Card 性能 up",

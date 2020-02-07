@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成B",
+      "type": "field_build", "name": "陣地作成B",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "神性B",
+      "type": "divinity", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",

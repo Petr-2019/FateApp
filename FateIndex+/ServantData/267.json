@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "気配遮断(J)B-",
+      "type": "breath_hide", "name": "気配遮断(J)B-",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "name": "対魔力(J)C",
+      "type": "magic_resistance", "name": "対魔力(J)C",
       "effect": [
         {
           "type": "弱体耐性 up",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "領域外の生命E",
+      "type": "outer_life", "name": "領域外の生命E",
       "effect": [
         {
           "type": "スター獲得",

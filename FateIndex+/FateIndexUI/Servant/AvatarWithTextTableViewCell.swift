@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ServantTableViewCell: UITableViewCell {
+class AvatarWithTextTableViewCell: UITableViewCell {
     
     private struct Constants {
         static let avatarTopMargin: CGFloat = 5.0
         static let avatarLeadMargin: CGFloat = 20.0
     }
     
-    static let identifier = "ServantTableViewCell"
+    static let identifier = "AvatarWithTextTableViewCell"
 
     var avatar: UIImage? {
         didSet {

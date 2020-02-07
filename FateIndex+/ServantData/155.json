@@ -49,7 +49,7 @@
   },
   "classskill": [
     {
-      "name": "狂化C",
+      "type": "rage_become", "name": "狂化C",
       "effect": [
         {
           "type": "Buster Card 性能 up",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "オルトリアクターA",
+      "type": "arutoria_reactor", "name": "オルトリアクターA",
       "effect": [
         {
           "type": "弱体耐性 up",

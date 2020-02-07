@@ -39,7 +39,7 @@ class ServantTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.register(ServantTableViewCell.self, forCellReuseIdentifier: ServantTableViewCell.identifier)
+        tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
         tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
 
         setupSearchViewController()
@@ -62,7 +62,7 @@ class ServantTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: ServantTableViewCell.identifier, for: indexPath) as! ServantTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
 
         if isFiltering() {
             cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].servant.no)")

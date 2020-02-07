@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "name": "陣地作成A+",
+      "type": "field_build", "name": "陣地作成A+",
       "effect": [
         {
           "type": "Arts Card 性能 up",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "気配遮断(陰)B",
+      "type": "breath_hide", "name": "気配遮断(陰)B",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "神性C",
+      "type": "divinity", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
