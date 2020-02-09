@@ -9,7 +9,6 @@
 import StoreKit
 import UIKit
 
-
 class SettingsViewController: UIViewController {
 
     let tableView = UITableView(frame: .zero, style: .grouped)

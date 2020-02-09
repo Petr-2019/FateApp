@@ -57,10 +57,7 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
-
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
-
-        // self.navigationItem.title = servant.servant.name
     }
 
     override func viewDidLayoutSubviews() {
@@ -105,7 +102,6 @@ class ServantDetailTableViewController: UITableViewController {
         cell2.configure("Test", trailingText: "Again")
 
         if indexPath.section == 0 {
-
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
 
             cell.selectionStyle = .none
@@ -208,7 +204,7 @@ class ServantDetailTableViewController: UITableViewController {
             
             cell.avatar = UIImageUtility.classSkillImage(named: classSkill.type)
             cell.title = classSkill.name
-            cell.accessoryType = .disclosureIndicator
+            cell.accessoryType = .detailButton
             return cell
         }
         else if indexPath.section == 4 {
@@ -245,6 +241,16 @@ class ServantDetailTableViewController: UITableViewController {
         return cell2
     }
 
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        if indexPath.section == 3 {
+            let classSkill = servant.classskill[indexPath.row]
+
+            let vc = ClassSkillDetailViewController(classSkill: classSkill)
+            let nav = UINavigationController(rootViewController: vc)
+            present(nav, animated: true, completion: nil)
+        }
+    }
+
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         guard let section = servantDetailSection(at: section) else {
             return nil
@@ -275,29 +281,30 @@ class ServantDetailTableViewController: UITableViewController {
 
     // MARK:- UITableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+
         if indexPath.section == 3 {
             let classSkill = servant.classskill[indexPath.row]
 
             let vc = ClassSkillDetailViewController(classSkill: classSkill)
+            let nav = UINavigationController(rootViewController: vc)
+            present(nav, animated: true, completion: nil)
+        }
+        else if indexPath.section == 5 {
+            let skill: Servant.Skill
+            if indexPath.row == 0 {
+                skill = servant.skill1
+            }
+            else if indexPath.row == 1 {
+                skill = servant.skill2
+            }
+            else {
+                skill = servant.skill3
+            }
+
+            let vc = ActiveSkillDetailViewController(skill: skill)
             navigationController?.pushViewController(vc, animated: true)
         }
-//        guard let section = servantDetailSection(at: indexPath) else {
-//            return
-//        }
-//
-//        switch section {
-//        case .basicInfo:
-//            break
-//        case .actionCard:
-//            if indexPath.row == 1 {
-//                let vc = NoblePhantasmDetailViewController()
-//                navigationController?.pushViewController(vc, animated: true)
-//            }
-//        case .npRelated:
-//            break
-//        case .classSkill:
-//            break
-//        }
     }
 
     // MARK:- Helper
@@ -313,5 +320,4 @@ class ServantDetailTableViewController: UITableViewController {
 
         return sections[section]
     }
-
 }
