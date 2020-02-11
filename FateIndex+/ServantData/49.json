@@ -65,7 +65,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "敵単体に超強力な防御力無視攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -99,7 +99,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "9",
         "v2": "10.8",
         "v3": "12.6",
@@ -116,7 +116,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常耐性を up [Lv](3T)",
+        "desc": "＆精神異常耐性を up (3T)",
         "v1": "18",
         "v2": "19.8",
         "v3": "21.6",
@@ -129,17 +129,17 @@
         "v10": "36"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "反骨の相B",
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を up [Lv](3T)",
+        "desc": "自身の防御力を up (3T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -169,7 +169,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "乱世の梟雄A",
     "ct": 8,
@@ -179,7 +179,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の宝具威力を up [Lv](1T)",
+        "desc": "自身の宝具威力を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -192,7 +192,7 @@
         "v10": "30"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",

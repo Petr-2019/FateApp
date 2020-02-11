@@ -75,7 +75,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な防御力無視攻撃[Lv]",
+        "desc": "敵全体に強力な防御力無視攻撃",
         "v1": "600",
         "v2": "750",
         "v3": "825",
@@ -137,7 +137,7 @@
         "turn": 0,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNPを増やす[Lv]",
+        "desc": "味方全体のNPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -150,7 +150,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "マハトマA",
     "ct": 10,
@@ -190,7 +190,7 @@
         "v10": "80"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "未知への探求B",
     "ct": 9,
@@ -200,7 +200,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up (3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",
@@ -217,7 +217,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Buster Card 性能を up [Lv](3T)",
+        "desc": "＆Buster Card 性能を up (3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",
@@ -230,11 +230,11 @@
         "v10": "20"
       },
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Quick Card 性能を up [Lv](3T)",
+        "desc": "＆Quick Card 性能を up (3T)",
         "v1": "15",
         "v2": "15.5",
         "v3": "16",

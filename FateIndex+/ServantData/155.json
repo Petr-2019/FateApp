@@ -62,7 +62,7 @@
       "type": "arutoria_reactor", "name": "オルトリアクターA",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -114,7 +114,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のHP回復量を up [Lv](3T)",
+        "desc": "自身のHP回復量を up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -131,7 +131,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -148,7 +148,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆毎ターンHP回復状態を付与[Lv](3T)",
+        "desc": "＆毎ターンHP回復状態を付与(3T)",
         "v1": "1000",
         "v2": "1000",
         "v3": "1000",
@@ -161,11 +161,11 @@
         "v10": "1000"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Quick Card のクリティカル威力を up [Lv](1回・3T)",
+        "desc": "＆Quick Card のクリティカル威力を up (1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -178,11 +178,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Arts Card のクリティカル威力を up [Lv](1回・3T)",
+        "desc": "＆Arts Card のクリティカル威力を up (1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,11 +195,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "＆Buster Card のクリティカル威力を up [Lv](1回・3T)",
+        "desc": "＆Buster Card のクリティカル威力を up (1回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -212,17 +212,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "刹那無影剣C+",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -239,7 +239,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを大量獲得[Lv]",
+        "desc": "＋スターを大量獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -252,7 +252,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "王の見えざる手C",
     "ct": 7,
@@ -279,7 +279,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の攻撃力を up (3T)[Lv]",
+        "desc": "＋味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

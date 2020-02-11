@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -75,7 +75,7 @@
           "magnification": "200"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "20"
         }
@@ -93,7 +93,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -141,7 +141,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -158,7 +158,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆確率でスター発生率を up [Lv](3T) 確率60％",
+        "desc": "＆確率でスター発生率を up (3T) 確率60％",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -171,11 +171,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆確率でクリティカル威力を up [Lv](3T) 確率60％",
+        "desc": "＆確率でクリティカル威力を up (3T) 確率60％",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -188,7 +188,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "進撃するシパーヒーB",
     "ct": 8,
@@ -215,7 +215,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆確率で毎ターンHP回復状態を付与[Lv](3T) 確率60％",
+        "desc": "＆確率で毎ターンHP回復状態を付与(3T) 確率60％",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -232,7 +232,7 @@
         "turn":  3,
         "count": 3,
         "target": "other-single",
-        "desc": "＆確率で被 damage カット状態を付与[Lv](3回・3T) 確率60％",
+        "desc": "＆確率で被 damage カット状態を付与(3回・3T) 確率60％",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -245,7 +245,7 @@
         "v10": "2000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "グワーリヤルの抵抗A",
     "ct": 9,
@@ -255,7 +255,7 @@
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
+        "desc": "自身にガッツ状態を付与(1回・3T)",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",
@@ -289,7 +289,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の強化成功率を up [Lv](3T)",
+        "desc": "＋味方全体の強化成功率を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

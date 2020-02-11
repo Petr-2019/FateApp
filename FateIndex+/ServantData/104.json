@@ -76,7 +76,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "600",
         "v2": "750",
         "v3": "825",
@@ -112,7 +112,7 @@
         "v5": "2000"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -138,7 +138,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -151,7 +151,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "シャーマニズムB",
     "ct": 7,
@@ -161,7 +161,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -174,17 +174,17 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "守護の獣B",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](1T)",
+        "desc": "自身の Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

@@ -49,7 +49,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -74,7 +74,7 @@
           "magnification": "225"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
@@ -92,7 +92,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -140,7 +140,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の攻撃力を up [Lv](3T)",
+        "desc": "味方単体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -153,11 +153,11 @@
         "v10": "20"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -174,7 +174,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -187,7 +187,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "魔力放出（星）A+",
     "ct": 7,
@@ -197,7 +197,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -214,7 +214,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを大量獲得[Lv]",
+        "desc": "＋スターを大量獲得",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -227,7 +227,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "星の裁きA",
     "ct": 6,
@@ -250,11 +250,11 @@
         "v10": "-5\n個"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のスター集中度を up [Lv](1T)",
+        "desc": "＋自身のスター集中度を up (1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -267,11 +267,11 @@
         "v10": "500"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

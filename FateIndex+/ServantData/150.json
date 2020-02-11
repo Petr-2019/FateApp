@@ -85,7 +85,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体に毎ターンHP回復状態を付与[Lv](5T)",
+        "desc": "味方全体に毎ターンHP回復状態を付与(5T)",
         "v1": "1000",
         "v2": "1500",
         "v3": "1750",
@@ -133,7 +133,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -163,7 +163,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "幻術A",
     "ct": 9,
@@ -190,7 +190,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆スター発生率を up [Lv](1T)",
+        "desc": "＆スター発生率を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -220,7 +220,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "英雄作成EX",
     "ct": 8,
@@ -230,7 +230,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のBuster Card 性能を up [Lv](3T)",
+        "desc": "味方単体のBuster Card 性能を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -247,7 +247,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆最大HPを増やす[Lv](3T)",
+        "desc": "＆最大HPを増やす(3T)",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",
@@ -260,11 +260,11 @@
         "v10": "3000"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

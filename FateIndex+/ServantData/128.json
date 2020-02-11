@@ -49,7 +49,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -87,7 +87,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -121,7 +121,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -138,7 +138,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率を up [Lv](3T)",
+        "desc": "＆味方全体の〔男性〕のスター発生率を up (3T)",
         "v1": "22",
         "v2": "24",
         "v3": "26",
@@ -151,7 +151,7 @@
         "v10": "42"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "真夏の呪術A",
     "ct": 9,
@@ -178,7 +178,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力をdown[Lv](3T)",
+        "desc": "＆防御力をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,7 +195,7 @@
         "turn":  5,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆呪い状態を付与[Lv](5T)",
+        "desc": "＆呪い状態を付与(5T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -225,7 +225,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "女神変生B",
     "ct": 8,
@@ -248,11 +248,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up (1T) [Lv]",
+        "desc": "＆クリティカル威力を up (1T) ",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -269,7 +269,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率を up (1T) [Lv]",
+        "desc": "＆スター発生率を up (1T) ",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -286,7 +286,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up (1T) [Lv]",
+        "desc": "＆NP獲得量を up (1T) ",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -299,11 +299,11 @@
         "v10": "50"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性を up (1T) [Lv]",
+        "desc": "＆弱体耐性を up (1T) ",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -320,7 +320,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆HP回復効果量を up (1T) [Lv]",
+        "desc": "＆HP回復効果量を up (1T) ",
         "v1": "30",
         "v2": "32",
         "v3": "34",

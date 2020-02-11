@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -59,7 +59,7 @@
       "type": "acting_alone", "name": "单独行动EX",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "12"
         }
@@ -74,7 +74,7 @@
           "magnification": "5"
         },
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "＆Buster Card のクリティカル威力を up",
           "magnification": "10"
         },
@@ -107,7 +107,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -172,7 +172,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆NPを増やす[Lv]",
+        "desc": "＆NPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -185,7 +185,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "士道の蹂躙A",
     "ct": 7,
@@ -195,7 +195,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](3T)",
+        "desc": "自身のBuster Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -212,7 +212,7 @@
         "turn":  5,
         "count": 3,
         "target": "enemy-single",
-        "desc": "＆Buster Card による攻撃時に敵単体に防御力down[Lv](3T)を付与する状態を付与(3回・5T)",
+        "desc": "＆Buster Card による攻撃時に敵単体に防御力down(3T)を付与する状態を付与(3回・5T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -225,17 +225,17 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "至尊の戦士A+",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -248,11 +248,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  5,
         "count": 3,
         "target": "self",
-        "desc": "＆Quick Card による攻撃時に自身にクリティカル威力 up [Lv](3T)を付与する状態を付与(3回・5T)",
+        "desc": "＆Quick Card による攻撃時に自身にクリティカル威力 up (3T)を付与する状態を付与(3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

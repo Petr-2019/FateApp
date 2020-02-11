@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -57,7 +57,7 @@
       "type": "acting_alone", "name": "单独行动A+",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
@@ -89,7 +89,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵単体に超強力な攻撃[Lv]",
+        "desc": "＆敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -122,11 +122,11 @@
         "v10": ""
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度を up [Lv](1T)",
+        "desc": "＆スター集中度を up (1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -139,7 +139,7 @@
         "v10": "600"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "蜘蛛糸の果てA+++",
     "ct": 8,
@@ -149,7 +149,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[Lv]",
+        "desc": "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -196,7 +196,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "邪智の领袖气质A",
     "ct": 7,
@@ -206,7 +206,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -223,7 +223,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆自身を除く味方全体の〔悪〕特性の攻撃力を up [Lv](3T)",
+        "desc": "＆自身を除く味方全体の〔悪〕特性の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

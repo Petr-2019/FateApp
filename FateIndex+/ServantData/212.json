@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -60,7 +60,7 @@
       "type": "acting_alone", "name": "单独行动C",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
@@ -92,7 +92,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵全体に強力な攻撃[Lv]",
+        "desc": "＋敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -126,7 +126,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -156,7 +156,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "火力支援（砲）B+",
     "ct": 7,
@@ -166,7 +166,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力を up [Lv](1T)",
+        "desc": "味方全体の宝具威力を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -183,7 +183,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆スター発生率を up [Lv](1T)",
+        "desc": "＆スター発生率を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -196,7 +196,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "可能性の光B",
     "ct": 8,
@@ -206,7 +206,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -240,7 +240,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆毎ターンスター獲得状態を付与[Lv](3T)",
+        "desc": "＆毎ターンスター獲得状態を付与(3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",

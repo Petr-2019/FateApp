@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "敵単体に超強力な防御力無視攻撃",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -124,7 +124,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "24",
         "v2": "25.6",
         "v3": "27.2",
@@ -137,7 +137,7 @@
         "v10": "40"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "聖杯の寵愛A+",
     "ct": 7,
@@ -160,11 +160,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -194,7 +194,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "スケープゴートC",
     "ct": 7,
@@ -221,7 +221,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",

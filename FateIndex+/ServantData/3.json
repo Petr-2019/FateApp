@@ -52,7 +52,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -70,7 +70,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体にとても強力な攻撃[Lv]",
+        "desc": "敵全体にとても強力な攻撃",
         "v1": "450",
         "v2": "550",
         "v3": "600",
@@ -104,7 +104,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -117,7 +117,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": "buster_up"},
   "skill2": {
     "name": "直感B",
     "ct": 7,
@@ -127,7 +127,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "スターを大量獲得[Lv]",
+        "desc": "スターを大量獲得",
         "v1": "4",
         "v2": "5",
         "v3": "6",
@@ -140,7 +140,7 @@
         "v10": "14"
       }
     ]
-  },
+  , "avatar": "star_gain"},
   "skill3": {
     "name": "领袖气质E",
     "ct": 7,
@@ -150,7 +150,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "6",
         "v2": "6.6",
         "v3": "7.2",
@@ -162,6 +162,7 @@
         "v9": "10.8",
         "v10": "12"
       }
-    ]
+    ],
+    "avatar": "atk_up"
   }
 }

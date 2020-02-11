@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ServantTableViewHeaderView: UITableViewHeaderFooterView {
+class TableViewTitleHeaderView: UITableViewHeaderFooterView {
     
-    static let identifier = "ServantTableViewHeaderView"
+    static let identifier = "TableViewTitleHeaderView"
     
     var title: String? {
         didSet {

@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵単体に超強力な攻撃[Lv]",
+        "desc": "＆敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -127,7 +127,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "天眼A",
     "ct": 7,
@@ -154,7 +154,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Buster Card 性能を up [Lv](1T)",
+        "desc": "＆Buster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -167,7 +167,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "無空A",
     "ct": 8,
@@ -194,7 +194,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率を up [Lv](3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

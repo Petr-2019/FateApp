@@ -50,7 +50,7 @@
   },
   "classskill": [
     {
-      "type": "cosmo_reactor", "name": "コスモリアクターA",
+      "type": "star_focus_up", "name": "コスモリアクターA",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -63,7 +63,7 @@
       "type": "riding", "name": "骑乘EX",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -81,7 +81,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -115,7 +115,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力をdown[Lv](3T)",
+        "desc": "敵全体の防御力をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -132,7 +132,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋1ターン後に敵全体に中確率でスタン状態を付与する[Lv](1T)",
+        "desc": "＋1ターン後に敵全体に中確率でスタン状態を付与する(1T)",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -145,7 +145,7 @@
         "v10": "80"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "セイバーの星C++",
     "ct": 7,
@@ -172,7 +172,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを大量獲得[Lv]",
+        "desc": "＋スターを大量獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -185,7 +185,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "銀河流星剣C",
     "ct": 8,
@@ -195,7 +195,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の〔セイバー〕に对する攻撃時のスター発生率を超 up [Lv](3T)",
+        "desc": "自身の〔セイバー〕に对する攻撃時のスター発生率を超 up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -212,7 +212,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔セイバー〕特攻状態を付与[Lv](3T)",
+        "desc": "＆〔セイバー〕特攻状態を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

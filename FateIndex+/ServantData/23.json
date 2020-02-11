@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -59,7 +59,7 @@
       "type": "riding", "name": "骑乘A+",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
@@ -69,7 +69,7 @@
       "type": "acting_alone", "name": "单独行动C",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
@@ -97,7 +97,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -158,7 +158,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": "眩晕"},
   "skill2": {
     "name": "怪力B",
     "ct": 7,
@@ -168,7 +168,7 @@
         "turn":  2,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](2T)",
+        "desc": "自身の攻撃力を up (2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -181,7 +181,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": "atk_up"},
   "skill3": {
     "name": "鮮血神殿B",
     "ct": 8,
@@ -208,7 +208,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -220,6 +220,7 @@
         "v9": "28",
         "v10": "30"
       }
-    ]
+    ],
+    "avatar": "np_charge"
   }
 }

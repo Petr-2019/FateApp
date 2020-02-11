@@ -65,7 +65,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -144,7 +144,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆スターを大量獲得[Lv]",
+        "desc": "＆スターを大量獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -157,7 +157,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "プランニングB",
     "ct": 7,
@@ -167,7 +167,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を up [Lv](3T)",
+        "desc": "自身のスター発生率を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -180,17 +180,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "傍若無人A",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](1T)",
+        "desc": "自身の Quick Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -203,11 +203,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

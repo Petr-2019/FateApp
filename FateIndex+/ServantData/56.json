@@ -66,7 +66,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を up [Lv](3T)",
+        "desc": "自身の防御力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -131,7 +131,7 @@
         "turn":  5,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体に延焼状態を付与[Lv](5T)",
+        "desc": "＋敵全体に延焼状態を付与(5T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -144,7 +144,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "ストーキングB",
     "ct": 7,
@@ -154,7 +154,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をdown[Lv](3T)",
+        "desc": "敵単体の防御力をdown(3T)",
         "v1": "12",
         "v2": "13.2",
         "v3": "14.4",
@@ -184,7 +184,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "焔色の接吻A",
     "ct": 7,
@@ -211,7 +211,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Buster Card 性能を up [Lv](1T)",
+        "desc": "＆Buster Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

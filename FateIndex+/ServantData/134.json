@@ -58,7 +58,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -124,7 +124,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体のクリティカル発生率をdown[Lv](3T)",
+        "desc": "敵全体のクリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -137,7 +137,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "水浴転身A",
     "ct": 7,
@@ -147,7 +147,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](3T)",
+        "desc": "自身のBuster Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -160,7 +160,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "恋の追跡者A",
     "ct": 7,
@@ -170,7 +170,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をdown[Lv](3T)",
+        "desc": "敵単体の防御力をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

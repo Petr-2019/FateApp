@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -92,7 +92,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵単体に超強力な攻撃[Lv]",
+        "desc": "＆敵単体に超強力な攻撃",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -112,7 +112,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力を up [Lv](1T)",
+        "desc": "味方全体の宝具威力を up (1T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -125,7 +125,7 @@
         "v10": "16"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "沈着冷静B",
     "ct": 8,
@@ -148,11 +148,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆精神異常弱体耐性を up [Lv](3T)",
+        "desc": "＆精神異常弱体耐性を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -165,13 +165,13 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "守護の誓約B",
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -188,11 +188,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆弱体耐性を up [Lv](1T)",
+        "desc": "＆弱体耐性を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -59,7 +59,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -69,7 +69,7 @@
       "type": "show_alone", "name": "単独顕現C",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "6"
         },
@@ -106,7 +106,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -126,7 +126,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -194,7 +194,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のHPを回復[Lv]",
+        "desc": "＋自身のHPを回復",
         "v1": "2000",
         "v2": "2200",
         "v3": "2400",
@@ -207,7 +207,7 @@
         "v10": "4000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "身体無き者EX",
     "ct": 8,
@@ -217,7 +217,7 @@
         "turn": 0,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態を付与[Lv](1回)",
+        "desc": "自身にガッツ状態を付与(1回)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -234,7 +234,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力を up [Lv](3T)",
+        "desc": "＆攻撃力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -247,7 +247,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "マーラ・パーピーヤスEX",
     "ct": 8,
@@ -257,7 +257,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -287,7 +287,7 @@
         "v10": "攻撃相性: 200防御相性: 50"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -308,7 +308,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体の魅了耐性をdown[Lv](1T)",
+        "desc": "＋敵全体の魅了耐性をdown(1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

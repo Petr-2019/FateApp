@@ -66,7 +66,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -114,7 +114,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -131,7 +131,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の宝具威力を up [Lv](3T)",
+        "desc": "＋自身の宝具威力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -144,7 +144,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "仕切り直しA",
     "ct": 7,
@@ -171,7 +171,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",
@@ -184,13 +184,13 @@
         "v10": "2500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "変化A",
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -207,11 +207,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

@@ -52,7 +52,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -62,7 +62,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な防御力無視攻撃[Lv]",
+        "desc": "敵全体に強力な防御力無視攻撃",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -128,7 +128,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "35",
         "v2": "37",
         "v3": "39",
@@ -141,17 +141,17 @@
         "v10": "55"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "最果ての加護A",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -164,11 +164,11 @@
         "v10": "1000"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -185,7 +185,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -198,7 +198,7 @@
         "v10": "5"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "领袖气质E",
     "ct": 7,
@@ -208,7 +208,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "6",
         "v2": "6.6",
         "v3": "7.2",

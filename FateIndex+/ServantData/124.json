@@ -57,7 +57,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -131,7 +131,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃[Lv]",
+        "desc": "＆超強力な攻撃",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -168,7 +168,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -181,7 +181,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "毒の刃C++",
     "ct": 6,
@@ -225,7 +225,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -238,7 +238,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "静寂の舞踏B",
     "ct": 8,
@@ -248,7 +248,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の即死付与成功率を up [Lv](3T)",
+        "desc": "自身の即死付与成功率を up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -265,7 +265,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体成功率を up [Lv](3T)",
+        "desc": "＆弱体成功率を up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

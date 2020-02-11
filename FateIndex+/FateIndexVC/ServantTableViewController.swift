@@ -40,7 +40,7 @@ class ServantTableViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
-        tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
+        tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
 
         setupSearchViewController()
     }
@@ -91,7 +91,7 @@ class ServantTableViewController: UITableViewController {
             return nil
         }
 
-        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
 
         headerView.title = servantClass
         

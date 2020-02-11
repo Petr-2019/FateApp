@@ -48,7 +48,7 @@
 			"type": "magic_resistance", "name": "对魔力C",
 			"effect": [
 				{
-					"type": "弱体耐性 up",
+					"type": "weaken_stand_up",
 					"magnification": "15",
 					"desc": "自身の弱体耐性を少し up"
 				}
@@ -58,7 +58,7 @@
 			"type": "acting_alone", "name": "单独行动C",
 			"effect": [
 				{
-					"type": "クリティカル威力 up",
+					"type": "critical_up",
 					"magnification": "6",
 					"desc": "自身のクリティカル威力を少し up"
 				}
@@ -70,11 +70,11 @@
 		"ct": 7,
 		"effects": [
 			{
-				"type": "防御力 up",
+				"type": "def_up",
 				"turn": 3,
 				"count": 0,
 				"target": "self",
-				"desc": "自身の防御力を up [Lv](3T)",
+				"desc": "自身の防御力を up (3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -91,7 +91,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "self",
-				"desc": "＆毒耐性を up [Lv](3T)",
+				"desc": "＆毒耐性を up (3T)",
 				"v1": "80",
 				"v2": "88",
 				"v3": "96",
@@ -103,7 +103,8 @@
 				"v9": "144",
 				"v10": "160"
 			}
-		]
+		],
+        "avatar": "def_up"
 	},
 	"skill2": {
 		"name": "千里眼A",
@@ -114,7 +115,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "self",
-				"desc": "自身のスター発生率を up [Lv](3T)",
+				"desc": "自身のスター発生率を up (3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -126,7 +127,8 @@
 				"v9": "36",
 				"v10": "40"
 			}
-		]
+		],
+        "avatar": "star_focus_up"
 	},
 	"skill3": {
 		"name": "弓矢作成A",
@@ -137,7 +139,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "self",
-				"desc": "自身のNPを増やす[Lv]",
+				"desc": "自身のNPを増やす",
 				"v1": "20",
 				"v2": "21",
 				"v3": "22",
@@ -154,7 +156,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "self",
-				"desc": "＆HPを回復[Lv]",
+				"desc": "＆HPを回復",
 				"v1": "1000",
 				"v2": "1200",
 				"v3": "1400",
@@ -166,7 +168,8 @@
 				"v9": "2600",
 				"v10": "3000"
 			}
-		]
+		],
+        "avatar": "np_charge"
 	},
 	"hogu": {
 		"name": "流星一条(Stella)",
@@ -181,7 +184,7 @@
 				"target": "enemy-all",
 				"beforeafter": "before",
 				"lvoc": "lv",
-				"desc": "敵全体に超強力な攻撃[Lv]",
+				"desc": "敵全体に超強力な攻撃",
 				"v1": "800",
 				"v2": "1000",
 				"v3": "1100",

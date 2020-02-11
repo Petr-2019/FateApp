@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -118,7 +118,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -152,7 +152,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -165,7 +165,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "自然の嬰児B",
     "ct": 8,
@@ -192,7 +192,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "18",
         "v2": "19",
         "v3": "20",
@@ -205,7 +205,7 @@
         "v10": "28"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "あやしい薬A",
     "ct": 8,
@@ -249,7 +249,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆HP回復 [Lv]",
+        "desc": "＆HP回復 ",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

@@ -51,7 +51,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -61,7 +61,7 @@
       "type": "riding", "name": "骑乘EX",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -71,7 +71,7 @@
       "type": "civilization_invade", "name": "文明浸食EX",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -99,7 +99,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -133,7 +133,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす[Lv]",
+        "desc": "味方単体のNPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -163,7 +163,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "虹の飴細工B",
     "ct": 7,
@@ -173,7 +173,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の宝具威力を up [Lv](1T)",
+        "desc": "味方単体の宝具威力を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -186,11 +186,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -203,7 +203,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "きら星の紋章EX",
     "ct": 7,
@@ -226,11 +226,11 @@
         "v10": ""
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中状態を付与[Lv](3T)",
+        "desc": "＆スター集中状態を付与(3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -243,11 +243,11 @@
         "v10": "600"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

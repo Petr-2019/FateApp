@@ -77,7 +77,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "敵単体に超強力な防御力無視攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -111,7 +111,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を大 up [Lv](1T)",
+        "desc": "自身の攻撃力を大 up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -124,7 +124,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "動物会話C",
     "ct": 8,
@@ -134,7 +134,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -147,17 +147,17 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "天性の肉体A",
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃弱体耐性を up [Lv](3T)",
+        "desc": "自身の攻撃弱体耐性を up (3T)",
         "v1": "60",
         "v2": "66",
         "v3": "72",
@@ -174,7 +174,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを大回復[Lv]",
+        "desc": "＆HPを大回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

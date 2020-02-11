@@ -91,7 +91,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃[Lv]",
+        "desc": "＆強力な攻撃",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -121,7 +121,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -138,11 +138,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -155,7 +155,7 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -172,7 +172,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "ビーチパニックEX",
     "ct": 9,
@@ -199,7 +199,7 @@
         "turn":  5,
         "count": 3,
         "target": "self",
-        "desc": "＆被 damage カット状態を付与[Lv](3回、5T)",
+        "desc": "＆被 damage カット状態を付与(3回、5T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -212,7 +212,7 @@
         "v10": "2000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "熱砂の王道A",
     "ct": 8,
@@ -222,7 +222,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -239,7 +239,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力を up [Lv](3T)",
+        "desc": "＆宝具威力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -256,7 +256,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

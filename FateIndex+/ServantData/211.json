@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘A+",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
@@ -88,7 +88,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -122,7 +122,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -135,7 +135,7 @@
         "v10": "17"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "船中八策A",
     "ct": 7,
@@ -158,11 +158,11 @@
         "v10": "10"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆弱体耐性を up [Lv](3T)",
+        "desc": "＆弱体耐性を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -175,7 +175,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "維新の英雄A",
     "ct": 7,
@@ -185,7 +185,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -202,7 +202,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",

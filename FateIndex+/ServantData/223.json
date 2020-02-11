@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力A+",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "21"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -78,7 +78,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -139,11 +139,11 @@
         "v10": ""
       },
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Quick Card 性能を up [Lv](1T)",
+        "desc": "＆Quick Card 性能を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -160,7 +160,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力を up [Lv](1T)",
+        "desc": "＆攻撃力を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -173,17 +173,17 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "フィオナ騎士の誉れB",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](3T)",
+        "desc": "自身のスター集中度を up (3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -200,7 +200,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆スターを獲得[Lv]",
+        "desc": "＆スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -213,17 +213,17 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "激情の細波B+",
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を up [Lv](3T)",
+        "desc": "自身の防御力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -240,7 +240,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

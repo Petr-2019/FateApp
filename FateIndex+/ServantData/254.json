@@ -52,7 +52,7 @@
 			"type": "magic_resistance", "name": "对魔力B",
 			"effect": [
 				{
-					"type": "弱体耐性 up",
+					"type": "weaken_stand_up",
 					"magnification": "17.5",
 					"desc": "自身の弱体耐性を up"
 				}
@@ -62,7 +62,7 @@
 			"type": "riding", "name": "骑乘B",
 			"effect": [
 				{
-					"type": "Quick Card 性能 up",
+					"type": "quick_up",
 					"magnification": "8",
 					"desc": "自身の Quick Card の性能を up"
 				}
@@ -78,7 +78,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "other-single",
-				"desc": "味方単体のHPを回復[Lv]",
+				"desc": "味方単体のHPを回復",
 				"v1": "1000",
 				"v2": "1100",
 				"v3": "1200",
@@ -134,11 +134,11 @@
 				"condition": ""
 			},
 			{
-				"type": "スター集中 up",
+				"type": "star_focus_up",
 				"turn": 1,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スター集中度を up [Lv](1T)",
+				"desc": "＆スター集中度を up (1T)",
 				"v1": "500",
 				"v2": "550",
 				"v3": "600",
@@ -180,7 +180,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "self-other",
-				"desc": "味方全体の攻撃力を up [Lv](3T)",
+				"desc": "味方全体の攻撃力を up (3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -198,7 +198,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＋自身をのぞく味方全体の〔アルゴー号ゆかりの者〕のNPを増やす[Lv]",
+				"desc": "＋自身をのぞく味方全体の〔アルゴー号ゆかりの者〕のNPを増やす",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -212,11 +212,11 @@
 				"condition": "attr:アルゴー号ゆかりの者"
 			},
 			{
-				"type": "クリティカル威力 up",
+				"type": "critical_up",
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆クリティカル威力を up [Lv](3T)",
+				"desc": "＆クリティカル威力を up (3T)",
 				"v1": "20",
 				"v2": "21",
 				"v3": "22",
@@ -234,7 +234,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スター発生率を up [Lv](3T)",
+				"desc": "＆スター発生率を up (3T)",
 				"v1": "20",
 				"v2": "21",
 				"v3": "22",
@@ -277,7 +277,7 @@
 				"target": "enemy-all",
 				"beforeafter": "before",
 				"lvoc": "lv",
-				"desc": "＋ 敵全体に強力な攻撃[Lv]",
+				"desc": "＋ 敵全体に強力な攻撃",
 				"v1": "450",
 				"v2": "600",
 				"v3": "675",

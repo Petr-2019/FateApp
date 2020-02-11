@@ -58,12 +58,12 @@
       "type": "scoundrel", "name": "無頼漢A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card 性能を少し up",
           "magnification": "5"
         },
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "＆クリティカル威力を up",
           "magnification": "5"
         }
@@ -81,7 +81,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -111,11 +111,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -132,7 +132,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](1T)",
+        "desc": "＆NP獲得量を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -145,17 +145,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "ドッペルゲンガーB+",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -168,11 +168,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -189,7 +189,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率を up [Lv](3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -202,7 +202,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "天巧星A+",
     "ct": 8,
@@ -229,7 +229,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",

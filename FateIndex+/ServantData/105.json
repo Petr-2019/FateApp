@@ -48,7 +48,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -58,7 +58,7 @@
       "type": "riding", "name": "骑乘C+",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を少し up",
           "magnification": "7"
         }
@@ -90,7 +90,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -120,11 +120,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](1T)",
+        "desc": "自身のクリティカル威力を up (1T)",
         "v1": "60",
         "v2": "66",
         "v3": "72",
@@ -137,7 +137,7 @@
         "v10": "120"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "クイックドロウA+",
     "ct": 8,
@@ -147,7 +147,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -160,7 +160,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "心眼（偽）C",
     "ct": 8,
@@ -183,11 +183,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "16",
         "v2": "17.6",
         "v3": "19.2",

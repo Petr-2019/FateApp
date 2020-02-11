@@ -107,7 +107,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "3000",
         "v2": "4000",
         "v3": "4500",
@@ -127,7 +127,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復[Lv]",
+        "desc": "味方単体のHPを回復",
         "v1": "2000",
         "v2": "2200",
         "v3": "2400",
@@ -174,7 +174,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "人体理解A",
     "ct": 8,
@@ -184,7 +184,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔人型〕特攻状態を付与[Lv](3T)",
+        "desc": "自身に〔人型〕特攻状態を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -201,7 +201,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆〔人型〕特防状態を付与[Lv](3T)",
+        "desc": "＆〔人型〕特防状態を付与(3T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -214,7 +214,7 @@
         "v10": "25"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "天使の叫びEX",
     "ct": 7,
@@ -224,7 +224,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のBuster Card 性能を up [Lv](3T)",
+        "desc": "味方単体のBuster Card 性能を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

@@ -66,7 +66,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体の防御力をdown[Lv](3T)",
+        "desc": "敵全体の防御力をdown(3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -102,7 +102,7 @@
         "v5": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -145,7 +145,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スター獲得[Lv]",
+        "desc": "＋スター獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -158,17 +158,17 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "仮説推論A+",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -198,7 +198,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "バリツB++",
     "ct": 7,
@@ -208,7 +208,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

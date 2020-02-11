@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动C",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
@@ -83,7 +83,7 @@
           "magnification": "200"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "20"
         }
@@ -111,7 +111,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -145,7 +145,7 @@
         "turn":  5,
         "count": 3,
         "target": "self",
-        "desc": "自身に damage をカットする状態を付与[Lv](3回、5T)",
+        "desc": "自身に damage をカットする状態を付与(3回、5T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -175,7 +175,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "被虐体質A+",
     "ct": 6,
@@ -198,11 +198,11 @@
         "v10": "300"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](1T)",
+        "desc": "＆防御力を up (1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -219,7 +219,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆HPが50%以下の間、HPが少ないほど攻撃力が up する状態を付与[Lv](3T)",
+        "desc": "＆HPが50%以下の間、HPが少ないほど攻撃力が up する状態を付与(3T)",
         "v1": "最小威力(HP50%)",
         "v2": "10",
         "v3": "12",
@@ -249,7 +249,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "トラッシュ＆クラッシュEX",
     "ct": 8,
@@ -259,7 +259,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up (3T)[Lv]",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -306,11 +306,11 @@
         "v10": "効果が発生する確率：10[%]即死効果量：100[%] ※相手の即死補正（DR)で確率は下がる"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up (1T)[Lv]",
+        "desc": "＆防御力を up (1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

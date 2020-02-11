@@ -66,7 +66,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -117,7 +117,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -130,7 +130,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "失墜の魔女A+",
     "ct": 7,
@@ -140,7 +140,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -170,7 +170,7 @@
         "v10": "500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "ムール・ウ・テュ・ドワEX",
     "ct": 8,
@@ -180,7 +180,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

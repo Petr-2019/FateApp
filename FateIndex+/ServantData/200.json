@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A+",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
@@ -86,7 +86,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -134,7 +134,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](3T)",
+        "desc": "自身のBuster Card 性能を up (3T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",
@@ -168,7 +168,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量 up [Lv](3T)",
+        "desc": "＆NP獲得量 up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -181,7 +181,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "千里眼（闇）C",
     "ct": 7,
@@ -208,7 +208,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆スター獲得[Lv]",
+        "desc": "＆スター獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -221,7 +221,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "痛覚残留A",
     "ct": 7,
@@ -248,7 +248,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆被 damage カット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与(3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",

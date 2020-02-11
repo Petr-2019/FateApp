@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵単体に超強力な攻撃[Lv]",
+        "desc": "＆敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の弱体耐性を up [Lv](3T)",
+        "desc": "自身の弱体耐性を up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -131,7 +131,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを大回復[Lv]",
+        "desc": "＆HPを大回復",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",
@@ -144,11 +144,11 @@
         "v10": "2500"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](1T)",
+        "desc": "＆防御力を up (1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -165,7 +165,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力を up [Lv](3T)",
+        "desc": "＆攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -178,7 +178,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "軍略B",
     "ct": 7,
@@ -188,7 +188,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力を up [Lv](1T)",
+        "desc": "味方全体の宝具威力を up (1T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -201,7 +201,7 @@
         "v10": "18"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "無辜の怪物A",
     "ct": 7,
@@ -211,7 +211,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身に毎ターンスター獲得状態を付与[Lv](3T)",
+        "desc": "自身に毎ターンスター獲得状態を付与(3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",

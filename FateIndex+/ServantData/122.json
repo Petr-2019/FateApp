@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -57,7 +57,7 @@
       "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -89,7 +89,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "＋敵単体に超強力な防御力無視攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -157,7 +157,7 @@
         "turn": 0,
         "count": 0,
         "target": "self-other",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "200",
         "v2": "240",
         "v3": "280",
@@ -170,7 +170,7 @@
         "v10": "600"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "祝福されぬ生誕B",
     "ct": 8,
@@ -180,7 +180,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -210,7 +210,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "騎士王への諫言B",
     "ct": 7,
@@ -237,7 +237,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

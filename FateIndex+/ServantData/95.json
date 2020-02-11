@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
@@ -59,7 +59,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -87,7 +87,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -149,7 +149,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10.5",
         "v2": "11.6",
         "v3": "12.6",
@@ -162,7 +162,7 @@
         "v10": "21"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "紅顔の美少年C",
     "ct": 9,
@@ -185,7 +185,7 @@
         "v10": "75"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "黄金律A",
     "ct": 8,
@@ -195,7 +195,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量 up [Lv](3T)",
+        "desc": "自身のNP獲得量 up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

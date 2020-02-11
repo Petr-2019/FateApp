@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -78,7 +78,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -112,7 +112,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -125,11 +125,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Arts Card のスター集中度を up [Lv](1T)",
+        "desc": "＆Arts Card のスター集中度を up (1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -142,7 +142,7 @@
         "v10": "500"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -159,7 +159,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "水月B",
     "ct": 8,
@@ -186,7 +186,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力を up [Lv](1T)",
+        "desc": "＆攻撃力を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -199,7 +199,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "無刀取りA",
     "ct": 7,
@@ -209,7 +209,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の攻撃力を大down[Lv](1T)",
+        "desc": "敵単体の攻撃力を大down(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -226,7 +226,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のNP獲得量を up [Lv](1T)",
+        "desc": "＋自身のNP獲得量を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

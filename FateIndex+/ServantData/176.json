@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
@@ -59,7 +59,7 @@
       "type": "riding", "name": "骑乘EX",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -87,7 +87,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -135,7 +135,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "<自身のNPが10%以上ある場合のみ使用可能>自身のNP獲得量を up [Lv](3T)",
+        "desc": "<自身のNPが10%以上ある場合のみ使用可能>自身のNP獲得量を up (3T)",
         "v1": "40",
         "v2": "44",
         "v3": "48",
@@ -165,7 +165,7 @@
         "v10": "10"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "虚ろなる酷暑への嘆きA",
     "ct": 7,
@@ -175,7 +175,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "<自身のHPが500以上ある場合のみ使用可能>敵単体の攻撃力をdown[Lv](3T)",
+        "desc": "<自身のHPが500以上ある場合のみ使用可能>敵単体の攻撃力をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -222,7 +222,7 @@
         "v10": "500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "ほどほどロードC",
     "ct": 7,
@@ -232,7 +232,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力 up (3T) [Lv]",
+        "desc": "自身の攻撃力 up (3T) ",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -249,7 +249,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力を up (3T) [Lv]",
+        "desc": "＆宝具威力を up (3T) ",
         "v1": "10",
         "v2": "11",
         "v3": "12",

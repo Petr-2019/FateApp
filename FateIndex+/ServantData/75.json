@@ -79,7 +79,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "＋敵単体に超強力な防御力無視攻撃",
         "v1": "1400",
         "v2": "1800",
         "v3": "2000",
@@ -95,11 +95,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](1T)",
+        "desc": "自身の Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -129,7 +129,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "情報抹消B",
     "ct": 7,
@@ -156,7 +156,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -169,7 +169,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "外科手術E",
     "ct": 6,
@@ -179,7 +179,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復[Lv]",
+        "desc": "味方単体のHPを回復",
         "v1": "500",
         "v2": "700",
         "v3": "900",

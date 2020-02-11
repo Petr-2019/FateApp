@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃[Lv]",
+        "desc": "＆超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -110,11 +110,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up (3T) [Lv] 確率80％",
+        "desc": "自身のクリティカル威力を up (3T)  確率80％",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -127,11 +127,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度を up (3T) [Lv] 確率80％",
+        "desc": "＆スター集中度を up (3T)  確率80％",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -161,17 +161,17 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "原初のルーン",
     "ct": 8,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の Quick Card 性能を up [Lv](1T)",
+        "desc": "味方単体の Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -184,7 +184,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "神殺しB",
     "ct": 7,
@@ -194,7 +194,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔神性〕特攻状態を付与[Lv](1T)",
+        "desc": "自身に〔神性〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -211,7 +211,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆〔死霊〕特攻状態を付与[Lv](1T)",
+        "desc": "＆〔死霊〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

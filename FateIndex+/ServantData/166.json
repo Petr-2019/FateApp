@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -85,7 +85,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -150,7 +150,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -180,7 +180,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "黄金の杯C",
     "ct": 8,
@@ -220,17 +220,17 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "自己改造EX",
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](3T)",
+        "desc": "自身のクリティカル威力を up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -243,11 +243,11 @@
         "v10": "50"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度を up [Lv](3T)",
+        "desc": "＆スター集中度を up (3T)",
         "v1": "400",
         "v2": "440",
         "v3": "480",

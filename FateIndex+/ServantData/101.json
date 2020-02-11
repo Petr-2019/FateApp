@@ -52,7 +52,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -62,7 +62,7 @@
       "type": "riding", "name": "骑乘A+",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
@@ -90,7 +90,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -120,11 +120,11 @@
     "ct": 6,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -137,11 +137,11 @@
         "v10": "500"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -154,7 +154,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "领袖气质B",
     "ct": 7,
@@ -164,7 +164,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -177,7 +177,7 @@
         "v10": "18"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "離別の呪いA",
     "ct": 9,
@@ -204,7 +204,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -68,7 +68,7 @@
       "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -106,7 +106,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -140,7 +140,7 @@
         "turn":  5,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
+        "desc": "自身にガッツ状態(1回・5T)を付与",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",
@@ -153,17 +153,17 @@
         "v10": "5000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "信仰の加護A+++",
     "ct": 7,
     "effects": [
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の弱体耐性を up [Lv](3T)",
+        "desc": "自身の弱体耐性を up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -180,7 +180,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを大回復[Lv]",
+        "desc": "＆HPを大回復",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",
@@ -193,11 +193,11 @@
         "v10": "2500"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](1T)",
+        "desc": "＆防御力を up (1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -214,7 +214,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆攻撃力を up [Lv](3T)",
+        "desc": "＆攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -227,7 +227,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "晩鐘EX",
     "ct": 8,
@@ -237,7 +237,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の即死耐性をdown[Lv](3T)",
+        "desc": "敵全体の即死耐性をdown(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -254,7 +254,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "＆自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

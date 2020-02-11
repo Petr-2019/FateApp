@@ -62,7 +62,7 @@
       "type": "forget_correct", "name": "忘却補正A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -118,7 +118,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵のターン終了時に、自身がそのターン中に受けた damage を、敵全体に倍化して返す[Lv]",
+        "desc": "＆敵のターン終了時に、自身がそのターン中に受けた damage を、敵全体に倍化して返す",
         "v1": "200",
         "v2": "250(200)",
         "v3": "275(200)",
@@ -138,7 +138,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -151,7 +151,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "左歯噛咬C",
     "ct": 8,
@@ -178,7 +178,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をdown[Lv](3T)",
+        "desc": "＆攻撃力をdown(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -191,17 +191,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "四夜の終末EX",
     "ct": 9,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身に毎ターン徐々にQuick Card 性能が up する効果を付与[Lv]",
+        "desc": "自身に毎ターン徐々にQuick Card 性能が up する効果を付与",
         "v1": "初期(1T目)",
         "v2": "20",
         "v3": "22",

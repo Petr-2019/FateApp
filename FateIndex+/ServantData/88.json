@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -59,7 +59,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -87,7 +87,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -135,7 +135,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -152,7 +152,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力を up [Lv](1T)",
+        "desc": "＆宝具威力を up (1T)",
         "v1": "8",
         "v2": "8.7",
         "v3": "9.4",
@@ -165,7 +165,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "原初のルーン",
     "ct": 8,
@@ -175,7 +175,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体のクリティカル発生率をdown[Lv](3T)",
+        "desc": "敵単体のクリティカル発生率をdown(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -192,7 +192,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆宝具威力をdown[Lv](1T)",
+        "desc": "＆宝具威力をdown(1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",
@@ -205,17 +205,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "英雄の介添C++",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のスター集中度を up [Lv](3T)",
+        "desc": "味方単体のスター集中度を up (3T)",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -228,11 +228,11 @@
         "v10": "3000"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -249,7 +249,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

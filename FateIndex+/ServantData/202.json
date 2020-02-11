@@ -64,7 +64,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -82,7 +82,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -126,11 +126,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -147,7 +147,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆スターを獲得[Lv]",
+        "desc": "＆スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -160,17 +160,17 @@
         "v10": "5"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "アルカディア越えA",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の Quick Card 性能を up [Lv](1T)",
+        "desc": "味方全体の Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -183,7 +183,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "野獣の論理B",
     "ct": 8,
@@ -206,11 +206,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

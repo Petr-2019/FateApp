@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -92,7 +92,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃[Lv]",
+        "desc": "＆超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -100,7 +100,7 @@
         "v5": "1500"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -139,11 +139,11 @@
         "v10": "100"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -156,7 +156,7 @@
         "v10": "40"
       }
     ]
-  },
+  , "avatar": "become_target"},
   "skill2": {
     "name": "殉教者の魂B+",
     "ct": 7,
@@ -166,7 +166,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の精神異常耐性を大 up [Lv](3T)",
+        "desc": "自身の精神異常耐性を大 up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -183,7 +183,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "750",
         "v2": "875",
         "v3": "1000",
@@ -196,7 +196,7 @@
         "v10": "2000"
       }
     ]
-  },
+  , "avatar": "weaken_stand_up"},
   "skill3": {
     "name": "戦闘続行A",
     "ct": 9,
@@ -206,7 +206,7 @@
         "turn":  5,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態(1回・5T)を付与[Lv]",
+        "desc": "自身にガッツ状態(1回・5T)を付与",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",
@@ -218,6 +218,7 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ]
+    ],
+    "avatar": "gatsu"
   }
 }

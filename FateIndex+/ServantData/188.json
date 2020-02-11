@@ -65,7 +65,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -95,11 +95,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -116,7 +116,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Buster Card 性能を up [Lv](3T)",
+        "desc": "＆Buster Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -129,7 +129,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "忍術A",
     "ct": 8,
@@ -156,7 +156,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up [Lv](1T)",
+        "desc": "＆スター発生率を up (1T)",
         "v1": "25",
         "v2": "27",
         "v3": "29",
@@ -169,7 +169,7 @@
         "v10": "45"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "絡繰幻法B+",
     "ct": 8,
@@ -196,7 +196,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up [Lv](1T)",
+        "desc": "＆スター発生率を up (1T)",
         "v1": "25",
         "v2": "27",
         "v3": "29",

@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -86,7 +86,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -148,7 +148,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を up [Lv](3T)",
+        "desc": "自身のスター発生率を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -178,7 +178,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "授かりの英雄A",
     "ct": 12,
@@ -205,7 +205,7 @@
         "turn":  5,
         "count": 0,
         "target": "self",
-        "desc": "＆毎ターンHP回復状態を付与[Lv](5T)",
+        "desc": "＆毎ターンHP回復状態を付与(5T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -222,7 +222,7 @@
         "turn":  5,
         "count": 0,
         "target": "self",
-        "desc": "＆毎ターンスター獲得状態を付与[Lv](5T)",
+        "desc": "＆毎ターンスター獲得状態を付与(5T)",
         "v1": "4",
         "v2": "5",
         "v3": "6",
@@ -235,7 +235,7 @@
         "v10": "4"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔力放出（炎）A",
     "ct": 7,
@@ -245,7 +245,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -262,7 +262,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆宝具威力を up [Lv](1T)",
+        "desc": "＆宝具威力を up (1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -53,7 +53,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -63,7 +63,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -95,7 +95,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆敵全体に強力な攻撃[Lv]",
+        "desc": "＆敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -115,7 +115,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -128,7 +128,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "眩き旅路EX",
     "ct": 7,
@@ -138,7 +138,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "スターを大量獲得[Lv]",
+        "desc": "スターを大量獲得",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -151,11 +151,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のクリティカル威力を up [Lv](3T)",
+        "desc": "＋自身のクリティカル威力を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -168,7 +168,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "巨獣狩りA",
     "ct": 7,
@@ -178,7 +178,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔超巨大〕特攻状態を付与[Lv](1T)",
+        "desc": "自身に〔超巨大〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

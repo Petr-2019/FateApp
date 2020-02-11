@@ -65,7 +65,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -126,7 +126,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "おろちの呪B",
     "ct": 7,
@@ -136,7 +136,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](3T)",
+        "desc": "自身のArts Card 性能を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -166,7 +166,7 @@
         "v10": "500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "甲賀流A",
     "ct": 8,
@@ -193,7 +193,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆NPを増やす[Lv]",
+        "desc": "＆NPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",

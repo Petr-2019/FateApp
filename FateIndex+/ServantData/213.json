@@ -52,7 +52,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -62,7 +62,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -90,7 +90,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -120,11 +120,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 3,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](3回・3T)",
+        "desc": "自身のクリティカル威力を up (3回・3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -137,7 +137,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "竜種改造EX",
     "ct": 9,
@@ -147,7 +147,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -177,7 +177,7 @@
         "v10": "1000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "叡智の結晶A",
     "ct": 7,
@@ -187,7 +187,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のスター発生率を up [Lv](1T)",
+        "desc": "味方単体のスター発生率を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -65,7 +65,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -99,7 +99,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を大 up [Lv](3T)",
+        "desc": "自身のスター発生率を大 up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -112,17 +112,17 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "射撃B",
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](1T)",
+        "desc": "自身のクリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -135,7 +135,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "コンビネーションC",
     "ct": 7,
@@ -145,7 +145,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](1T)",
+        "desc": "自身の攻撃力を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -158,11 +158,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度を up [Lv](1T)",
+        "desc": "＆スター集中度を up (1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",

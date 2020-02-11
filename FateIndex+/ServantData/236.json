@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -103,7 +103,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "500",
         "v2": "750",
         "v3": "875",
@@ -151,7 +151,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](3T)",
+        "desc": "自身のArts Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -164,11 +164,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 3,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3回・3T)",
+        "desc": "＆クリティカル威力を up (3回・3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -181,7 +181,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "少女の意地B",
     "ct": 8,
@@ -191,7 +191,7 @@
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
+        "desc": "自身にガッツ状態を付与(1回・3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -221,7 +221,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "神稚児の願いEX",
     "ct": 8,
@@ -231,7 +231,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす[Lv]",
+        "desc": "味方単体のNPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -248,7 +248,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆強化成功率を up [Lv](3T)",
+        "desc": "＆強化成功率を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

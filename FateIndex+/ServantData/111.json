@@ -63,7 +63,7 @@
           "magnification": "200"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -81,7 +81,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体のHPを回復[Lv]",
+        "desc": "味方全体のHPを回復",
         "v1": "2000",
         "v2": "2500",
         "v3": "2750",
@@ -115,7 +115,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の与回復量を up [Lv](1T)",
+        "desc": "自身の与回復量を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -128,7 +128,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "自然の嬰児A",
     "ct": 8,
@@ -155,7 +155,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆NP獲得量を up [Lv](3T)",
+        "desc": "＆NP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -168,7 +168,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔術医療A",
     "ct": 7,
@@ -178,7 +178,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復[Lv]",
+        "desc": "味方単体のHPを回復",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",

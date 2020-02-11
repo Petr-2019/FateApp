@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -88,7 +88,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -96,7 +96,7 @@
         "v5": "500"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -122,7 +122,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -139,7 +139,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率を up [Lv](1T)",
+        "desc": "＆スター発生率を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -152,7 +152,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "魔眼B+",
     "ct": 8,
@@ -179,7 +179,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆攻撃力をdown[Lv](1T)",
+        "desc": "＆攻撃力をdown(1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -192,7 +192,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "才知の祝福C",
     "ct": 8,
@@ -202,7 +202,7 @@
         "turn":  5,
         "count": 0,
         "target": "self",
-        "desc": "自身に毎ターンNP獲得状態を付与[Lv](5T)",
+        "desc": "自身に毎ターンNP獲得状態を付与(5T)",
         "v1": "5",
         "v2": "5.5",
         "v3": "6",

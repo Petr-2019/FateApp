@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -66,7 +66,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -127,11 +127,11 @@
         "v10": ""
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -144,7 +144,7 @@
         "v10": "18"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "愛の黒子C",
     "ct": 7,
@@ -154,7 +154,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体〔女性〕の攻撃力を大down[Lv](1T)",
+        "desc": "敵全体〔女性〕の攻撃力を大down(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -167,7 +167,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "騎士の武略B",
     "ct": 7,
@@ -177,7 +177,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を大 up [Lv](3T)",
+        "desc": "自身のスター発生率を大 up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

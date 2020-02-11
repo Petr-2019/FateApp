@@ -75,7 +75,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "<生贄にできる味方がフィールドに1騎以上いる時のみ使用可能>敵全体に超強力な攻撃[Lv]",
+        "desc": "<生贄にできる味方がフィールドに1騎以上いる時のみ使用可能>敵全体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -140,7 +140,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＋敵全体のクリティカル発生率をdown[Lv](3T)",
+        "desc": "＋敵全体のクリティカル発生率をdown(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -153,17 +153,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "軍師の忠言B++",
     "ct": 8,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の防御力を up [Lv](3T)",
+        "desc": "味方全体の防御力を up (3T)",
         "v1": "14",
         "v2": "15",
         "v3": "16",
@@ -180,7 +180,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆被 damage カット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与(3T)",
         "v1": "200",
         "v2": "215",
         "v3": "230",
@@ -210,7 +210,7 @@
         "v10": "10"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "軍師の本懐A",
     "ct": 7,
@@ -220,7 +220,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のBuster Card 性能を up [Lv](1T)",
+        "desc": "味方単体のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -233,11 +233,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＋味方単体の〔バーサーカー〕のクリティカル威力を up [Lv](1T)",
+        "desc": "＋味方単体の〔バーサーカー〕のクリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -254,7 +254,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆最大HPを増やす[Lv](1T)",
+        "desc": "＆最大HPを増やす(1T)",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",

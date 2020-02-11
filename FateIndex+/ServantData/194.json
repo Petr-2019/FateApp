@@ -58,7 +58,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -138,7 +138,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "8.9",
         "v2": "9.8",
         "v3": "10.7",
@@ -151,17 +151,17 @@
         "v10": "17.8"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "精霊の目A",
     "ct": 7,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](1T)",
+        "desc": "自身のクリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -191,7 +191,7 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔神の叡智A",
     "ct": 8,
@@ -201,7 +201,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -218,7 +218,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆Buster Card 性能を up [Lv](3T)",
+        "desc": "＆Buster Card 性能を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

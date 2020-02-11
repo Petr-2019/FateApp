@@ -54,7 +54,7 @@ class ServantDetailTableViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.register(ServantDetailTableViewCell.self, forCellReuseIdentifier: ServantDetailTableViewCell.identifier)
-        tableView.register(ServantTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: ServantTableViewHeaderView.identifier)
+        tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
@@ -232,7 +232,7 @@ class ServantDetailTableViewController: UITableViewController {
                 skill = servant.skill3
             }
 
-            cell.avatar = UIImageUtility.classSkillImage(named: skill.effects[0].type)
+            cell.avatar = UIImageUtility.classSkillImage(named: skill.avatar)
             cell.title = skill.name
             cell.accessoryType = .disclosureIndicator
             return cell
@@ -256,7 +256,7 @@ class ServantDetailTableViewController: UITableViewController {
             return nil
         }
 
-        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: ServantTableViewHeaderView.identifier) as! ServantTableViewHeaderView
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
 
         let title: String
 

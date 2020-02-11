@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动B",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -110,7 +110,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNP獲得量を up [Lv](3T)",
+        "desc": "味方全体のNP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -123,7 +123,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "天下布武A",
     "ct": 7,
@@ -133,7 +133,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔神性〕特攻状態を付与[Lv](1T)",
+        "desc": "自身に〔神性〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -146,17 +146,17 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔王A",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](3T)",
+        "desc": "自身のスター集中度を up (3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -169,11 +169,11 @@
         "v10": "600"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

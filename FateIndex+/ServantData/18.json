@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な防御力無視攻撃[Lv]",
+        "desc": "敵全体に強力な防御力無視攻撃",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -124,7 +124,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -141,7 +141,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋自身を除く味方全体の〔女性〕の攻撃力を up [Lv](3T)",
+        "desc": "＋自身を除く味方全体の〔女性〕の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -154,7 +154,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": "atk_up"},
   "skill2": {
     "name": "拷問技術A",
     "ct": 7,
@@ -164,7 +164,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をdown[Lv](3T)",
+        "desc": "敵単体の防御力をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -177,7 +177,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": "def_down"},
   "skill3": {
     "name": "戦闘続行B",
     "ct": 9,
@@ -187,7 +187,7 @@
         "turn":  4,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態(1回・4T)を付与[Lv]",
+        "desc": "自身にガッツ状態(1回・4T)を付与",
         "v1": "750",
         "v2": "875",
         "v3": "1000",
@@ -199,6 +199,7 @@
         "v9": "1750",
         "v10": "2000"
       }
-    ]
+    ],
+    "avatar": "gatsu"
   }
 }

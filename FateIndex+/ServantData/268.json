@@ -54,7 +54,7 @@
         "type": "magic_resistance", "name": "对魔力C",
         "effect": [
           {
-            "type": "弱体耐性 up",
+            "type": "weaken_stand_up",
             "desc": "自身の弱体耐性を up",
             "magnification": "15.5"
           }
@@ -64,7 +64,7 @@
         "type": "acting_alone", "name": "单独行动C",
         "effect": [
           {
-            "type": "クリティカル威力 up",
+            "type": "critical_up",
             "desc": "自身のクリティカル威力を少し up",
             "magnification": "6"
           }
@@ -79,7 +79,7 @@
             "magnification": "270"
           },
           {
-            "type": "弱体耐性 up",
+            "type": "weaken_stand_up",
             "desc": "自身の弱体耐性を up",
             "magnification": "27"
           }
@@ -104,7 +104,7 @@
         "type": "forget_correct", "name": "忘却補正A",
         "effect": [
           {
-            "type": "クリティカル威力 up",
+            "type": "critical_up",
             "desc": "自身のクリティカル威力を up",
             "magnification": "10"
           }
@@ -146,7 +146,7 @@
           "target": "enemy-all",
           "beforeafter": "before",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃[Lv] ",
+          "desc": "+敵全体に強力な攻撃 ",
           "v1": "450",
           "v2": "600",
           "v3": "675",
@@ -160,7 +160,7 @@
           "target": "enemy-all",
           "beforeafter": "before",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃[Lv] ",
+          "desc": "+敵全体に強力な攻撃 ",
           "v1": "300",
           "v2": "400",
           "v3": "450",
@@ -174,7 +174,7 @@
           "target": "enemy-all",
           "beforeafter": "before",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃[Lv] ",
+          "desc": "+敵全体に強力な攻撃 ",
           "v1": "600",
           "v2": "800",
           "v3": "900",
@@ -208,7 +208,7 @@
           "turn":  3,
           "count": 0,
           "target": "self",
-          "desc": "自身の攻撃力を up [Lv](3T)",
+          "desc": "自身の攻撃力を up (3T)",
           "v1": "10",
           "v2": "11",
           "v3": "12",
@@ -225,7 +225,7 @@
             "turn":  3,
             "count": 0,
             "target": "other-all",
-            "desc": "＋自身を除く味方全体の攻撃力を up [Lv](3T)",
+            "desc": "＋自身を除く味方全体の攻撃力を up (3T)",
             "v1": "20",
             "v2": "21",
             "v3": "22",
@@ -265,7 +265,7 @@
           "turn": 3,
           "count": 1,
           "target": "self",
-          "desc": "自身の宝具威力を up [Lv](1回・3T)",
+          "desc": "自身の宝具威力を up (1回・3T)",
           "v1": "10",
           "v2": "11",
           "v3": "12",
@@ -335,7 +335,7 @@
             "v10": "50"
         },
         {
-            "type": "Quick Card 性能 up",
+            "type": "quick_up",
             "turn":  3,
             "count": 0,
             "target": "self",

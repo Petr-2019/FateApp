@@ -90,7 +90,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "2000",
         "v2": "2500",
         "v3": "2750",
@@ -141,7 +141,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-all",
-        "desc": "自身をのぞく味方全体の宝具威力を up [Lv](3T)",
+        "desc": "自身をのぞく味方全体の宝具威力を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -154,13 +154,13 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "変化A",
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -177,11 +177,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -194,7 +194,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "狐の嫁入りEX",
     "ct": 7,
@@ -204,7 +204,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のArts Card 性能を up [Lv](3T)",
+        "desc": "味方単体のArts Card 性能を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -221,7 +221,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",

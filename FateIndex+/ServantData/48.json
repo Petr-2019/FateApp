@@ -57,7 +57,7 @@
       "type": "magic_resistance", "name": "对魔力E",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
@@ -89,7 +89,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵全体に強力な攻撃[Lv]",
+        "desc": "＋敵全体に強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -105,11 +105,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](3T)",
+        "desc": "自身のスター集中度を up (3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -122,7 +122,7 @@
         "v10": "6000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "精霊の加護A",
     "ct": 7,
@@ -132,7 +132,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター発生率を up [Lv](3T)",
+        "desc": "自身のスター発生率を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -145,7 +145,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔力逆流A",
     "ct": 7,
@@ -155,7 +155,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量を up [Lv](1T)",
+        "desc": "自身のNP獲得量を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -168,11 +168,11 @@
         "v10": "100"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

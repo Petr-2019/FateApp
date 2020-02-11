@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -88,7 +88,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身の攻撃力を大 up [Lv](2T)",
+        "desc": "自身の攻撃力を大 up (2T)",
         "v1": "50",
         "v2": "75",
         "v3": "87.5",
@@ -136,7 +136,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の宝具威力を up [Lv](1T)",
+        "desc": "味方全体の宝具威力を up (1T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -149,7 +149,7 @@
         "v10": "16"
       }
     ]
-  },
+  , "avatar": "hogu_up"},
   "skill2": {
     "name": "黄金律B",
     "ct": 8,
@@ -159,7 +159,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量 up [Lv](3T)",
+        "desc": "自身のNP獲得量 up (3T)",
         "v1": "18",
         "v2": "20.7",
         "v3": "23.4",
@@ -172,7 +172,7 @@
         "v10": "45"
       }
     ]
-  },
+  , "avatar": "np_gain_up"},
   "skill3": {
     "name": "プレラーティの激励B",
     "ct": 7,
@@ -182,7 +182,7 @@
         "turn":  5,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](5T)",
+        "desc": "自身のBuster Card 性能を up (5T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -194,6 +194,7 @@
         "v9": "36",
         "v10": "40"
       }
-    ]
+    ],
+    "avatar": "buster_up"
   }
 }

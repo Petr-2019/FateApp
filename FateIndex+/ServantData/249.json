@@ -88,7 +88,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身を除く味方全体にガッツ状態を付与[Lv](1回・3T)",
+        "desc": "自身を除く味方全体にガッツ状態を付与(1回・3T)",
         "v1": "1000",
         "v2": "2000",
         "v3": "2500",
@@ -136,7 +136,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを大回復[Lv]",
+        "desc": "味方単体のHPを大回復",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",
@@ -149,11 +149,11 @@
         "v10": "5000"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆弱体耐性を up [Lv](3T)",
+        "desc": "＆弱体耐性を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -166,7 +166,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "アポロンの子A",
     "ct": 8,
@@ -193,7 +193,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体のNP獲得量を up [Lv](3T)",
+        "desc": "＋味方全体のNP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -206,7 +206,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "蛇遣いB",
     "ct": 9,
@@ -216,7 +216,7 @@
         "turn": 0,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNPを増やす[Lv]",
+        "desc": "味方全体のNPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",

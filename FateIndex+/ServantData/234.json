@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -134,7 +134,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -167,11 +167,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -184,7 +184,7 @@
         "v10": "40"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "星の籠（大）EX",
     "ct": 8,
@@ -194,7 +194,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力をdown[Lv](3T)",
+        "desc": "敵全体の防御力をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -211,7 +211,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -258,7 +258,7 @@
         "v10": "1000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "星の籠（小）EX",
     "ct": 8,
@@ -268,7 +268,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -285,7 +285,7 @@
         "turn":  1,
         "count": 0,
         "target": "self-other",
-        "desc": "＆強化解除耐性を up [Lv](1T)",
+        "desc": "＆強化解除耐性を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -302,7 +302,7 @@
         "turn": 0,
         "count": 0,
         "target": "self-other",
-        "desc": "＆NPを増やす[Lv]",
+        "desc": "＆NPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",

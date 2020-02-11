@@ -66,7 +66,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -113,11 +113,11 @@
         "v10": "300"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -130,7 +130,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "原初のルーン（海）A",
     "ct": 8,
@@ -140,7 +140,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復[Lv]",
+        "desc": "味方単体のHPを回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -157,7 +157,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆被 damage カット状態を付与[Lv](1T)",
+        "desc": "＆被 damage カット状態を付与(1T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -170,7 +170,7 @@
         "v10": "1000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "真夏のあやまちC",
     "ct": 8,
@@ -193,11 +193,11 @@
         "v10": ""
       },
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Quick Card 性能を up [Lv](1T)",
+        "desc": "＆Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

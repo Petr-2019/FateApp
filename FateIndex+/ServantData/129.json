@@ -51,7 +51,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -61,7 +61,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -89,7 +89,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -137,7 +137,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](3T)",
+        "desc": "自身のArts Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -150,11 +150,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の防御力を up [Lv](3T)",
+        "desc": "＋味方全体の防御力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -167,7 +167,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "海の家の加護EX",
     "ct": 6,
@@ -177,7 +177,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のHPを回復[Lv]",
+        "desc": "自身のHPを回復",
         "v1": "2000",
         "v2": "2300",
         "v3": "2600",
@@ -207,7 +207,7 @@
         "v10": "10"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "ビーチフラワーB",
     "ct": 7,
@@ -217,7 +217,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "8",
         "v2": "9",
         "v3": "10",
@@ -234,7 +234,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率を up [Lv](3T)",
+        "desc": "＆味方全体の〔男性〕のスター発生率を up (3T)",
         "v1": "18",
         "v2": "20",
         "v3": "22",

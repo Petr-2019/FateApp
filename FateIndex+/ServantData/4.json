@@ -53,7 +53,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -63,7 +63,7 @@
       "type": "riding", "name": "骑乘C",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を少し up",
           "magnification": "6"
         }
@@ -81,7 +81,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "400",
         "v2": "550",
         "v3": "625",
@@ -115,7 +115,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "スターを大量獲得[Lv]",
+        "desc": "スターを大量獲得",
         "v1": "4",
         "v2": "5",
         "v3": "6",
@@ -128,7 +128,7 @@
         "v10": "14"
       }
     ]
-  },
+  , "avatar": "star_gain"},
   "skill2": {
     "name": "魔力放出A",
     "ct": 7,
@@ -138,7 +138,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のBuster Card 性能を up [Lv](1T)",
+        "desc": "自身のBuster Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -151,7 +151,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": "buster_up"},
   "skill3": {
     "name": "花の旅路EX",
     "ct": 7,
@@ -161,7 +161,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のNP獲得量を up [Lv](3T)",
+        "desc": "味方全体のNP獲得量を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -173,6 +173,7 @@
         "v9": "18",
         "v10": "20"
       }
-    ]
+    ],
+    "avatar": "np_gain_up"
   }
 }

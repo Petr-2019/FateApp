@@ -79,7 +79,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋ 敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "＋ 敵単体に超強力な防御力無視攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -109,11 +109,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のクリティカル威力を up [Lv](3T)",
+        "desc": "自身のクリティカル威力を up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -126,7 +126,7 @@
         "v10": "100"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -160,7 +160,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "血濡れの蛮勇A",
     "ct": 7,
@@ -187,7 +187,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "<追加効果> 自身の攻撃力 up (3T)[Lv]",
+        "desc": "<追加効果> 自身の攻撃力 up (3T)",
         "v1": "10",
         "v2": "10.5",
         "v3": "11",
@@ -217,17 +217,17 @@
         "v10": "10"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "鬼武蔵の遺言状C",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にスター集中状態を付与[Lv](1T)",
+        "desc": "自身にスター集中状態を付与(1T)",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",

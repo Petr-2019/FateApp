@@ -90,7 +90,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆HP大回復[Lv]",
+        "desc": "＆HP大回復",
         "v1": "4000",
         "v2": "5000",
         "v3": "5500",
@@ -98,7 +98,7 @@
         "v5": "6000"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -124,7 +124,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPをものすごく増やす[Lv]",
+        "desc": "自身のNPをものすごく増やす",
         "v1": "80",
         "v2": "87",
         "v3": "94",
@@ -137,7 +137,7 @@
         "v10": "150"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "耐毒A++",
     "ct": 7,
@@ -164,7 +164,7 @@
         "turn": 0,
         "count": 0,
         "target": "self-other",
-        "desc": "＆HPを回復[Lv]",
+        "desc": "＆HPを回復",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",
@@ -177,7 +177,7 @@
         "v10": "3000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "うたかたの恋EX",
     "ct": 8,
@@ -187,7 +187,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHP回復量を up [Lv](1T)",
+        "desc": "味方単体のHP回復量を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -204,7 +204,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆強化解除耐性を up [Lv](3T)",
+        "desc": "＆強化解除耐性を up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

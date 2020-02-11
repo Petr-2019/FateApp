@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -63,7 +63,7 @@
           "magnification": "250"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
@@ -81,7 +81,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -146,7 +146,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＋敵単体のQuick攻撃耐性をdown[Lv](3T)",
+        "desc": "＋敵単体のQuick攻撃耐性をdown(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -159,7 +159,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "怪力C",
     "ct": 7,
@@ -169,7 +169,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](1T)",
+        "desc": "自身の攻撃力を up (1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -182,7 +182,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "彼方への想いA",
     "ct": 9,
@@ -192,7 +192,7 @@
         "turn":  3,
         "count": 1,
         "target": "self",
-        "desc": "自身にガッツ状態を付与[Lv](1回・3T)",
+        "desc": "自身にガッツ状態を付与(1回・3T)",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

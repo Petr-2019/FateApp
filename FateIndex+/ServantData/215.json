@@ -74,7 +74,7 @@
           "magnification": "250"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
@@ -86,13 +86,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  5,
         "count": 3,
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "味方全体のクリティカル威力を up [Lv](3回・5T)",
+        "desc": "味方全体のクリティカル威力を up (3回・5T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -150,11 +150,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の Quick Card 性能を up [Lv](3T)",
+        "desc": "味方単体の Quick Card 性能を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -167,11 +167,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆Quick Card のクリティカル威力を up [Lv](3T)",
+        "desc": "＆Quick Card のクリティカル威力を up (3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -184,7 +184,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "凍える吹雪B",
     "ct": 8,
@@ -194,7 +194,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の防御力をdown[Lv](3T)",
+        "desc": "敵全体の防御力をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -211,7 +211,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -224,7 +224,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "大神の叡智B+",
     "ct": 8,
@@ -234,7 +234,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす[Lv]",
+        "desc": "味方単体のNPを増やす",
         "v1": "30",
         "v2": "32",
         "v3": "34",

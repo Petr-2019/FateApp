@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -90,7 +90,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -124,7 +124,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体に確率でスキル封印状態を付与[Lv](1T)",
+        "desc": "敵単体に確率でスキル封印状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -141,7 +141,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを大量獲得[Lv]",
+        "desc": "＋スターを大量獲得",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -154,7 +154,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "不動の忍耐C",
     "ct": 8,
@@ -164,7 +164,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](3T)",
+        "desc": "自身のArts Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -194,17 +194,17 @@
         "v10": ""
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "エイミングEX",
     "ct": 7,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身にスター集中状態を付与[Lv](1T)",
+        "desc": "自身にスター集中状態を付与(1T)",
         "v1": "600",
         "v2": "640",
         "v3": "680",
@@ -217,11 +217,11 @@
         "v10": "1000"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](1T)",
+        "desc": "＆クリティカル威力を up (1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

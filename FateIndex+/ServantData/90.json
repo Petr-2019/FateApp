@@ -52,7 +52,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -62,7 +62,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -80,7 +80,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -142,7 +142,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体にNP獲得 up 状態を付与[Lv](3T)",
+        "desc": "味方単体にNP獲得 up 状態を付与(3T)",
         "v1": "35",
         "v2": "36",
         "v3": "37",
@@ -159,7 +159,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NPを増やす[Lv]",
+        "desc": "＆NPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -172,7 +172,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "地に花をA",
     "ct": 8,
@@ -182,7 +182,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の攻撃力を up [Lv](3T)",
+        "desc": "味方単体の攻撃力を up (3T)",
         "v1": "30",
         "v2": "31",
         "v3": "32",
@@ -199,7 +199,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up [Lv](3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -212,7 +212,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "人に愛をA",
     "ct": 7,
@@ -222,7 +222,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復[Lv]",
+        "desc": "味方単体のHPを回復",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -235,11 +235,11 @@
         "v10": "3000"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

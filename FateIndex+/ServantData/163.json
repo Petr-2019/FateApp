@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -59,7 +59,7 @@
       "type": "riding", "name": "骑乘B",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -69,7 +69,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -84,7 +84,7 @@
           "magnification": "225"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
@@ -112,7 +112,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -134,7 +134,7 @@
         "v5": ""
       },
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -177,7 +177,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆スター獲得[Lv]",
+        "desc": "＆スター獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -190,7 +190,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "加虐体質A",
     "ct": 7,
@@ -200,7 +200,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -230,7 +230,7 @@
         "v10": "10"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "メルトウイルスEX",
     "ct": 8,
@@ -240,7 +240,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
-        "desc": "敵全体の宝具威力をdown[Lv](1T)",
+        "desc": "敵全体の宝具威力をdown(1T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -274,7 +274,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋自身の宝具威力を up [Lv]",
+        "desc": "＋自身の宝具威力を up ",
         "v1": "20",
         "v2": "21",
         "v3": "22",

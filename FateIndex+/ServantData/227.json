@@ -50,7 +50,7 @@
       "type": "magic_resistance", "name": "对魔力C",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "15"
         }
@@ -60,7 +60,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -120,7 +120,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆被 damage カット状態を付与[Lv](3T)",
+        "desc": "＆被 damage カット状態を付与(3T)",
         "v1": "500",
         "v2": "1000",
         "v3": "1250",
@@ -157,7 +157,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体の攻撃力を up [Lv](3T)",
+        "desc": "＋味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -170,7 +170,7 @@
         "v10": "20"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "勢い破竹の如しC",
     "ct": 7,
@@ -180,7 +180,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす[Lv]",
+        "desc": "味方単体のNPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -197,7 +197,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆強化成功率を up [Lv](1T)",
+        "desc": "＆強化成功率を up (1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -210,7 +210,7 @@
         "v10": "40"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "魔性の貌EX",
     "ct": 7,
@@ -220,7 +220,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体のArts Card 性能を up [Lv](3T)",
+        "desc": "味方全体のArts Card 性能を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -237,7 +237,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆確率でスター発生率を up [Lv](3T) 確率60％",
+        "desc": "＆確率でスター発生率を up (3T) 確率60％",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -250,11 +250,11 @@
         "v10": "50"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆確率でクリティカル威力を up [Lv](3T) 確率60％",
+        "desc": "＆確率でクリティカル威力を up (3T) 確率60％",
         "v1": "30",
         "v2": "32",
         "v3": "34",

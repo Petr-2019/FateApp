@@ -49,7 +49,7 @@
       "type": "magic_resistance", "name": "对魔力B",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -59,7 +59,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -77,7 +77,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃[Lv]",
+        "desc": "敵全体に強力な攻撃",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -107,11 +107,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](3T)",
+        "desc": "自身の Quick Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -128,7 +128,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆Buster Card 性能を up [Lv](3T)",
+        "desc": "＆Buster Card 性能を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -141,7 +141,7 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "不断B",
     "ct": 8,
@@ -151,7 +151,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -164,11 +164,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中度を up [Lv](1T)",
+        "desc": "＆スター集中度を up (1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -181,7 +181,7 @@
         "v10": "500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "無辺A",
     "ct": 7,
@@ -191,7 +191,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の宝具威力を up [Lv](1T)",
+        "desc": "自身の宝具威力を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

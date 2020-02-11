@@ -58,7 +58,7 @@
       "type": "magic_resistance", "name": "对魔力A",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -73,7 +73,7 @@
           "magnification": "300"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を up",
           "magnification": "30"
         }
@@ -119,7 +119,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆防御力をdown[Lv](3T)",
+        "desc": "＆防御力をdown(3T)",
         "v1": "20",
         "v2": "25",
         "v3": "27.5",
@@ -170,7 +170,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のNPを増やす[Lv]",
+        "desc": "＋自身のNPを増やす",
         "v1": "18",
         "v2": "18.9",
         "v3": "19.8",
@@ -183,7 +183,7 @@
         "v10": "27"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "魅惑の美声A",
     "ct": 9,
@@ -206,7 +206,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "女神のきまぐれA",
     "ct": 7,
@@ -216,7 +216,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -233,7 +233,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆〔神性〕特性の味方全体の攻撃力を up [Lv](3T)",
+        "desc": "＆〔神性〕特性の味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

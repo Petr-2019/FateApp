@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力D+",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "13"
         }
@@ -66,7 +66,7 @@
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -88,7 +88,7 @@
         "v5": "200"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -159,7 +159,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆スター発生率を up [Lv](3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -172,17 +172,17 @@
         "v10": "30"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "武の求道B",
     "ct": 7,
     "effects": [
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の Quick Card 性能を up [Lv](1T)",
+        "desc": "自身の Quick Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -212,7 +212,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "先の先B+",
     "ct": 8,
@@ -239,7 +239,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆防御力down[Lv](3T)",
+        "desc": "＆防御力down(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

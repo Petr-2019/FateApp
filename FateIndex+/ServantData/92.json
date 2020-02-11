@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃[Lv]",
+        "desc": "敵単体に超強力な防御力無視攻撃",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -104,7 +104,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆防御力をdown[Lv](3T)",
+        "desc": "＆防御力をdown(3T)",
         "v1": "10",
         "v2": "15",
         "v3": "17.5",
@@ -141,7 +141,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Arts Card 性能を up [Lv](1T)",
+        "desc": "＆Arts Card 性能を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -158,7 +158,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＋敵単体の即死耐性をdown[Lv](1T)",
+        "desc": "＋敵単体の即死耐性をdown(1T)",
         "v1": "80",
         "v2": "82",
         "v3": "84",
@@ -171,7 +171,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "心眼（偽）A",
     "ct": 8,
@@ -194,11 +194,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -211,7 +211,7 @@
         "v10": "40"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "陰陽魚B",
     "ct": 8,
@@ -221,7 +221,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "自身のNPを増やす[Lv]",
+        "desc": "自身のNPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",

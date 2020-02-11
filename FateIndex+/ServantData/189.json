@@ -85,7 +85,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -99,7 +99,7 @@
         "v5": "20"
       },
       {
-        "type": "Quick Card 性能 up",
+        "type": "quick_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -133,7 +133,7 @@
         "target": "self-other",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆最大HPを up [Lv](3T)",
+        "desc": "＆最大HPを up (3T)",
         "v1": "2000",
         "v2": "3000",
         "v3": "3500",
@@ -149,7 +149,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -166,11 +166,11 @@
         "v10": "30"
       },
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆防御力を up [Lv](3T)",
+        "desc": "＆防御力を up (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -183,11 +183,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆弱体耐性を up [Lv](3T)",
+        "desc": "＆弱体耐性を up (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -200,11 +200,11 @@
         "v10": "40"
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＋味方全体のクリティカル威力を up [Lv](3T)",
+        "desc": "＋味方全体のクリティカル威力を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -217,7 +217,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "千代紙操法(ちよがみそうほう)EX",
     "ct": 7,
@@ -227,7 +227,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす[Lv]",
+        "desc": "味方単体のNPを増やす",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -244,7 +244,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up [Lv](3T)",
+        "desc": "＆スター発生率を up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -257,7 +257,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "城化物(しろばけもの)A++",
     "ct": 7,
@@ -267,7 +267,7 @@
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
-        "desc": "敵単体の防御力をdown[Lv](1T)",
+        "desc": "敵単体の防御力をdown(1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

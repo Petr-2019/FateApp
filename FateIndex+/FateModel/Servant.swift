@@ -108,6 +108,7 @@ struct Servant: Codable {
         let name: String
         let ct: Int
         let effects: [Effects]
+        let avatar: String
     }
 
     let servant: ServantBasicInfo

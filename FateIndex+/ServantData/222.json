@@ -59,14 +59,14 @@
           "magnification": "2"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "4"
         }
       ]
     },
     {
-      "type": "cosmo_reactor", "name": "コスモリアクターB",
+      "type": "star_focus_up", "name": "コスモリアクターB",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -79,7 +79,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -89,7 +89,7 @@
       "type": "riding", "name": "骑乘A",
       "effect": [
         {
-          "type": "Quick Card 性能 up",
+          "type": "quick_up",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -121,7 +121,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -135,7 +135,7 @@
         "target": "enemy-single",
         "beforeafter": "after",
         "lvoc": "lv",
-        "desc": "＆〔セイバークラスのサーヴァント〕特攻[Lv]",
+        "desc": "＆〔セイバークラスのサーヴァント〕特攻",
         "v1": "150",
         "v2": "150",
         "v3": "150",
@@ -172,7 +172,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆自身の攻撃力を up [Lv](1T)",
+        "desc": "＆自身の攻撃力を up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -185,7 +185,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "刑事の直感E",
     "ct": 6,
@@ -195,7 +195,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "スターを獲得[Lv]",
+        "desc": "スターを獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -212,7 +212,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＋自身のスター集中度をdown[Lv](1T)",
+        "desc": "＋自身のスター集中度をdown(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -225,7 +225,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "最果ての正義A",
     "ct": 7,
@@ -252,7 +252,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆NPを獲得[Lv]",
+        "desc": "＆NPを獲得",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -269,7 +269,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆〔人類の脅威〕特攻状態を付与[Lv](1T)",
+        "desc": "＆〔人類の脅威〕特攻状態を付与(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

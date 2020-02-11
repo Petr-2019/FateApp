@@ -31,6 +31,7 @@
 		6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317A7B23DC271100F54075 /* UIImage+Extension.swift */; };
 		6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */; };
 		6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */; };
+		6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */; };
 		6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */; };
 		D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42BE9622340EB1000C662F2 /* ServantManager.swift */; };
 		D4B1468623BF75C700843094 /* 32.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1457F23BF75B700843094 /* 32.json */; };
@@ -330,6 +331,7 @@
 		6E317A7B23DC271100F54075 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailViewController.swift; sourceTree = "<group>"; };
 		6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSkillDetailViewController.swift; sourceTree = "<group>"; };
+		6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDataCell.swift; sourceTree = "<group>"; };
 		6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassSkillCell.swift; sourceTree = "<group>"; };
 		D42BE9622340EB1000C662F2 /* ServantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantManager.swift; sourceTree = "<group>"; };
 		D4B1457F23BF75B700843094 /* 32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 32.json; sourceTree = "<group>"; };
@@ -621,6 +623,7 @@
 				D4B4003822F1BFFC00EDEC39 /* SettingsTableView.swift */,
 				D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */,
 				04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */,
+				6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */,
 			);
 			path = FateIndexUI;
 			sourceTree = "<group>";
@@ -1332,6 +1335,7 @@
 				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
 				040D434F2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift in Sources */,
+				6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */,
 				04B8AB18234982E60061FB02 /* EquipmentTableViewController.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
 				047BF0F6234566CD0084796A /* ServantDetailTableViewCell.swift in Sources */,

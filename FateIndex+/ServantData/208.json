@@ -48,7 +48,7 @@
       "type": "acting_alone", "name": "单独行动EX",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "12"
         }
@@ -63,7 +63,7 @@
           "magnification": "6.5"
         },
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "＆弱体耐性を up",
           "magnification": "6.5"
         }
@@ -95,7 +95,7 @@
         "target": "enemy-all",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃[Lv]",
+        "desc": "＆強力な攻撃",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -115,7 +115,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身のNP獲得量を up [Lv](3T)",
+        "desc": "自身のNP獲得量を up (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -132,7 +132,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆最大HPを up [Lv](3T)",
+        "desc": "＆最大HPを up (3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -145,7 +145,7 @@
         "v10": "2000"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "魔術C",
     "ct": 7,
@@ -155,7 +155,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "22",
         "v2": "23.4",
         "v3": "24.8",
@@ -168,7 +168,7 @@
         "v10": "36"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "竜告令呪EX",
     "ct": 8,
@@ -178,7 +178,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔竜〕特攻状態を付与[Lv](1T)",
+        "desc": "自身に〔竜〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -195,7 +195,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＆NPを増やす[Lv]",
+        "desc": "＆NPを増やす",
         "v1": "20",
         "v2": "21",
         "v3": "22",

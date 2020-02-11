@@ -59,7 +59,7 @@
 			"type": "magic_resistance", "name": "对魔力C",
 			"effect": [
 				{
-					"type": "弱体耐性 up",
+					"type": "weaken_stand_up",
 					"magnification": "15",
 					"desc": "自身の弱体耐性を少し up"
 				}
@@ -69,7 +69,7 @@
 			"type": "riding", "name": "骑乘A",
 			"effect": [
 				{
-					"type": "Quick Card 性能 up",
+					"type": "quick_up",
 					"magnification": "10",
 					"desc": "自身の Quick Card の性能を up"
 				}
@@ -89,7 +89,7 @@
 			"type": "acting_alone", "name": "单独行动A++",
 			"effect": [
 				{
-					"type": "クリティカル威力 up",
+					"type": "critical_up",
 					"magnification": "11",
 					"desc": "自身のクリティカル威力を up"
 				}
@@ -123,7 +123,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",
-				"desc": "＆クリティカル発生率をdown[Lv](3T)",
+				"desc": "＆クリティカル発生率をdown(3T)",
 				"v1": "9",
 				"v2": "10",
 				"v3": "11",
@@ -165,7 +165,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "self",
-				"desc": "＋自身の攻撃力を up [Lv](3T)",
+				"desc": "＋自身の攻撃力を up (3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -183,7 +183,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
+				"desc": "＋自身を除く味方全体の攻撃力を確率で up (3T)　確率80%",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -201,7 +201,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "self-other",
-				"desc": "＋自身を除く味方全体の攻撃力を確率で up [Lv](3T)　確率80%",
+				"desc": "＋自身を除く味方全体の攻撃力を確率で up (3T)　確率80%",
 				"v1": "10",
 				"v2": "10",
 				"v3": "10",
@@ -225,7 +225,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "味方単体の強化成功率を up [Lv](3T)",
+				"desc": "味方単体の強化成功率を up (3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -239,11 +239,11 @@
 				"condition": ""
 			},
 			{
-				"type": "クリティカル威力 up",
+				"type": "critical_up",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが10個以上ある場合、クリティカル威力を up [Lv](3T)",
+				"desc": "＆スターが10個以上ある場合、クリティカル威力を up (3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -257,11 +257,11 @@
 				"condition": "star:10"
 			},
 			{
-				"type": "スター集中 up",
+				"type": "star_focus_up",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが20個以上ある場合、スター集中度を up [Lv](3T)",
+				"desc": "＆スターが20個以上ある場合、スター集中度を up (3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -315,7 +315,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スターが50個以上ある場合、NPを増やす[Lv]",
+				"desc": "＆スターが50個以上ある場合、NPを増やす",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -388,7 +388,7 @@
 				"target": "enemy-single",
 				"beforeafter": "before",
 				"lvoc": "lv",
-				"desc": "＆超強力な攻撃[Lv] ",
+				"desc": "＆超強力な攻撃 ",
 				"v1": "1200",
 				"v2": "1600",
 				"v3": "1800",

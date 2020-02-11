@@ -47,7 +47,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -57,7 +57,7 @@
       "type": "acting_alone", "name": "单独行动A",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -75,7 +75,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -123,7 +123,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "9.5",
         "v2": "10.5",
         "v3": "11.5",
@@ -140,7 +140,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率を up [Lv](3T)",
+        "desc": "＆味方全体の〔男性〕のスター発生率を up (3T)",
         "v1": "21",
         "v2": "23",
         "v3": "25",
@@ -153,17 +153,17 @@
         "v10": "41"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "トレジャーハント（海）C",
     "ct": 8,
     "effects": [
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のスター集中度を up [Lv](1T)",
+        "desc": "自身のスター集中度を up (1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -180,7 +180,7 @@
         "turn": 0,
         "count": 0,
         "target": "self",
-        "desc": "＋スターを獲得[Lv]",
+        "desc": "＋スターを獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -193,7 +193,7 @@
         "v10": "15"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "海賊の誉れC+",
     "ct": 7,
@@ -203,7 +203,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "自身の攻撃力を up [Lv](3T)",
+        "desc": "自身の攻撃力を up (3T)",
         "v1": "8.5",
         "v2": "10.2",
         "v3": "11.9",

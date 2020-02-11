@@ -104,7 +104,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃[Lv]",
+        "desc": "＋敵単体に超強力な攻撃",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -155,7 +155,7 @@
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown[Lv](3T)",
+        "desc": "＆クリティカル発生率をdown(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -168,7 +168,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "護法の鬼・殴殺棒B",
     "ct": 8,
@@ -178,7 +178,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身のArts Card 性能を up [Lv](1T)",
+        "desc": "自身のArts Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -195,7 +195,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆Buster Card 性能を up [Lv](1T)",
+        "desc": "＆Buster Card 性能を up (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -208,11 +208,11 @@
         "v10": "30"
       },
       {
-        "type": "スター集中 up",
+        "type": "star_focus_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "＆スター集中状態を付与[Lv](1T)",
+        "desc": "＆スター集中状態を付与(1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -225,7 +225,7 @@
         "v10": "500"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "鬼種の魔（護）A",
     "ct": 7,
@@ -235,7 +235,7 @@
         "turn":  3,
         "count": 0,
         "target": "self-other",
-        "desc": "味方全体の攻撃力を up [Lv](3T)",
+        "desc": "味方全体の攻撃力を up (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -252,7 +252,7 @@
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＋自身に〔魔性〕特攻状態を付与[Lv](3T)",
+        "desc": "＋自身に〔魔性〕特攻状態を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

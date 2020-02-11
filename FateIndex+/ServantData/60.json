@@ -48,7 +48,7 @@
       "type": "magic_resistance", "name": "对魔力D",
       "effect": [
         {
-          "type": "弱体耐性 up",
+          "type": "weaken_stand_up",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -58,7 +58,7 @@
       "type": "acting_alone", "name": "单独行动A+",
       "effect": [
         {
-          "type": "クリティカル威力 up",
+          "type": "critical_up",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
@@ -76,7 +76,7 @@
         "target": "enemy-single",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃[Lv]",
+        "desc": "敵単体に超強力な攻撃",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "防御力 up",
+        "type": "def_up",
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身の防御力を大 up [Lv](1T)",
+        "desc": "自身の防御力を大 up (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -168,7 +168,7 @@
         "v10": "20"
       },
       {
-        "type": "弱体耐性 up",
+        "type": "weaken_stand_up",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -185,7 +185,7 @@
         "v10": "50"
       }
     ]
-  },
+  , "avatar": ""},
   "skill2": {
     "name": "移り気への楔A+",
     "ct": 7,
@@ -195,7 +195,7 @@
         "turn":  1,
         "count": 0,
         "target": "self",
-        "desc": "自身に〔男性〕特攻状態を付与[Lv](1T)",
+        "desc": "自身に〔男性〕特攻状態を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -208,7 +208,7 @@
         "v10": "100"
       }
     ]
-  },
+  , "avatar": ""},
   "skill3": {
     "name": "心眼（偽）B-",
     "ct": 8,
@@ -231,11 +231,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル威力 up",
+        "type": "critical_up",
         "turn":  3,
         "count": 0,
         "target": "self",
-        "desc": "＆クリティカル威力を up [Lv](3T)",
+        "desc": "＆クリティカル威力を up (3T)",
         "v1": "17",
         "v2": "18.7",
         "v3": "20.4",
