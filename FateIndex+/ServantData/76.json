@@ -140,7 +140,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "buster_up"},
   "skill2": {
     "name": "直感B",
     "ct": 7,
@@ -163,7 +163,7 @@
         "v10": "14"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "star_gain"},
   "skill3": {
     "name": "不貞隠しの兜EX",
     "ct": 8,
@@ -219,6 +219,6 @@
         "v9": "26",
         "v10": "30"
       }
-    ]
+    ], "avatar": "def_up"
   }
 }

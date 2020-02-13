@@ -126,7 +126,7 @@
         "v10": "60"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "special_attack_up"},
   "skill2": {
     "name": "医術A+",
     "ct": 7,
@@ -166,7 +166,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hp_regen"},
   "skill3": {
     "name": "人体研究B",
     "ct": 7,
@@ -188,6 +188,6 @@
         "v9": "56",
         "v10": "60"
       }
-    ]
+    ], "avatar": "special_attack_up"
   }
 }

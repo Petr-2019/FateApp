@@ -144,7 +144,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hp_regen"},
   "skill2": {
     "name": "直感A",
     "ct": 7,
@@ -167,7 +167,7 @@
         "v10": "15"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "star_gain"},
   "skill3": {
     "name": "魔力放出A-",
     "ct": 7,
@@ -189,6 +189,6 @@
         "v9": "41",
         "v10": "45"
       }
-    ]
+    ], "avatar": "buster_up"
   }
 }

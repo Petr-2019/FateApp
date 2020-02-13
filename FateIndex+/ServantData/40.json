@@ -129,7 +129,7 @@
         "v10": "15"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "star_gain"},
   "skill2": {
     "name": "自己改造C",
     "ct": 7,
@@ -152,7 +152,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "critical_up"},
   "skill3": {
     "name": "風除けの加護A",
     "ct": 7,
@@ -191,6 +191,6 @@
         "v9": "26",
         "v10": "30"
       }
-    ]
+    ], "avatar": "dodge"
   }
 }

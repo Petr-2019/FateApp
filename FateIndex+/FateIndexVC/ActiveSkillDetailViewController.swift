@@ -33,7 +33,7 @@ class ActiveSkillDetailViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.register(ActiveSkillDataCell.self, forCellReuseIdentifier: ActiveSkillDataCell.identifier)
-         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
+        tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
         tableView.register(ServantDetailTableViewCell.self, forCellReuseIdentifier: ServantDetailTableViewCell.identifier)
 
@@ -51,7 +51,16 @@ class ActiveSkillDetailViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70.0
+        switch dataRows[indexPath.row] {
+        case .avatarRow(let avatar, let name):
+            return 70.0
+
+        case .descriptionRow(let text):
+            return 70.0
+
+        case .dataRow(let data):
+            return 70.0
+        }
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {

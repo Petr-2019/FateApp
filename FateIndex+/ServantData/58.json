@@ -127,7 +127,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "atk_up"},
   "skill2": {
     "name": "呪層・猫日照B",
     "ct": 7,
@@ -167,7 +167,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "charge_reduce"},
   "skill3": {
     "name": "変化（ランチ）A",
     "ct": 7,
@@ -223,6 +223,6 @@
         "v9": "",
         "v10": ""
       }
-    ]
+    ], "avatar": "def_up"
   }
 }

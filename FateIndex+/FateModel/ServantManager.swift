@@ -16,7 +16,7 @@ class ServantManager {
         var servants = [Servant]()
 
         // 1-269
-        for i in 1...30 {
+        for i in 1...100 {
             let sName = String(i)
 
             if let path = Bundle.main.path(forResource: sName, ofType: "json") {

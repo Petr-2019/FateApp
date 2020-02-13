@@ -137,7 +137,7 @@
         "v10": "150"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_charge"},
   "skill2": {
     "name": "金羊の皮",
     "ct": 6,
@@ -160,7 +160,7 @@
         "v10": "2500"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hp_regen"},
   "skill3": {
     "name": "キルケーの教えA",
     "ct": 8,
@@ -199,6 +199,7 @@
         "v9": "46",
         "v10": "50"
       }
-    ]
+    ],
+    "avatar": "debuff_cure"
   }
 }

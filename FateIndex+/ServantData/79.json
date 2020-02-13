@@ -86,7 +86,8 @@
 				"v9": "75",
 				"v10": "80"
 			}
-		]
+		],
+        "avatar": "np_charge"
 	},
 	"skill2": {
 		"name": "エレメンタルA+",
@@ -109,7 +110,8 @@
 				"v9": "18",
 				"v10": "20"
 			}
-		]
+		],
+        "avatar": "arts_up"
 	},
 	"skill3": {
 		"name": "賢者の石［強化後］A+",
@@ -149,7 +151,8 @@
 				"v9": "46",
 				"v10": "50"
 			}
-		]
+		],
+        "avatar": "gatsu"
 	},
 	"hogu": {
 		"name": "元素使的魔剑(Sword of Paracelsus)",

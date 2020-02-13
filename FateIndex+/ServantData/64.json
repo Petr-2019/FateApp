@@ -124,7 +124,7 @@
         "v10": "17"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hogu_up"},
   "skill2": {
     "name": "友誼の証明C",
     "ct": 7,
@@ -164,7 +164,7 @@
         "v10": "80"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "charge_reduce"},
   "skill3": {
     "name": "仕切り直しB",
     "ct": 7,
@@ -203,6 +203,6 @@
         "v9": "1760",
         "v10": "2000"
       }
-    ]
+    ], "avatar": "debuff_cure"
   }
 }

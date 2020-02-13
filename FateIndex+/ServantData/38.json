@@ -186,7 +186,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "critical_up"},
   "skill2": {
     "name": "矢避けの加護A",
     "ct": 7,
@@ -226,7 +226,7 @@
         "v10": "18"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "dodge"},
   "skill3": {
     "name": "仕切り直しC",
     "ct": 7,
@@ -265,6 +265,6 @@
         "v9": "1300",
         "v10": "1500"
       }
-    ]
+    ], "avatar": "debuff_cure"
   }
 }

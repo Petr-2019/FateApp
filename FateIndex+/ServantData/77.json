@@ -169,7 +169,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_gain_up"},
   "skill2": {
     "name": "天賦の叡智EX",
     "ct": 7,
@@ -243,7 +243,7 @@
         "v10": "3000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "gatsu"},
   "skill3": {
     "name": "星の開拓者EX",
     "ct": 8,
@@ -299,6 +299,6 @@
         "v9": "10",
         "v10": "10"
       }
-    ]
+    ], "avatar": "np_charge"
   }
 }

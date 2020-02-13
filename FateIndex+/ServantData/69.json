@@ -123,7 +123,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_gain_up"},
   "skill2": {
     "name": "天下布武A",
     "ct": 7,
@@ -146,7 +146,7 @@
         "v10": "100"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "special_attack_up"},
   "skill3": {
     "name": "魔王A",
     "ct": 7,
@@ -185,6 +185,6 @@
         "v9": "44",
         "v10": "50"
       }
-    ]
+    ], "avatar": "critical_up"
   }
 }

@@ -174,7 +174,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hp_regen"},
   "skill2": {
     "name": "人体理解A",
     "ct": 8,
@@ -214,7 +214,7 @@
         "v10": "25"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "special_attack_up"},
   "skill3": {
     "name": "天使の叫びEX",
     "ct": 7,
@@ -236,6 +236,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ]
+    ], "avatar": "buster_up"
   }
 }

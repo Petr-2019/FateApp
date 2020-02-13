@@ -676,7 +676,6 @@
 				6E317A7D23DC271600F54075 /* Helper */,
 				D4B1437023BF67CE00843094 /* ServantData */,
 				D4B4004122F3116C00EDEC39 /* FateModel */,
-				D4B4003C22F1C52A00EDEC39 /* Settings */,
 				D4B4003322F08D7F00EDEC39 /* FateIndexVC */,
 				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
@@ -980,13 +979,6 @@
 				6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */,
 			);
 			path = FateIndexVC;
-			sourceTree = "<group>";
-		};
-		D4B4003C22F1C52A00EDEC39 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Settings;
 			sourceTree = "<group>";
 		};
 		D4B4004122F3116C00EDEC39 /* FateModel */ = {

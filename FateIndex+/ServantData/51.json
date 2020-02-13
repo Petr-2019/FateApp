@@ -124,7 +124,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "atk_up"},
   "skill2": {
     "name": "動物会話C",
     "ct": 8,
@@ -147,7 +147,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_charge"},
   "skill3": {
     "name": "天性の肉体A",
     "ct": 7,
@@ -186,6 +186,6 @@
         "v9": "2600",
         "v10": "3000"
       }
-    ]
+    ], "avatar": "weaken_stand_up"
   }
 }

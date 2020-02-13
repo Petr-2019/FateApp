@@ -37,6 +37,12 @@ class ServantDetailTableViewCell: UITableViewCell {
         trailingTextView.text = trailingText
     }
 
+    func configure(_ text: String?, trailingText: String?, font: UIFont) {
+        self.textLabel?.text = text
+        trailingTextView.text = trailingText
+        self.textLabel?.font = font
+    }
+
     override func layoutSubviews() {
         super.layoutSubviews()
 

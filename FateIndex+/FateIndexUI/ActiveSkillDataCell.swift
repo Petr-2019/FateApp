@@ -77,26 +77,10 @@ class ActiveSkillDataView: UIView {
         labels[7].text = skillData.v8 + postfix
         labels[8].text = skillData.v9 + postfix
         labels[9].text = skillData.v10 + postfix
-
-//        labelButtons[0].setTitle(skillData.v1 + postfix, for: .normal)
-//        labelButtons[1].setTitle(skillData.v2 + postfix, for: .normal)
-//        labelButtons[2].setTitle(skillData.v3 + postfix, for: .normal)
-//        labelButtons[3].setTitle(skillData.v4 + postfix, for: .normal)
-//        labelButtons[4].setTitle(skillData.v5 + postfix, for: .normal)
-//        labelButtons[5].setTitle(skillData.v6 + postfix, for: .normal)
-//        labelButtons[6].setTitle(skillData.v7 + postfix, for: .normal)
-//        labelButtons[7].setTitle(skillData.v8 + postfix, for: .normal)
-//        labelButtons[8].setTitle(skillData.v9 + postfix, for: .normal)
-//        labelButtons[9].setTitle(skillData.v10 + postfix, for: .normal)
-
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    @objc func wtf() {
-        print("fuck you!")
     }
 
     override func layoutSubviews() {
@@ -113,14 +97,14 @@ class ActiveSkillDataView: UIView {
         var widthSum: CGFloat = 0.0
         var heightSum: CGFloat = 0.0
         for i in 0...4 {
-            // labels[i].frame = CGRect(x: width + width * (CGFloat(i) * 2.0), y: height, width: width, height: height)
+            labels[i].frame = CGRect(x: width + width * (CGFloat(i) * 2.0), y: height, width: width, height: height)
 
             widthSum += labels[i].sizeThatFits(CGSize.zero).width
             // heightSum += labels[i].sizeThatFits(CGSize.zero).height
         }
 
         for i in 5...9 {
-            // labels[i].frame = CGRect(x: width + width * (CGFloat(i - 5) * 2.0), y: height * 3.0, width: width, height: height)
+            labels[i].frame = CGRect(x: width + width * (CGFloat(i - 5) * 2.0), y: height * 3.0, width: width, height: height)
         }
 
     }

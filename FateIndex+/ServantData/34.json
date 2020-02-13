@@ -112,7 +112,7 @@
         "v10": "40"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "buster_up"},
   "skill2": {
     "name": "自己保存B",
     "ct": 8,
@@ -152,7 +152,7 @@
         "v10": "1500"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "become_ invincible"},
   "skill3": {
     "name": "国王一座C",
     "ct": 8,
@@ -191,6 +191,7 @@
         "v9": "90",
         "v10": "100"
       }
-    ]
+    ],
+    "avatar": "np_charge"
   }
 }

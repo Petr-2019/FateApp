@@ -161,7 +161,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "dodge"},
   "skill2": {
     "name": "原初のルーン",
     "ct": 8,
@@ -184,7 +184,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "quick_up"},
   "skill3": {
     "name": "神殺しB",
     "ct": 7,
@@ -223,6 +223,6 @@
         "v9": "90",
         "v10": "100"
       }
-    ]
+    ], "avatar": "special_attack_up"
   }
 }

@@ -154,7 +154,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "charge_reduce"},
   "skill2": {
     "name": "変化A",
     "ct": 7,
@@ -194,7 +194,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "def_up"},
   "skill3": {
     "name": "狐の嫁入りEX",
     "ct": 7,
@@ -233,6 +233,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ]
+    ], "avatar": "arts_up"
   }
 }

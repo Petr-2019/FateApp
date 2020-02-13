@@ -137,7 +137,7 @@
         "v10": "150"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_charge"},
   "skill2": {
     "name": "耐毒A++",
     "ct": 7,
@@ -177,7 +177,7 @@
         "v10": "3000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "debuff_cure"},
   "skill3": {
     "name": "うたかたの恋EX",
     "ct": 8,
@@ -216,6 +216,6 @@
         "v9": "90",
         "v10": "100"
       }
-    ]
+    ], "avatar": "hp_regen"
   }
 }

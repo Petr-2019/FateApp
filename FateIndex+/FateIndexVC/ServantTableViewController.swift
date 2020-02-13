@@ -64,6 +64,8 @@ class ServantTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
 
+        cell.accessoryType = .disclosureIndicator
+
         if isFiltering() {
             cell.avatar = UIImage(named: "Servant_\(filteredServants[indexPath.row].servant.no)")
             cell.title = filteredServants[indexPath.row].servant.name
