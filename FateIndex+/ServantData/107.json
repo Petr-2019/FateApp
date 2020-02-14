@@ -151,7 +151,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "暴击发生率下降"},
   "skill2": {
     "name": "左歯噛咬C",
     "ct": 8,
@@ -191,7 +191,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "charge_reduce"},
   "skill3": {
     "name": "四夜の終末EX",
     "ct": 9,
@@ -264,6 +264,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": ""
+    ], "avatar": "quick_up"
   }
 }

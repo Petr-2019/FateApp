@@ -151,7 +151,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "atk_up"},
   "skill2": {
     "name": "制圧軍略A",
     "ct": 7,
@@ -191,7 +191,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "hogu_up"},
   "skill3": {
     "name": "雷の征服者EX",
     "ct": 8,
@@ -230,6 +230,6 @@
         "v9": "50",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "buster_up"
   }
 }

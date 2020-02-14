@@ -169,7 +169,7 @@
         "v10": "800"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "critical_up"},
   "skill2": {
     "name": "竜の魔女EX",
     "ct": 7,
@@ -209,7 +209,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "atk_up"},
   "skill3": {
     "name": "うたかたの夢A",
     "ct": 8,
@@ -265,6 +265,6 @@
         "v9": "1000",
         "v10": "1000"
       }
-    ], "avatar": ""
+    ], "avatar": "buster_up"
   }
 }

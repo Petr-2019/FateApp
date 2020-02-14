@@ -128,7 +128,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回复量提升"},
   "skill2": {
     "name": "自然の嬰児A",
     "ct": 8,
@@ -168,7 +168,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "become_ invincible"},
   "skill3": {
     "name": "魔術医療A",
     "ct": 7,
@@ -190,6 +190,6 @@
         "v9": "2800",
         "v10": "3000"
       }
-    ], "avatar": ""
+    ], "avatar": "hp_regen"
   }
 }

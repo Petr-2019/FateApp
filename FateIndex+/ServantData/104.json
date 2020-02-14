@@ -151,7 +151,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "buster_up"},
   "skill2": {
     "name": "シャーマニズムB",
     "ct": 7,
@@ -174,7 +174,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "arts_up"},
   "skill3": {
     "name": "守護の獣B",
     "ct": 7,
@@ -196,6 +196,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "quick_up"
   }
 }

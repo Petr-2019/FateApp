@@ -137,7 +137,7 @@
         "v10": "120"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "critical_up"},
   "skill2": {
     "name": "クイックドロウA+",
     "ct": 8,
@@ -160,7 +160,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "np_charge"},
   "skill3": {
     "name": "心眼（偽）C",
     "ct": 8,
@@ -199,6 +199,6 @@
         "v9": "28.8",
         "v10": "32"
       }
-    ], "avatar": ""
+    ], "avatar": "dodge"
   }
 }
