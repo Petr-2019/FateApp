@@ -297,9 +297,7 @@
 		D4B1478A23BF75C800843094 /* 69.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468323BF75C700843094 /* 69.json */; };
 		D4B1478B23BF75C800843094 /* 175.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468423BF75C700843094 /* 175.json */; };
 		D4B1478C23BF75C800843094 /* 77.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468523BF75C700843094 /* 77.json */; };
-		D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */; };
 		D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */; };
-		D4B4003922F1BFFC00EDEC39 /* SettingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003822F1BFFC00EDEC39 /* SettingsTableView.swift */; };
 		D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */; };
 		D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4004222F31C9C00EDEC39 /* ServantTableViewHeaderView.swift */; };
 /* End PBXBuildFile section */
@@ -597,9 +595,7 @@
 		D4B1468323BF75C700843094 /* 69.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 69.json; sourceTree = "<group>"; };
 		D4B1468423BF75C700843094 /* 175.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 175.json; sourceTree = "<group>"; };
 		D4B1468523BF75C700843094 /* 77.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 77.json; sourceTree = "<group>"; };
-		D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassViewController.swift; sourceTree = "<group>"; };
 		D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		D4B4003822F1BFFC00EDEC39 /* SettingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableView.swift; sourceTree = "<group>"; };
 		D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		D4B4004222F31C9C00EDEC39 /* ServantTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantTableViewHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -620,7 +616,6 @@
 			children = (
 				60EF05F3217E1C8D00BA95E2 /* Servant */,
 				60EF05F2217E1C6500BA95E2 /* NoblePhantasm */,
-				D4B4003822F1BFFC00EDEC39 /* SettingsTableView.swift */,
 				D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */,
 				04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */,
 				6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */,
@@ -970,7 +965,6 @@
 			isa = PBXGroup;
 			children = (
 				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
-				D4B4003422F0935B00EDEC39 /* ServantClassViewController.swift */,
 				D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */,
 				047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */,
 				04A82F7C234A04B200146CA1 /* NoblePhantasmDetailViewController.swift */,
@@ -1341,7 +1335,6 @@
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
 				04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */,
 				6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */,
-				D4B4003522F0935B00EDEC39 /* ServantClassViewController.swift in Sources */,
 				04A82F7D234A04B200146CA1 /* NoblePhantasmDetailViewController.swift in Sources */,
 				047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */,
 				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
@@ -1350,7 +1343,6 @@
 				04B8AB1523497D590061FB02 /* NoblePhantasmAvatarView.swift in Sources */,
 				04B8AB1323497B4A0061FB02 /* NoblePhantasmView.swift in Sources */,
 				04A82F772349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift in Sources */,
-				D4B4003922F1BFFC00EDEC39 /* SettingsTableView.swift in Sources */,
 				D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */,
 				D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */,
 			);

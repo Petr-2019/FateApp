@@ -204,7 +204,7 @@ class ServantDetailTableViewController: UITableViewController {
             
             cell.avatar = UIImageUtility.classSkillImage(named: classSkill.type)
             cell.title = classSkill.name
-            cell.accessoryType = .detailButton
+
             return cell
         }
         else if indexPath.section == 4 {

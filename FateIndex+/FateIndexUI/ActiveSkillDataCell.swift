@@ -89,11 +89,6 @@ class ActiveSkillDataView: UIView {
          let width = bounds.width / 11.0
          let height = bounds.height / 5.0
 
-//        let size = labels[0].sizeThatFits(CGSize(width: bounds.width / 11.0, height: bounds.height / 5.0))
-//
-//        let width = size.width
-//        let height = size.height
-
         var widthSum: CGFloat = 0.0
         var heightSum: CGFloat = 0.0
         for i in 0...4 {
