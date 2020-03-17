@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断C",
+      "type": "气息遮断", "name": "气息遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -55,10 +55,10 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -98,7 +98,7 @@
         "v5": "140"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -137,7 +137,7 @@
         "v10": ""
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -177,7 +177,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -194,7 +194,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -211,13 +211,13 @@
         "v10": "40"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill3": {
     "name": "陰陽魚B",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A",
+      "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性B+",
+      "type": "神性", "name": "神性B+",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -99,7 +99,7 @@
         "v5": "750"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -121,7 +121,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -138,7 +138,7 @@
         "v10": "30"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -155,7 +155,7 @@
         "v10": "30"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -218,7 +218,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -235,7 +235,7 @@
         "v10": "30"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -252,7 +252,7 @@
         "v10": "20"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",

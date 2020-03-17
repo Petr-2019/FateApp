@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -75,7 +75,7 @@
         "v5": "1500"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -97,7 +97,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -114,7 +114,7 @@
         "v10": "100"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -131,13 +131,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "鮮血の伝承A+",
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -154,7 +154,7 @@
         "v10": "30"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -177,7 +177,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -193,6 +193,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ], "avatar": "gatsu"
+    ], "avatar": "毅力"
   }
 }

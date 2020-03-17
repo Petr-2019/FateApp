@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "beast_become", "name": "獣化B",
+      "type": "兽化", "name": "獣化B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card 性能を up",
           "magnification": "8"
         },
@@ -61,10 +61,10 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -126,7 +126,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -143,7 +143,7 @@
         "v10": "6000"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -166,7 +166,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -189,7 +189,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -206,7 +206,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",

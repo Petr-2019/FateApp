@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A+",
+      "type": "单独行动", "name": "单独行动A+",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
@@ -84,7 +84,7 @@
         "v5": "1800"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -98,7 +98,7 @@
         "v5": "20"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -134,7 +134,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -151,7 +151,7 @@
         "v10": "50"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -168,7 +168,7 @@
         "v10": "20"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -208,13 +208,13 @@
         "v10": "100"
       }
     ]
-  , "avatar": "special_attack_up"},
+  , "avatar": "特攻"},
   "skill3": {
     "name": "心眼（偽）B-",
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -231,7 +231,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -247,6 +247,6 @@
         "v9": "30.6",
         "v10": "34"
       }
-    ], "avatar": "dodge"
+    ], "avatar": "回避"
   }
 }

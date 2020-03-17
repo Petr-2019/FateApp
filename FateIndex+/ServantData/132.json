@@ -56,10 +56,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -69,7 +69,7 @@
       "type": "surfing", "name": "サーフィンA",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card 性能を少し up",
           "magnification": "5"
         },
@@ -82,7 +82,7 @@
     }
   ],
   "hogu": {
-    "name": "掌控翻涌波涛王者心境！(Prydwen Tube Riding)",
+    "name": "掌控翻涌波涛王者心境！(Prydwen Tube 骑乘)",
     "card": "Arts",
     "effect": [
       {
@@ -100,7 +100,7 @@
         "v5": "750"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -122,7 +122,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -139,13 +139,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "蓝放"},
   "skill2": {
     "name": "ロデオフリップA+",
     "ct": 9,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -179,13 +179,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回避"},
   "skill3": {
     "name": "終わらぬ夏B",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -202,7 +202,7 @@
         "v10": "1000"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -218,6 +218,6 @@
         "v9": "28",
         "v10": "30"
       }
-    ], "avatar": ""
+    ], "avatar": "毅力"
   }
 }

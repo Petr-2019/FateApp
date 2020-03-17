@@ -47,20 +47,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -72,7 +72,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -100,7 +100,7 @@
         "v5": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -153,7 +153,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -176,7 +176,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -216,7 +216,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -250,7 +250,7 @@
         "v10": "50"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",

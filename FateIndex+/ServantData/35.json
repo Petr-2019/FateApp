@@ -44,17 +44,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成C+",
+      "type": "阵地作成", "name": "阵地作成C+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "7"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B",
+      "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -105,7 +105,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -122,13 +122,13 @@
         "v10": "80"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "無辜の怪物B",
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -145,7 +145,7 @@
         "v10": "3"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn": 0,
         "count": 0,
         "target": "self",

@@ -44,17 +44,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B",
+      "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -83,7 +83,7 @@
         "v5": "900"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -133,7 +133,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -150,13 +150,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": "np_charge"},
+  , "avatar": "充能"},
   "skill2": {
     "name": "マハトマA",
     "ct": 10,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -173,7 +173,7 @@
         "v10": "5"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -196,7 +196,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -213,7 +213,7 @@
         "v10": "20"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -230,7 +230,7 @@
         "v10": "20"
       },
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self-other",

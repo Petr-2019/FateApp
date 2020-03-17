@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "复仇者A",
+      "type": "复仇者", "name": "复仇者A",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -59,20 +59,20 @@
       ]
     },
     {
-      "type": "forget_correct", "name": "忘却補正B",
+      "type": "忘却補正", "name": "忘却補正B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "magic_self_recover", "name": "自己回復(魔力)D",
+      "type": "自己回復(魔力)", "name": "自己回復(魔力)D",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3"
         }
@@ -98,7 +98,7 @@
         "v5": "1200"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -165,7 +165,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -182,7 +182,7 @@
         "v10": "50"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -205,7 +205,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -222,13 +222,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill3": {
     "name": "窮地の智慧A",
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -245,7 +245,7 @@
         "v10": ""
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -262,7 +262,7 @@
         "v10": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -278,6 +278,6 @@
         "v9": "18",
         "v10": "20"
       }
-    ], "avatar": "charge_reduce"
+    ], "avatar": "灭气"
   }
 }

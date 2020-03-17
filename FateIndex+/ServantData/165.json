@@ -47,27 +47,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性A",
+      "type": "神性", "name": "神性A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -96,7 +96,7 @@
         "v5": "500"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -118,7 +118,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -175,7 +175,7 @@
         "v10": "100"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
@@ -198,7 +198,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -232,7 +232,7 @@
         "v10": ""
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",

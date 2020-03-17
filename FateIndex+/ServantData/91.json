@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -59,7 +59,7 @@
       "type": "show_alone", "name": "単独顕現C",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "6"
         },
@@ -79,17 +79,17 @@
       "type": "root_consist", "name": "根源接続A",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card 性能を少し up",
           "magnification": "6"
         },
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card 性能を少し up",
           "magnification": "6"
         },
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card 性能を少し up",
           "magnification": "6"
         }
@@ -129,7 +129,7 @@
         "v5": "100"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -143,7 +143,7 @@
         "v5": ""
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -182,7 +182,7 @@
         "v10": ""
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -222,7 +222,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -256,13 +256,13 @@
         "v10": "36"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill3": {
     "name": "陰陽魚A",
     "ct": 6,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",

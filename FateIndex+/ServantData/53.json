@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化B",
+      "type": "狂化", "name": "狂化B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -60,7 +60,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  6,
         "count": 0,
         "target": "enemy-all",
@@ -74,7 +74,7 @@
         "v5": "20"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  6,
         "count": 0,
         "target": "enemy-all",
@@ -88,7 +88,7 @@
         "v5": "30"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -102,7 +102,7 @@
         "v5": "40"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -124,7 +124,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -141,13 +141,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "天性の魔A++",
     "ct": 7,
     "effects": [
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -164,7 +164,7 @@
         "v10": "100"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -181,13 +181,13 @@
         "v10": "40"
       }
     ]
-  , "avatar": "weaken_stand_up"},
+  , "avatar": "弱化耐性提升"},
   "skill3": {
     "name": "深淵のラブリュスC",
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -204,7 +204,7 @@
         "v10": "6000"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",

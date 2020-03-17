@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -61,7 +61,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -111,7 +111,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -128,7 +128,7 @@
         "v10": "44"
       }
     ]
-  , "avatar": "arts_up"},
+  , "avatar": "蓝放"},
   "skill2": {
     "name": "芸術審美B",
     "ct": 7,
@@ -157,7 +157,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -174,6 +174,6 @@
         "v10": "50"
       }
     ],
-    "avatar": "star_gain"
+    "avatar": "出星"
   }
 }

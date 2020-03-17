@@ -45,17 +45,17 @@
 	},
 	"classskill": [
 		{
-			"type": "field_build", "name": "阵地作成A",
+			"type": "阵地作成", "name": "阵地作成A",
 			"effect": [
 				{
-					"type": "arts_up",
+					"type": "蓝放",
 					"magnification": "10",
 					"desc": "自身のArts Card の性能を up"
 				}
 			]
 		},
 		{
-			"type": "item_make", "name": "道具作成EX",
+			"type": "道具作成", "name": "道具作成EX",
 			"effect": [
 				{
 					"type": "弱体付与成功率 up",
@@ -70,7 +70,7 @@
 		"ct": 10,
 		"effects": [
 			{
-				"type": "np_charge",
+				"type": "充能",
 				"turn": 0,
 				"count": 0,
 				"target": "self",
@@ -87,14 +87,14 @@
 				"v10": "80"
 			}
 		],
-        "avatar": "np_charge"
+        "avatar": "充能"
 	},
 	"skill2": {
 		"name": "エレメンタルA+",
 		"ct": 9,
 		"effects": [
 			{
-				"type": "arts_up",
+				"type": "蓝放",
 				"turn": 3,
 				"count": 0,
 				"target": "self-other",
@@ -111,14 +111,14 @@
 				"v10": "20"
 			}
 		],
-        "avatar": "arts_up"
+        "avatar": "蓝放"
 	},
 	"skill3": {
 		"name": "賢者の石［強化後］A+",
 		"ct": 10,
 		"effects": [
 			{
-				"type": "gatsu",
+				"type": "毅力",
 				"turn": 3,
 				"count": 1,
 				"target": "other-single",
@@ -135,7 +135,7 @@
 				"v10": "3000"
 			},
 			{
-				"type": "np_gain_up",
+				"type": "NP获得量提升",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
@@ -152,7 +152,7 @@
 				"v10": "50"
 			}
 		],
-        "avatar": "gatsu"
+        "avatar": "毅力"
 	},
 	"hogu": {
 		"name": "元素使的魔剑(Sword of Paracelsus)",
@@ -175,7 +175,7 @@
 				"v5": "600"
 			},
 			{
-				"type": "atk_down",
+				"type": "降攻",
 				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",

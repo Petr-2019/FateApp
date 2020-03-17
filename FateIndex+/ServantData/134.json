@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -137,13 +137,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "暴击发生率下降"},
   "skill2": {
     "name": "水浴転身A",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -160,13 +160,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "红放"},
   "skill3": {
     "name": "恋の追跡者A",
     "ct": 7,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -183,7 +183,7 @@
         "v10": "30"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -199,6 +199,6 @@
         "v9": "20",
         "v10": "20"
       }
-    ], "avatar": ""
+    ], "avatar": "降防"
   }
 }

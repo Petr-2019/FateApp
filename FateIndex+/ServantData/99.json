@@ -46,20 +46,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -138,7 +138,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -155,7 +155,7 @@
         "v10": "1000"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -178,7 +178,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -195,7 +195,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -212,7 +212,7 @@
         "v10": "20"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -229,7 +229,7 @@
         "v10": "2000"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill3": {
     "name": "愛しき私の蜂蜜酒C",
     "ct": 9,
@@ -252,7 +252,7 @@
         "v10": "80"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-single",

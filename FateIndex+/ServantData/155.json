@@ -49,10 +49,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化C",
+      "type": "狂化", "name": "狂化C",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
@@ -62,7 +62,7 @@
       "type": "arutoria_reactor", "name": "オルトリアクターA",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -127,7 +127,7 @@
         "v10": "50"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -144,7 +144,7 @@
         "v10": "2000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -161,7 +161,7 @@
         "v10": "1000"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -178,7 +178,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -195,7 +195,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -218,7 +218,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -235,7 +235,7 @@
         "v10": "30"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -275,7 +275,7 @@
         "v10": "100"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",

@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断D",
+      "type": "气息遮断", "name": "气息遮断D",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -87,7 +87,7 @@
         "v5": "200"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -101,7 +101,7 @@
         "v5": "2000"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -140,7 +140,7 @@
         "v10": "80"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -157,13 +157,13 @@
         "v10": "27"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "拷問技術A",
     "ct": 7,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -180,7 +180,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": "def_down"},
+  , "avatar": "降防"},
   "skill3": {
     "name": "鮮血の湯浴みA",
     "ct": 8,
@@ -203,7 +203,7 @@
         "v10": "50"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",

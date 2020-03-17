@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -109,7 +109,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -132,7 +132,7 @@
     "ct": 12,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -149,7 +149,7 @@
         "v10": ""
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -166,7 +166,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": "magic_infinite"},
+  , "avatar": "回合充能"},
   "skill3": {
     "name": "神明裁決(偽）C++",
     "ct": 8,
@@ -189,7 +189,7 @@
         "v10": "100"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",

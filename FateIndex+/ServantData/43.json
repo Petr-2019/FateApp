@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断D",
+      "type": "气息遮断", "name": "气息遮断D",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -87,7 +87,7 @@
         "v5": "80"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -109,7 +109,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -126,13 +126,13 @@
         "v10": "60"
       }
     ]
-  , "avatar": "special_attack_up"},
+  , "avatar": "特攻"},
   "skill2": {
     "name": "医術A+",
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -149,7 +149,7 @@
         "v10": "3000"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -166,13 +166,13 @@
         "v10": ""
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill3": {
     "name": "人体研究B",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -188,6 +188,6 @@
         "v9": "56",
         "v10": "60"
       }
-    ], "avatar": "special_attack_up"
+    ], "avatar": "特攻"
   }
 }

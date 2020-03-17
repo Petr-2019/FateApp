@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -60,7 +60,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  5,
         "count": 3,
         "target": "enemy-single",
@@ -102,7 +102,7 @@
         "v5": "10"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 5,
         "count": 3,
         "target": "self-other",
@@ -116,7 +116,7 @@
         "v5": "4000"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -138,7 +138,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -155,7 +155,7 @@
         "v10": "20"
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -172,7 +172,7 @@
         "v10": "20"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -195,7 +195,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -252,7 +252,7 @@
     "ct": 10,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 2,
         "target": "self",
@@ -269,7 +269,7 @@
         "v10": "1"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

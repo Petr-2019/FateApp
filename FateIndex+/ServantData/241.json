@@ -46,30 +46,30 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
@@ -81,7 +81,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -123,7 +123,7 @@
         "v5": ""
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -145,7 +145,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -179,7 +179,7 @@
         "v10": "400"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -202,7 +202,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -219,7 +219,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -236,7 +236,7 @@
         "v10": "40"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -276,7 +276,7 @@
         "v10": ""
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "other-single",

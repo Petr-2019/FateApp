@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断C",
+      "type": "气息遮断", "name": "气息遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -58,12 +58,12 @@
       "type": "scoundrel", "name": "無頼漢A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card 性能を少し up",
           "magnification": "5"
         },
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "＆クリティカル威力を up",
           "magnification": "5"
         }
@@ -111,7 +111,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -128,7 +128,7 @@
         "v10": "600"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -151,7 +151,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -168,7 +168,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -225,7 +225,7 @@
         "v10": "100"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",

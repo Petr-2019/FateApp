@@ -47,12 +47,12 @@
       "type": "aggressive_become", "name": "凶化A+",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card 性能を up",
           "magnification": "8"
         },
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "＆クリティカル威力を up",
           "magnification": "8"
         }
@@ -64,7 +64,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -100,7 +100,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -117,7 +117,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -140,7 +140,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -157,7 +157,7 @@
         "v10": "30"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -174,7 +174,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -197,7 +197,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",

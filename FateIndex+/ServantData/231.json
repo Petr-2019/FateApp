@@ -47,10 +47,10 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "骑乘EX",
+      "type": "骑乘", "name": "骑乘EX",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -98,7 +98,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  5,
         "count": 3,
         "target": "self",
@@ -138,7 +138,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -189,7 +189,7 @@
         "v10": "80"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -212,7 +212,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  5,
         "count": 3,
         "target": "self",
@@ -229,7 +229,7 @@
         "v10": "30"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  5,
         "count": 3,
         "target": "self",

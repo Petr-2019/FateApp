@@ -50,7 +50,7 @@
   },
   "classskill": [
     {
-      "type": "star_focus_up", "name": "コスモリアクターA",
+      "type": "掉星率增加 (1)", "name": "コスモリアクターA",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -60,10 +60,10 @@
       ]
     },
     {
-      "type": "riding", "name": "骑乘EX",
+      "type": "骑乘", "name": "骑乘EX",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -111,7 +111,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -168,7 +168,7 @@
         "v10": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -185,7 +185,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": "become_ invincible"},
+  , "avatar": "无敌"},
   "skill3": {
     "name": "銀河流星剣C",
     "ct": 8,
@@ -208,7 +208,7 @@
         "v10": "100"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",

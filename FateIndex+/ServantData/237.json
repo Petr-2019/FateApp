@@ -44,17 +44,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成C+",
+      "type": "阵地作成", "name": "阵地作成C+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "7"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成C",
+      "type": "道具作成", "name": "道具作成C",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -119,7 +119,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -136,7 +136,7 @@
         "v10": "30"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -176,7 +176,7 @@
         "v10": "80"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -193,7 +193,7 @@
         "v10": "30"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",

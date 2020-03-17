@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -63,7 +63,7 @@
           "magnification": "225"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
@@ -103,7 +103,7 @@
         "v5": "60"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -125,7 +125,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -142,7 +142,7 @@
         "v10": "30"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -165,7 +165,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -182,7 +182,7 @@
         "v10": "50"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -216,7 +216,7 @@
         "v10": "100"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -256,7 +256,7 @@
         "v10": "10"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -273,7 +273,7 @@
         "v10": "20"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",

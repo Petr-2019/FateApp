@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "复仇者A",
+      "type": "复仇者", "name": "复仇者A",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -59,20 +59,20 @@
       ]
     },
     {
-      "type": "forget_correct", "name": "忘却補正A",
+      "type": "忘却補正", "name": "忘却補正A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "magic_self_recover", "name": "自己回復(魔力)E",
+      "type": "自己回復(魔力)", "name": "自己回復(魔力)E",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "2"
         }
@@ -98,7 +98,7 @@
         "v5": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -157,7 +157,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -174,7 +174,7 @@
         "v10": ""
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -191,13 +191,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill3": {
     "name": "四夜の終末EX",
     "ct": 9,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -231,7 +231,7 @@
         "v10": "200"
       },
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -264,6 +264,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": "quick_up"
+    ], "avatar": "绿放"
   }
 }

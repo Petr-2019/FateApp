@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化D",
+      "type": "狂化", "name": "狂化D",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
@@ -87,7 +87,7 @@
         "v5": "1000"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -109,7 +109,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -126,7 +126,7 @@
         "v10": "100"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -183,7 +183,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -200,7 +200,7 @@
         "v10": "15"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -223,7 +223,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -240,7 +240,7 @@
         "v10": "5000"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",

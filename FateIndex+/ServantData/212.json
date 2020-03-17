@@ -47,20 +47,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动C",
+      "type": "单独行动", "name": "单独行动C",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
@@ -122,7 +122,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -139,7 +139,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -162,7 +162,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -202,7 +202,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -236,7 +236,7 @@
         "v10": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",

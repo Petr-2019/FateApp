@@ -46,27 +46,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成A+",
+      "type": "阵地作成", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -74,7 +74,7 @@
           "magnification": "225"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "22.5"
         }
@@ -86,7 +86,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -114,7 +114,7 @@
         "v5": "500"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -210,7 +210,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -227,7 +227,7 @@
         "v10": "50"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -267,7 +267,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -284,7 +284,7 @@
         "v10": "20"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",

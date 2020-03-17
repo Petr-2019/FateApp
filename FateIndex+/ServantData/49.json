@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化A",
+      "type": "狂化", "name": "狂化A",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "10"
         }
@@ -95,7 +95,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -129,13 +129,13 @@
         "v10": "36"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "反骨の相B",
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -169,13 +169,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill3": {
     "name": "乱世の梟雄A",
     "ct": 8,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -192,7 +192,7 @@
         "v10": "30"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -209,7 +209,7 @@
         "v10": "3000"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -225,6 +225,6 @@
         "v9": "20",
         "v10": "20"
       }
-    ], "avatar": "hogu_up"
+    ], "avatar": "宝具威力提升"
   }
 }

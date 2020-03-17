@@ -51,27 +51,27 @@
     },
     "classskill": [
       {
-        "type": "magic_resistance", "name": "对魔力C",
+        "type": "对魔力", "name": "对魔力C",
         "effect": [
           {
-            "type": "weaken_stand_up",
+            "type": "弱化耐性提升",
             "desc": "自身の弱体耐性を up",
             "magnification": "15.5"
           }
         ]
       },
       {
-        "type": "acting_alone", "name": "单独行动C",
+        "type": "单独行动", "name": "单独行动C",
         "effect": [
           {
-            "type": "critical_up",
+            "type": "暴击威力提升",
             "desc": "自身のクリティカル威力を少し up",
             "magnification": "6"
           }
         ]
       },
       {
-        "type": "goddess_divinity", "name": "女神の神核A++",
+        "type": "女神的神核", "name": "女神の神核A++",
         "effect": [
           {
             "type": "与 damage プラス付与",
@@ -79,14 +79,14 @@
             "magnification": "270"
           },
           {
-            "type": "weaken_stand_up",
+            "type": "弱化耐性提升",
             "desc": "自身の弱体耐性を up",
             "magnification": "27"
           }
         ]
       },
       {
-        "type": "avenger", "name": "复仇者Ex",
+        "type": "复仇者", "name": "复仇者Ex",
         "effect": [
           {
             "type": "被ダメNP獲得量 up",
@@ -101,20 +101,20 @@
         ]
       },
       {
-        "type": "forget_correct", "name": "忘却補正A",
+        "type": "忘却補正", "name": "忘却補正A",
         "effect": [
           {
-            "type": "critical_up",
+            "type": "暴击威力提升",
             "desc": "自身のクリティカル威力を up",
             "magnification": "10"
           }
         ]
       },
       {
-        "type": "magic_self_recover", "name": "自己回復(魔力) B",
+        "type": "自己回復(魔力)", "name": "自己回復(魔力) B",
         "effect": [
           {
-            "type": "np_gain_each_turn",
+            "type": "回合充能",
             "desc": "自身に毎ターンNP獲得状態を付与",
             "magnification": "3.5"
           }
@@ -126,7 +126,7 @@
       "card": "Arts",
       "effect": [
         {
-          "type": "hogu_up",
+          "type": "宝具威力提升",
           "turn":  3,
           "count": 0,
           "target": "self",
@@ -204,7 +204,7 @@
       "ct": 7,
       "effects": [
         {
-          "type": "atk_up",
+          "type": "加攻",
           "turn":  3,
           "count": 0,
           "target": "self",
@@ -221,7 +221,7 @@
           "v10": "20"
         },
         {
-            "type": "atk_up",
+            "type": "加攻",
             "turn":  3,
             "count": 0,
             "target": "other-all",
@@ -261,7 +261,7 @@
       "ct": 7,
       "effects": [
         {
-          "type": "hogu_up",
+          "type": "宝具威力提升",
           "turn": 3,
           "count": 1,
           "target": "self",
@@ -318,7 +318,7 @@
       "ct": 8,
       "effects": [
         {
-            "type": "np_charge",
+            "type": "充能",
             "turn": 0,
             "count": 0,
             "target": "self",
@@ -335,7 +335,7 @@
             "v10": "50"
         },
         {
-            "type": "quick_up",
+            "type": "绿放",
             "turn":  3,
             "count": 0,
             "target": "self",
@@ -352,7 +352,7 @@
             "v10": "20"
         },
         {
-            "type": "arts_up",
+            "type": "蓝放",
             "turn":  3,
             "count": 0,
             "target": "self",
@@ -369,7 +369,7 @@
             "v10": "20"
         },
         {
-            "type": "buster_up",
+            "type": "红放",
             "turn":  3,
             "count": 0,
             "target": "self",

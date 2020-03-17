@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A+",
+      "type": "阵地作成", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性D",
+      "type": "神性", "name": "神性D",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -106,7 +106,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
         "v10": "80"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -140,7 +140,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill2": {
     "name": "妖惹の紅顔A",
     "ct": 8,
@@ -180,13 +180,13 @@
         "v10": "1500"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "目标集中"},
   "skill3": {
     "name": "三蔵の教えA",
     "ct": 7,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -236,6 +236,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": ""
+    ], "avatar": "NP获得量提升"
   }
 }

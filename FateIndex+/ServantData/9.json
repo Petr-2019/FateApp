@@ -47,30 +47,30 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -82,7 +82,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  2,
         "count": 0,
         "target": "self",
@@ -96,7 +96,7 @@
         "v5": "100"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -110,7 +110,7 @@
         "v5": "50"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -132,7 +132,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -149,13 +149,13 @@
         "v10": "16"
       }
     ]
-  , "avatar": "hogu_up"},
+  , "avatar": "宝具威力提升"},
   "skill2": {
     "name": "黄金律B",
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -172,13 +172,13 @@
         "v10": "45"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill3": {
     "name": "プレラーティの激励B",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -195,6 +195,6 @@
         "v10": "40"
       }
     ],
-    "avatar": "buster_up"
+    "avatar": "红放"
   }
 }

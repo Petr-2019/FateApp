@@ -48,20 +48,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -87,7 +87,7 @@
         "v5": "600"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -157,13 +157,13 @@
         "v10": "40"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "反骨の相B",
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -197,13 +197,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill3": {
     "name": "心眼（真）A",
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -220,7 +220,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -236,6 +236,6 @@
         "v9": "18",
         "v10": "20"
       }
-    ], "avatar": "dodge"
+    ], "avatar": "回避"
   }
 }

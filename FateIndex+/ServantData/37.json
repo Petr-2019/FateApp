@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B",
+      "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -70,7 +70,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -112,7 +112,7 @@
         "v5": "1000"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -134,7 +134,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -151,7 +151,7 @@
         "v10": "50"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -168,13 +168,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill2": {
     "name": "軍師の忠言A+",
     "ct": 8,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -208,7 +208,7 @@
         "v10": "500"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -225,13 +225,13 @@
         "v10": "10"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill3": {
     "name": "軍師の指揮A+",
     "ct": 8,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -265,7 +265,7 @@
         "v10": "500"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -281,6 +281,6 @@
         "v9": "10",
         "v10": "10"
       }
-    ], "avatar": "atk_up"
+    ], "avatar": "加攻"
   }
 }

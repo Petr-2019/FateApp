@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核C",
+      "type": "女神的神核", "name": "女神の神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -63,7 +63,7 @@
           "magnification": "200"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -75,7 +75,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -89,7 +89,7 @@
         "v5": "3000"
       },
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self-other",
@@ -151,7 +151,7 @@
         "v10": ""
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -168,13 +168,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "become_ invincible"},
+  , "avatar": "无敌"},
   "skill3": {
     "name": "魔術医療A",
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -190,6 +190,6 @@
         "v9": "2800",
         "v10": "3000"
       }
-    ], "avatar": "hp_regen"
+    ], "avatar": "回血"
   }
 }

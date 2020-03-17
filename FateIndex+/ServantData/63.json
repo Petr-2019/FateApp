@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -120,7 +120,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -137,7 +137,7 @@
         "v10": "50"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -154,7 +154,7 @@
         "v10": "2000"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill2": {
     "name": "治癒の竪琴B",
     "ct": 8,
@@ -177,7 +177,7 @@
         "v10": ""
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 1,
         "target": "self-other",
@@ -194,7 +194,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -211,13 +211,13 @@
         "v10": "800"
       }
     ]
-  , "avatar": "debuff_cure"},
+  , "avatar": "弱化解除"},
   "skill3": {
     "name": "领袖气质B",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -233,6 +233,6 @@
         "v9": "16.2",
         "v10": "18"
       }
-    ], "avatar": "atk_up"
+    ], "avatar": "加攻"
   }
 }

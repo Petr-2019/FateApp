@@ -44,17 +44,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成D",
+      "type": "道具作成", "name": "道具作成D",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -97,7 +97,7 @@
         "v5": "20"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -119,7 +119,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -153,13 +153,13 @@
         "v10": "41"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "向日葵のきらめきA",
     "ct": 9,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -176,7 +176,7 @@
         "v10": "5"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -193,7 +193,7 @@
         "v10": "1000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回合出星"},
   "skill3": {
     "name": "麗しの姫君（海）A",
     "ct": 8,
@@ -216,7 +216,7 @@
         "v10": ""
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -232,6 +232,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "无敌"
   }
 }

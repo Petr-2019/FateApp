@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A+",
+      "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -55,17 +55,17 @@
       ]
     },
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核EX",
+      "type": "女神的神核", "name": "女神の神核EX",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -73,7 +73,7 @@
           "magnification": "300"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "30"
         }
@@ -113,7 +113,7 @@
         "v5": "200"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -149,7 +149,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -166,7 +166,7 @@
         "v10": "80"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -183,7 +183,7 @@
         "v10": "27"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "魅惑の美声A",
     "ct": 9,
@@ -212,7 +212,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -229,7 +229,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -245,6 +245,6 @@
         "v9": "18",
         "v10": "20"
       }
-    ], "avatar": "atk_up"
+    ], "avatar": "加攻"
   }
 }

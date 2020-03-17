@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -73,7 +73,7 @@
         "v5": "100"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -87,7 +87,7 @@
         "v5": "50"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -101,7 +101,7 @@
         "v5": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -174,13 +174,13 @@
         "v10": ""
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill2": {
     "name": "人体理解A",
     "ct": 8,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -214,13 +214,13 @@
         "v10": "25"
       }
     ]
-  , "avatar": "special_attack_up"},
+  , "avatar": "特攻"},
   "skill3": {
     "name": "天使の叫びEX",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -236,6 +236,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": "buster_up"
+    ], "avatar": "红放"
   }
 }

@@ -45,27 +45,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘C",
+      "type": "骑乘", "name": "骑乘C",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を少し up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "star_travel", "name": "星見の旅路",
+      "type": "羁绊获得量提升", "name": "星見の旅路",
       "effect": [
         {
           "type": "追加 damage",
@@ -80,7 +80,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -116,7 +116,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn": 3,
         "count": 1,
         "target": "self",
@@ -133,7 +133,7 @@
         "v10": "50"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn": 3,
         "count": 1,
         "target": "self",
@@ -150,7 +150,7 @@
         "v10": "50"
       }
     ],
-    "avatar": "buster_up"
+    "avatar": "红放"
   },
   "skill2": {
     "name": "アマルガムゴートD",
@@ -174,7 +174,7 @@
         "v10": "300"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
         "v10": "20"
       }
     ],
-    "avatar": "become_target"
+    "avatar": "目标集中"
   },
   "skill3": {
     "name": "悲壮なる奮起の盾",
@@ -249,6 +249,6 @@
         "v10": "500"
       }
     ],
-    "avatar": "become_invincible"
+    "avatar": "无敌"
   }
 }

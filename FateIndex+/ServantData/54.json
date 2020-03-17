@@ -46,10 +46,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化A+",
+      "type": "狂化", "name": "狂化A+",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "11"
         }
@@ -97,7 +97,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -114,7 +114,7 @@
         "v10": "30"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -131,13 +131,13 @@
         "v10": "10"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "皇帝特権A",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -154,7 +154,7 @@
         "v10": "40"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -171,7 +171,7 @@
         "v10": "40"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -188,13 +188,13 @@
         "v10": "3000"
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill3": {
     "name": "在りし日の栄光B",
     "ct": 5,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -227,6 +227,6 @@
         "v9": "500",
         "v10": "500"
       }
-    ], "avatar": "buster_up"
+    ], "avatar": "红放"
   }
 }

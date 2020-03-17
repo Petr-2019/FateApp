@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -127,7 +127,7 @@
         "v10": "100"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -144,7 +144,7 @@
         "v10": "2500"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -161,7 +161,7 @@
         "v10": "40"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -178,13 +178,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "弱化耐性提升"},
   "skill2": {
     "name": "軍略B",
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -201,13 +201,13 @@
         "v10": "18"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "宝具威力提升"},
   "skill3": {
     "name": "無辜の怪物A",
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -240,6 +240,6 @@
         "v9": "260",
         "v10": "300"
       }
-    ], "avatar": ""
+    ], "avatar": "回合出星"
   }
 }

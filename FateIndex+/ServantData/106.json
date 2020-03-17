@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "复仇者B",
+      "type": "复仇者", "name": "复仇者B",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -60,20 +60,20 @@
       ]
     },
     {
-      "type": "forget_correct", "name": "忘却補正A",
+      "type": "忘却補正", "name": "忘却補正A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "magic_self_recover", "name": "自己回復(魔力)A+",
+      "type": "自己回復(魔力)", "name": "自己回復(魔力)A+",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "4"
         }
@@ -135,7 +135,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -152,7 +152,7 @@
         "v10": "50"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -169,13 +169,13 @@
         "v10": "800"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill2": {
     "name": "竜の魔女EX",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -192,7 +192,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -209,13 +209,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill3": {
     "name": "うたかたの夢A",
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -265,6 +265,6 @@
         "v9": "1000",
         "v10": "1000"
       }
-    ], "avatar": "buster_up"
+    ], "avatar": "红放"
   }
 }

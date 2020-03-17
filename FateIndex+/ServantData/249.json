@@ -47,17 +47,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成EX",
+      "type": "道具作成", "name": "道具作成EX",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性A",
+      "type": "神性", "name": "神性A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -82,7 +82,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self-other",
@@ -96,7 +96,7 @@
         "v5": "3000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -132,7 +132,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -149,7 +149,7 @@
         "v10": "5000"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -189,7 +189,7 @@
         "v10": "100"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -212,7 +212,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -229,7 +229,7 @@
         "v10": "20"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self-other",

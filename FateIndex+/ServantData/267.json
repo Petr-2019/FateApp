@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断(J)B-",
+      "type": "气息遮断", "name": "气息遮断(J)B-",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -60,10 +60,10 @@
       ]
     },
     {
-      "type": "magic_resistance", "name": "对魔力(J)C",
+      "type": "对魔力", "name": "对魔力(J)C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "15"
         },
@@ -75,15 +75,15 @@
       ]
     },
     {
-      "type": "outer_life", "name": "領域外の生命E",
+      "type": "领域外生命", "name": "領域外の生命E",
       "effect": [
         {
-          "type": "star_gain",
+          "type": "出星",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "2"
         }
@@ -123,7 +123,7 @@
         "v5": ""
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -159,7 +159,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -176,7 +176,7 @@
         "v10": "100"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -216,7 +216,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -250,7 +250,7 @@
         "v10": ""
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -273,7 +273,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -290,7 +290,7 @@
         "v10": "50"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "self",

@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成C",
+      "type": "阵地作成", "name": "阵地作成C",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
@@ -95,7 +95,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -112,7 +112,7 @@
         "v10": "40"
       }
     ]
-  , "avatar": "buster_up"},
+  , "avatar": "红放"},
   "skill2": {
     "name": "自己保存B",
     "ct": 8,
@@ -135,7 +135,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -152,13 +152,13 @@
         "v10": "1500"
       }
     ]
-  , "avatar": "become_ invincible"},
+  , "avatar": "无敌"},
   "skill3": {
     "name": "国王一座C",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -192,6 +192,6 @@
         "v10": "100"
       }
     ],
-    "avatar": "np_charge"
+    "avatar": "充能"
   }
 }

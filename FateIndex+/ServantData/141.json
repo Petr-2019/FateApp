@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A+",
+      "type": "对魔力", "name": "对魔力A+",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "21"
         }
@@ -88,7 +88,7 @@
         "v5": "10"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -102,7 +102,7 @@
         "v5": "30"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -124,7 +124,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -158,13 +158,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回血"},
   "skill2": {
     "name": "自己変革A",
     "ct": 7,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -181,7 +181,7 @@
         "v10": "20"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -198,13 +198,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill3": {
     "name": "うたかたの夢EX",
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -254,6 +254,6 @@
         "v9": "1200",
         "v10": "1200"
       }
-    ], "avatar": ""
+    ], "avatar": "红放"
   }
 }

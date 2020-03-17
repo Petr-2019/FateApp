@@ -47,20 +47,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘EX",
+      "type": "骑乘", "name": "骑乘EX",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -72,7 +72,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -122,7 +122,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -139,7 +139,7 @@
         "v10": "50"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -162,7 +162,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -179,7 +179,7 @@
         "v10": "5"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -219,7 +219,7 @@
         "v10": ""
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",

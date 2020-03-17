@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -85,7 +85,7 @@
         "v5": "1000"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -107,7 +107,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -147,7 +147,7 @@
         "v10": ""
       },
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -170,7 +170,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -187,7 +187,7 @@
         "v10": "20"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",

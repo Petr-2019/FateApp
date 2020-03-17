@@ -45,27 +45,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "breath_hide", "name": "气息遮断A",
+      "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -78,7 +78,7 @@
       "type": "hotel_build", "name": "お宿作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -100,7 +100,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -114,7 +114,7 @@
         "v5": "60"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -150,7 +150,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -167,7 +167,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -190,7 +190,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -241,7 +241,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -264,7 +264,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -298,7 +298,7 @@
         "v10": "100"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -315,7 +315,7 @@
         "v10": "20"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -332,7 +332,7 @@
         "v10": "1000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",

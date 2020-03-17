@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力E",
+      "type": "对魔力", "name": "对魔力E",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
@@ -73,7 +73,7 @@
         "v5": "600"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-all",
@@ -87,7 +87,7 @@
         "v5": "80"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -109,7 +109,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -126,7 +126,7 @@
         "v10": "16"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -143,13 +143,13 @@
         "v10": "16"
       }
     ]
-  , "avatar": "hogu_up"},
+  , "avatar": "宝具威力提升"},
   "skill2": {
     "name": "海賊の誉れB",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -166,7 +166,7 @@
         "v10": "27"
       },
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn": 0,
         "count": 1,
         "target": "self",
@@ -200,13 +200,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill3": {
     "name": "紳士的な愛C",
     "ct": 8,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -223,7 +223,7 @@
         "v10": "2000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -240,6 +240,6 @@
         "v10": "2000"
       }
     ],
-    "avatar": "hp_regen"
+    "avatar": "回血"
   }
 }

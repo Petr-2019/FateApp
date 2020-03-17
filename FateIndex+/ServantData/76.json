@@ -48,20 +48,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -101,7 +101,7 @@
         "v5": "220"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -140,13 +140,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "buster_up"},
+  , "avatar": "红放"},
   "skill2": {
     "name": "直感B",
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -163,13 +163,13 @@
         "v10": "14"
       }
     ]
-  , "avatar": "star_gain"},
+  , "avatar": "出星"},
   "skill3": {
     "name": "不貞隠しの兜EX",
     "ct": 8,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -186,7 +186,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -203,7 +203,7 @@
         "v10": "50"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -219,6 +219,6 @@
         "v9": "26",
         "v10": "30"
       }
-    ], "avatar": "def_up"
+    ], "avatar": "加防"
   }
 }

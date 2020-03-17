@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A+",
+      "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -55,10 +55,10 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -84,7 +84,7 @@
         "v5": "1800"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -120,7 +120,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -137,7 +137,7 @@
         "v10": "40"
       }
     ]
-  , "avatar": "arts_up"},
+  , "avatar": "蓝放"},
   "skill2": {
     "name": "聖杯の寵愛A+",
     "ct": 7,
@@ -160,7 +160,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -217,7 +217,7 @@
         "v10": "300"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -233,6 +233,6 @@
         "v9": "13",
         "v10": "15"
       }
-    ], "avatar": "become_target"
+    ], "avatar": "目标集中"
   }
 }

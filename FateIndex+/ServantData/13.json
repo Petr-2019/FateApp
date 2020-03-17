@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
@@ -106,7 +106,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -123,13 +123,13 @@
         "v10": "15"
       }
     ]
-  , "avatar": "atk_down"},
+  , "avatar": "降攻"},
   "skill2": {
     "name": "黄金律E",
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -146,7 +146,7 @@
         "v10": "30"
       }
     ]
-  , "avatar": "star_focus_up"},
+  , "avatar": "掉星率增加 (1)"},
   "skill3": {
     "name": "皐月の王B",
     "ct": 8,
@@ -169,7 +169,7 @@
         "v10": ""
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -186,7 +186,7 @@
         "v10": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -203,6 +203,6 @@
         "v10": "20"
       }
     ],
-    "avatar": "dodge"
+    "avatar": "回避"
   }
 }

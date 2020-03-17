@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化E+",
+      "type": "狂化", "name": "狂化E+",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "3"
         }
@@ -109,7 +109,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -126,7 +126,7 @@
         "v10": "10"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -149,7 +149,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -189,7 +189,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  5,
         "count": 0,
         "target": "enemy-single",

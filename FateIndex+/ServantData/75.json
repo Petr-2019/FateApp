@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A+",
+      "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -59,7 +59,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -95,7 +95,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -112,7 +112,7 @@
         "v10": "50"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -129,7 +129,7 @@
         "v10": ""
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill2": {
     "name": "情報抹消B",
     "ct": 7,
@@ -175,7 +175,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -191,6 +191,6 @@
         "v9": "2100",
         "v10": "2500"
       }
-    ], "avatar": "hp_regen"
+    ], "avatar": "回血"
   }
 }

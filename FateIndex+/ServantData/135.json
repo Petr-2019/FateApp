@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力EX",
+      "type": "对魔力", "name": "对魔力EX",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
@@ -59,7 +59,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
@@ -95,7 +95,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -112,7 +112,7 @@
         "v10": "30"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -129,7 +129,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill2": {
     "name": "天性の肉体（海）A",
     "ct": 7,
@@ -152,7 +152,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -169,13 +169,13 @@
         "v10": "3000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "弱化无效"},
   "skill3": {
     "name": "ヤコブの手足B",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -191,6 +191,6 @@
         "v9": "90",
         "v10": "100"
       }
-    ], "avatar": ""
+    ], "avatar": "特攻"
   }
 }

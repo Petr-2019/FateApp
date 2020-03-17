@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断B",
+      "type": "气息遮断", "name": "气息遮断B",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -87,7 +87,7 @@
         "v5": "100"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -140,7 +140,7 @@
         "v10": "200"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -180,13 +180,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "star_focus_up"},
+  , "avatar": "掉星率增加 (1)"},
   "skill3": {
     "name": "傍若無人A",
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -203,7 +203,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -219,6 +219,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": "quick_up"
+    ], "avatar": "绿放"
   }
 }

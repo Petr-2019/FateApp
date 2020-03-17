@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A",
+      "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -109,7 +109,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -143,13 +143,13 @@
         "v10": "40"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill2": {
     "name": "専科百般A+",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -166,7 +166,7 @@
         "v10": "80"
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -183,7 +183,7 @@
         "v10": "80"
       },
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -200,7 +200,7 @@
         "v10": "80"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -223,7 +223,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -256,6 +256,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": "hp_regen"
+    ], "avatar": "回血"
   }
 }

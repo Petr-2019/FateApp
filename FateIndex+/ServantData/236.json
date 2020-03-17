@@ -44,20 +44,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "magic_infinite", "name": "無限の魔力供給B",
+      "type": "回合充能", "name": "無限の魔力供給B",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "4"
         }
@@ -83,7 +83,7 @@
         "v5": ""
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -97,7 +97,7 @@
         "v5": "10"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -111,7 +111,7 @@
         "v5": "1000"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -147,7 +147,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -164,7 +164,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 3,
         "target": "self",
@@ -187,7 +187,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -227,7 +227,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",

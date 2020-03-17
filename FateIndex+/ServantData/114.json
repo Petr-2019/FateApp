@@ -46,37 +46,37 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A+",
+      "type": "骑乘", "name": "骑乘A+",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -127,7 +127,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -144,7 +144,7 @@
         "v10": "6000"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 3,
         "target": "self",
@@ -161,13 +161,13 @@
         "v10": "60"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "集星"},
   "skill2": {
     "name": "魔力放出（雷）A",
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -184,7 +184,7 @@
         "v10": "30"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -201,13 +201,13 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "红放"},
   "skill3": {
     "name": "神秘殺しA",
     "ct": 8,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -224,7 +224,7 @@
         "v10": "50"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -240,6 +240,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "特攻"
   }
 }

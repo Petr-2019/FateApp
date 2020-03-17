@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B",
+      "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -70,7 +70,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -84,7 +84,7 @@
         "v5": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -98,7 +98,7 @@
         "v5": "6000"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -120,7 +120,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -137,7 +137,7 @@
         "v10": "150"
       }
     ]
-  , "avatar": "np_charge"},
+  , "avatar": "充能"},
   "skill2": {
     "name": "耐毒A++",
     "ct": 7,
@@ -160,7 +160,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -177,13 +177,13 @@
         "v10": "3000"
       }
     ]
-  , "avatar": "debuff_cure"},
+  , "avatar": "弱化解除"},
   "skill3": {
     "name": "うたかたの恋EX",
     "ct": 8,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  1,
         "count": 0,
         "target": "other-single",
@@ -216,6 +216,6 @@
         "v9": "90",
         "v10": "100"
       }
-    ], "avatar": "hp_regen"
+    ], "avatar": "回血"
   }
 }

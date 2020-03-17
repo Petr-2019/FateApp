@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "item_make", "name": "道具作成(偽)A",
+      "type": "道具作成", "name": "道具作成(偽)A",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -57,17 +57,17 @@
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -96,7 +96,7 @@
         "v5": "750"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -110,7 +110,7 @@
         "v5": "40"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -155,7 +155,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -178,7 +178,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self-other",

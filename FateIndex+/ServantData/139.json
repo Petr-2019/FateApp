@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断B",
+      "type": "气息遮断", "name": "气息遮断B",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性D",
+      "type": "神性", "name": "神性D",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -71,7 +71,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -135,7 +135,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -152,7 +152,7 @@
         "v10": "40"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -169,7 +169,7 @@
         "v10": "40"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -186,13 +186,13 @@
         "v10": "3000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回血"},
   "skill2": {
     "name": "黄金律（富＆体）B",
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -209,7 +209,7 @@
         "v10": "40"
       },
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -226,7 +226,7 @@
         "v10": "10"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -243,7 +243,7 @@
         "v10": "1000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回合充能"},
   "skill3": {
     "name": "女神の加護C",
     "ct": 8,
@@ -266,7 +266,7 @@
         "v10": ""
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -283,7 +283,7 @@
         "v10": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -299,6 +299,6 @@
         "v9": "18",
         "v10": "20"
       }
-    ], "avatar": ""
+    ], "avatar": "无敌"
   }
 }

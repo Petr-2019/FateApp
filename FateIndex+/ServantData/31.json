@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成A",
+      "type": "道具作成", "name": "道具作成A",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -98,7 +98,7 @@
         "v5": ""
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -120,7 +120,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -137,13 +137,13 @@
         "v10": "150"
       }
     ]
-  , "avatar": "np_charge"},
+  , "avatar": "充能"},
   "skill2": {
     "name": "金羊の皮",
     "ct": 6,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -160,13 +160,13 @@
         "v10": "2500"
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill3": {
     "name": "キルケーの教えA",
     "ct": 8,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -183,7 +183,7 @@
         "v10": ""
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
         "target": "other-single",
@@ -200,6 +200,6 @@
         "v10": "50"
       }
     ],
-    "avatar": "debuff_cure"
+    "avatar": "弱化解除"
   }
 }

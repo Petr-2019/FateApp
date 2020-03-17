@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成EX",
+      "type": "阵地作成", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
@@ -57,7 +57,7 @@
       "type": "elf_contract", "name": "妖精契約A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "10"
         },
@@ -88,7 +88,7 @@
         "v5": "750"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -141,7 +141,7 @@
         "v10": ""
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -181,7 +181,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -198,7 +198,7 @@
         "v10": "20"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -221,7 +221,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

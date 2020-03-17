@@ -47,17 +47,17 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化B",
+      "type": "狂化", "name": "狂化B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性A",
+      "type": "神性", "name": "神性A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -86,7 +86,7 @@
         "v5": "1000"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -108,7 +108,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -142,13 +142,13 @@
         "v10": "42"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "心眼（偽）B",
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -165,7 +165,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -182,13 +182,13 @@
         "v10": "36"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill3": {
     "name": "戦闘続行A",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -204,6 +204,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ], "avatar": "gatsu"
+    ], "avatar": "毅力"
   }
 }

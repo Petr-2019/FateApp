@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
@@ -118,7 +118,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -135,13 +135,13 @@
         "v10": "100"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill3": {
     "name": "コンビネーションC",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -158,7 +158,7 @@
         "v10": "30"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",

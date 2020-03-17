@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B+",
+      "type": "道具作成", "name": "道具作成B+",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -148,7 +148,7 @@
         "v10": "100"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -165,13 +165,13 @@
         "v10": "3000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "即死成功率提升"},
   "skill2": {
     "name": "高速神言B",
     "ct": 9,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -188,13 +188,13 @@
         "v10": "120"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill3": {
     "name": "天空神の寵愛B",
     "ct": 7,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -211,7 +211,7 @@
         "v10": "2000"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -227,6 +227,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": ""
+    ], "avatar": "毅力"
   }
 }

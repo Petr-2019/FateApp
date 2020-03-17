@@ -48,30 +48,30 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
@@ -97,7 +97,7 @@
         "v5": "1500"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -111,7 +111,7 @@
         "v5": "70"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -133,7 +133,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -150,7 +150,7 @@
         "v10": "30"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -167,13 +167,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "蓝放"},
   "skill2": {
     "name": "海の家の加護EX",
     "ct": 6,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -207,13 +207,13 @@
         "v10": "10"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回血"},
   "skill3": {
     "name": "ビーチフラワーB",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -246,6 +246,6 @@
         "v9": "34",
         "v10": "38"
       }
-    ], "avatar": ""
+    ], "avatar": "加攻"
   }
 }

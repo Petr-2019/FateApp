@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化D",
+      "type": "狂化", "name": "狂化D",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
@@ -73,7 +73,7 @@
         "v5": "500"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  5,
         "count": 0,
         "target": "enemy-all",
@@ -95,7 +95,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -112,7 +112,7 @@
         "v10": "20"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -135,7 +135,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -158,7 +158,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -175,7 +175,7 @@
         "v10": "20"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  5,
         "count": 0,
         "target": "enemy-all",

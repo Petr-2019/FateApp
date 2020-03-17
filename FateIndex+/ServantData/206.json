@@ -48,27 +48,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A+",
+      "type": "骑乘", "name": "骑乘A+",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -83,7 +83,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -119,7 +119,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -136,7 +136,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -176,7 +176,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -216,7 +216,7 @@
         "v10": "300"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -233,7 +233,7 @@
         "v10": "30"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

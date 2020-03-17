@@ -45,30 +45,30 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A+",
+      "type": "骑乘", "name": "骑乘A+",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -94,7 +94,7 @@
         "v5": "1200"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 3,
         "target": "self",
@@ -108,7 +108,7 @@
         "v5": ""
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -130,7 +130,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -147,7 +147,7 @@
         "v10": "28"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "触れれば転倒！D",
     "ct": 10,
@@ -176,7 +176,7 @@
     "ct": 10,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -210,7 +210,7 @@
         "v10": "50"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -227,7 +227,7 @@
         "v10": "40"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

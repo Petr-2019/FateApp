@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -70,7 +70,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -106,7 +106,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
         "v10": "30"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -140,13 +140,13 @@
         "v10": "2000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "红放"},
   "skill2": {
     "name": "矢避けの加護C",
     "ct": 7,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 2,
         "target": "self",
@@ -163,7 +163,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -180,7 +180,7 @@
         "v10": "14"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回避"},
   "skill3": {
     "name": "無尽俵EX",
     "ct": 7,
@@ -202,6 +202,6 @@
         "v9": "1800",
         "v10": "2000"
       }
-    ], "avatar": ""
+    ], "avatar": "血量上升"
   }
 }

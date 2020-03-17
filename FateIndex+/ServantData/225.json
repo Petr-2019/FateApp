@@ -49,17 +49,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成B",
+      "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -174,7 +174,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
         "v10": "30"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -208,7 +208,7 @@
         "v10": "30"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -231,7 +231,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -248,7 +248,7 @@
         "v10": "20"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",

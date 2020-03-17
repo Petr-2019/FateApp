@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -84,7 +84,7 @@
         "v5": "2000"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -120,7 +120,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -137,7 +137,7 @@
         "v10": "45"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -154,13 +154,13 @@
         "v10": "45"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill2": {
     "name": "矢避けの加護B",
     "ct": 7,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 3,
         "target": "self",
@@ -177,7 +177,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -194,13 +194,13 @@
         "v10": "16"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill3": {
     "name": "獣殺しB++",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -217,7 +217,7 @@
         "v10": "100"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -234,6 +234,6 @@
         "v10": "500"
       }
     ],
-    "avatar": "special_attack_up"
+    "avatar": "特攻"
   }
 }

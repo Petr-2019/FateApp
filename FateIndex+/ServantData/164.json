@@ -45,27 +45,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动C",
+      "type": "单独行动", "name": "单独行动C",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "breath_hide", "name": "气息遮断A+",
+      "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核C",
+      "type": "女神的神核", "name": "女神の神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -83,7 +83,7 @@
           "magnification": "200"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "20"
         }
@@ -119,7 +119,7 @@
         "v5": "600"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -198,7 +198,7 @@
         "v10": "300"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -215,7 +215,7 @@
         "v10": "30"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -255,7 +255,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -306,7 +306,7 @@
         "v10": "効果が発生する確率：10[%]即死効果量：100[%] ※相手の即死補正（DR)で確率は下がる"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",

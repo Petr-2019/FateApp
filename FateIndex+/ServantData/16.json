@@ -45,20 +45,20 @@
 	},
 	"classskill": [
 		{
-			"type": "magic_resistance", "name": "对魔力C",
+			"type": "对魔力", "name": "对魔力C",
 			"effect": [
 				{
-					"type": "weaken_stand_up",
+					"type": "弱化耐性提升",
 					"magnification": "15",
 					"desc": "自身の弱体耐性を少し up"
 				}
 			]
 		},
 		{
-			"type": "acting_alone", "name": "单独行动C",
+			"type": "单独行动", "name": "单独行动C",
 			"effect": [
 				{
-					"type": "critical_up",
+					"type": "暴击威力提升",
 					"magnification": "6",
 					"desc": "自身のクリティカル威力を少し up"
 				}
@@ -70,7 +70,7 @@
 		"ct": 7,
 		"effects": [
 			{
-				"type": "def_up",
+				"type": "加防",
 				"turn": 3,
 				"count": 0,
 				"target": "self",
@@ -104,7 +104,7 @@
 				"v10": "160"
 			}
 		],
-        "avatar": "def_up"
+        "avatar": "加防"
 	},
 	"skill2": {
 		"name": "千里眼A",
@@ -128,14 +128,14 @@
 				"v10": "40"
 			}
 		],
-        "avatar": "star_focus_up"
+        "avatar": "掉星率增加 (1)"
 	},
 	"skill3": {
 		"name": "弓矢作成A",
 		"ct": 8,
 		"effects": [
 			{
-				"type": "np_charge",
+				"type": "充能",
 				"turn": 0,
 				"count": 0,
 				"target": "self",
@@ -152,7 +152,7 @@
 				"v10": "30"
 			},
 			{
-				"type": "hp_regen",
+				"type": "回血",
 				"turn": 0,
 				"count": 0,
 				"target": "self",
@@ -169,7 +169,7 @@
 				"v10": "3000"
 			}
 		],
-        "avatar": "np_charge"
+        "avatar": "充能"
 	},
 	"hogu": {
 		"name": "流星一条(Stella)",

@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -61,7 +61,7 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -97,7 +97,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -131,13 +131,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "绿放"},
   "skill2": {
     "name": "動物会話C",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -154,13 +154,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill3": {
     "name": "天性の肉体A",
     "ct": 7,
     "effects": [
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -177,7 +177,7 @@
         "v10": "120"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -193,6 +193,6 @@
         "v9": "2600",
         "v10": "3000"
       }
-    ], "avatar": ""
+    ], "avatar": "弱化耐性提升"
   }
 }

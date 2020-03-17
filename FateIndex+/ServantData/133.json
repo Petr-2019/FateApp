@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断E",
+      "type": "气息遮断", "name": "气息遮断E",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -113,7 +113,7 @@
         "v10": "300"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -130,13 +130,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "目标集中"},
   "skill2": {
     "name": "原初のルーン（海）A",
     "ct": 8,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -170,7 +170,7 @@
         "v10": "1000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回血"},
   "skill3": {
     "name": "真夏のあやまちC",
     "ct": 8,
@@ -193,7 +193,7 @@
         "v10": ""
       },
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -209,6 +209,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "无敌贯通"
   }
 }

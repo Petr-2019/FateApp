@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A+",
+      "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -95,7 +95,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -112,7 +112,7 @@
         "v10": "15"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -129,13 +129,13 @@
         "v10": "15"
       }
     ]
-  , "avatar": "star_gain"},
+  , "avatar": "出星"},
   "skill2": {
     "name": "自己改造C",
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -152,13 +152,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill3": {
     "name": "風除けの加護A",
     "ct": 7,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 3,
         "target": "self",
@@ -191,6 +191,6 @@
         "v9": "26",
         "v10": "30"
       }
-    ], "avatar": "dodge"
+    ], "avatar": "回避"
   }
 }

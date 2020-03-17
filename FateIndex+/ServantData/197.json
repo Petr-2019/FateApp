@@ -48,20 +48,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘EX",
+      "type": "骑乘", "name": "骑乘EX",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "12"
         }
@@ -71,14 +71,14 @@
       "type": "civilization_invade", "name": "文明浸食EX",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -107,7 +107,7 @@
         "v5": "2000"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -129,7 +129,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -169,7 +169,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "other-single",
@@ -186,7 +186,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "other-single",
@@ -226,7 +226,7 @@
         "v10": ""
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -243,7 +243,7 @@
         "v10": "600"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",

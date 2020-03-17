@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成EX",
+      "type": "阵地作成", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成A",
+      "type": "道具作成", "name": "道具作成A",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核A",
+      "type": "女神的神核", "name": "女神の神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -74,7 +74,7 @@
           "magnification": "250"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "25"
         }
@@ -86,7 +86,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  5,
         "count": 3,
         "target": "self-other",
@@ -100,7 +100,7 @@
         "v5": "50"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  3,
         "count": 1,
         "target": "self-other",
@@ -150,7 +150,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -167,7 +167,7 @@
         "v10": "50"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -190,7 +190,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -230,7 +230,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "other-single",

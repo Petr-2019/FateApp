@@ -46,20 +46,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D",
+      "type": "对魔力", "name": "对魔力D",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "12.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -71,7 +71,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -85,7 +85,7 @@
         "v5": "20"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -99,7 +99,7 @@
         "v5": "40"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -121,7 +121,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -138,7 +138,7 @@
         "v10": "60"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -155,13 +155,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "special_attack_up"},
+  , "avatar": "特攻"},
   "skill2": {
     "name": "戦闘続行A",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -178,13 +178,13 @@
         "v10": "2500"
       }
     ]
-  , "avatar": "gatsu"},
+  , "avatar": "毅力"},
   "skill3": {
     "name": "アンドラスタの加護A",
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -201,6 +201,6 @@
         "v10": "20"
       }
     ],
-    "avatar": "arts_up"
+    "avatar": "蓝放"
   }
 }

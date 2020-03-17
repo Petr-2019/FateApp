@@ -46,37 +46,37 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化A+",
+      "type": "狂化", "name": "狂化A+",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成EX",
+      "type": "阵地作成", "name": "阵地作成EX",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核A",
+      "type": "女神的神核", "name": "女神の神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -84,7 +84,7 @@
           "magnification": "250"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "25"
         }
@@ -106,7 +106,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -120,7 +120,7 @@
         "v5": "60"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -196,7 +196,7 @@
         "v10": "1"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -236,7 +236,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",

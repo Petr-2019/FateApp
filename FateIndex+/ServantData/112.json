@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断C",
+      "type": "气息遮断", "name": "气息遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -100,7 +100,7 @@
         "v5": "10"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -114,7 +114,7 @@
         "v5": "10"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -223,7 +223,7 @@
         "v10": "60"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -246,7 +246,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -263,7 +263,7 @@
         "v10": "20"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -280,13 +280,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill3": {
     "name": "戦闘続行A+",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -302,6 +302,6 @@
         "v9": "2400",
         "v10": "2700"
       }
-    ], "avatar": "gatsu"
+    ], "avatar": "毅力"
   }
 }

@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "acting_alone", "name": "单独行动EX",
+      "type": "单独行动", "name": "单独行动EX",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "12"
         }
@@ -58,12 +58,12 @@
       "type": "homunclus", "name": "ホムンクルスC+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card 性能を少し up",
           "magnification": "6.5"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "6.5"
         }
@@ -75,7 +75,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -111,7 +111,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -151,7 +151,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -174,7 +174,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
         "v10": "100"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

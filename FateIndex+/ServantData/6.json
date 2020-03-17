@@ -50,10 +50,10 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -93,7 +93,7 @@
         "v5": "200"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -115,7 +115,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -132,13 +132,13 @@
         "v10": "37.5"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill2": {
     "name": "仕切り直しA",
     "ct": 7,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -155,7 +155,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -172,13 +172,13 @@
         "v10": "2500"
       }
     ]
-  , "avatar": "debuff_cure"},
+  , "avatar": "弱化解除"},
   "skill3": {
     "name": "竜殺しA++",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -212,7 +212,7 @@
         "v10": "30"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -229,6 +229,6 @@
         "v10": "50"
       }
     ],
-    "avatar": "special_attack_up"
+    "avatar": "特攻"
   }
 }

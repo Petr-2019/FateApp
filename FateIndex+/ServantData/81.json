@@ -45,7 +45,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断A",
+      "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -88,7 +88,7 @@
         "v5": "6000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -102,7 +102,7 @@
         "v5": "100"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -124,7 +124,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -141,7 +141,7 @@
         "v10": "15"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -158,7 +158,7 @@
         "v10": "35"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "恐慌の声A",
     "ct": 8,
@@ -221,7 +221,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -238,7 +238,7 @@
         "v10": "15"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -254,6 +254,6 @@
         "v9": "33",
         "v10": "35"
       }
-    ], "avatar": "critical_up"
+    ], "avatar": "暴击威力提升"
   }
 }

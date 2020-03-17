@@ -49,10 +49,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -78,7 +78,7 @@
         "v5": "650"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -100,7 +100,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -117,13 +117,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "buster_up"},
+  , "avatar": "红放"},
   "skill2": {
     "name": "直感B",
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -140,13 +140,13 @@
         "v10": "14"
       }
     ]
-  , "avatar": "star_gain"},
+  , "avatar": "出星"},
   "skill3": {
     "name": "领袖气质E",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -163,6 +163,6 @@
         "v10": "12"
       }
     ],
-    "avatar": "atk_up"
+    "avatar": "加攻"
   }
 }

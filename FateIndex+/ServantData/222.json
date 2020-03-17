@@ -51,22 +51,22 @@
   },
   "classskill": [
     {
-      "type": "outer_life", "name": "領域外の生命D",
+      "type": "领域外生命", "name": "領域外の生命D",
       "effect": [
         {
-          "type": "star_gain",
+          "type": "出星",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "4"
         }
       ]
     },
     {
-      "type": "star_focus_up", "name": "コスモリアクターB",
+      "type": "掉星率增加 (1)", "name": "コスモリアクターB",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -76,20 +76,20 @@
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -101,7 +101,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -168,7 +168,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -248,7 +248,7 @@
         "v10": ""
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -265,7 +265,7 @@
         "v10": "30"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",

@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -127,7 +127,7 @@
         "v10": "50"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -144,7 +144,7 @@
         "v10": "500"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -161,13 +161,13 @@
         "v10": ""
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill2": {
     "name": "原初のルーン",
     "ct": 8,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "other-single",
@@ -184,13 +184,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "quick_up"},
+  , "avatar": "绿放"},
   "skill3": {
     "name": "神殺しB",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -207,7 +207,7 @@
         "v10": "100"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -223,6 +223,6 @@
         "v9": "90",
         "v10": "100"
       }
-    ], "avatar": "special_attack_up"
+    ], "avatar": "特攻"
   }
 }

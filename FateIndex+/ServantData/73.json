@@ -49,20 +49,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
@@ -88,7 +88,7 @@
         "v5": "650"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -144,13 +144,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill2": {
     "name": "直感A",
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -167,13 +167,13 @@
         "v10": "15"
       }
     ]
-  , "avatar": "star_gain"},
+  , "avatar": "出星"},
   "skill3": {
     "name": "魔力放出A-",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -189,6 +189,6 @@
         "v9": "41",
         "v10": "45"
       }
-    ], "avatar": "buster_up"
+    ], "avatar": "红放"
   }
 }

@@ -46,27 +46,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘A++",
+      "type": "骑乘", "name": "骑乘A++",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "11.5"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -81,7 +81,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -109,7 +109,7 @@
         "v5": "600"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -131,7 +131,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -148,7 +148,7 @@
         "v10": "100"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -165,13 +165,13 @@
         "v10": "2500"
       }
     ]
-  , "avatar": "weaken_stand_up"},
+  , "avatar": "弱化耐性提升"},
   "skill2": {
     "name": "奇蹟D+",
     "ct": 8,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -188,7 +188,7 @@
         "v10": "2000"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -205,7 +205,7 @@
         "v10": ""
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill3": {
     "name": "聖女の誓いC",
     "ct": 7,
@@ -228,7 +228,7 @@
         "v10": ""
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -245,6 +245,6 @@
         "v10": "30"
       }
     ],
-    "avatar": "def_down"
+    "avatar": "降防"
   }
 }

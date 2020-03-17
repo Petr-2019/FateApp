@@ -46,27 +46,27 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "骑乘A",
+      "type": "骑乘", "name": "骑乘A",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成A",
+      "type": "阵地作成", "name": "阵地作成A",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性A++",
+      "type": "神性", "name": "神性A++",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -117,7 +117,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -151,7 +151,7 @@
         "v10": "42"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "真夏の呪術A",
     "ct": 9,
@@ -174,7 +174,7 @@
         "v10": ""
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -225,7 +225,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "魅惑"},
   "skill3": {
     "name": "女神変生B",
     "ct": 8,
@@ -248,7 +248,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -282,7 +282,7 @@
         "v10": "50"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -299,7 +299,7 @@
         "v10": "50"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -316,7 +316,7 @@
         "v10": "50"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -349,6 +349,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": ""
+    ], "avatar": "无敌"
   }
 }

@@ -46,27 +46,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力E",
+      "type": "对魔力", "name": "对魔力E",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -145,7 +145,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -162,7 +162,7 @@
         "v10": "21"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "紅顔の美少年C",
     "ct": 9,
@@ -191,7 +191,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -207,6 +207,6 @@
         "v9": "44",
         "v10": "50"
       }
-    ], "avatar": "np_gain_up"
+    ], "avatar": "NP获得量提升"
   }
 }

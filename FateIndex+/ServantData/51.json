@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化E",
+      "type": "狂化", "name": "狂化E",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "2"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性D",
+      "type": "神性", "name": "神性D",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -107,7 +107,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -124,13 +124,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "atk_up"},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "動物会話C",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -147,13 +147,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "np_charge"},
+  , "avatar": "充能"},
   "skill3": {
     "name": "天性の肉体A",
     "ct": 7,
     "effects": [
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -170,7 +170,7 @@
         "v10": "120"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -186,6 +186,6 @@
         "v9": "2600",
         "v10": "3000"
       }
-    ], "avatar": "weaken_stand_up"
+    ], "avatar": "弱化耐性提升"
   }
 }

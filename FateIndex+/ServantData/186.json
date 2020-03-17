@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力D+",
+      "type": "对魔力", "name": "对魔力D+",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "13"
         }
@@ -60,7 +60,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -88,7 +88,7 @@
         "v5": "200"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -116,7 +116,7 @@
         "v5": ""
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 1,
         "target": "self",
@@ -178,7 +178,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -235,7 +235,7 @@
         "v10": ""
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",

@@ -56,27 +56,27 @@
 	},
 	"classskill": [
 		{
-			"type": "magic_resistance", "name": "对魔力C",
+			"type": "对魔力", "name": "对魔力C",
 			"effect": [
 				{
-					"type": "weaken_stand_up",
+					"type": "弱化耐性提升",
 					"magnification": "15",
 					"desc": "自身の弱体耐性を少し up"
 				}
 			]
 		},
 		{
-			"type": "riding", "name": "骑乘A",
+			"type": "骑乘", "name": "骑乘A",
 			"effect": [
 				{
-					"type": "quick_up",
+					"type": "绿放",
 					"magnification": "10",
 					"desc": "自身の Quick Card の性能を up"
 				}
 			]
         },
         {
-			"type": "breath_hide", "name": "气息遮断A",
+			"type": "气息遮断", "name": "气息遮断A",
 			"effect": [
 				{
 					"type": "スター発生率 up",
@@ -86,10 +86,10 @@
 			]
         },
         {
-			"type": "acting_alone", "name": "单独行动A++",
+			"type": "单独行动", "name": "单独行动A++",
 			"effect": [
 				{
-					"type": "critical_up",
+					"type": "暴击威力提升",
 					"magnification": "11",
 					"desc": "自身のクリティカル威力を up"
 				}
@@ -101,7 +101,7 @@
 		"ct": 7,
 		"effects": [
 			{
-				"type": "atk_down",
+				"type": "降攻",
 				"turn": 3,
 				"count": 0,
 				"target": "enemy-all",
@@ -143,7 +143,7 @@
 		"ct": 8,
 		"effects": [
 			{
-				"type": "charge_reduce",
+				"type": "灭气",
 				"turn": 0,
 				"count": 0,
 				"target": "enemy-all",
@@ -161,7 +161,7 @@
 				"condition": ""
 			},
 			{
-				"type": "atk_up",
+				"type": "加攻",
 				"turn": 3,
 				"count": 0,
 				"target": "self",
@@ -179,7 +179,7 @@
 				"condition": ""
 			},
 			{
-				"type": "atk_up",
+				"type": "加攻",
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
@@ -197,7 +197,7 @@
 				"condition": ""
             },
             {
-				"type": "np_charge",
+				"type": "充能",
 				"turn": 0,
 				"count": 0,
 				"target": "self-other",
@@ -239,7 +239,7 @@
 				"condition": ""
 			},
 			{
-				"type": "critical_up",
+				"type": "暴击威力提升",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
@@ -257,7 +257,7 @@
 				"condition": "star:10"
 			},
 			{
-				"type": "star_focus_up",
+				"type": "掉星率增加 (1)",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
@@ -275,7 +275,7 @@
 				"condition": "star:20"
 			},
 			{
-				"type": "dodge",
+				"type": "回避",
 				"turn": 1,
 				"count": 0,
 				"target": "other-all",
@@ -311,7 +311,7 @@
 				"condition": "star:40"
 			},
 			{
-				"type": "np_charge",
+				"type": "充能",
 				"turn": 0,
 				"count": 0,
 				"target": "other-all",
@@ -352,7 +352,7 @@
 				"condition": ""
 			},
 			{
-				"type": "def_down",
+				"type": "降防",
 				"turn": 2,
 				"count": 0,
 				"target": "enemy-single",

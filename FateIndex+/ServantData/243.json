@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "acting_alone", "name": "单独行动A+",
+      "type": "单独行动", "name": "单独行动A+",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
@@ -68,7 +68,7 @@
       "type": "body_of_king", "name": "王の映し身A",
       "effect": [
         {
-          "type": "np_gain_up",
+          "type": "NP获得量提升",
           "desc": "自身のNP獲得量を up",
           "magnification": "10"
         }
@@ -130,7 +130,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -147,7 +147,7 @@
         "v10": "30"
       },
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -170,7 +170,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -187,7 +187,7 @@
         "v10": "40"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -227,7 +227,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -244,7 +244,7 @@
         "v10": "20"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",

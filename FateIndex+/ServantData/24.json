@@ -47,20 +47,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -100,7 +100,7 @@
         "v5": "1500"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -139,7 +139,7 @@
         "v10": "100"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -156,7 +156,7 @@
         "v10": "40"
       }
     ]
-  , "avatar": "become_target"},
+  , "avatar": "目标集中"},
   "skill2": {
     "name": "殉教者の魂B+",
     "ct": 7,
@@ -179,7 +179,7 @@
         "v10": "100"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -196,13 +196,13 @@
         "v10": "2000"
       }
     ]
-  , "avatar": "weaken_stand_up"},
+  , "avatar": "弱化耐性提升"},
   "skill3": {
     "name": "戦闘続行A",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -219,6 +219,6 @@
         "v10": "2500"
       }
     ],
-    "avatar": "gatsu"
+    "avatar": "毅力"
   }
 }

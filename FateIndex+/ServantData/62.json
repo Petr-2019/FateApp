@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成C",
+      "type": "阵地作成", "name": "阵地作成C",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性A",
+      "type": "神性", "name": "神性A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -84,7 +84,7 @@
         "v5": "1"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -98,7 +98,7 @@
         "v5": "3000"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -120,7 +120,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -137,7 +137,7 @@
         "v10": "100"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "other-all",
@@ -154,13 +154,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "変化A",
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -177,7 +177,7 @@
         "v10": "30"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -194,13 +194,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill3": {
     "name": "狐の嫁入りEX",
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -217,7 +217,7 @@
         "v10": "50"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "other-single",
@@ -233,6 +233,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ], "avatar": "arts_up"
+    ], "avatar": "蓝放"
   }
 }

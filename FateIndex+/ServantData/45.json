@@ -62,7 +62,7 @@
         "v5": "60"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -76,7 +76,7 @@
         "v5": "40"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -138,7 +138,7 @@
         "v10": "60"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -178,7 +178,7 @@
         "v10": ""
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",

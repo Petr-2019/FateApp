@@ -44,20 +44,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -119,7 +119,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -136,7 +136,7 @@
         "v10": ""
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -153,13 +153,13 @@
         "v10": "36"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "回避"},
   "skill2": {
     "name": "投影魔術B",
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -176,7 +176,7 @@
         "v10": "35"
       },
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -193,7 +193,7 @@
         "v10": "35"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -210,13 +210,13 @@
         "v10": "35"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "三色魔放"},
   "skill3": {
     "name": "キス魔B++",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -266,6 +266,6 @@
         "v9": "30",
         "v10": "30"
       }
-    ], "avatar": ""
+    ], "avatar": "充能"
   }
 }

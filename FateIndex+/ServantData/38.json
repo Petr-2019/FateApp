@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -71,7 +71,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -99,7 +99,7 @@
         "v5": "600"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -135,7 +135,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -152,7 +152,7 @@
         "v10": "50"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -169,7 +169,7 @@
         "v10": "50"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -186,13 +186,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "critical_up"},
+  , "avatar": "暴击威力提升"},
   "skill2": {
     "name": "矢避けの加護A",
     "ct": 7,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 3,
         "target": "self",
@@ -209,7 +209,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -226,13 +226,13 @@
         "v10": "18"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill3": {
     "name": "仕切り直しC",
     "ct": 7,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -249,7 +249,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -265,6 +265,6 @@
         "v9": "1300",
         "v10": "1500"
       }
-    ], "avatar": "debuff_cure"
+    ], "avatar": "弱化解除"
   }
 }

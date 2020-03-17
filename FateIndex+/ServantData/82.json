@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化D",
+      "type": "狂化", "name": "狂化D",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "4"
         }
@@ -109,7 +109,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -126,7 +126,7 @@
         "v10": "45"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill2": {
     "name": "虚ろなる生者の嘆きC",
     "ct": 8,
@@ -149,7 +149,7 @@
         "v10": "60"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-single",
@@ -172,7 +172,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -205,6 +205,6 @@
         "v9": "300",
         "v10": "300"
       }
-    ], "avatar": "hogu_up"
+    ], "avatar": "宝具威力提升"
   }
 }

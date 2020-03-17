@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化B",
+      "type": "狂化", "name": "狂化B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -74,7 +74,7 @@
         "v5": "600"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -88,7 +88,7 @@
         "v5": "30"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -110,7 +110,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -127,13 +127,13 @@
         "v10": "45"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill2": {
     "name": "仕切り直しA",
     "ct": 7,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -150,7 +150,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -167,13 +167,13 @@
         "v10": "2500"
       }
     ]
-  , "avatar": "debuff_cure"},
+  , "avatar": "弱化解除"},
   "skill3": {
     "name": "戦闘続行A",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -189,6 +189,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ], "avatar": "gatsu"
+    ], "avatar": "毅力"
   }
 }

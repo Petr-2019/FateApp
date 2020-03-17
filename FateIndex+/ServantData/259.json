@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "breath_hide", "name": "气息遮断C",
+      "type": "气息遮断", "name": "气息遮断C",
       "effect": [
         {
           "type": "スター発生率 up",
@@ -126,7 +126,7 @@
         "v10": "100"
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  3,
         "count": 2,
         "target": "self",
@@ -166,7 +166,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -183,7 +183,7 @@
         "v10": "30"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -206,7 +206,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -223,7 +223,7 @@
         "v10": "30"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -240,7 +240,7 @@
         "v10": "50"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",

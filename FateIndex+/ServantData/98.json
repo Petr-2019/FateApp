@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化 EXEX(C相当)",
+      "type": "狂化", "name": "狂化 EXEX(C相当)",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性C",
+      "type": "神性", "name": "神性C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -71,7 +71,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -85,7 +85,7 @@
         "v5": "70"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -138,7 +138,7 @@
         "v10": "50"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -161,7 +161,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 2,
         "target": "self",
@@ -178,7 +178,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -195,13 +195,13 @@
         "v10": "14"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill3": {
     "name": "戦闘続行A",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -217,6 +217,6 @@
         "v9": "2200",
         "v10": "2500"
       }
-    ], "avatar": "gatsu"
+    ], "avatar": "毅力"
   }
 }

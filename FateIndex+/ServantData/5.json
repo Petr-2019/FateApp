@@ -49,20 +49,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C",
+      "type": "对魔力", "name": "对魔力C",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -88,7 +88,7 @@
         "v5": "900"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -127,7 +127,7 @@
         "v10": "30"
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -161,7 +161,7 @@
         "v10": "100"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -178,13 +178,13 @@
         "v10": "2000"
       }
     ]
-  , "avatar": "np_charge"},
+  , "avatar": "充能"},
   "skill2": {
     "name": "皇帝特権EX",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -201,7 +201,7 @@
         "v10": "44"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -218,7 +218,7 @@
         "v10": "44"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -235,13 +235,13 @@
         "v10": "3400"
       }
     ]
-  , "avatar": "hp_regen"},
+  , "avatar": "回血"},
   "skill3": {
     "name": "三度、落陽を迎えてもA",
     "ct": 12,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 3,
         "target": "self",
@@ -258,6 +258,6 @@
         "v10": "600"
       }
     ],
-    "avatar": "gatsu"
+    "avatar": "毅力"
   }
 }

@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化B",
+      "type": "狂化", "name": "狂化B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
@@ -60,7 +60,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  2,
         "count": 0,
         "target": "enemy-single",
@@ -127,7 +127,7 @@
         "v10": "15"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  2,
         "count": 0,
         "target": "enemy-single",
@@ -144,13 +144,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "atk_down"},
+  , "avatar": "降攻"},
   "skill2": {
     "name": "戦闘続行B",
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  4,
         "count": 1,
         "target": "self",
@@ -167,13 +167,13 @@
         "v10": "2000"
       }
     ]
-  , "avatar": "gatsu"},
+  , "avatar": "毅力"},
   "skill3": {
     "name": "血啜の獣斧A+",
     "ct": 8,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -206,6 +206,6 @@
         "v9": "2600",
         "v10": "3000"
       }
-    ], "avatar": "debuff_cure"
+    ], "avatar": "弱化解除"
   }
 }

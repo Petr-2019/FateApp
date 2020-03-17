@@ -12,92 +12,92 @@ class UIImageUtility {
 
     static func classSkillImage(named imageName: String) -> UIImage? {
         let reducedName: String
-        if imageName == "rage_become" {
-            reducedName = "beast_become"
+        if imageName == "狂化" {
+            reducedName = "狂化"
         }
         else if imageName == "show_alone" {
-            reducedName = "acting_alone"
+            reducedName = "单独行动"
         }
         else if imageName == "surfing" {
-            reducedName = "arts_up"
+            reducedName = "蓝放"
         }
         else if imageName == "veteran" {
-            reducedName = "arts_up"
+            reducedName = "蓝放"
         }
-        else if imageName == "magic_infinite" {
-            reducedName = "np_gain_each_turn"
+        else if imageName == "回合充能" {
+            reducedName = "回合充能"
         }
         else if imageName == "mixed_blood" {
-            reducedName = "np_gain_each_turn"
+            reducedName = "回合充能"
         }
         else if imageName == "scoundrel" {
-            reducedName = "critical_up"
+            reducedName = "暴击威力提升"
         }
         else if imageName == "arutoria_reactor" {
-            reducedName = "weaken_stand_up"
+            reducedName = "弱化耐性提升"
         }
-        else if imageName == "double_class" {
-            reducedName = "no_effect_skill"
+        else if imageName == "空白效果" {
+            reducedName = "空白效果"
         }
         else if imageName == "high_servant" {
-            reducedName = "no_effect_skill"
+            reducedName = "空白效果"
         }
         else if imageName == "beast_rightSkill" {
-            reducedName = "critical_up"
+            reducedName = "暴击威力提升"
         }
         else if imageName == "rationale_eater" {
-            reducedName = "def_up"
+            reducedName = "加防"
         }
         else if imageName == "nega_saver" {
-            reducedName = "special_attack_up"
+            reducedName = "特攻"
         }
         else if imageName == "root_consist" {
-            reducedName = "special_attack_up"
+            reducedName = "特攻"
         }
         else if imageName == "civilization_invade" {
-            reducedName = "critical_up"
+            reducedName = "暴击威力提升"
         }
         else if imageName == "rage_breathe" {
             reducedName = "beast_become"
         }
         else if imageName == "elf_contract" {
-            reducedName = "weaken_stand_up"
+            reducedName = "弱化耐性提升"
         }
         else if imageName == "homunclus" {
-            reducedName = "arts_up"
+            reducedName = "蓝放"
         }
         else if imageName == "ground_eater" {
-            reducedName = "weaken_stand_up"
+            reducedName = "弱化耐性提升"
         }
         else if imageName == "aggressive_become" {
             reducedName = "beast_become"
         }
         else if imageName == "hotel_build" {
-            reducedName = "arts_up"
+            reducedName = "蓝放"
         }
         else if imageName == "ventriloquy" {
-            reducedName = "weaken_no_affect"
+            reducedName = "弱化无效"
         }
         else if imageName == "cupid_core" {
-            reducedName = "divinity"
+            reducedName = "神性"
         }
         else if imageName == "symbol_of_anger" {
-            reducedName = "buster_up"
+            reducedName = "红放"
         }
         else if imageName == "body_of_king" {
-            reducedName = "np_gain_up"
+            reducedName = "NP获得量提升"
         }
         else if imageName == "overhaul" {
-            reducedName = "weaken_stand_up"
+            reducedName = "弱化耐性提升"
         }
         else if imageName == "fortress_build" {
-            reducedName = "field_build"
+            reducedName = "阵地作成"
         }
         else {
             reducedName = imageName
         }
 
-        // rage_become, beast_become
+        // 狂化, beast_become
 
         return UIImage(named: reducedName)
     }

@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力C+",
+      "type": "对魔力", "name": "对魔力C+",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "15.5"
         }
@@ -136,7 +136,7 @@
         "v10": "300"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -153,7 +153,7 @@
         "v10": "60"
       }
     ]
-  , "avatar": "become_target"},
+  , "avatar": "目标集中"},
   "skill3": {
     "name": "白紙の勧進帳",
     "ct": 10,

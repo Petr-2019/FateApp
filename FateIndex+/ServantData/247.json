@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性EX",
+      "type": "神性", "name": "神性EX",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -106,7 +106,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
         "v10": "30"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -146,7 +146,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -163,7 +163,7 @@
         "v10": "6000"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -186,7 +186,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "self",
@@ -203,7 +203,7 @@
         "v10": "2000"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  3,
         "count": 0,
         "target": "self",

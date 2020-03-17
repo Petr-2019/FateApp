@@ -45,17 +45,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成B",
+      "type": "阵地作成", "name": "阵地作成B",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成C",
+      "type": "道具作成", "name": "道具作成C",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -98,7 +98,7 @@
         "v5": "20"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -112,7 +112,7 @@
         "v5": "2000"
       },
       {
-        "type": "weaken_stand_up",
+        "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -134,7 +134,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -151,13 +151,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "buster_up"},
+  , "avatar": "红放"},
   "skill2": {
     "name": "シャーマニズムB",
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -174,13 +174,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": "arts_up"},
+  , "avatar": "蓝放"},
   "skill3": {
     "name": "守護の獣B",
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -196,6 +196,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": "quick_up"
+    ], "avatar": "绿放"
   }
 }

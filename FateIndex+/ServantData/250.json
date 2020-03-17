@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "复仇者B-",
+      "type": "复仇者", "name": "复仇者B-",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -61,20 +61,20 @@
       ]
     },
     {
-      "type": "forget_correct", "name": "忘却補正E",
+      "type": "忘却補正", "name": "忘却補正E",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を少し up",
           "magnification": "2"
         }
       ]
     },
     {
-      "type": "magic_self_recover", "name": "自己回復(魔力)C",
+      "type": "自己回復(魔力)", "name": "自己回復(魔力)C",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3.3"
         }
@@ -150,7 +150,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -264,7 +264,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -281,7 +281,7 @@
         "v10": "5"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",

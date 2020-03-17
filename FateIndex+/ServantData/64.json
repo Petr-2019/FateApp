@@ -46,20 +46,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -85,7 +85,7 @@
         "v5": "600"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -107,7 +107,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -124,7 +124,7 @@
         "v10": "17"
       }
     ]
-  , "avatar": "hogu_up"},
+  , "avatar": "宝具威力提升"},
   "skill2": {
     "name": "友誼の証明C",
     "ct": 7,
@@ -147,7 +147,7 @@
         "v10": "80"
       },
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -164,13 +164,13 @@
         "v10": "80"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill3": {
     "name": "仕切り直しB",
     "ct": 7,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -187,7 +187,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -203,6 +203,6 @@
         "v9": "1760",
         "v10": "2000"
       }
-    ], "avatar": "debuff_cure"
+    ], "avatar": "弱化解除"
   }
 }

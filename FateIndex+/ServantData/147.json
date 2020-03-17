@@ -44,7 +44,7 @@
   },
   "classskill": [
     {
-      "type": "avenger", "name": "复仇者B",
+      "type": "复仇者", "name": "复仇者B",
       "effect": [
         {
           "type": "被ダメNP獲得量 up",
@@ -59,20 +59,20 @@
       ]
     },
     {
-      "type": "forget_correct", "name": "忘却補正C",
+      "type": "忘却補正", "name": "忘却補正C",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "magic_self_recover", "name": "自己回復(魔力)A",
+      "type": "自己回復(魔力)", "name": "自己回復(魔力)A",
       "effect": [
         {
-          "type": "np_gain_each_turn",
+          "type": "回合充能",
           "desc": "自身に毎ターンNP獲得状態を付与",
           "magnification": "3.8"
         }
@@ -112,7 +112,7 @@
         "v5": "3000"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -134,7 +134,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  2,
         "count": 4,
         "target": "self",
@@ -151,7 +151,7 @@
         "v10": "50"
       },
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -174,7 +174,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -191,7 +191,7 @@
         "v10": "3000"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",

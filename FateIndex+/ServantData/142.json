@@ -45,27 +45,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A",
+      "type": "单独行动", "name": "单独行动A",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神の神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -73,7 +73,7 @@
           "magnification": "225"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "22.5"
         }
@@ -85,7 +85,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -113,7 +113,7 @@
         "v5": "600"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -135,7 +135,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -152,7 +152,7 @@
         "v10": "20"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -169,7 +169,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "加攻"},
   "skill2": {
     "name": "輝ける大王冠A",
     "ct": 8,
@@ -209,7 +209,7 @@
         "v10": "80"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -226,13 +226,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill3": {
     "name": "魔力放出（宝石）A+",
     "ct": 5,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -248,6 +248,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "秒表buff"
   }
 }

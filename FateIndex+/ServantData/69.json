@@ -45,20 +45,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -106,7 +106,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -123,13 +123,13 @@
         "v10": "30"
       }
     ]
-  , "avatar": "np_gain_up"},
+  , "avatar": "NP获得量提升"},
   "skill2": {
     "name": "天下布武A",
     "ct": 7,
     "effects": [
       {
-        "type": "special_attack_up",
+        "type": "特攻",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -146,13 +146,13 @@
         "v10": "100"
       }
     ]
-  , "avatar": "special_attack_up"},
+  , "avatar": "特攻"},
   "skill3": {
     "name": "魔王A",
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -169,7 +169,7 @@
         "v10": "600"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -185,6 +185,6 @@
         "v9": "44",
         "v10": "50"
       }
-    ], "avatar": "critical_up"
+    ], "avatar": "暴击威力提升"
   }
 }

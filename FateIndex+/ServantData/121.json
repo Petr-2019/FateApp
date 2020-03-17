@@ -47,20 +47,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
@@ -72,7 +72,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -122,7 +122,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -139,7 +139,7 @@
         "v10": "30"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -156,13 +156,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill2": {
     "name": "無窮の武練A+",
     "ct": 7,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -179,13 +179,13 @@
         "v10": "6000"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "集星"},
   "skill3": {
     "name": "騎士は徒手にて死せずA++",
     "ct": 8,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -202,7 +202,7 @@
         "v10": "15"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -218,6 +218,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "回合出星"
   }
 }

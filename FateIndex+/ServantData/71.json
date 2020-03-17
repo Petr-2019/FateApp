@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
@@ -110,7 +110,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -127,7 +127,7 @@
         "v10": ""
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -144,13 +144,13 @@
         "v10": "18"
       }
     ]
-  , "avatar": "dodge"},
+  , "avatar": "回避"},
   "skill2": {
     "name": "愛の黒子C",
     "ct": 7,
     "effects": [
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-all",
@@ -167,7 +167,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": "atk_down"},
+  , "avatar": "降攻"},
   "skill3": {
     "name": "騎士の武略B",
     "ct": 7,

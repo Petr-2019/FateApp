@@ -48,30 +48,30 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "骑乘B",
+      "type": "骑乘", "name": "骑乘B",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成A+",
+      "type": "阵地作成", "name": "阵地作成A+",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成(奇)EX",
+      "type": "道具作成", "name": "道具作成(奇)EX",
       "effect": [
         {
-          "type": "hp_regen",
+          "type": "回血",
           "desc": "自身のHP回復量を up",
           "magnification": "10"
         }
@@ -97,7 +97,7 @@
         "v5": ""
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -133,7 +133,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -150,7 +150,7 @@
         "v10": "50"
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -173,7 +173,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -190,7 +190,7 @@
         "v10": "30"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -230,7 +230,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  3,
         "count": 1,
         "target": "other-single",
@@ -247,7 +247,7 @@
         "v10": "1"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "other-single",

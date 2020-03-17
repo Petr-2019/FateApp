@@ -46,20 +46,20 @@
   },
   "classskill": [
     {
-      "type": "riding", "name": "骑乘D",
+      "type": "骑乘", "name": "骑乘D",
       "effect": [
         {
-          "type": "quick_up",
+          "type": "绿放",
           "desc": "自身の Quick Card の性能を少し up",
           "magnification": "4"
         }
       ]
     },
     {
-      "type": "magic_resistance", "name": "对魔力E",
+      "type": "对魔力", "name": "对魔力E",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を少し up",
           "magnification": "10"
         }
@@ -99,7 +99,7 @@
         "v5": "200"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -121,7 +121,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -138,7 +138,7 @@
         "v10": "17"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -178,7 +178,7 @@
         "v10": "100"
       },
       {
-        "type": "critical_up",
+        "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -201,7 +201,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "quick_up",
+        "type": "绿放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -235,7 +235,7 @@
         "v10": "20"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",

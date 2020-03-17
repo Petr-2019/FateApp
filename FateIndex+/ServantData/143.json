@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
@@ -59,7 +59,7 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -123,7 +123,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -140,7 +140,7 @@
         "v10": "50"
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -157,7 +157,7 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "红放"},
   "skill2": {
     "name": "気配感知A++",
     "ct": 7,
@@ -197,7 +197,7 @@
         "v10": ""
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -214,13 +214,13 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "暴击发生率下降"},
   "skill3": {
     "name": "完全なる形A",
     "ct": 12,
     "effects": [
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -237,7 +237,7 @@
         "v10": "10000"
       },
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -253,6 +253,6 @@
         "v9": "",
         "v10": ""
       }
-    ], "avatar": ""
+    ], "avatar": "回血"
   }
 }

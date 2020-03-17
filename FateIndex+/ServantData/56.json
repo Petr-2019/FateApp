@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化EX",
+      "type": "狂化", "name": "狂化EX",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "12"
         }
@@ -110,7 +110,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -144,13 +144,13 @@
         "v10": "100"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill2": {
     "name": "ストーキングB",
     "ct": 7,
     "effects": [
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -167,7 +167,7 @@
         "v10": "24"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -184,13 +184,13 @@
         "v10": "20"
       }
     ]
-  , "avatar": "def_down"},
+  , "avatar": "降防"},
   "skill3": {
     "name": "焔色の接吻A",
     "ct": 7,
     "effects": [
       {
-        "type": "debuff_cure",
+        "type": "弱化解除",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -207,7 +207,7 @@
         "v10": ""
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -223,6 +223,6 @@
         "v9": "28",
         "v10": "30"
       }
-    ], "avatar": "buster_up"
+    ], "avatar": "红放"
   }
 }

@@ -44,20 +44,20 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力B",
+      "type": "对魔力", "name": "对魔力B",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "17.5"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动B",
+      "type": "单独行动", "name": "单独行动B",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "8"
         }
@@ -136,7 +136,7 @@
         "v10": ""
       },
       {
-        "type": "dodge",
+        "type": "回避",
         "turn": 0,
         "count": 1,
         "target": "self-other",
@@ -153,7 +153,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -170,13 +170,13 @@
         "v10": "600"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "弱化解除"},
   "skill2": {
     "name": "祝福されぬ生誕B",
     "ct": 8,
     "effects": [
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -210,7 +210,7 @@
         "v10": ""
       }
     ]
-  , "avatar": ""},
+  , "avatar": "充能"},
   "skill3": {
     "name": "騎士王への諫言B",
     "ct": 7,
@@ -249,6 +249,6 @@
         "v9": "18",
         "v10": "20"
       }
-    ], "avatar": ""
+    ], "avatar": "封印"
   }
 }

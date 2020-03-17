@@ -47,15 +47,15 @@
   },
   "classskill": [
     {
-      "type": "outer_life", "name": "領域外の生命EX",
+      "type": "领域外生命", "name": "領域外の生命EX",
       "effect": [
         {
-          "type": "star_gain",
+          "type": "出星",
           "desc": "自身に毎ターンスター獲得状態を付与",
           "magnification": "2"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "＆弱体耐性を up",
           "magnification": "12"
         }
@@ -65,14 +65,14 @@
       "type": "rage_breathe", "name": "狂気B",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "divinity", "name": "神性B",
+      "type": "神性", "name": "神性B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -137,7 +137,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -154,7 +154,7 @@
         "v10": "10"
       },
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
         "target": "self-other",
@@ -194,7 +194,7 @@
         "v10": "50"
       },
       {
-        "type": "def_down",
+        "type": "降防",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -217,7 +217,7 @@
     "ct": 9,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -234,7 +234,7 @@
         "v10": ""
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",

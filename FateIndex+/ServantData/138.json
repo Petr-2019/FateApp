@@ -46,27 +46,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "field_build", "name": "阵地作成C",
+      "type": "阵地作成", "name": "阵地作成C",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "double_class", "name": "ダブルクラスE",
+      "type": "空白效果", "name": "ダブルクラスE",
       "effect": [
         {
           "type": "効果なし",
@@ -134,7 +134,7 @@
         "v10": ""
       },
       {
-        "type": "np_gain_up",
+        "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -151,13 +151,13 @@
         "v10": "50"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "无敌"},
   "skill2": {
     "name": "魔力放出（勇気）D",
     "ct": 7,
     "effects": [
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -174,7 +174,7 @@
         "v10": "40"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -191,7 +191,7 @@
         "v10": "20"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "红放"},
   "skill3": {
     "name": "真紅の勇者伝説EX",
     "ct": 8,
@@ -214,7 +214,7 @@
         "v10": "100"
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -248,7 +248,7 @@
         "v10": ""
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn": 0,
         "count": 0,
         "target": "self-other",
@@ -265,7 +265,7 @@
         "v10": "3000"
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  1,
         "count": 0,
         "target": "self-other",
@@ -282,7 +282,7 @@
         "v10": "50"
       },
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -298,6 +298,6 @@
         "v9": "46",
         "v10": "50"
       }
-    ], "avatar": ""
+    ], "avatar": "特攻"
   }
 }

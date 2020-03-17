@@ -44,10 +44,10 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成A++",
+      "type": "阵地作成", "name": "阵地作成A++",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を up",
           "magnification": "11.5"
         }
@@ -59,7 +59,7 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "hogu_up",
+        "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -123,7 +123,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -140,7 +140,7 @@
         "v10": "100"
       },
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -180,7 +180,7 @@
         "v10": "60"
       },
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  2,
         "count": 0,
         "target": "self",
@@ -203,7 +203,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  5,
         "count": 1,
         "target": "self",
@@ -220,7 +220,7 @@
         "v10": "3000"
       },
       {
-        "type": "gatsu",
+        "type": "毅力",
         "turn":  2,
         "count": 1,
         "target": "self-other",
@@ -237,7 +237,7 @@
         "v10": "500"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  1,
         "count": 0,
         "target": "enemy-single",

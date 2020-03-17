@@ -45,10 +45,10 @@
   },
   "classskill": [
     {
-      "type": "rage_become", "name": "狂化C",
+      "type": "狂化", "name": "狂化C",
       "effect": [
         {
-          "type": "buster_up",
+          "type": "红放",
           "desc": "自身のBuster Card の性能を少し up",
           "magnification": "6"
         }
@@ -96,7 +96,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "dodge",
+        "type": "回避",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -113,7 +113,7 @@
         "v10": ""
       },
       {
-        "type": "buster_up",
+        "type": "红放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -136,7 +136,7 @@
     "ct": 10,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -153,7 +153,7 @@
         "v10": "5"
       },
       {
-        "type": "hp_regen",
+        "type": "回血",
         "turn":  5,
         "count": 0,
         "target": "self-other",
@@ -170,7 +170,7 @@
         "v10": "500"
       },
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  5,
         "count": 0,
         "target": "self-other",
@@ -193,7 +193,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "star_focus_up",
+        "type": "掉星率增加 (1)",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -227,7 +227,7 @@
         "v10": ""
       },
       {
-        "type": "atk_up",
+        "type": "加攻",
         "turn":  3,
         "count": 0,
         "target": "self",

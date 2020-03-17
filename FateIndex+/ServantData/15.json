@@ -45,27 +45,27 @@
   },
   "classskill": [
     {
-      "type": "magic_resistance", "name": "对魔力A",
+      "type": "对魔力", "name": "对魔力A",
       "effect": [
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "20"
         }
       ]
     },
     {
-      "type": "acting_alone", "name": "单独行动A+",
+      "type": "单独行动", "name": "单独行动A+",
       "effect": [
         {
-          "type": "critical_up",
+          "type": "暴击威力提升",
           "desc": "自身のクリティカル威力を up",
           "magnification": "11"
         }
       ]
     },
     {
-      "type": "goddess_divinity", "name": "女神の神核EX",
+      "type": "女神的神核", "name": "女神の神核EX",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -73,7 +73,7 @@
           "magnification": "300"
         },
         {
-          "type": "weaken_stand_up",
+          "type": "弱化耐性提升",
           "desc": "自身の弱体耐性を up",
           "magnification": "30"
         }
@@ -127,7 +127,7 @@
         "v5": "200"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-single",
@@ -149,7 +149,7 @@
     "ct": 8,
     "effects": [
       {
-        "type": "charge_reduce",
+        "type": "灭气",
         "turn": 0,
         "count": 0,
         "target": "enemy-single",
@@ -166,7 +166,7 @@
         "v10": "80"
       },
       {
-        "type": "np_charge",
+        "type": "充能",
         "turn": 0,
         "count": 0,
         "target": "self",
@@ -183,7 +183,7 @@
         "v10": "27"
       }
     ]
-  , "avatar": "charge_reduce"},
+  , "avatar": "灭气"},
   "skill2": {
     "name": "魅惑の美声A",
     "ct": 9,
@@ -212,7 +212,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "arts_up",
+        "type": "蓝放",
         "turn":  3,
         "count": 0,
         "target": "self",
@@ -229,6 +229,6 @@
         "v10": "30"
       }
     ],
-    "avatar": "arts_up"
+    "avatar": "蓝放"
   }
 }

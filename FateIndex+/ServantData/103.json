@@ -44,17 +44,17 @@
   },
   "classskill": [
     {
-      "type": "field_build", "name": "阵地作成 EX(D相当)",
+      "type": "阵地作成", "name": "阵地作成 EX(D相当)",
       "effect": [
         {
-          "type": "arts_up",
+          "type": "蓝放",
           "desc": "自身のArts Card の性能を少し up",
           "magnification": "4"
         }
       ]
     },
     {
-      "type": "item_make", "name": "道具作成 EX(D相当)",
+      "type": "道具作成", "name": "道具作成 EX(D相当)",
       "effect": [
         {
           "type": "弱体付与成功率 up",
@@ -125,7 +125,7 @@
         "v5": "50"
       },
       {
-        "type": "atk_down",
+        "type": "降攻",
         "turn":  3,
         "count": 0,
         "target": "enemy-all",
@@ -147,7 +147,7 @@
     "ct": 7,
     "effects": [
       {
-        "type": "def_up",
+        "type": "加防",
         "turn":  3,
         "count": 0,
         "target": "other-single",
@@ -181,13 +181,13 @@
         "v10": "1"
       }
     ]
-  , "avatar": "def_up"},
+  , "avatar": "加防"},
   "skill2": {
     "name": "大量生産A",
     "ct": 12,
     "effects": [
       {
-        "type": "star_gain",
+        "type": "出星",
         "turn":  5,
         "count": 0,
         "target": "self",
@@ -204,7 +204,7 @@
         "v10": "5"
       },
       {
-        "type": "np_gain_each_turn",
+        "type": "回合充能",
         "turn":  5,
         "count": 0,
         "target": "self",
