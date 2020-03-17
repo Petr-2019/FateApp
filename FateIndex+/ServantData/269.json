@@ -136,7 +136,8 @@
 				"v10": "19",
 				"condition": ""
 			}
-		]
+		],
+        "avatar": "降攻"
 	},
 	"skill2": {
 		"name": "銀河伝令 EX",
@@ -214,7 +215,8 @@
 				"v10": "10",
 				"condition": ""
 			}
-		]
+		],
+        "avatar": "灭气"
 	},
 	"skill3": {
 		"name": "極星よ道を示せ B",
@@ -257,7 +259,7 @@
 				"condition": "star:10"
 			},
 			{
-				"type": "掉星率增加 (1)",
+				"type": "掉星率增加",
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
@@ -293,11 +295,11 @@
 				"condition": "star:30"
 			},
 			{
-				"type": "無敵貫通付与",
+				"type": "无敌贯通付与",
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スターが40個以上ある場合、無敵貫通状態を付与(3T)",
+				"desc": "＆スターが40個以上ある場合、无敌贯通状態を付与(3T)",
 				"v1": "",
 				"v2": "",
 				"v3": "",
@@ -328,7 +330,8 @@
 				"v10": "20",
 				"condition": "star:50"
 			}
-		]
+		],
+        "avatar": "弱化耐性提升"
 	},
 	"hogu": {
 		"name": "招致死亡的黑之一手(Space Dead Man's Hand)",

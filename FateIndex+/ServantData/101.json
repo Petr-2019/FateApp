@@ -120,7 +120,7 @@
     "ct": 6,
     "effects": [
       {
-        "type": "掉星率增加 (1)",
+        "type": "掉星率增加",
         "turn":  1,
         "count": 0,
         "target": "self",

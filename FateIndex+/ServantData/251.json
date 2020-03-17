@@ -59,13 +59,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "無敵貫通付与",
+        "type": "无敌贯通付与",
         "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身に無敵貫通状態を付与(1T)",
+        "desc": "自身に无敌贯通状態を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -160,7 +160,7 @@
         "v10": "100"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "暴击威力提升"},
   "skill2": {
     "name": "血濡れの蛮勇A",
     "ct": 7,
@@ -217,13 +217,13 @@
         "v10": "10"
       }
     ]
-  , "avatar": ""},
+  , "avatar": "攻击附加强化"},
   "skill3": {
     "name": "鬼武蔵の遺言状C",
     "ct": 7,
     "effects": [
       {
-        "type": "掉星率增加 (1)",
+        "type": "掉星率增加",
         "turn":  1,
         "count": 0,
         "target": "self",
@@ -256,6 +256,6 @@
         "v9": "20個",
         "v10": "20個"
       }
-    ], "avatar": ""
+    ], "avatar": "掉星率增加"
   }
 }

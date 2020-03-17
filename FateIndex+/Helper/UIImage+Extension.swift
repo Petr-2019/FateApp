@@ -75,7 +75,7 @@ class UIImageUtility {
         else if imageName == "hotel_build" {
             reducedName = "蓝放"
         }
-        else if imageName == "ventriloquy" {
+        else if imageName == "弱化无效" {
             reducedName = "弱化无效"
         }
         else if imageName == "cupid_core" {

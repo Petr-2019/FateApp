@@ -16,7 +16,7 @@ class ServantManager {
         var servants = [Servant]()
 
         // 1-269
-        for i in 1...143 {
+        for i in 1...269 {
             let sName = String(i)
 
             if let path = Bundle.main.path(forResource: sName, ofType: "json") {
@@ -27,7 +27,7 @@ class ServantManager {
 
                     servants.append(servant)
                 } catch {
-                    print(error)
+                    print("The id number is \(i), error: \(error)")
                 }
             }
         }

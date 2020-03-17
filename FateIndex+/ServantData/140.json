@@ -60,13 +60,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "無敵貫通付与",
+        "type": "无敌贯通付与",
         "turn":  1,
         "count": 0,
         "target": "self",
         "beforeafter": "before",
         "lvoc": "lv",
-        "desc": "自身に無敵貫通状態を付与(1T)",
+        "desc": "自身に无敌贯通状態を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
