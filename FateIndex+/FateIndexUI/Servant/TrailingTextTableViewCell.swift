@@ -1,5 +1,5 @@
 //
-//  ServantDetailTableViewCell.swift
+//  TrailingTextTableViewCell.swift
 //  FateIndex+
 //
 //  Created by PeterGuan on 2019/10/3.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ServantDetailTableViewCell: UITableViewCell {
+class TrailingTextTableViewCell: UITableViewCell {
 
     private struct Contants {
         static let textTrailingMargin: CGFloat = 20.0
     }
 
-    static let identifier = "ServantDetailTableViewCell"
+    static let identifier = "TrailingTextTableViewCell"
 
     private let trailingTextView = UILabel()
 
@@ -30,6 +30,7 @@ class ServantDetailTableViewCell: UITableViewCell {
 
     private func setup() {
         accessoryView = trailingTextView
+        self.textLabel?.numberOfLines = 0
     }
     
     func configure(_ text: String?, trailingText: String?) {

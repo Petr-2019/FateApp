@@ -8,37 +8,68 @@
 
 import UIKit
 
-enum ServantDetailSection {
-    case basicInfo // 基础数据
-    case actionCard // 配卡
-    case npRelated // NP获得率
-    case classSkill // 职阶技能
-    case noblePhantasm // 宝具
-    case activeSkill // 主动技能
-
-    func title() -> String {
-        switch self {
-        case .basicInfo:
-            return "基础数据"
-        case .actionCard:
-            return "配卡"
-        case .npRelated:
-            return "NP获得率"
-        case .classSkill:
-            return "职阶技能"
-        case .noblePhantasm:
-            return "宝具"
-        case .activeSkill:
-            return "主动技能"
-        }
-    }
-}
 
 class ServantDetailTableViewController: UITableViewController {
 
+    private enum Section {
+        case basicInfo
+        case actionCard
+        case npRelated
+        case classSkill
+        case noblePhantasm
+        case activeSkill
+
+        func title() -> String {
+            switch self {
+            case .basicInfo:
+                return "基础数据"
+            case .actionCard:
+                return "配卡"
+            case .npRelated:
+                return "NP获得率"
+            case .classSkill:
+                return "职阶技能"
+            case .noblePhantasm:
+                return "宝具"
+            case .activeSkill:
+                return "主动技能"
+            }
+        }
+    }
+
+    private enum Row {
+
+        case id
+        case name
+        case className
+        case rarity
+        case cost
+        case tenchijin // 天地人特性
+        case maxLevel
+        case maxLevel_HP
+        case maxLevel_ATK
+
+        case card_distribution //  配卡
+        case arts_hit
+        case quick_hit
+        case buster_hit
+
+        case attack_np_gain
+        case hurt_np_gain
+        case instant_death_possibility
+        case star_appear_possibility
+        case critical_star_distribution
+
+        case classSkillSummary
+
+        case noblePhantasm
+
+        case activeSkillSummary
+    }
+
     private let servant: Servant
 
-    private let sections: [ServantDetailSection] = [.basicInfo, .actionCard, .npRelated, .classSkill, .noblePhantasm, .activeSkill]
+    private var data = FateTableViewData<Section, Row>()
 
     init(servant: Servant) {
         self.servant = servant
@@ -53,11 +84,13 @@ class ServantDetailTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.register(ServantDetailTableViewCell.self, forCellReuseIdentifier: ServantDetailTableViewCell.identifier)
+        tableView.register(TrailingTextTableViewCell.self, forCellReuseIdentifier: TrailingTextTableViewCell.identifier)
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
         tableView.register(ServantCardSequenceTableViewCell.self, forCellReuseIdentifier: ServantCardSequenceTableViewCell.identifier)
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
+
+        update()
     }
 
     override func viewDidLayoutSubviews() {
@@ -65,159 +98,198 @@ class ServantDetailTableViewController: UITableViewController {
 
     }
 
-    // MARK:- UITableViewDataSource
+    private func update() {
+        updateData()
+        tableView.reloadData()
+    }
+
+    private func updateData() {
+        data.removeAll()
+
+        data.append(section: .basicInfo)
+        data.append(rows: [.id, .name, .className, .rarity, .cost, .tenchijin, .maxLevel, .maxLevel_HP, .maxLevel_ATK], to: .basicInfo)
+
+        data.append(section: .actionCard)
+        data.append(rows: [.card_distribution, .arts_hit, .quick_hit, .buster_hit], to: .actionCard)
+
+        data.append(section: .npRelated)
+        data.append(rows: [.attack_np_gain, .hurt_np_gain, .instant_death_possibility, .star_appear_possibility, .critical_star_distribution], to: .npRelated)
+
+        if !servant.classskill.isEmpty {
+            data.append(section: .classSkill)
+            servant.classskill.forEach { _ in data.append(row: .classSkillSummary, to: .classSkill) }
+        }
+
+        data.append(section: .noblePhantasm)
+        data.append(row: .noblePhantasm, to: .noblePhantasm)
+
+        data.append(section: .activeSkill)
+        data.append(rows: [.activeSkillSummary, .activeSkillSummary, .activeSkillSummary], to: .activeSkill)
+    }
+
+}
+
+// MARK: - UITableViewDataSource
+extension ServantDetailTableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 6
+        return data.sectionCount
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
-            return 9
-        }
-        else if section == 1 {
-            return 4
-        }
-        else if section == 2 {
-            return 5
-        }
-        else if section == 3 {
-            return servant.classskill.count
-        }
-        else if section == 4 {
-            return 1
-        }
-        else if section == 5 {
-            return 3
-        }
-        else {
-            return 1
-        }
+        return data.rowCount(at: section)
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
-        let cell2 = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
-
-        cell2.configure("Test", trailingText: "Again")
-
-        if indexPath.section == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
-
+        let resultCell: UITableViewCell
+        switch data.row(at: indexPath) {
+        case .id:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
             cell.selectionStyle = .none
+            cell.configure("编号", trailingText: servant.servant.no)
 
-            if indexPath.row == 0 {
-                cell.configure("编号", trailingText: servant.servant.no)
-            }
-            else if indexPath.row == 1 {
-                cell.configure("姓名", trailingText: servant.servant.name)
-            }
-            else if indexPath.row == 2 {
-                cell.configure("职阶", trailingText: servant.servant.clazz)
-            }
-            else if indexPath.row == 3 {
-                cell.configure("稀有度", trailingText: "\(servant.servant.rare)")
-            }
-            else if indexPath.row == 4 {
-                cell.configure("消耗", trailingText: "\(servant.servant.cost)")
-            }
-            else if indexPath.row == 5 {
-                cell.configure("天地人特性", trailingText: servant.servant.tenchizin)
-            }
-            else if indexPath.row == 6 {
-                if !servant.status.isEmpty {
-                    cell.configure("满级", trailingText: servant.status[0].level)
-                }
-            }
-            else if indexPath.row == 7 {
-                if !servant.status.isEmpty {
-                    cell.configure("满级 HP", trailingText: "\(servant.status[0].hp)")
-                }
-            }
-            else if indexPath.row == 8 {
-                if !servant.status.isEmpty {
-                    cell.configure("满级 ATK", trailingText: "\(servant.status[0].atk)")
-                }
-            }
+            resultCell = cell
 
-            return cell
-        }
-        else if indexPath.section == 1 {
+        case .name:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("姓名", trailingText: servant.servant.name)
 
-            if indexPath.row == 0 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
+            resultCell = cell
 
-                cell.configure(text: "配卡", servant: servant)
+        case .className:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("职阶", trailingText: servant.servant.clazz)
 
-                return cell
-            }
-            else if indexPath.row == 1 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+            resultCell = cell
 
-                cell.configure("Arts Hit", trailingText: "\(servant.card.arts.hit)")
-                return cell
-            }
-            else if indexPath.row == 2 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+        case .rarity:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("稀有度", trailingText: "\(servant.servant.rare)")
 
-                cell.configure("Quick Hit", trailingText: "\(servant.card.quick.hit)")
-                return cell
-            }
-            else if indexPath.row == 3 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+            resultCell = cell
 
-                cell.configure("Buster Hit", trailingText: "\(servant.card.buster.hit)")
-                return cell
+        case .cost:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("消耗", trailingText: "\(servant.servant.cost)")
+
+            resultCell = cell
+
+        case .tenchijin:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("天地人特性", trailingText: servant.servant.tenchizin)
+
+            resultCell = cell
+
+        case .maxLevel:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("满级", trailingText: servant.status[0].level)
+
+            resultCell = cell
+
+        case .maxLevel_HP:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            if !servant.status.isEmpty {
+                cell.configure("满级 HP", trailingText: "\(servant.status[0].hp)")
             }
 
+            resultCell = cell
+
+        case .maxLevel_ATK:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            if !servant.status.isEmpty {
+                cell.configure("满级 ATK", trailingText: "\(servant.status[0].atk)")
+            }
+
+            resultCell = cell
+
+        case .card_distribution:
             let cell = tableView.dequeueReusableCell(withIdentifier: ServantCardSequenceTableViewCell.identifier, for: indexPath) as! ServantCardSequenceTableViewCell
+            cell.configure(text: "配卡", servant: servant)
 
-            return cell
-        }
-        else if indexPath.section == 2 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+            resultCell = cell
 
+        case .arts_hit:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.configure("Arts Hit", trailingText: "\(servant.card.arts.hit)")
+
+            resultCell = cell
+
+        case .quick_hit:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.configure("Quick Hit", trailingText: "\(servant.card.quick.hit)")
+
+            resultCell = cell
+
+        case .buster_hit:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.configure("Buster Hit", trailingText: "\(servant.card.buster.hit)")
+
+            resultCell = cell
+
+        case .attack_np_gain:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
             cell.selectionStyle = .none
+            cell.configure("NP获得率(攻击)", trailingText: "\(servant.hidden.na)%")
 
-            if indexPath.row == 0 {
-                cell.configure("NP获得率(攻击)", trailingText: "\(servant.hidden.na)%")
-            }
-            else if indexPath.row == 1 {
-                cell.configure("NP获得率(受击)", trailingText: "\(servant.hidden.nd)%")
-            }
-            else if indexPath.row == 2 {
-                cell.configure("被即死率", trailingText: "\(servant.hidden.dr)%")
-            }
-            else if indexPath.row == 3 {
-                cell.configure("出星率", trailingText: "\(servant.hidden.staroccurrence)%")
-            }
-            else if indexPath.row == 4 {
-                cell.configure("暴击星分配权重", trailingText: "\(servant.hidden.starcollection)")
-            }
+            resultCell = cell
 
-            return cell
-        }
-        else if indexPath.section == 3 {
+        case .hurt_np_gain:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("NP获得率(受击)", trailingText: "\(servant.hidden.nd)%")
+
+            resultCell = cell
+
+        case .instant_death_possibility:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("被即死率", trailingText: "\(servant.hidden.dr)%")
+
+            resultCell = cell
+
+        case .star_appear_possibility:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("出星率", trailingText: "\(servant.hidden.staroccurrence)%")
+
+            resultCell = cell
+
+        case .critical_star_distribution:
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            cell.selectionStyle = .none
+            cell.configure("暴击星分配权重", trailingText: "\(servant.hidden.starcollection)")
+
+            resultCell = cell
+
+        case .classSkillSummary:
             let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
 
             let classSkill = servant.classskill[indexPath.row]
-            
+
             cell.avatar = UIImageUtility.classSkillImage(named: classSkill.type)
             cell.title = classSkill.name
+            cell.accessoryType = .disclosureIndicator
 
-            return cell
-        }
-        else if indexPath.section == 4 {
+            resultCell = cell
+
+        case .noblePhantasm:
             let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
-
             let hogu = servant.hogu
-
             cell.avatar = UIImageUtility.classSkillImage(named: hogu.card)
             cell.title = hogu.name
             cell.accessoryType = .disclosureIndicator
-            return cell
-        }
-        else if indexPath.section == 5 {
+
+            resultCell = cell
+
+        case .activeSkillSummary:
             let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
 
             let skill: Servant.Skill
@@ -235,10 +307,11 @@ class ServantDetailTableViewController: UITableViewController {
             cell.avatar = UIImageUtility.classSkillImage(named: skill.avatar)
             cell.title = skill.name
             cell.accessoryType = .disclosureIndicator
-            return cell
+
+            resultCell = cell
         }
 
-        return cell2
+        return resultCell
     }
 
     override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
@@ -252,40 +325,39 @@ class ServantDetailTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        guard let section = servantDetailSection(at: section) else {
-            return nil
-        }
-
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
 
-        let title: String
-
-        switch section {
-        case .basicInfo:
-            title = "基础数据"
-        case .actionCard:
-            title = "配卡"
-        case .npRelated:
-            title = "NP获得率"
-        case .classSkill:
-            title = "职阶技能"
-        case .noblePhantasm:
-            title = "宝具"
-        case .activeSkill:
-            title = "主动技能"
-        }
+        let title: String = {
+            switch data.section(at: section) {
+            case .basicInfo:
+                return "基础数据"
+            case .actionCard:
+                return "配卡"
+            case .npRelated:
+                return "NP获得率"
+            case .classSkill:
+                return "职阶技能"
+            case .noblePhantasm:
+                return "宝具"
+            case .activeSkill:
+                return "主动技能"
+            }
+        }()
 
         headerView.title = title
         return headerView
     }
 
-    // MARK:- UITableView Delegate
+}
+
+// MARK: - UITableView Delegate
+extension ServantDetailTableViewController {
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
 
         if indexPath.section == 3 {
             let classSkill = servant.classskill[indexPath.row]
-
             let vc = ClassSkillDetailViewController(classSkill: classSkill)
             let nav = UINavigationController(rootViewController: vc)
             present(nav, animated: true, completion: nil)
@@ -307,17 +379,4 @@ class ServantDetailTableViewController: UITableViewController {
         }
     }
 
-    // MARK:- Helper
-
-    private func servantDetailSection(at indexPath: IndexPath) -> ServantDetailSection? {
-        return servantDetailSection(at: indexPath.section)
-    }
-
-    private func servantDetailSection(at section: Int) -> ServantDetailSection? {
-        guard section >= 0, section < sections.count else {
-            return nil
-        }
-
-        return sections[section]
-    }
 }

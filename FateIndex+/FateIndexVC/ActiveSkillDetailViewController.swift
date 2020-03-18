@@ -35,7 +35,7 @@ class ActiveSkillDetailViewController: UITableViewController {
         tableView.register(ActiveSkillDataCell.self, forCellReuseIdentifier: ActiveSkillDataCell.identifier)
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
-        tableView.register(ServantDetailTableViewCell.self, forCellReuseIdentifier: ServantDetailTableViewCell.identifier)
+        tableView.register(TrailingTextTableViewCell.self, forCellReuseIdentifier: TrailingTextTableViewCell.identifier)
 
 
         dataRows = [.avatarRow(avatar: skill.avatar, name: skill.name)]
@@ -56,10 +56,10 @@ class ActiveSkillDetailViewController: UITableViewController {
             return 70.0
 
         case .descriptionRow(let text):
-            return 70.0
+            return UITableView.automaticDimension
 
         case .dataRow(let data):
-            return 70.0
+            return UITableView.automaticDimension
         }
     }
 
@@ -82,7 +82,7 @@ class ActiveSkillDetailViewController: UITableViewController {
             return cell
 
         case .descriptionRow(let text):
-            let cell = tableView.dequeueReusableCell(withIdentifier: ServantDetailTableViewCell.identifier, for: indexPath) as! ServantDetailTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
 
             cell.selectionStyle = .none
             cell.configure(text, trailingText: nil)
