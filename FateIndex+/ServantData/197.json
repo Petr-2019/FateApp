@@ -43,7 +43,7 @@
       "人型",
       "神性",
       "王",
-      "ｴﾇﾏ特攻無効"
+      "ｴﾇﾏ特攻无效"
     ]
   },
   "classskill": [
@@ -62,7 +62,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -72,7 +72,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -82,7 +82,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "175"
         }
       ]
@@ -93,13 +93,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -110,10 +110,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果 up >",
+        "desc": "获得大量暴击星",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -121,7 +121,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -133,7 +133,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす",
+        "desc": "味方单体のNPを增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -146,11 +146,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up (3T)",
+        "desc": "出星率上升(3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -173,7 +173,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の宝具威力を up (1T)",
+        "desc": "味方单体の宝具威力上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -190,7 +190,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆クリティカル威力を up (1T)",
+        "desc": "＆暴击威力上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -212,8 +212,8 @@
         "type": "无敌贯通付与",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に无敌贯通状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に无敌贯通状态を付与(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -229,8 +229,8 @@
         "type": "掉星率增加",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター集中状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆暴击星集中状态を付与(3T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -246,8 +246,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (3T)",
+        "target": "自身",
+        "desc": "防御力上升 (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -260,11 +260,11 @@
         "v10": "30"
       },
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆3ターン後にスタン状態(1T)になる状態を付与【デメリット】",
+        "target": "自身",
+        "desc": "＆3回合後に眩晕状态(1T)になる状态を付与【デメリット】",
         "v1": "",
         "v2": "",
         "v3": "",

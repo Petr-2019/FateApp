@@ -36,7 +36,7 @@
     "staroccurrence": 10.9,
     "tag": [
       "中立",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型",
@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -70,13 +70,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に強力な攻撃",
+        "desc": "对敌单体发动强力攻击",
         "v1": "600",
         "v2": "750",
         "v3": "825",
@@ -87,10 +87,10 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆強化全解除",
+        "desc": "强化全解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -101,10 +101,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身のNPをリチャージ<OC:効果 up >",
+        "desc": "自身充能",
         "v1": "20",
         "v2": "40",
         "v3": "60",
@@ -112,7 +112,7 @@
         "v5": "100"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -123,8 +123,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNPをものすごく増やす",
+        "target": "自身",
+        "desc": "自身のNPをものすごく增加",
         "v1": "80",
         "v2": "87",
         "v3": "94",
@@ -146,8 +146,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "皮を愛でて自身のHPを回復",
+        "target": "自身",
+        "desc": "皮を愛でて自身のHPを回复",
         "v1": "500",
         "v2": "700",
         "v3": "900",
@@ -170,7 +170,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の弱体状態を解除",
+        "desc": "味方单体の弱体状态を解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -187,7 +187,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NP獲得量を up (1T)",
+        "desc": "＆NP获得量上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

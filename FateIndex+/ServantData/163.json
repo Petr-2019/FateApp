@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -80,7 +80,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "225"
         },
         {
@@ -106,13 +106,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -123,10 +123,10 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆強化状態を解除",
+        "desc": "强化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -137,10 +137,10 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身の Quick Card 性能を up (3T)<OC:効果 up >",
+        "desc": "自身Quick卡性能上升(3T)",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -148,7 +148,7 @@
         "v5": "30"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 8
   },
   "skill1": {
@@ -159,8 +159,8 @@
         "type": "回避",
         "turn":  3,
         "count": 2,
-        "target": "self",
-        "desc": "自身に回避状態を付与(2回、3T)",
+        "target": "自身",
+        "desc": "自身に回避状态を付与(2回、3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -176,8 +176,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター獲得",
+        "target": "自身",
+        "desc": "＆暴击星獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -199,8 +199,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -216,8 +216,8 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力をdown(3T)【デメリット】",
+        "target": "自身",
+        "desc": "＆防御力下降(3T)【デメリット】",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -236,11 +236,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "宝具威力down",
+        "type": "宝具威力下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "敵全体の宝具威力をdown(1T)",
+        "target": "敌方全体",
+        "desc": "敌全体の宝具威力下降(1T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -253,11 +253,11 @@
         "v10": "50"
       },
       {
-        "type": "宝具威力down",
+        "type": "宝具威力下降",
         "turn":  1,
         "count": 0,
         "target": "other-all",
-        "desc": "＋自身をのぞく味方全体の宝具威力をdown(1T)【デメリット】",
+        "desc": "＋自身をのぞく友方全体の宝具威力下降(1T)【デメリット】",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -273,8 +273,8 @@
         "type": "宝具威力提升",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋自身の宝具威力を up ",
+        "target": "自身",
+        "desc": "＋自身の宝具威力上升",
         "v1": "20",
         "v2": "21",
         "v3": "22",

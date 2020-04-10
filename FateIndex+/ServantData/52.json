@@ -36,7 +36,7 @@
     "staroccurrence": 4.9,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型",
@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -61,13 +61,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -78,10 +78,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果 up >",
+        "desc": "获得大量暴击星",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -89,7 +89,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -100,8 +100,8 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体のチャージを高確率で減らす[Lv:確率]",
+        "target": "敌方单体",
+        "desc": "敌单体のチャージを高確率で減らす[Lv:確率]",
         "v1": "80",
         "v2": "82",
         "v3": "84",
@@ -117,8 +117,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋自身のNPを増やす",
+        "target": "自身",
+        "desc": "＋自身のNPを增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -140,8 +140,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の防御力を up (3T)",
+        "target": "自身",
+        "desc": "自身の防御力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -157,8 +157,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "攻击力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -180,8 +180,8 @@
         "type": "毅力",
         "turn":  5,
         "count": 1,
-        "target": "self",
-        "desc": "自身にガッツ状態(1回・5T)を付与",
+        "target": "自身",
+        "desc": "自身にガッツ状态(1回・5T)を付与",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",

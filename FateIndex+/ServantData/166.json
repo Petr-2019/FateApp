@@ -68,7 +68,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -79,13 +79,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -93,13 +93,13 @@
         "v5": "1500"
       },
       {
-        "type": "弱体耐性down",
+        "type": "弱化耐性下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆弱体耐性をdown(3T)<OC:効果 up >",
+        "desc": "弱化耐性下降(3T)",
         "v1": "10",
         "v2": "20",
         "v3": "30",
@@ -110,10 +110,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "after",
+        "target": "自身和队友",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＋味方全体のNPを増やす",
+        "desc": "友方全体NP增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -121,7 +121,7 @@
         "v5": "20"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 5
   },
   "skill1": {
@@ -133,7 +133,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の弱体状態を解除",
+        "desc": "味方单体の弱体状态を解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -150,7 +150,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆HPを回復",
+        "desc": "HP回复",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -163,11 +163,11 @@
         "v10": "3000"
       },
       {
-        "type": "弱体無効付与",
+        "type": "弱体无效付与",
         "turn":  3,
         "count": 1,
         "target": "other-single",
-        "desc": "＆弱体無効状態(1回、3T)を付与",
+        "desc": "＆弱体无效状态(1回、3T)を付与",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -189,8 +189,8 @@
         "type": "无敌解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の无敌状態を解除",
+        "target": "敌方单体",
+        "desc": "敌单体の无敌状态を解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -203,11 +203,11 @@
         "v10": ""
       },
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆確率でスタン状態を付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "＆確率で眩晕状态を付与[Lv:確率](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -229,8 +229,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のクリティカル威力を up (3T)",
+        "target": "自身",
+        "desc": "自身の暴击威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -246,8 +246,8 @@
         "type": "掉星率增加",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター集中度を up (3T)",
+        "target": "自身",
+        "desc": "暴击星集中度上升(3T)",
         "v1": "400",
         "v2": "440",
         "v3": "480",

@@ -41,12 +41,12 @@
       "staroccurrence": 6,
       "tag": [
         "秩序",
-        "悪",
+        "恶",
         "女",
         "サーヴァント",
         "人型",
         "神性",
-        "エヌマ特攻無効"
+        "エヌマ特攻无效"
       ]
     },
     "classskill": [
@@ -65,7 +65,7 @@
         "effect": [
           {
             "type": "暴击威力提升",
-            "desc": "自身のクリティカル威力を少し up",
+            "desc": "自身の暴击威力を少し up",
             "magnification": "6"
           }
         ]
@@ -75,7 +75,7 @@
         "effect": [
           {
             "type": "与 damage プラス付与",
-            "desc": "自身に与 damage プラス状態を付与",
+            "desc": "自身に与 damage プラス状态を付与",
             "magnification": "270"
           },
           {
@@ -89,13 +89,13 @@
         "type": "复仇者", "name": "复仇者Ex",
         "effect": [
           {
-            "type": "被ダメNP獲得量 up",
-            "desc": "自身の被 damage 時に獲得するNP up",
+            "type": "被ダメNP获得量 up",
+            "desc": "自身の被 damage 时に獲得するNP up",
             "magnification": "22"
           },
           {
-            "type": "弱体耐性down",
-            "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
+            "type": "弱化耐性下降",
+            "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
             "magnification": "27"
           }
         ]
@@ -105,17 +105,17 @@
         "effect": [
           {
             "type": "暴击威力提升",
-            "desc": "自身のクリティカル威力を up",
+            "desc": "自身の暴击威力を up",
             "magnification": "10"
           }
         ]
       },
       {
-        "type": "自己回復(魔力)", "name": "自己回復(魔力) B",
+        "type": "自己回复(魔力)", "name": "自己回复(魔力) B",
         "effect": [
           {
             "type": "回合充能",
-            "desc": "自身に毎ターンNP獲得状態を付与",
+            "desc": "自身に毎回合NP獲得状态を付与",
             "magnification": "3.5"
           }
         ]
@@ -129,10 +129,10 @@
           "type": "宝具威力提升",
           "turn":  3,
           "count": 0,
-          "target": "self",
-          "beforeafter": "before",
+          "target": "自身",
+          "beforeafter": "发动前",
           "lvoc": "oc",
-          "desc": "自身の宝具威力を up (3T)<OC:効果 up >",
+          "desc": "自身宝具威力上升(3T)",
           "v1": "20",
           "v2": "30",
           "v3": "40",
@@ -140,13 +140,13 @@
           "v5": "60"
         },
         {
-          "type": "A攻撃",
+          "type": "A攻击",
           "turn": 0,
           "count": 0,
-          "target": "enemy-all",
-          "beforeafter": "before",
+          "target": "敌方全体",
+          "beforeafter": "发动前",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃 ",
+          "desc": "敌方全体強力的攻击 ",
           "v1": "450",
           "v2": "600",
           "v3": "675",
@@ -154,13 +154,13 @@
           "v5": "750"
         },
         {
-          "type": "B攻撃",
+          "type": "B攻击",
           "turn": 0,
           "count": 0,
-          "target": "enemy-all",
-          "beforeafter": "before",
+          "target": "敌方全体",
+          "beforeafter": "发动前",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃 ",
+          "desc": "敌方全体強力的攻击",
           "v1": "300",
           "v2": "400",
           "v3": "450",
@@ -168,13 +168,13 @@
           "v5": "500"
         },
         {
-          "type": "Q攻撃",
+          "type": "Q攻击",
           "turn": 0,
           "count": 0,
-          "target": "enemy-all",
-          "beforeafter": "before",
+          "target": "敌方全体",
+          "beforeafter": "发动前",
           "lvoc": "lv",
-          "desc": "+敵全体に強力な攻撃 ",
+          "desc": "敌方全体強力的攻击",
           "v1": "600",
           "v2": "800",
           "v3": "900",
@@ -182,13 +182,13 @@
           "v5": "1000"
         },
         {
-            "type": "ExtraAttack威力 up",
+            "type": "ExtraAttack威力上升",
             "turn":  1,
             "count": 0,
-            "target": "self",
-            "beforeafter": "before",
+            "target": "自身",
+            "beforeafter": "发动前",
             "lvoc": "lv",
-            "desc": "自身のExtra Attackの威力を up (1T)",
+            "desc": "自身的Extra Attack威力上升(1T)",
             "v1": "100",
             "v2": "100",
             "v3": "100",
@@ -196,7 +196,7 @@
             "v5": "100"
           }
       ],
-      "type": "all",
+      "type": "全体",
       "hit": 3
     },
     "skill1": {
@@ -207,8 +207,8 @@
           "type": "加攻",
           "turn":  3,
           "count": 0,
-          "target": "self",
-          "desc": "自身の攻撃力を up (3T)",
+          "target": "自身",
+          "desc": "自身攻击力上升(3T)",
           "v1": "10",
           "v2": "11",
           "v3": "12",
@@ -225,7 +225,7 @@
             "turn":  3,
             "count": 0,
             "target": "other-all",
-            "desc": "＋自身を除く味方全体の攻撃力を up (3T)",
+            "desc": "＋自身を除く友方全体攻击力上升(3T)",
             "v1": "20",
             "v2": "21",
             "v3": "22",
@@ -238,11 +238,11 @@
             "v10": "30"
           },
         {
-          "type": "魅了無効状態付与",
+          "type": "魅了无效状态付与",
           "turn":  3,
           "count": 0,
-          "target": "self",
-          "desc": "＆魅了無効状態を付与(3T)",
+          "target": "自身",
+          "desc": "＆魅了无效状态を付与(3T)",
           "v1": "",
           "v2": "",
           "v3": "",
@@ -265,8 +265,8 @@
           "type": "宝具威力提升",
           "turn": 3,
           "count": 1,
-          "target": "self",
-          "desc": "自身の宝具威力を up (1回・3T)",
+          "target": "自身",
+          "desc": "自身の宝具威力上升(1回・3T)",
           "v1": "10",
           "v2": "11",
           "v3": "12",
@@ -282,8 +282,8 @@
             "type": "无敌付与",
             "turn": 3,
             "count": 1,
-            "target": "self",
-            "desc": "＆无敌状態を付与(1回・3T)",
+            "target": "自身",
+            "desc": "＆无敌状态を付与(1回・3T)",
             "v1": "",
             "v2": "",
             "v3": "",
@@ -299,7 +299,7 @@
             "type": "宝具 Card 変更",
             "turn": 3,
             "count": 0,
-            "target": "self",
+            "target": "自身",
             "desc": "＆宝具 Card のタイプを変化させる(3T)",
             "v1": "",
             "v2": "",
@@ -316,15 +316,15 @@
       "avatar": "宝具威力提升"
     },
     "skill3": {
-      "name": "マルチプル・スターリング EX",
+      "name": "マルチプル・暴击星リング EX",
       "ct": 8,
       "effects": [
         {
             "type": "充能",
             "turn": 0,
             "count": 0,
-            "target": "self",
-            "desc": "自身のNPを増やす",
+            "target": "自身",
+            "desc": "自身のNPを增加",
             "v1": "30",
             "v2": "32",
             "v3": "34",
@@ -340,8 +340,8 @@
             "type": "绿放",
             "turn":  3,
             "count": 0,
-            "target": "self",
-            "desc": "＆確率でQuick Card 性能を up (3T) 確率80",
+            "target": "自身",
+            "desc": "＆確率でQuick Card 性能上升(3T) 確率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",
@@ -357,8 +357,8 @@
             "type": "蓝放",
             "turn":  3,
             "count": 0,
-            "target": "self",
-            "desc": "＆確率でArts Card 性能を up (3T) 確率80",
+            "target": "自身",
+            "desc": "＆確率でArts Card 性能上升(3T) 確率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",
@@ -374,8 +374,8 @@
             "type": "红放",
             "turn":  3,
             "count": 0,
-            "target": "self",
-            "desc": "＆確率でBuster Card 性能を up (3T) 確率80",
+            "target": "自身",
+            "desc": "＆確率でBuster Card 性能上升(3T) 確率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",

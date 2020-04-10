@@ -36,7 +36,7 @@
     "staroccurrence": 25.5,
     "tag": [
       "秩序",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型"
@@ -47,8 +47,8 @@
       "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -73,13 +73,13 @@
         "v5": "1800"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
+        "desc": "暴击率下降(3T)",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -87,13 +87,13 @@
         "v5": "100"
       },
       {
-        "type": "Arts Card 耐性down",
+        "type": "Arts卡耐性下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆Arts Card 耐性をdown(3T)",
+        "desc": "Arts卡耐性下降(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -101,7 +101,7 @@
         "v5": "20"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 13
   },
   "skill1": {
@@ -112,8 +112,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "自身のNP获得量上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -126,11 +126,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター発生率を up (3T)",
+        "target": "自身",
+        "desc": "出星率上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -152,7 +152,7 @@
         "type": "红放",
         "turn":  3,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "自身のBuster Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
@@ -169,7 +169,7 @@
         "type": "蓝放",
         "turn":  3,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆Arts Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
@@ -186,7 +186,7 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆Quick Card 性能を30％ up (3T) [Lv:確率]",
         "v1": "60",
         "v2": "62",
@@ -203,8 +203,8 @@
         "type": "回避",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆回避状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆回避状态を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -226,8 +226,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のHPを回復",
+        "target": "自身",
+        "desc": "自身のHPを回复",
         "v1": "2000",
         "v2": "2200",
         "v3": "2400",
@@ -243,8 +243,8 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆強化状態を解除【デメリット】",
+        "target": "自身",
+        "desc": "強化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",

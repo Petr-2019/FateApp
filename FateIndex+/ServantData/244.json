@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "175"
         }
       ]
@@ -84,10 +84,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体の防御力をdown(3T)",
+        "desc": "敌方全体防御力下降(3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -95,13 +95,13 @@
         "v5": "30"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃",
+        "desc": "发动强力攻击",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -112,10 +112,10 @@
         "type": "无敌付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＋自身に无敌状態を付与(1T)",
+        "desc": "付与自身无敌(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -126,10 +126,10 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆HPを回復<OC:効果 up >",
+        "desc": "HP回复",
         "v1": "2000",
         "v2": "3000",
         "v3": "4000",
@@ -137,7 +137,7 @@
         "v5": "6000"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -148,8 +148,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体のNPを増やす",
+        "target": "自身和队友",
+        "desc": "友方全体のNPを增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -165,8 +165,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "攻击力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -182,8 +182,8 @@
         "type": "出星",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆毎ターンスター獲得状態を付与(3T)",
+        "target": "自身和队友",
+        "desc": "＆毎回合暴击星獲得状态を付与(3T)",
         "v1": "5",
         "v2": "5",
         "v3": "5",
@@ -202,11 +202,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Target 集中付与",
+        "type": "付与目标集中状态",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に target 集中状態を付与(1T)",
+        "target": "自身",
+        "desc": "自身に target 集中状态を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -219,11 +219,11 @@
         "v10": "300"
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆被 damage カット状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆被 damage カット状态を付与(1T)",
         "v1": "1000",
         "v2": "1000",
         "v3": "1000",
@@ -239,8 +239,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "攻击力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -263,7 +263,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体に无敌状態を付与(1ターン)",
+        "desc": "味方单体に无敌状态を付与(1回合)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -280,7 +280,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NP獲得量を up (1T)",
+        "desc": "＆NP获得量上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -293,11 +293,11 @@
         "v10": "30"
       },
       {
-        "type": "スキル封印付与",
+        "type": "付与技能封印",
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スキル封印状態を付与(1T)【デメリット】",
+        "desc": "付与技能封印(1T)【デメリット】",
         "v1": "",
         "v2": "",
         "v3": "",

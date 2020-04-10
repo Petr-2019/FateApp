@@ -60,13 +60,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に確率でスタン状態を付与[Lv:確率](1T)",
+        "desc": "敌方全体一定概率眩晕(1T)",
         "v1": "50",
         "v2": "65",
         "v3": "72.5",
@@ -74,13 +74,13 @@
         "v5": "80"
       },
       {
-        "type": "呪い付与",
+        "type": "付与诅咒",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(3T)<OC:効果 up >",
+        "desc": "付与诅咒状态(3T)",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -88,7 +88,7 @@
         "v5": "2500"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -96,11 +96,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スキル封印付与",
+        "type": "付与技能封印",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体に確率でスキル封印状態を付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体に確率でスキル封印状态を付与[Lv:確率](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -119,11 +119,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Target 集中付与",
+        "type": "付与目标集中状态",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に target 集中状態を付与(1T)",
+        "target": "自身",
+        "desc": "自身に target 集中状态を付与(1T)",
         "v1": "100",
         "v2": "120",
         "v3": "140",
@@ -139,8 +139,8 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を大 up (1T)",
+        "target": "自身",
+        "desc": "＆防御力を大幅提升(1T)",
         "v1": "30",
         "v2": "33",
         "v3": "36",
@@ -162,8 +162,8 @@
         "type": "宝具封印付与",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "敵全体に確率で宝具封印状態を付与[Lv:確率](1T)",
+        "target": "敌方全体",
+        "desc": "敌全体に確率で宝具封印状态を付与[Lv:確率](1T)",
         "v1": "60",
         "v2": "62",
         "v3": "64",

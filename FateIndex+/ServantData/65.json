@@ -36,12 +36,12 @@
     "staroccurrence": 9,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "骑乘スキル",
       "人型",
-      "ｴﾇﾏ特攻無効"
+      "ｴﾇﾏ特攻无效"
     ]
   },
   "classskill": [
@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -71,13 +71,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -88,10 +88,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋スターを大量獲得<OC:効果 up >",
+        "desc": "获得大量暴击星",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -99,7 +99,7 @@
         "v5": "40"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 5
   },
   "skill1": {
@@ -110,8 +110,8 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の宝具威力を up (1T)",
+        "target": "自身和队友",
+        "desc": "友方全体宝具威力上升(1T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -127,8 +127,8 @@
         "type": "加攻",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆攻撃力を up (1T)",
+        "target": "自身和队友",
+        "desc": "＆攻击力上升(1T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -150,8 +150,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNP獲得量 up (3T)",
+        "target": "自身",
+        "desc": "自身のNP获得量 up (3T)",
         "v1": "18",
         "v2": "20.7",
         "v3": "23.4",
@@ -173,8 +173,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNPを増やす",
+        "target": "自身",
+        "desc": "自身のNPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -190,8 +190,8 @@
         "type": "无敌贯通付与",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆无敌贯通状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆无敌贯通状态を付与(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -207,8 +207,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋スターを獲得",
+        "target": "自身",
+        "desc": "获得暴击星",
         "v1": "10",
         "v2": "10",
         "v3": "10",

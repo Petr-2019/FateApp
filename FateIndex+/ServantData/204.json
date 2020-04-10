@@ -36,7 +36,7 @@
     "staroccurrence": 6.1,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型",
@@ -48,13 +48,13 @@
       "type": "复仇者", "name": "复仇者C",
       "effect": [
         {
-          "type": "被ダメNP獲得量 up",
-          "desc": "自身の被 damage 時に獲得するNP up",
+          "type": "被ダメNP获得量 up",
+          "desc": "自身の被 damage 时に獲得するNP up",
           "magnification": "16"
         },
         {
-          "type": "弱体耐性down",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
+          "type": "弱化耐性下降",
+          "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
           "magnification": "6"
         }
       ]
@@ -64,17 +64,17 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "自己回復(魔力)", "name": "自己回復(魔力)C",
+      "type": "自己回复(魔力)", "name": "自己回复(魔力)C",
       "effect": [
         {
           "type": "回合充能",
-          "desc": "自身に毎ターンNP獲得状態を付与",
+          "desc": "自身に毎回合NP獲得状态を付与",
           "magnification": "3.3"
         }
       ]
@@ -85,13 +85,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -99,13 +99,13 @@
         "v5": "750"
       },
       {
-        "type": "Arts Card 耐性down",
+        "type": "Arts卡耐性下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆Arts攻撃耐性をdown(3T)<OC:効果 up >",
+        "desc": "Arts攻击耐性下降(3T)",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -113,13 +113,13 @@
         "v5": "30"
       },
       {
-        "type": "スター発生率down",
+        "type": "暴击星发生率下降",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "after",
+        "target": "自身和队友",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＋味方全体のスター発生率をdown(3T)【デメリット】",
+        "desc": "友方全体暴击星发生率下降(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -127,7 +127,7 @@
         "v5": "20"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -138,8 +138,8 @@
         "type": "出星",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に毎ターンスター獲得状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に毎回合暴击星獲得状态を付与(3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -155,8 +155,8 @@
         "type": "暴击威力提升",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "＆クリティカル威力を up (3回・5T)",
+        "target": "自身",
+        "desc": "＆暴击威力上升(3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -178,8 +178,8 @@
         "type": "蓝放",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "自身のArts Card 性能を up (3回・5T)",
+        "target": "自身",
+        "desc": "自身のArts Card 性能上升 (3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -201,8 +201,8 @@
         "type": "降防",
         "turn":  5,
         "count": 3,
-        "target": "enemy-single",
-        "desc": "敵単体の防御力をdown(3回・5T)",
+        "target": "敌方单体",
+        "desc": "敌单体の防御力下降(3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

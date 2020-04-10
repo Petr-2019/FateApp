@@ -36,7 +36,7 @@
     "staroccurrence": 25.2,
     "tag": [
       "秩序",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型"
@@ -47,8 +47,8 @@
       "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10.5"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -76,10 +76,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆高確率で即死効果<OC:確率 up >",
+        "desc": "高概率付与即死",
         "v1": "80",
         "v2": "90",
         "v3": "100",
@@ -87,7 +87,7 @@
         "v5": "120"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -98,8 +98,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "スターを獲得",
+        "target": "自身",
+        "desc": "暴击星を獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -115,8 +115,8 @@
         "type": "出星",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆自身にターン終了時にスターを獲得する状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆自身に回合终了时に暴击星を獲得する状态を付与(1T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -138,8 +138,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のクリティカル威力を up (3T)",
+        "target": "自身",
+        "desc": "自身の暴击威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -161,8 +161,8 @@
         "type": "回避",
         "turn": 0,
         "count": 3,
-        "target": "self",
-        "desc": "自身に回避状態を付与(3回)",
+        "target": "自身",
+        "desc": "自身に回避状态を付与(3回)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -175,11 +175,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター発生率を up (3T)",
+        "target": "自身",
+        "desc": "出星率上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

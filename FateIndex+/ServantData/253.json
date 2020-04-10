@@ -41,7 +41,7 @@
       "サーヴァント",
       "骑乘スキル",
       "人型",
-      "ｴﾇﾏ特攻無効"
+      "ｴﾇﾏ特攻无效"
     ]
   },
   "classskill": [
@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -74,8 +74,8 @@
           "magnification": "20"
         },
         {
-          "type": "スター発生率 up",
-          "desc": "＆スター発生率を up",
+          "type": "出星率上升",
+          "desc": "＆暴击星发生率を up",
           "magnification": "20"
         }
       ]
@@ -89,10 +89,10 @@
         "type": "蓝放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "自身のArts Card 性能を up (1T)<OC:効果 up >",
+        "desc": "自身Arts卡性能上升(1T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -100,13 +100,13 @@
         "v5": "40"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋ 敵全体に強力な攻撃",
+        "desc": "敌方全体強力的攻击",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -117,10 +117,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "after",
+        "target": "自身和队友",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＋ 味方全体のNPを増やす",
+        "desc": "友方全体NP增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -128,7 +128,7 @@
         "v5": "20"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -136,11 +136,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "弱体無効付与",
+        "type": "弱体无效付与",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に弱体無効状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に弱体无效状态を付与(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -156,8 +156,8 @@
         "type": "回血",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆毎ターンHP回復状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆毎回合HP回复状态を付与(3T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",
@@ -173,8 +173,8 @@
         "type": "回合充能",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを毎ターン増やす(3T)",
+        "target": "自身",
+        "desc": "＆NPを毎回合增加(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -189,15 +189,15 @@
     ]
   , "avatar": "每回合回复"},
   "skill2": {
-    "name": "アクセルターンB",
+    "name": "アクセル回合B",
     "ct": 6,
     "effects": [
       {
         "type": "回避",
         "turn": 0,
         "count": 1,
-        "target": "self",
-        "desc": "自身に回避状態を付与(1回)",
+        "target": "自身",
+        "desc": "自身に回避状态を付与(1回)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -213,8 +213,8 @@
         "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆クリティカル威力を up (1T)",
+        "target": "自身",
+        "desc": "＆暴击威力上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -236,8 +236,8 @@
         "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の宝具威力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体の宝具威力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -253,8 +253,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆NPを少し増やす",
+        "target": "自身和队友",
+        "desc": "NP少量增加",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -270,8 +270,8 @@
         "type": "OC増加",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆宝具使用時のチャージ段階を1段階引き上げる(1T)",
+        "target": "自身和队友",
+        "desc": "＆宝具使用时のチャージ段階を1段階引き上げる(1T)",
         "v1": "1",
         "v2": "1",
         "v3": "1",

@@ -36,12 +36,12 @@
     "staroccurrence": 14.8,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型",
       "神性",
-      "ｴﾇﾏ特攻無効",
+      "ｴﾇﾏ特攻无效",
       "人類の脅威"
     ]
   },
@@ -51,7 +51,7 @@
       "effect": [
         {
           "type": "出星",
-          "desc": "自身に毎ターンスター獲得状態を付与",
+          "desc": "自身に毎回合暴击星獲得状态を付与",
           "magnification": "2"
         },
         {
@@ -66,7 +66,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -76,7 +76,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "175"
         }
       ]
@@ -90,10 +90,10 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体の強化状態を解除",
+        "desc": "敌方单体强化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -101,13 +101,13 @@
         "v5": ""
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃",
+        "desc": "发动超强力的攻击",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -115,13 +115,13 @@
         "v5": "1000"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をdown(1T)<OC:効果 up >",
+        "desc": "暴击发生率下降(1T)",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -129,7 +129,7 @@
         "v5": "70"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 4
   },
   "skill1": {
@@ -140,8 +140,8 @@
         "type": "回合充能",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体に毎ターンNP獲得状態を付与(3T)",
+        "target": "自身和队友",
+        "desc": "友方全体に毎回合NP獲得状态を付与(3T)",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -157,8 +157,8 @@
         "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆宝具威力を up (3T)",
+        "target": "自身和队友",
+        "desc": "＆宝具威力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -177,11 +177,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "恐怖状態付与",
+        "type": "恐怖状态付与",
         "turn":  3,
         "count": 1,
-        "target": "enemy-all",
-        "desc": "敵全体に恐怖状態を付与[Lv:毎ターン確率](3T、1回)",
+        "target": "敌方全体",
+        "desc": "敌全体に恐怖状态を付与[Lv:毎回合確率](3T、1回)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -197,8 +197,8 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "＆防御力をdown(3T)",
+        "target": "敌方全体",
+        "desc": "防御力下降(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -220,8 +220,8 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体のチャージを1減らす",
+        "target": "敌方单体",
+        "desc": "敌单体のチャージを1減らす",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -237,8 +237,8 @@
         "type": "降攻",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆攻撃力をdown(3T)",
+        "target": "敌方单体",
+        "desc": "攻击力下降(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

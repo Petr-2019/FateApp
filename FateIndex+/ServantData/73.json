@@ -63,7 +63,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -74,13 +74,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体にとても強力な攻撃",
+        "desc": "对敌方全体发动强力的攻击",
         "v1": "450",
         "v2": "550",
         "v3": "600",
@@ -91,10 +91,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身のNPを少しリチャージ<OC:効果 up >",
+        "desc": "自身的NP少量增加",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -102,7 +102,7 @@
         "v5": "30"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -114,7 +114,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを大回復",
+        "desc": "味方单体のHPを大回复",
         "v1": "1500",
         "v2": "1700",
         "v3": "1900",
@@ -127,11 +127,11 @@
         "v10": "3500"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率 up (3T)",
+        "desc": "＆暴击星发生率 up (3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -153,8 +153,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "スターを大量獲得",
+        "target": "自身",
+        "desc": "暴击星を大量獲得",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -176,8 +176,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Buster性能上升(1T)",
         "v1": "25",
         "v2": "27",
         "v3": "29",

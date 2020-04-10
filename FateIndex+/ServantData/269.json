@@ -71,7 +71,7 @@
 				{
 					"type": "绿放",
 					"magnification": "10",
-					"desc": "自身の Quick Card の性能を up"
+					"desc": "自身の Quick Card の性能上升"
 				}
 			]
         },
@@ -79,9 +79,9 @@
 			"type": "气息遮断", "name": "气息遮断A",
 			"effect": [
 				{
-					"type": "スター発生率 up",
+					"type": "出星率上升",
 					"magnification": "10",
-					"desc": "自身のスター発生率を up"
+					"desc": "自身の暴击星发生率を up"
 				}
 			]
         },
@@ -91,7 +91,7 @@
 				{
 					"type": "暴击威力提升",
 					"magnification": "11",
-					"desc": "自身のクリティカル威力を up"
+					"desc": "自身の暴击威力を up"
 				}
 			]
 		}
@@ -104,8 +104,8 @@
 				"type": "降攻",
 				"turn": 3,
 				"count": 0,
-				"target": "enemy-all",
-				"desc": "敵全体の攻撃力をdown(3T)",
+				"target": "敌方全体",
+				"desc": "敌方全体攻击力下降(3T)",
 				"v1": "10",
 				"v2": "10",
 				"v3": "10",
@@ -119,11 +119,11 @@
 				"condition": ""
 			},
 			{
-				"type": "クリティカル発生率down",
+				"type": "暴击率下降",
 				"turn": 3,
 				"count": 0,
-				"target": "enemy-all",
-				"desc": "＆クリティカル発生率をdown(3T)",
+				"target": "敌方全体",
+				"desc": "暴击率下降(3T)",
 				"v1": "9",
 				"v2": "10",
 				"v3": "11",
@@ -147,8 +147,8 @@
 				"type": "灭气",
 				"turn": 0,
 				"count": 0,
-				"target": "enemy-all",
-				"desc": "敵全体のチャージを減らす",
+				"target": "敌方全体",
+				"desc": "敌方全体充能减少",
 				"v1": "",
 				"v2": "",
 				"v3": "",
@@ -165,8 +165,8 @@
 				"type": "加攻",
 				"turn": 3,
 				"count": 0,
-				"target": "self",
-				"desc": "＋自身の攻撃力を up (3T)",
+				"target": "自身",
+				"desc": "＋自身攻击力上升(3T)",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -184,7 +184,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＋自身を除く味方全体の攻撃力を確率で up (3T)　確率80%",
+				"desc": "＋自身を除く友方全体の攻击力を確率で up (3T)　確率80%",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -201,8 +201,8 @@
 				"type": "充能",
 				"turn": 0,
 				"count": 0,
-				"target": "self-other",
-				"desc": "＋自身を除く味方全体の攻撃力を確率で up (3T)　確率80%",
+				"target": "自身和队友",
+				"desc": "＋自身を除く友方全体の攻击力を確率で up (3T)　確率80%",
 				"v1": "10",
 				"v2": "10",
 				"v3": "10",
@@ -227,7 +227,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "味方単体の強化成功率を up (3T)",
+				"desc": "味方单体の強化成功率上升(3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -245,7 +245,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが10個以上ある場合、クリティカル威力を up (3T)",
+				"desc": "＆暴击星が10個以上ある場合、暴击威力上升(3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -263,7 +263,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-single",
-				"desc": "＆スターが20個以上ある場合、スター集中度を up (3T)",
+				"desc": "＆暴击星が20個以上ある場合、暴击星集中度上升(3T)",
 				"v1": "20",
 				"v2": "22",
 				"v3": "24",
@@ -281,7 +281,7 @@
 				"turn": 1,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スターが30個以上ある場合、回避状態を付与(1T)",
+				"desc": "＆暴击星が30個以上ある場合、回避状态を付与(1T)",
 				"v1": "",
 				"v2": "",
 				"v3": "",
@@ -299,7 +299,7 @@
 				"turn": 3,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スターが40個以上ある場合、无敌贯通状態を付与(3T)",
+				"desc": "＆暴击星が40個以上ある場合、无敌贯通状态を付与(3T)",
 				"v1": "",
 				"v2": "",
 				"v3": "",
@@ -317,7 +317,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "other-all",
-				"desc": "＆スターが50個以上ある場合、NPを増やす",
+				"desc": "＆暴击星が50個以上ある場合、NPを增加",
 				"v1": "10",
 				"v2": "11",
 				"v3": "12",
@@ -335,7 +335,7 @@
 	},
 	"hogu": {
 		"name": "招致死亡的黑之一手(Space Dead Man's Hand)",
-		"type": "single",
+		"type": "单体",
 		"card": "Quick",
 		"hit": 5,
 		"effect": [
@@ -343,10 +343,10 @@
 				"type": "必中付与",
 				"turn": 1,
 				"count": 0,
-				"target": "self",
-				"beforeafter": "before",
+				"target": "自身",
+				"beforeafter": "发动前",
 				"lvoc": "lv",
-				"desc": "自身に必中状態を付与(1T)",
+				"desc": "付与自身必中状态(1T)",
 				"v1": "",
 				"v2": "",
 				"v3": "",
@@ -358,10 +358,10 @@
 				"type": "降防",
 				"turn": 2,
 				"count": 0,
-				"target": "enemy-single",
-				"beforeafter": "before",
+				"target": "敌方单体",
+				"beforeafter": "发动前",
 				"lvoc": "oc",
-				"desc": "＋敵単体の防御力をdown(2T)<OC:効果 up >",
+				"desc": "敌单体防御力下降(2T)",
 				"v1": "10",
 				"v2": "15",
 				"v3": "20",
@@ -370,13 +370,13 @@
 				"condition": ""
 			},
 			{
-				"type": "Quick Card 耐性down",
+				"type": "Quick Card 耐性下降",
 				"turn": 2,
 				"count": 0,
-				"target": "enemy-single",
-				"beforeafter": "before",
+				"target": "敌方单体",
+				"beforeafter": "发动前",
 				"lvoc": "oc",
-				"desc": "＆Quick攻撃耐性をdown(2T)<OC:効果 up >",
+				"desc": "Quick攻击耐性下降(2T)",
 				"v1": "10",
 				"v2": "15",
 				"v3": "20",
@@ -385,13 +385,13 @@
 				"condition": ""
 			},
 			{
-				"type": "攻撃",
+				"type": "攻击",
 				"turn": 0,
 				"count": 0,
-				"target": "enemy-single",
-				"beforeafter": "before",
+				"target": "敌方单体",
+				"beforeafter": "发动前",
 				"lvoc": "lv",
-				"desc": "＆超強力な攻撃 ",
+				"desc": "超強力的攻击",
 				"v1": "1200",
 				"v2": "1600",
 				"v3": "1800",

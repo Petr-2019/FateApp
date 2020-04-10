@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "12"
         }
       ]
@@ -75,12 +75,12 @@
         },
         {
           "type": "暴击威力提升",
-          "desc": "＆Buster Card のクリティカル威力を up",
+          "desc": "＆Buster Card の暴击威力を up",
           "magnification": "10"
         },
         {
-          "type": "精神異常無効付与",
-          "desc": "＆精神異常無効状態を付与",
+          "type": "精神异常状态无效",
+          "desc": "＆精神異常无效状态を付与",
           "magnification": ""
         }
       ]
@@ -90,7 +90,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "210"
         }
       ]
@@ -101,13 +101,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -115,13 +115,13 @@
         "v5": "1000"
       },
       {
-        "type": "絆獲得量 up",
+        "type": "羁绊获得量上升",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆自身のHPが少ないほど威力の高い追加 damage <OC:威力 up >{追加 damage 倍率*(1-HP/MAXHP)}",
+        "desc": "自身HP越少威力越高的攻击",
         "v1": "600",
         "v2": "700",
         "v3": "800",
@@ -132,10 +132,10 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆防御強化状態を解除",
+        "desc": "防御強化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -143,7 +143,7 @@
         "v5": ""
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 5
   },
   "skill1": {
@@ -154,8 +154,8 @@
         "type": "无敌付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に无敌状態を付与(1T)",
+        "target": "自身",
+        "desc": "付与自身无敌(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -171,8 +171,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを増やす",
+        "target": "自身",
+        "desc": "NP增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -194,8 +194,8 @@
         "type": "红放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "自身のBuster Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -211,8 +211,8 @@
         "type": "降防",
         "turn":  5,
         "count": 3,
-        "target": "enemy-single",
-        "desc": "＆Buster Card による攻撃時に敵単体に防御力down(3T)を付与する状態を付与(3回・5T)",
+        "target": "敌方单体",
+        "desc": "＆Buster Card による攻击时に敌单体に防御力down(3T)を付与する状态を付与(3回・5T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -234,8 +234,8 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の Quick Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "自身Quick性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -251,8 +251,8 @@
         "type": "暴击威力提升",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "＆Quick Card による攻撃時に自身にクリティカル威力 up (3T)を付与する状態を付与(3回・5T)",
+        "target": "自身",
+        "desc": "＆Quick Card による攻击时に自身に暴击威力上升 (3T)を付与する状态を付与(3回・5T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

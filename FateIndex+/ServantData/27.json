@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -71,13 +71,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -85,13 +85,13 @@
         "v5": "2400"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身のスター発生率を大 up (3T)<OC:効果 up >",
+        "desc": "自身出星率大幅提升 (3T)",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -99,7 +99,7 @@
         "v5": "90"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -110,8 +110,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体のNP獲得量を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体のNP获得量上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -127,8 +127,8 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＋自身の Quick Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "＋自身の Quick Card 性能上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -150,8 +150,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体攻击力上升(3T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -173,8 +173,8 @@
         "type": "回避",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に回避状態を付与(1T)",
+        "target": "自身",
+        "desc": "付与自身回避状态(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -187,11 +187,11 @@
         "v10": ""
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター発生率を up (1T)",
+        "target": "自身",
+        "desc": "＆暴击星发生率上升(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "8"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -80,7 +80,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "250"
         },
         {
@@ -109,10 +109,10 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "自身のBuster Card 性能を up (1T)<OC:効果 up >",
+        "desc": "自身Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -123,10 +123,10 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆〔増殖〕状態の時、Buster Card 性能を up (1T)",
+        "desc": "増殖状态时、Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -134,13 +134,13 @@
         "v5": "20"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵全体に強力な攻撃",
+        "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -148,7 +148,7 @@
         "v5": "500"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 5
   },
   "skill1": {
@@ -156,11 +156,11 @@
     "ct": 12,
     "effects": [
       {
-        "type": "最大HP up",
+        "type": "最大HP提升",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身に〔無限増殖〕状態「10ターンの間、毎ターン自身に〔増殖〕状態(最大HPが up する状態)を付与する状態」を付与〈〔増殖〕状態は最大10個まで付与可能〉",
+        "target": "自身",
+        "desc": "自身に〔無限増殖〕状态「10回合の間、毎回合自身に〔増殖〕状态(最大HPが up する状态)を付与する状态」を付与〈〔増殖〕状态は最大10個まで付与可能〉",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",
@@ -179,10 +179,10 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スキルチャージ",
+        "type": "技能充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "自身のスキルチャージを進める",
         "v1": "1",
         "v2": "1",
@@ -199,8 +199,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを〔増殖〕状態の数だけ増やす",
+        "target": "自身",
+        "desc": "＆NPを〔増殖〕状态の数だけ增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -213,11 +213,11 @@
         "v10": "20"
       },
       {
-        "type": "無限増殖・増殖状態解除",
+        "type": "無限増殖・増殖状态解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆〔無限増殖〕状態と〔増殖〕状態を解除【デメリット】",
+        "target": "自身",
+        "desc": "＆〔無限増殖〕状态と〔増殖〕状态を解除【デメリット】",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -239,8 +239,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

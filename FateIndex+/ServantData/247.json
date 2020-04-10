@@ -36,7 +36,7 @@
     "staroccurrence": 5.1,
     "tag": [
       "秩序",
-      "善＆悪",
+      "善＆恶",
       "男",
       "サーヴァント",
       "人型",
@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "250"
         }
       ]
@@ -70,13 +70,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "Buster Card 耐性down",
+        "type": "Buster耐性降低",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "敵全体のBuster攻撃耐性をdown(3T)<OC:効果 up >",
+        "desc": "敌全体のBuster攻击耐性下降(3T)",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -84,13 +84,13 @@
         "v5": "60"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃",
+        "desc": "发动强力攻击",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -98,19 +98,19 @@
         "v5": "500"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 5
   },
   "skill1": {
-    "name": "对邪悪(特殊)EX",
+    "name": "对邪恶(特殊)EX",
     "ct": 7,
     "effects": [
       {
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -126,8 +126,8 @@
         "type": "弱化解除",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆〔弱体状態(解除不能な状態は除く)〕特攻状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆〔弱体状态(解除不能な状态は除く)〕特攻状态を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -149,8 +149,8 @@
         "type": "掉星率增加",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card のスター集中度を up (3T)",
+        "target": "自身",
+        "desc": "自身のBuster Card の暴击星集中度上升(3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -166,8 +166,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを増やす",
+        "target": "自身",
+        "desc": "NP增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -189,8 +189,8 @@
         "type": "毅力",
         "turn":  3,
         "count": 1,
-        "target": "self",
-        "desc": "自身にガッツ状態(1回・3T)を付与",
+        "target": "自身",
+        "desc": "自身にガッツ状态(1回・3T)を付与",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -206,8 +206,8 @@
         "type": "回血",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆毎ターンHP回復状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆毎回合HP回复状态を付与(3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",

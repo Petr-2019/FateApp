@@ -36,7 +36,7 @@
     "staroccurrence": 6,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型",
@@ -48,13 +48,13 @@
       "type": "复仇者", "name": "复仇者A",
       "effect": [
         {
-          "type": "被ダメNP獲得量 up",
-          "desc": "自身の被 damage 時に獲得するNP up",
+          "type": "被ダメNP获得量 up",
+          "desc": "自身の被 damage 时に獲得するNP up",
           "magnification": "20"
         },
         {
-          "type": "弱体耐性down",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
+          "type": "弱化耐性下降",
+          "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
           "magnification": "10"
         }
       ]
@@ -64,17 +64,17 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "8"
         }
       ]
     },
     {
-      "type": "自己回復(魔力)", "name": "自己回復(魔力)B",
+      "type": "自己回复(魔力)", "name": "自己回复(魔力)B",
       "effect": [
         {
           "type": "回合充能",
-          "desc": "自身に毎ターンNP獲得状態を付与",
+          "desc": "自身に毎回合NP獲得状态を付与",
           "magnification": "3.5"
         }
       ]
@@ -88,10 +88,10 @@
         "type": "必中付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "自身に必中状態を付与(1T)",
+        "desc": "付与自身必中状态(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -102,10 +102,10 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆クリティカル威力を up (3T)",
+        "desc": "暴击威力上升(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -113,13 +113,13 @@
         "v5": "20"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力攻击",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -130,10 +130,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆中確率で即死<OC:確率 up >",
+        "desc": "中等概率即死",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -141,7 +141,7 @@
         "v5": "100"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 8
   },
   "skill1": {
@@ -152,8 +152,8 @@
         "type": "掉星率增加",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のスター集中度を up (1T)",
+        "target": "自身",
+        "desc": "自身の暴击星集中度上升(1T)",
         "v1": "600",
         "v2": "660",
         "v3": "720",
@@ -169,8 +169,8 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (1T)",
+        "target": "自身",
+        "desc": "＆防御力上升(1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -192,8 +192,8 @@
         "type": "加攻",
         "turn":  2,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (2T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -212,11 +212,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "即死耐性down",
+        "type": "即死耐性下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の即死耐性をdown(1T)",
+        "target": "敌方单体",
+        "desc": "敌单体の即死耐性下降(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -232,8 +232,8 @@
         "type": "降攻",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆攻撃力をdown(1T)",
+        "target": "敌方单体",
+        "desc": "＆攻击力下降(1T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -249,8 +249,8 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆強化状態を解除",
+        "target": "敌方单体",
+        "desc": "强化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",

@@ -52,7 +52,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -62,7 +62,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -72,7 +72,7 @@
       "effect": [
         {
           "type": "回血",
-          "desc": "自身のHP回復量を up",
+          "desc": "自身のHP回复量を up",
           "magnification": "10"
         }
       ]
@@ -86,10 +86,10 @@
         "type": "无敌贯通付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "自身に无敌贯通状態を付与(1T)",
+        "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -100,10 +100,10 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆宝具威力を up (1T)<OC:効果 up >",
+        "desc": "宝具威力上升(1T)",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -111,13 +111,13 @@
         "v5": "60"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵全体に強力な攻撃",
+        "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -125,7 +125,7 @@
         "v5": "500"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 5
   },
   "skill1": {
@@ -136,8 +136,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNPを増やす",
+        "target": "自身",
+        "desc": "自身のNPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -153,8 +153,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆HPが50%以下の間NP獲得量が up (3T)",
+        "target": "自身",
+        "desc": "＆HPが50%以下の間NP获得量が up (3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -176,8 +176,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -193,8 +193,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (3T)",
+        "target": "自身",
+        "desc": "防御力上升 (3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -207,11 +207,11 @@
         "v10": "30"
       },
       {
-        "type": "クラス相性の防御不利を打ち消す状態付与",
+        "type": "クラス相性の防御不利を打ち消す状态付与",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆クラス相性の防御不利を打ち消す状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆クラス相性の防御不利を打ち消す状态を付与(3T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -234,7 +234,7 @@
         "turn":  3,
         "count": 1,
         "target": "other-single",
-        "desc": "味方単体にガッツ状態を付与(1回・3T)",
+        "desc": "味方单体にガッツ状态を付与(1回・3T)",
         "v1": "1",
         "v2": "1",
         "v3": "1",
@@ -251,7 +251,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆攻撃力を up (3T)",
+        "desc": "攻击力上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

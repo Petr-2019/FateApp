@@ -36,7 +36,7 @@
     "staroccurrence": 9.1,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型"
@@ -59,13 +59,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1600",
         "v2": "2000",
         "v3": "2200",
@@ -73,13 +73,13 @@
         "v5": "2400"
       },
       {
-        "type": "絆獲得量 up",
+        "type": "羁绊获得量上升",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆自身のHPが少ないほど威力の高い追加 damage <OC:威力 up >{追加 damage 倍率*(1-HP/MAXHP)}",
+        "desc": "自身HP越少威力越高的攻击",
         "v1": "1200",
         "v2": "1400",
         "v3": "1600",
@@ -87,7 +87,7 @@
         "v5": "2000"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 6
   },
   "skill1": {
@@ -95,11 +95,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のスター発生率を大 up (3T)",
+        "target": "自身",
+        "desc": "自身的出星率大幅提升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -121,8 +121,8 @@
         "type": "暴击威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のクリティカル威力を up (1T)",
+        "target": "自身",
+        "desc": "自身的暴击威力提升(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -144,8 +144,8 @@
         "type": "加攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (1T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -161,8 +161,8 @@
         "type": "掉星率增加",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター集中度を up (1T)",
+        "target": "自身",
+        "desc": "＆暴击星集中度上升(1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",

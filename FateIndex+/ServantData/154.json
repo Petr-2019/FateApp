@@ -36,7 +36,7 @@
     "staroccurrence": 25.5,
     "tag": [
       "秩序",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型",
@@ -58,8 +58,8 @@
       "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10"
         }
       ]
@@ -69,7 +69,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "8"
         }
       ]
@@ -78,8 +78,8 @@
       "type": "即死无效", "name": "境界にてA",
       "effect": [
         {
-          "type": "即死無効付与",
-          "desc": "自身に即死無効状態を付与",
+          "type": "付与即死无效",
+          "desc": "自身に即死无效状态を付与",
           "magnification": ""
         },
         {
@@ -89,7 +89,7 @@
         },
         {
           "type": "即死",
-          "desc": "通常攻撃時に極低確率で即死効果が発生する状態を付与",
+          "desc": "通常攻击时に極低確率で即死効果が発生する状态を付与",
           "magnification": "5"
         }
       ]
@@ -100,13 +100,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -117,10 +117,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆高確率で即死効果<OC:確率 up >",
+        "desc": "高概率付与即死",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -128,7 +128,7 @@
         "v5": "200"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -139,8 +139,8 @@
         "type": "毅力",
         "turn":  5,
         "count": 1,
-        "target": "self",
-        "desc": "自身にガッツ状態(1回・5T)を付与",
+        "target": "自身",
+        "desc": "自身にガッツ状态(1回・5T)を付与",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",
@@ -162,8 +162,8 @@
         "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の弱体耐性を up (3T)",
+        "target": "自身",
+        "desc": "自身の弱体耐性上升(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -179,8 +179,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆HPを大回復",
+        "target": "自身",
+        "desc": "＆HPを大回复",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",
@@ -196,8 +196,8 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (1T)",
+        "target": "自身",
+        "desc": "＆防御力上升(1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -213,8 +213,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "攻击力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -233,11 +233,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "即死耐性down",
+        "type": "即死耐性下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "敵全体の即死耐性をdown(3T)",
+        "target": "敌方全体",
+        "desc": "敌全体の即死耐性下降(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -253,8 +253,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆自身のBuster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "＆自身のBuster Card 性能上升 (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

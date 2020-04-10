@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -80,7 +80,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "150"
         }
       ]
@@ -91,13 +91,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "自身のスター発生率を up (1T)<OC:効果 up >",
+        "desc": "自身出星率上升(1T)",
         "v1": "100",
         "v2": "150",
         "v3": "200",
@@ -105,13 +105,13 @@
         "v5": "300"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵全体に強力な攻撃",
+        "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -119,7 +119,7 @@
         "v5": "500"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 7
   },
   "skill1": {
@@ -130,8 +130,8 @@
         "type": "掉星率增加",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のスター集中度を up (3T)",
+        "target": "自身",
+        "desc": "自身の暴击星集中度上升(3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -147,8 +147,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 3,
-        "target": "self",
-        "desc": "＆クリティカル威力を up (3回・3T)",
+        "target": "自身",
+        "desc": "＆暴击威力上升(3回・3T)",
         "v1": "40",
         "v2": "42",
         "v3": "44",
@@ -170,8 +170,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Buster性能上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -187,8 +187,8 @@
         "type": "回避",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆回避状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆回避状态を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -210,8 +210,8 @@
         "type": "特攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に〔魔性〕特攻状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に〔魔性〕特攻状态を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -227,8 +227,8 @@
         "type": "特攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆〔天または地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕特攻状態を付与(3T)",
+        "target": "自身",
+        "desc": "＆〔天または地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕特攻状态を付与(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

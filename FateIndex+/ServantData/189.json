@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -58,13 +58,13 @@
       "type": "气息遮断", "name": "气息遮断(陰)B",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "8"
         },
         {
-          "type": "弱体耐性down",
-          "desc": "＆弱体耐性をdown【デメリット】",
+          "type": "弱化耐性下降",
+          "desc": "＆弱体耐性下降【デメリット】",
           "magnification": "10"
         }
       ]
@@ -74,7 +74,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "150"
         }
       ]
@@ -88,10 +88,10 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "味方全体の防御力を up (3T)",
+        "desc": "友方全体防御力上升(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -102,10 +102,10 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆Quick Card 性能を up (3T)<OC:効果 up >",
+        "desc": "Quick卡性能上升(3T)",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -116,10 +116,10 @@
         "type": "红放",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆Buster Card 性能を up (3T)<OC:効果 up >",
+        "desc": "Buster卡性能上升(3T)",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -127,13 +127,13 @@
         "v5": "50"
       },
       {
-        "type": "最大HP up",
+        "type": "最大HP提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆最大HPを up (3T)",
+        "desc": "最大HP上升(3T)",
         "v1": "2000",
         "v2": "3000",
         "v3": "3500",
@@ -141,7 +141,7 @@
         "v5": "4000"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -152,8 +152,8 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の防御力を大 up (1T)",
+        "target": "自身",
+        "desc": "自身防御力大幅上升(1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -169,8 +169,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (3T)",
+        "target": "自身",
+        "desc": "防御力上升 (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -186,8 +186,8 @@
         "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆弱体耐性を up (3T)",
+        "target": "自身",
+        "desc": "＆弱体耐性上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -203,8 +203,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＋味方全体のクリティカル威力を up (3T)",
+        "target": "自身和队友",
+        "desc": "＋友方全体の暴击威力上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -227,7 +227,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす",
+        "desc": "味方单体のNPを增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -240,11 +240,11 @@
         "v10": "20"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up (3T)",
+        "desc": "出星率上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -266,8 +266,8 @@
         "type": "降防",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の防御力をdown(1T)",
+        "target": "敌方单体",
+        "desc": "敌单体の防御力下降(1T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -283,8 +283,8 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆強化状態を解除",
+        "target": "敌方单体",
+        "desc": "强化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",

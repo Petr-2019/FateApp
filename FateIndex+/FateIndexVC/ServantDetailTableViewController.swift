@@ -362,6 +362,11 @@ extension ServantDetailTableViewController {
             let nav = UINavigationController(rootViewController: vc)
             present(nav, animated: true, completion: nil)
         }
+        else if indexPath.section == 4 {
+            let hogu = servant.hogu
+            let vc = HoguDetailViewController(hogu: hogu)
+            navigationController?.pushViewController(vc, animated: true)
+        }
         else if indexPath.section == 5 {
             let skill: Servant.Skill
             if indexPath.row == 0 {

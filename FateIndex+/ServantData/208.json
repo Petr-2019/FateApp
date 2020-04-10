@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "12"
         }
       ]
@@ -78,10 +78,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "敵全体の防御力をdown(3T)<OC:効果 up >",
+        "desc": "敌方全体防御力下降(3T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -89,13 +89,13 @@
         "v5": "40"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃",
+        "desc": "发动强力攻击",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -103,7 +103,7 @@
         "v5": "750"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -114,8 +114,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "自身のNP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -128,11 +128,11 @@
         "v10": "30"
       },
       {
-        "type": "最大HP up",
+        "type": "最大HP提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆最大HPを up (3T)",
+        "target": "自身",
+        "desc": "最大HP上升(3T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -154,8 +154,8 @@
         "type": "蓝放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のArts Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Arts卡性能上升(1T)",
         "v1": "22",
         "v2": "23.4",
         "v3": "24.8",
@@ -177,8 +177,8 @@
         "type": "特攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に〔竜〕特攻状態を付与(1T)",
+        "target": "自身",
+        "desc": "自身に〔竜〕特攻状态を付与(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -194,8 +194,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを増やす",
+        "target": "自身",
+        "desc": "NP增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",

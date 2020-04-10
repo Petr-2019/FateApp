@@ -36,7 +36,7 @@
     "staroccurrence": 4.9,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型",
@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
         "v3": "450",
@@ -74,13 +74,13 @@
         "v5": "500"
       },
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆低確率でスタン状態を付与(1T)<OC:確率 up >",
+        "desc": "低概率付与眩晕(1T)",
         "v1": "50",
         "v2": "57.5",
         "v3": "65",
@@ -88,13 +88,13 @@
         "v5": "80"
       },
       {
-        "type": "やけど状態付与",
+        "type": "付与灼烧状态",
         "turn":  0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(10T)<OC:効果 up >",
+        "desc": "付与灼烧(10T)",
         "v1": "500",
         "v2": "600",
         "v3": "700",
@@ -102,7 +102,7 @@
         "v5": "900"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -113,8 +113,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の防御力を up (3T)",
+        "target": "自身",
+        "desc": "自身の防御力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -127,11 +127,11 @@
         "v10": "30"
       },
       {
-        "type": "延焼状態付与",
+        "type": "付与延烧状态",
         "turn":  5,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "＋敵全体に延焼状態を付与(5T)",
+        "target": "敌方全体",
+        "desc": "＋敌全体に延焼状态を付与(5T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -153,8 +153,8 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の防御力をdown(3T)",
+        "target": "敌方单体",
+        "desc": "敌单体の防御力下降(3T)",
         "v1": "12",
         "v2": "13.2",
         "v3": "14.4",
@@ -170,8 +170,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆攻撃力を up (3T)【デメリット】",
+        "target": "敌方单体",
+        "desc": "＆攻击力上升(3T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -193,8 +193,8 @@
         "type": "弱化解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身の弱体状態を解除",
+        "target": "自身",
+        "desc": "自身弱化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -210,8 +210,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆Buster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "＆Buster Card 性能上升 (1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -36,7 +36,7 @@
     "staroccurrence": 25.6,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型",
@@ -48,8 +48,8 @@
       "type": "气息遮断", "name": "气息遮断C",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を少し up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を少し up",
           "magnification": "6"
         }
       ]
@@ -64,7 +64,7 @@
         },
         {
           "type": "暴击威力提升",
-          "desc": "＆クリティカル威力を up",
+          "desc": "＆暴击威力を up",
           "magnification": "5"
         }
       ]
@@ -75,13 +75,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -89,13 +89,13 @@
         "v5": "2000"
       },
       {
-        "type": "クリティカル威力down",
+        "type": "暴击威力下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル威力down(3T)<OC:効果 up >",
+        "desc": "暴击威力下降(3T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -103,7 +103,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 11
   },
   "skill1": {
@@ -114,8 +114,8 @@
         "type": "掉星率增加",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のスター集中度を up (1T)",
+        "target": "自身",
+        "desc": "自身の暴击星集中度上升(1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -131,8 +131,8 @@
         "type": "NP获得量提升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆NP獲得量を up (1T)",
+        "target": "自身",
+        "desc": "＆NP获得量上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -154,8 +154,8 @@
         "type": "绿放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の Quick Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "自身Quick性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -171,8 +171,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆クリティカル威力を up (3T)",
+        "target": "自身",
+        "desc": "暴击威力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -185,11 +185,11 @@
         "v10": "30"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター発生率を up (3T)",
+        "target": "自身",
+        "desc": "出星率上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -208,11 +208,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スター集中down",
+        "type": "暴击星集中down",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のスター集中度をdown(1T)",
+        "target": "自身",
+        "desc": "自身の暴击星集中度下降(1T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -228,8 +228,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋スターを獲得",
+        "target": "自身",
+        "desc": "获得暴击星",
         "v1": "10",
         "v2": "11",
         "v3": "12",

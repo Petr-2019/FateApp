@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -84,10 +84,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体の防御力を大down(3T)",
+        "desc": "敌全体防御力大幅降低(3T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -95,13 +95,13 @@
         "v5": "50"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をdown(3T)<OC:効果 up >",
+        "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -109,13 +109,13 @@
         "v5": "60"
       },
       {
-        "type": "クラス相性の防御不利を打ち消す状態付与",
+        "type": "クラス相性の防御不利を打ち消す状态付与",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋味方全体にクラス相性の防御不利を打ち消す状態を付与(3T)",
+        "desc": "付与消除友方全体职阶相性防御不利状态(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -126,10 +126,10 @@
         "type": "弱化解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋自身の弱体状態を解除",
+        "desc": "自身弱化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -137,7 +137,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -148,8 +148,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の防御力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体防御力上升(3T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",
@@ -162,11 +162,11 @@
         "v10": "25"
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆被 damage カット状態を付与(3T)",
+        "target": "自身和队友",
+        "desc": "付与伤害减免(3T)",
         "v1": "200",
         "v2": "220",
         "v3": "240",
@@ -182,8 +182,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆NPを少し増やす",
+        "target": "自身和队友",
+        "desc": "NP少量增加",
         "v1": "10",
         "v2": "10",
         "v3": "10",
@@ -206,7 +206,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす",
+        "desc": "味方单体のNPを增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -223,7 +223,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆攻撃力を up (3T)",
+        "desc": "攻击力上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -239,8 +239,8 @@
         "type": "降攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＋自身の攻撃力をdown(3T)【デメリット】",
+        "target": "自身",
+        "desc": "＋自身の攻击力下降(3T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -263,7 +263,7 @@
         "turn":  3,
         "count": 2,
         "target": "other-single",
-        "desc": "味方単体に无敌状態を付与(2回・3T)",
+        "desc": "味方单体に无敌状态を付与(2回・3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -280,7 +280,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆弱体耐性を up (3T)",
+        "desc": "＆弱体耐性上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

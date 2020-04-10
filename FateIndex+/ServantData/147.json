@@ -36,7 +36,7 @@
     "staroccurrence": 6,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型"
@@ -47,13 +47,13 @@
       "type": "复仇者", "name": "复仇者B",
       "effect": [
         {
-          "type": "被ダメNP獲得量 up",
-          "desc": "自身の被 damage 時に獲得するNP up",
+          "type": "被ダメNP获得量 up",
+          "desc": "自身の被 damage 时に獲得するNP up",
           "magnification": "18"
         },
         {
-          "type": "弱体耐性down",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
+          "type": "弱化耐性下降",
+          "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
           "magnification": "8"
         }
       ]
@@ -63,17 +63,17 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "6"
         }
       ]
     },
     {
-      "type": "自己回復(魔力)", "name": "自己回復(魔力)A",
+      "type": "自己回复(魔力)", "name": "自己回复(魔力)A",
       "effect": [
         {
           "type": "回合充能",
-          "desc": "自身に毎ターンNP獲得状態を付与",
+          "desc": "自身に毎回合NP獲得状态を付与",
           "magnification": "3.8"
         }
       ]
@@ -84,13 +84,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -98,13 +98,13 @@
         "v5": "600"
       },
       {
-        "type": "呪い付与",
+        "type": "付与诅咒",
         "turn":  5,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(5T)<OC:効果 up >",
+        "desc": "付与诅咒(5T)",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -115,10 +115,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "after",
+        "target": "自身和队友",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＋味方全体のNPを増やす",
+        "desc": "友方全体NP增加",
         "v1": "15",
         "v2": "15",
         "v3": "15",
@@ -126,7 +126,7 @@
         "v5": "15"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -137,8 +137,8 @@
         "type": "加攻",
         "turn":  2,
         "count": 4,
-        "target": "self",
-        "desc": "自身の攻撃力を大 up (4回・2T)",
+        "target": "自身",
+        "desc": "自身の攻击力を大幅提升(4回・2T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -154,8 +154,8 @@
         "type": "掉星率增加",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆Buster Card のスター集中度を up (1T)",
+        "target": "自身",
+        "desc": "＆Buster Card の暴击星集中度上升(1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",
@@ -177,8 +177,8 @@
         "type": "毅力",
         "turn":  5,
         "count": 1,
-        "target": "self",
-        "desc": "自身にガッツ状態を付与(1回・5T)",
+        "target": "自身",
+        "desc": "自身にガッツ状态を付与(1回・5T)",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -194,8 +194,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆クリティカル威力を up (3T)",
+        "target": "自身",
+        "desc": "暴击威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -214,11 +214,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体を確率で行動不能状態にする[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体を確率で行動不能状态にする[Lv:確率](1T)",
         "v1": "55",
         "v2": "60",
         "v3": "65",

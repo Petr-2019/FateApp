@@ -36,7 +36,7 @@
     "staroccurrence": 6,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型",
@@ -48,13 +48,13 @@
       "type": "复仇者", "name": "复仇者B",
       "effect": [
         {
-          "type": "被ダメNP獲得量 up",
-          "desc": "自身の被 damage 時に獲得するNP up",
+          "type": "被ダメNP获得量 up",
+          "desc": "自身の被 damage 时に獲得するNP up",
           "magnification": "18"
         },
         {
-          "type": "弱体耐性down",
-          "desc": "＋自身を除く味方全体<控え含む>の弱体耐性をdown【デメリット】",
+          "type": "弱化耐性下降",
+          "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
           "magnification": "8"
         }
       ]
@@ -64,17 +64,17 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
     },
     {
-      "type": "自己回復(魔力)", "name": "自己回復(魔力)A+",
+      "type": "自己回复(魔力)", "name": "自己回复(魔力)A+",
       "effect": [
         {
           "type": "回合充能",
-          "desc": "自身に毎ターンNP獲得状態を付与",
+          "desc": "自身に毎回合NP獲得状态を付与",
           "magnification": "4"
         }
       ]
@@ -85,13 +85,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -99,13 +99,13 @@
         "v5": "1000"
       },
       {
-        "type": "強化無効付与",
+        "type": "付与强化无效",
         "turn": 0,
         "count": 1,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆強化無効状態を付与(1回)",
+        "desc": "付与强化无效(1回)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -113,13 +113,13 @@
         "v5": ""
       },
       {
-        "type": "呪い付与",
+        "type": "付与诅咒",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆呪い状態を付与(5T)<OC:効果 up >",
+        "desc": "付与诅咒(5T)",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -127,7 +127,7 @@
         "v5": "2500"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -138,8 +138,8 @@
         "type": "暴击威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のクリティカル威力を up (3T)",
+        "target": "自身",
+        "desc": "自身の暴击威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -155,8 +155,8 @@
         "type": "掉星率增加",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター集中度を up (3T)",
+        "target": "自身",
+        "desc": "暴击星集中度上升(3T)",
         "v1": "400",
         "v2": "440",
         "v3": "480",
@@ -178,8 +178,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体攻击力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -195,8 +195,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆〔竜〕特性を持つ味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "＆〔竜〕特性を持つ友方全体攻击力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -218,8 +218,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Buster性能上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -235,8 +235,8 @@
         "type": "无敌付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆无敌状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆无敌状态を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -252,7 +252,7 @@
         "type": "HP減少",
         "turn": 0,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆HPを減少【デメリット】",
         "v1": "1000",
         "v2": "1000",

@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -69,7 +69,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "8"
         }
       ]
@@ -80,13 +80,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な防御力無視攻撃",
+        "desc": "对敌方全体发动无视防御的强力攻击",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -97,10 +97,10 @@
         "type": "回避",
         "turn": 0,
         "count": 3,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "+ 自身に回避状態を付与(3回)",
+        "desc": "付与自身回避状态(3回)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -111,10 +111,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "+ スターを獲得<OC:効果 up >",
+        "desc": "获得暴击星",
         "v1": "10",
         "v2": "15",
         "v3": "20",
@@ -122,7 +122,7 @@
         "v5": "30"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 1
   },
   "skill1": {
@@ -133,8 +133,8 @@
         "type": "加攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (1T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(1T)",
         "v1": "8",
         "v2": "10",
         "v3": "12",
@@ -153,11 +153,11 @@
     "ct": 10,
     "effects": [
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体に確率でスタン状態を付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌方单体一定概率眩晕(1T)",
         "v1": "60",
         "v2": "63",
         "v3": "66",
@@ -179,8 +179,8 @@
         "type": "出星",
         "turn":  5,
         "count": 0,
-        "target": "self",
-        "desc": "自身に毎ターン確率でスターを獲得する状態を付与(5T) 確率65％",
+        "target": "自身",
+        "desc": "自身に毎回合確率で暴击星を獲得する状态を付与(5T) 確率65％",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -193,11 +193,11 @@
         "v10": "5"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  5,
         "count": 0,
-        "target": "self",
-        "desc": "＆スター発生率を確率で up (5T) 確率65％",
+        "target": "自身",
+        "desc": "＆暴击星发生率を確率で up (5T) 確率65％",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -213,8 +213,8 @@
         "type": "暴击威力提升",
         "turn":  5,
         "count": 0,
-        "target": "self",
-        "desc": "＆クリティカル威力を確率で up (5T) 確率65％",
+        "target": "自身",
+        "desc": "＆暴击威力を確率で up (5T) 確率65％",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -230,8 +230,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを増やす",
+        "target": "自身",
+        "desc": "NP增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

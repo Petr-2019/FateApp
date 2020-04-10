@@ -36,7 +36,7 @@
     "staroccurrence": 25.5,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型"
@@ -47,8 +47,8 @@
       "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10.5"
         }
       ]
@@ -62,10 +62,10 @@
         "type": "特攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "自身に〔女性〕特攻状態を付与(1T)<OC:効果 up >",
+        "desc": "自身付与女性特攻(1T)",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -73,13 +73,13 @@
         "v5": "100"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な防御力無視攻撃",
+        "desc": "对敌方单体发动超强力无视防御攻击",
         "v1": "1400",
         "v2": "1800",
         "v3": "2000",
@@ -87,7 +87,7 @@
         "v5": "2200"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 4
   },
   "skill1": {
@@ -98,8 +98,8 @@
         "type": "绿放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の Quick Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身の Quick Card 性能上升 (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -115,8 +115,8 @@
         "type": "回避",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆回避状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆回避状态を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -138,8 +138,8 @@
         "type": "強化解除",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の強化状態を解除",
+        "target": "敌方单体",
+        "desc": "敌方单体强化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -152,11 +152,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown(3T)",
+        "target": "敌方单体",
+        "desc": "暴击率下降(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -179,7 +179,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復",
+        "desc": "友方单体HP回复",
         "v1": "500",
         "v2": "700",
         "v3": "900",

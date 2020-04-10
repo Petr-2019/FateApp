@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "250"
         },
         {
@@ -89,10 +89,10 @@
         "type": "暴击威力提升",
         "turn":  5,
         "count": 3,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "味方全体のクリティカル威力を up (3回・5T)",
+        "desc": "友方全体的暴击威力上升(3回・5T)",
         "v1": "30",
         "v2": "40",
         "v3": "45",
@@ -103,10 +103,10 @@
         "type": "回避",
         "turn":  3,
         "count": 1,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆回避状態を付与(1回・3T)",
+        "desc": "付与回避状态(1回・3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -114,13 +114,13 @@
         "v5": ""
       },
       {
-        "type": "即死無効付与",
+        "type": "付与即死无效",
         "turn":  3,
         "count": 1,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆即死無効状態を付与(1回・3T)",
+        "desc": "付与即死无效(1回・3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -128,13 +128,13 @@
         "v5": ""
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＆被 damage カット状態を付与(3T)<OC:効果 up >",
+        "desc": "付与伤害减免(3T)",
         "v1": "500",
         "v2": "750",
         "v3": "1000",
@@ -142,7 +142,7 @@
         "v5": "1500"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -154,7 +154,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の Quick Card 性能を up (3T)",
+        "desc": "味方单体の Quick Card 性能上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -171,7 +171,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆Quick Card のクリティカル威力を up (3T)",
+        "desc": "＆Quick Card の暴击威力上升(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -193,8 +193,8 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "敵全体の防御力をdown(3T)",
+        "target": "敌方全体",
+        "desc": "敌方全体防御力下降(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -207,11 +207,11 @@
         "v10": "30"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "desc": "＆クリティカル発生率をdown(3T)",
+        "target": "敌方全体",
+        "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -234,7 +234,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のNPを増やす",
+        "desc": "味方单体のNPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

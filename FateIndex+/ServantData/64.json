@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -71,13 +71,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な防御力無視攻撃",
+        "desc": "对敌方全体发动无视防御的强力攻击",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -88,10 +88,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆防御力をdown(3T)<OC:効果 up >",
+        "desc": "敌方防御力下降(3T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -99,7 +99,7 @@
         "v5": "40"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 1
   },
   "skill1": {
@@ -110,8 +110,8 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の宝具威力を up (1T)",
+        "target": "自身和队友",
+        "desc": "友方全体宝具威力上升(1T)",
         "v1": "8.5",
         "v2": "9.4",
         "v3": "10.2",
@@ -130,11 +130,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体に中確率でスタン状態を付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体に中確率で眩晕状态を付与[Lv:確率](1T)",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -150,7 +150,7 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
+        "target": "敌方单体",
         "desc": "＆チャージを中確率で減らす[Lv:確率]",
         "v1": "60",
         "v2": "62",
@@ -173,8 +173,8 @@
         "type": "弱化解除",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身の弱体状態を解除",
+        "target": "自身",
+        "desc": "自身弱化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -190,8 +190,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆HPを回復",
+        "target": "自身",
+        "desc": "HP回复",
         "v1": "800",
         "v2": "920",
         "v3": "1040",

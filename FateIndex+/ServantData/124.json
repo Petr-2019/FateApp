@@ -36,7 +36,7 @@
     "staroccurrence": 25.6,
     "tag": [
       "秩序",
-      "悪",
+      "恶",
       "女",
       "サーヴァント",
       "人型"
@@ -47,8 +47,8 @@
       "type": "气息遮断", "name": "气息遮断A+",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10.5"
         }
       ]
@@ -58,7 +58,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "毒状態付与",
+        "type": "付与中毒",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に毒状態を付与(5T)",
+        "desc": "付与敌单体中毒(5T)",
         "v1": "2000",
         "v2": "2000",
         "v3": "2000",
@@ -83,13 +83,13 @@
         "v5": "2000"
       },
       {
-        "type": "スキル封印付与",
+        "type": "付与技能封印",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆確率でスキル封印状態を付与(1T) 確率40％",
+        "desc": "一定概率付与技能封印(1T) 概率40％",
         "v1": "40",
         "v2": "40",
         "v3": "40",
@@ -100,10 +100,10 @@
         "type": "宝具封印付与",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆確率で宝具封印状態を付与(1T) 確率40％",
+        "desc": "付与一定概率宝具封印(1T) 概率40％",
         "v1": "40",
         "v2": "40",
         "v3": "40",
@@ -114,10 +114,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆確率で即死させる<OC:確率 up >",
+        "desc": "一定概率即死",
         "v1": "60",
         "v2": "70",
         "v3": "80",
@@ -125,13 +125,13 @@
         "v5": "100"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃",
+        "desc": "发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -139,7 +139,7 @@
         "v5": "1800"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -150,8 +150,8 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体の宝具チャージを減らす",
+        "target": "敌方单体",
+        "desc": "敌单体の宝具チャージを減らす",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -164,11 +164,11 @@
         "v10": ""
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆クリティカル発生率をdown(3T)",
+        "target": "敌方单体",
+        "desc": "暴击率下降(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -187,11 +187,11 @@
     "ct": 6,
     "effects": [
       {
-        "type": "毒状態付与",
+        "type": "付与中毒",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体に毒状態を付与(5T)",
+        "target": "敌方单体",
+        "desc": "付与敌单体中毒(5T)",
         "v1": "500",
         "v2": "500",
         "v3": "500",
@@ -204,11 +204,11 @@
         "v10": "500"
       },
       {
-        "type": "毒状態付与",
+        "type": "付与中毒",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "＆蝕毒状態を付与(5T)",
+        "target": "敌方单体",
+        "desc": "付与蚀毒状态(5T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",
@@ -224,8 +224,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋スターを獲得",
+        "target": "自身",
+        "desc": "获得暴击星",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -247,8 +247,8 @@
         "type": "即死付与成功率 up",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の即死付与成功率を up (3T)",
+        "target": "自身",
+        "desc": "自身の即死付与成功率上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -264,8 +264,8 @@
         "type": "弱体付与成功率 up",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆弱体成功率を up (3T)",
+        "target": "自身",
+        "desc": "＆弱体成功率上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

@@ -61,7 +61,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -72,13 +72,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "(竜)特性付与",
+        "type": "付与龙特性",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に〔竜〕特性を付与(3T)",
+        "desc": "付与敌方单体龙特性(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -86,13 +86,13 @@
         "v5": ""
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆超強力な攻撃",
+        "desc": "发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -103,10 +103,10 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身の防御力を大 up (1T)<OC:効果 up >",
+        "desc": "自身防御力大上升(1T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -114,7 +114,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 4
   },
   "skill1": {
@@ -122,11 +122,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "Target 集中付与",
+        "type": "付与目标集中状态",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に target 集中状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に target 集中状态を付与(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -142,8 +142,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (3T)",
+        "target": "自身",
+        "desc": "防御力上升 (3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -165,8 +165,8 @@
         "type": "精神異常耐性 up",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の精神異常耐性を大 up (3T)",
+        "target": "自身",
+        "desc": "自身の精神異常耐性を大幅提升(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -182,8 +182,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆HPを回復",
+        "target": "自身",
+        "desc": "HP回复",
         "v1": "750",
         "v2": "875",
         "v3": "1000",
@@ -205,8 +205,8 @@
         "type": "毅力",
         "turn":  5,
         "count": 1,
-        "target": "self",
-        "desc": "自身にガッツ状態(1回・5T)を付与",
+        "target": "自身",
+        "desc": "自身にガッツ状态(1回・5T)を付与",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",

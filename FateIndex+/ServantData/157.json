@@ -36,7 +36,7 @@
     "staroccurrence": 7.9,
     "tag": [
       "混沌",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型"
@@ -58,7 +58,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -69,13 +69,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃",
+        "desc": "对敌方单体发动超强力无视防御攻击",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -86,10 +86,10 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆確率でチャージを減らす<OC:確率 up >",
+        "desc": "一定概率充能减少",
         "v1": "80",
         "v2": "85",
         "v3": "90",
@@ -97,7 +97,7 @@
         "v5": "100"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -108,8 +108,8 @@
         "type": "加防",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "自身の防御力を up (3回、5T)",
+        "target": "自身",
+        "desc": "自身の防御力上升(3回、5T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -122,11 +122,11 @@
         "v10": "50"
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn": 0,
         "count": 3,
-        "target": "self",
-        "desc": "＆ damage カット状態(3回)を付与",
+        "target": "自身",
+        "desc": "＆ damage カット状态(3回)を付与",
         "v1": "300",
         "v2": "320",
         "v3": "340",
@@ -148,8 +148,8 @@
         "type": "蓝放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のArts Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Arts卡性能上升(1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",
@@ -165,8 +165,8 @@
         "type": "绿放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆Quick Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "＆Quick Card 性能上升 (1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",
@@ -182,8 +182,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆Buster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "＆Buster Card 性能上升 (1T)",
         "v1": "15",
         "v2": "16.5",
         "v3": "18",
@@ -205,8 +205,8 @@
         "type": "加攻",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3回、5T)",
+        "target": "自身",
+        "desc": "自身の攻击力上升(3回、5T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

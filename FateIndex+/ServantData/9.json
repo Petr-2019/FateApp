@@ -61,7 +61,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -71,7 +71,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -85,10 +85,10 @@
         "type": "加攻",
         "turn":  2,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "自身の攻撃力を大 up (2T)",
+        "desc": "自身攻击力大幅上升(2T)",
         "v1": "50",
         "v2": "75",
         "v3": "87.5",
@@ -99,10 +99,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆防御力を大down(3T)【デメリット】",
+        "desc": "防御力大幅下降(3T)",
         "v1": "50",
         "v2": "50",
         "v3": "50",
@@ -113,10 +113,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＋スターを獲得<OC:効果 up >",
+        "desc": "获得暴击星",
         "v1": "5",
         "v2": "10",
         "v3": "15",
@@ -124,7 +124,7 @@
         "v5": "25"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -135,8 +135,8 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の宝具威力を up (1T)",
+        "target": "自身和队友",
+        "desc": "友方全体宝具威力上升(1T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -158,8 +158,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNP獲得量 up (3T)",
+        "target": "自身",
+        "desc": "自身のNP获得量 up (3T)",
         "v1": "18",
         "v2": "20.7",
         "v3": "23.4",
@@ -181,8 +181,8 @@
         "type": "红放",
         "turn":  5,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (5T)",
+        "target": "自身",
+        "desc": "自身のBuster Card 性能上升 (5T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

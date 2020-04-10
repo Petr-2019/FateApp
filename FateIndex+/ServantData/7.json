@@ -64,7 +64,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -74,7 +74,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "125"
         }
       ]
@@ -85,13 +85,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
         "v3": "1800",
@@ -102,10 +102,10 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋スターを獲得<OC:効果 up >",
+        "desc": "获得暴击星",
         "v1": "5",
         "v2": "10",
         "v3": "15",
@@ -113,7 +113,7 @@
         "v5": "25"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -124,8 +124,8 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の宝具威力を up (1T)",
+        "target": "自身和队友",
+        "desc": "友方全体宝具威力上升(1T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -147,8 +147,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体攻击力上升(3T)",
         "v1": "8",
         "v2": "8.8",
         "v3": "9.6",
@@ -171,7 +171,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のクリティカル威力を up (3T)",
+        "desc": "味方单体の暴击威力上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -184,11 +184,11 @@
         "v10": "40"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up (3T)",
+        "desc": "出星率上升(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -205,7 +205,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力をdown(3T)【デメリット】",
+        "desc": "＆防御力下降(3T)【デメリット】",
         "v1": "20",
         "v2": "20",
         "v3": "20",

@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "125"
         }
       ]
@@ -70,13 +70,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な防御力無視攻撃",
+        "desc": "对敌方单体发动超强力无视防御攻击",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -84,13 +84,13 @@
         "v5": "1200"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率を大down(1T)<OC:効果 up >",
+        "desc": "暴击发生率大幅下降(1T)",
         "v1": "80",
         "v2": "90",
         "v3": "100",
@@ -98,7 +98,7 @@
         "v5": "120"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 12
   },
   "skill1": {
@@ -109,8 +109,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNPをすごく増やす",
+        "target": "自身",
+        "desc": "自身のNPをすごく增加",
         "v1": "50",
         "v2": "53",
         "v3": "56",
@@ -126,8 +126,8 @@
         "type": "宝具威力提升",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆宝具威力を up (1T)",
+        "target": "自身",
+        "desc": "＆宝具威力上升(1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -146,11 +146,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "Target 集中付与",
+        "type": "付与目标集中状态",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に target 集中状態を付与(1T)",
+        "target": "自身",
+        "desc": "自身に target 集中状态を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -163,11 +163,11 @@
         "v10": "300"
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆被 damage カット状態を付与(1T)",
+        "target": "自身",
+        "desc": "＆被 damage カット状态を付与(1T)",
         "v1": "500",
         "v2": "600",
         "v3": "700",
@@ -189,8 +189,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体のNP獲得量を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体のNP获得量上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -203,11 +203,11 @@
         "v10": "30"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆スター発生率を up (3T)",
+        "target": "自身和队友",
+        "desc": "出星率上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -220,11 +220,11 @@
         "v10": "30"
       },
       {
-        "type": "弱体無効付与",
+        "type": "弱体无效付与",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆弱体無効状態を付与(1T)",
+        "target": "自身和队友",
+        "desc": "＆弱体无效状态を付与(1T)",
         "v1": "",
         "v2": "",
         "v3": "",

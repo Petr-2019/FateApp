@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "175"
         }
       ]
@@ -81,13 +81,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "400",
         "v2": "500",
         "v3": "550",
@@ -95,13 +95,13 @@
         "v5": "600"
       },
       {
-        "type": "宝具威力down",
+        "type": "宝具威力下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆宝具威力down(1T)<OC:効果 up >",
+        "desc": "宝具威力下降(1T)",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -109,13 +109,13 @@
         "v5": "90"
       },
       {
-        "type": "クリティカル威力down",
+        "type": "暴击威力下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル威力down(1T)<OC:効果 up >",
+        "desc": "暴击威力下降(1T)",
         "v1": "50",
         "v2": "60",
         "v3": "70",
@@ -123,13 +123,13 @@
         "v5": "90"
       },
       {
-        "type": "弱体耐性down",
+        "type": "弱化耐性下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆弱体耐性down(1T)<OC:効果 up >",
+        "desc": "弱化耐性下降(1T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -137,7 +137,7 @@
         "v5": "40"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 10
   },
   "skill1": {
@@ -148,8 +148,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体攻击力上升(3T)",
         "v1": "10.5",
         "v2": "11.6",
         "v3": "12.6",
@@ -168,11 +168,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "魅了状態付与",
+        "type": "付与魅惑状态",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体〔人型〕に確率で魅了付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体〔人型〕に確率で魅了付与[Lv:確率](1T)",
         "v1": "45",
         "v2": "48",
         "v3": "51",
@@ -194,8 +194,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNP獲得量 up (3T)",
+        "target": "自身",
+        "desc": "自身のNP获得量 up (3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

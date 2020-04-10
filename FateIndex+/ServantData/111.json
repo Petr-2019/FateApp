@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "200"
         },
         {
@@ -78,10 +78,10 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "味方全体のHPを回復",
+        "desc": "友方全体HP回复",
         "v1": "2000",
         "v2": "2500",
         "v3": "2750",
@@ -92,10 +92,10 @@
         "type": "毅力",
         "turn":  3,
         "count": 1,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆ガッツ状態を付与(1回・3T)<OC:ガッツの回復量 up >",
+        "desc": "付与毅力(1回・3T)",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -103,7 +103,7 @@
         "v5": "3000"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -111,11 +111,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "与回復量 up",
+        "type": "与回复量 up",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の与回復量を up (1T)",
+        "target": "自身",
+        "desc": "自身の与回复量上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -137,8 +137,8 @@
         "type": "无敌付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に无敌状態を付与(1T)",
+        "target": "自身",
+        "desc": "付与自身无敌(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -154,8 +154,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆NP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "NP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -178,7 +178,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復",
+        "desc": "友方单体HP回复",
         "v1": "2000",
         "v2": "2100",
         "v3": "2200",

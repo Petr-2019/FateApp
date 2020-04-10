@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "11"
         }
       ]
@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を少し up",
+          "desc": "自身の暴击威力を少し up",
           "magnification": "6"
         }
       ]
@@ -80,7 +80,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "95"
         }
       ]
@@ -91,13 +91,13 @@
     "card": "Quick",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に強力な攻撃",
+        "desc": "对敌方全体发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -105,13 +105,13 @@
         "v5": "1200"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆クリティカル発生率をdown(3T)",
+        "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -119,13 +119,13 @@
         "v5": "20"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "after",
+        "target": "自身和队友",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋味方全体のスター発生率を up (3T)<OC:効果 up >",
+        "desc": "友方出星率上升(3T)",
         "v1": "50",
         "v2": "62.5",
         "v3": "75",
@@ -133,7 +133,7 @@
         "v5": "100"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 1
   },
   "skill1": {
@@ -141,11 +141,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "スタン付与",
+        "type": "付与眩晕",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体を確率で行動不能状態にする[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体を確率で行動不能状态にする[Lv:確率](1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -167,8 +167,8 @@
         "type": "加攻",
         "turn":  2,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (2T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(2T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -190,8 +190,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のNPを増やす",
+        "target": "自身",
+        "desc": "自身のNPを增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -207,8 +207,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆NP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "NP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

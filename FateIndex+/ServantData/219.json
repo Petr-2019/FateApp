@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を up",
+          "desc": "自身のBuster Card の性能上升",
           "magnification": "12"
         }
       ]
@@ -60,13 +60,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
         "v3": "900",
@@ -74,13 +74,13 @@
         "v5": "1000"
       },
       {
-        "type": "やけど状態付与",
+        "type": "付与灼烧状态",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(3T)<OC:効果 up >",
+        "desc": "付与灼烧状态(3T)",
         "v1": "3000",
         "v2": "3500",
         "v3": "4000",
@@ -88,7 +88,7 @@
         "v5": "5000"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 5
   },
   "skill1": {
@@ -99,8 +99,8 @@
         "type": "回避",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に毎ターン「回避状態(1回・1T)を付与する状態」を付与(3T)",
+        "target": "自身",
+        "desc": "自身に毎回合「回避状态(1回・1T)を付与する状态」を付与(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -116,8 +116,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆NP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "NP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -139,8 +139,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -153,11 +153,11 @@
         "v10": "20"
       },
       {
-        "type": "やけど状態付与",
+        "type": "付与灼烧状态",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆「通常攻撃時にやけど状態(3T)を付与する状態」を付与(3T)",
+        "target": "自身",
+        "desc": "＆「通常攻击时に灼烧状态(3T)を付与する状态」を付与(3T)",
         "v1": "500",
         "v2": "500",
         "v3": "500",
@@ -179,8 +179,8 @@
         "type": "红放",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身のBuster Card 性能を up (1T)",
+        "target": "自身",
+        "desc": "自身Buster性能上升(1T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -196,8 +196,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＆NPを増やす",
+        "target": "自身",
+        "desc": "NP增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -213,7 +213,7 @@
         "type": "HP減少",
         "turn": 0,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆HPを減少【デメリット】",
         "v1": "1000",
         "v2": "1000",

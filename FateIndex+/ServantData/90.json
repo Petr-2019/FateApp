@@ -63,7 +63,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -74,13 +74,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
         "v3": "1650",
@@ -88,13 +88,13 @@
         "v5": "1800"
       },
       {
-        "type": "やけど状態付与",
+        "type": "付与灼烧状态",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆やけど状態を付与(5T)<OC:効果 up >",
+        "desc": "付与灼烧(5T)",
         "v1": "1000",
         "v2": "1250",
         "v3": "1500",
@@ -105,10 +105,10 @@
         "type": "降防",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆防御力をdown(5T)<OC:効果 up >",
+        "desc": "防御力下降(5T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -116,13 +116,13 @@
         "v5": "40"
       },
       {
-        "type": "クリティカル発生率down",
+        "type": "暴击率下降",
         "turn":  5,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆クリティカル発生率をdown(5T)<OC:効果 up >",
+        "desc": "暴击率下降(5T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -130,7 +130,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 2
   },
   "skill1": {
@@ -142,7 +142,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体にNP獲得 up 状態を付与(3T)",
+        "desc": "友方单体NP获得上升(3T)",
         "v1": "35",
         "v2": "36",
         "v3": "37",
@@ -159,7 +159,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆NPを増やす",
+        "desc": "NP增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -182,7 +182,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体の攻撃力を up (3T)",
+        "desc": "友方单体攻击力上升(3T)",
         "v1": "30",
         "v2": "31",
         "v3": "32",
@@ -195,11 +195,11 @@
         "v10": "40"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆スター発生率を up (3T)",
+        "desc": "出星率上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -222,7 +222,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを回復",
+        "desc": "友方单体HP回复",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -239,7 +239,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆防御力を up (3T)",
+        "desc": "防御力上升 (3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",

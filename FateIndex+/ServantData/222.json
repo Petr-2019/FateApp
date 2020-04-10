@@ -46,7 +46,7 @@
       "アーサー",
       "愛する者",
       "王",
-      "ｴﾇﾏ特攻無効"
+      "ｴﾇﾏ特攻无效"
     ]
   },
   "classskill": [
@@ -55,7 +55,7 @@
       "effect": [
         {
           "type": "出星",
-          "desc": "自身に毎ターンスター獲得状態を付与",
+          "desc": "自身に毎回合暴击星獲得状态を付与",
           "magnification": "2"
         },
         {
@@ -69,8 +69,8 @@
       "type": "掉星率增加", "name": "コスモリアクターB",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "8"
         }
       ]
@@ -80,7 +80,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -90,7 +90,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を up",
+          "desc": "自身の Quick Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -104,10 +104,10 @@
         "type": "加攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "自身の攻撃力を up (1T)<OC:効果 up >",
+        "desc": "自身攻击力上升(1T)",
         "v1": "20",
         "v2": "30",
         "v3": "40",
@@ -115,13 +115,13 @@
         "v5": "60"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＋敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -132,10 +132,10 @@
         "type": "特攻",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆〔セイバークラスのサーヴァント〕特攻",
+        "desc": "对Saber职阶特攻",
         "v1": "150",
         "v2": "150",
         "v3": "150",
@@ -143,7 +143,7 @@
         "v5": "150"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 4
   },
   "skill1": {
@@ -154,8 +154,8 @@
         "type": "无敌付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に无敌状態を付与(1T)",
+        "target": "自身",
+        "desc": "付与自身无敌(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -171,8 +171,8 @@
         "type": "加攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆自身の攻撃力を up (1T)",
+        "target": "自身",
+        "desc": "＆自身攻击力上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -194,8 +194,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "スターを獲得",
+        "target": "自身",
+        "desc": "暴击星を獲得",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -208,11 +208,11 @@
         "v10": "20"
       },
       {
-        "type": "スター集中down",
+        "type": "暴击星集中down",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＋自身のスター集中度をdown(1T)",
+        "target": "自身",
+        "desc": "＋自身の暴击星集中度下降(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -234,8 +234,8 @@
         "type": "无敌贯通付与",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に无敌贯通状態を付与(1T)",
+        "target": "自身",
+        "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -251,7 +251,7 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆NPを獲得",
         "v1": "20",
         "v2": "21",
@@ -268,8 +268,8 @@
         "type": "特攻",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "＆〔人類の脅威〕特攻状態を付与(1T)",
+        "target": "自身",
+        "desc": "对人类威胁特攻状态を付与(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

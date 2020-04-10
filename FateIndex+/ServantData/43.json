@@ -36,7 +36,7 @@
     "staroccurrence": 24.8,
     "tag": [
       "秩序",
-      "悪",
+      "恶",
       "男",
       "サーヴァント",
       "人型"
@@ -47,8 +47,8 @@
       "type": "气息遮断", "name": "气息遮断D",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を少し up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を少し up",
           "magnification": "4"
         }
       ]
@@ -59,13 +59,13 @@
     "card": "Buster",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
         "v3": "1100",
@@ -76,10 +76,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆低確率で即死効果<OC:確率 up >",
+        "desc": "低概率即死",
         "v1": "30",
         "v2": "42.5",
         "v3": "55",
@@ -90,10 +90,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＆防御力down(3T)<OC:効果 up >",
+        "desc": "防御力下降(3T)",
         "v1": "30",
         "v2": "35",
         "v3": "40",
@@ -101,7 +101,7 @@
         "v5": "50"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -112,8 +112,8 @@
         "type": "特攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に〔悪〕特攻状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に〔恶〕特攻状态を付与(3T)",
         "v1": "40",
         "v2": "42",
         "v3": "44",
@@ -136,7 +136,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを大回復",
+        "desc": "味方单体のHPを大回复",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",
@@ -153,7 +153,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "＆弱体状態を解除",
+        "desc": "弱化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -175,8 +175,8 @@
         "type": "特攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身に〔人間〕特攻状態を付与(3T)",
+        "target": "自身",
+        "desc": "自身に〔人間〕特攻状态を付与(3T)",
         "v1": "40",
         "v2": "42",
         "v3": "44",

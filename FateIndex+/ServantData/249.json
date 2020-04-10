@@ -51,7 +51,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -71,7 +71,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "200"
         }
       ]
@@ -85,10 +85,10 @@
         "type": "毅力",
         "turn":  3,
         "count": 1,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "自身を除く味方全体にガッツ状態を付与(1回・3T)",
+        "desc": "付与友方全体除自身毅力(1回・3T)",
         "v1": "1000",
         "v2": "2000",
         "v3": "2500",
@@ -99,10 +99,10 @@
         "type": "回血",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "＋ 味方全体に毎ターンHP回復状態を付与(3T)<OC:効果 up >",
+        "desc": "友方全体毎回合HP回复(3T)",
         "v1": "1000",
         "v2": "1500",
         "v3": "2000",
@@ -110,13 +110,13 @@
         "v5": "3000"
       },
       {
-        "type": "弱体無効付与",
+        "type": "弱体无效付与",
         "turn":  3,
         "count": 1,
-        "target": "self-other",
-        "beforeafter": "before",
+        "target": "自身和队友",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆弱体無効状態を付与(1回・3T)",
+        "desc": "付与弱体无效状态(1回・3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -124,7 +124,7 @@
         "v5": ""
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -136,7 +136,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方単体のHPを大回復",
+        "desc": "味方单体のHPを大回复",
         "v1": "3000",
         "v2": "3200",
         "v3": "3400",
@@ -153,7 +153,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "＆弱体耐性を up (3T)",
+        "desc": "＆弱体耐性上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -175,8 +175,8 @@
         "type": "宝具封印付与",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体に高確率で宝具封印状態を付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体に高確率で宝具封印状态を付与[Lv:確率](1T)",
         "v1": "80",
         "v2": "82",
         "v3": "84",
@@ -192,8 +192,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＋味方全体のNP獲得量を up (3T)",
+        "target": "自身和队友",
+        "desc": "＋友方全体のNP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -215,8 +215,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体のNPを増やす",
+        "target": "自身和队友",
+        "desc": "友方全体のNPを增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -232,8 +232,8 @@
         "type": "弱化解除",
         "turn": 0,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆弱体状態を解除",
+        "target": "自身和队友",
+        "desc": "弱化状态解除",
         "v1": "",
         "v2": "",
         "v3": "",

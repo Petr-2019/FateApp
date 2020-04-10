@@ -49,8 +49,8 @@
       "type": "气息遮断", "name": "气息遮断A",
       "effect": [
         {
-          "type": "スター発生率 up",
-          "desc": "自身のスター発生率を up",
+          "type": "出星率上升",
+          "desc": "自身の暴击星发生率を up",
           "magnification": "10"
         }
       ]
@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "185"
         }
       ]
@@ -74,10 +74,10 @@
         "type": "即死",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体に低確率で即死<OC:確率 up >",
+        "desc": "敌方全体低概率即死",
         "v1": "30",
         "v2": "40",
         "v3": "50",
@@ -85,13 +85,13 @@
         "v5": "70"
       },
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆強力な攻撃",
+        "desc": "发动强力攻击",
         "v1": "450",
         "v2": "600",
         "v3": "675",
@@ -102,10 +102,10 @@
         "type": "降防",
         "turn":  3,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "after",
+        "target": "敌方全体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆防御力をdown(3T)",
+        "desc": "防御力下降(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -113,7 +113,7 @@
         "v5": "20"
       }
     ],
-    "type": "all",
+    "type": "全体",
     "hit": 3
   },
   "skill1": {
@@ -124,8 +124,8 @@
         "type": "加防",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身の防御力を大 up (1T)",
+        "target": "自身",
+        "desc": "自身防御力大幅上升(1T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -141,8 +141,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆防御力を up (3T)",
+        "target": "自身",
+        "desc": "防御力上升 (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -158,8 +158,8 @@
         "type": "弱化耐性提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆弱体耐性を up (3T)",
+        "target": "自身",
+        "desc": "＆弱体耐性上升(3T)",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -178,11 +178,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "Target 集中付与",
+        "type": "付与目标集中状态",
         "turn":  1,
         "count": 0,
-        "target": "self",
-        "desc": "自身に target 集中状態を付与(1T)",
+        "target": "自身",
+        "desc": "自身に target 集中状态を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -195,11 +195,11 @@
         "v10": "300"
       },
       {
-        "type": " damage カット付与",
+        "type": "付与伤害减免",
         "turn":  5,
         "count": 3,
-        "target": "self",
-        "desc": "＆被 damage カット状態を付与(3回、5T)",
+        "target": "自身",
+        "desc": "＆被 damage カット状态を付与(3回、5T)",
         "v1": "1000",
         "v2": "1100",
         "v3": "1200",
@@ -221,8 +221,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身の攻撃力を up (3T)",
+        "target": "自身",
+        "desc": "自身攻击力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -238,8 +238,8 @@
         "type": "宝具威力提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆宝具威力を up (3T)",
+        "target": "自身",
+        "desc": "＆宝具威力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -255,8 +255,8 @@
         "type": "NP获得量提升",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "＆NP獲得量を up (3T)",
+        "target": "自身",
+        "desc": "NP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

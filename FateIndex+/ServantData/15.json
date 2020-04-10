@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "11"
         }
       ]
@@ -69,7 +69,7 @@
       "effect": [
         {
           "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状態を付与",
+          "desc": "自身に与 damage プラス状态を付与",
           "magnification": "300"
         },
         {
@@ -85,13 +85,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1200",
         "v3": "1200",
@@ -102,10 +102,10 @@
         "type": "特攻",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆〔男性〕特攻",
+        "desc": "对男性特攻",
         "v1": "150",
         "v2": "200",
         "v3": "225",
@@ -113,13 +113,13 @@
         "v5": "250"
       },
       {
-        "type": "魅了状態付与",
+        "type": "付与魅惑状态",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆高確率で魅了状態を付与[男性限定](1T)<OC:確率 up >",
+        "desc": "对男性高概率魅惑(1T)",
         "v1": "100",
         "v2": "125",
         "v3": "150",
@@ -130,10 +130,10 @@
         "type": "降攻",
         "turn":  3,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆攻撃力をdown(3T)",
+        "desc": "攻击力下降(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -141,7 +141,7 @@
         "v5": "20"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 1
   },
   "skill1": {
@@ -152,8 +152,8 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体のチャージを中確率で減らす[Lv:確率]",
+        "target": "敌方单体",
+        "desc": "敌单体のチャージを中確率で減らす[Lv:確率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -169,8 +169,8 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "＋ 自身のNPを増やす",
+        "target": "自身",
+        "desc": "＋ 自身のNPを增加",
         "v1": "18",
         "v2": "18.9",
         "v3": "19.8",
@@ -189,11 +189,11 @@
     "ct": 9,
     "effects": [
       {
-        "type": "魅了状態付与",
+        "type": "付与魅惑状态",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体〔異性〕に確率で魅了付与[Lv:確率](1T)",
+        "target": "敌方单体",
+        "desc": "敌单体〔異性〕に確率で魅了付与[Lv:確率](1T)",
         "v1": "70",
         "v2": "73",
         "v3": "76",
@@ -215,8 +215,8 @@
         "type": "蓝放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のArts Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "自身のArts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

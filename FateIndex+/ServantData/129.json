@@ -62,7 +62,7 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身のクリティカル威力を up",
+          "desc": "自身の暴击威力を up",
           "magnification": "10"
         }
       ]
@@ -72,7 +72,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "10"
         }
       ]
@@ -83,13 +83,13 @@
     "card": "Arts",
     "effect": [
       {
-        "type": "攻撃",
+        "type": "攻击",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "before",
+        "target": "敌方单体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵単体に超強力な攻撃",
+        "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -100,10 +100,10 @@
         "type": "灭气",
         "turn": 0,
         "count": 0,
-        "target": "enemy-single",
-        "beforeafter": "after",
+        "target": "敌方单体",
+        "beforeafter": "发动后",
         "lvoc": "lv",
-        "desc": "＆確率でチャージを減らす 確率70％",
+        "desc": "一定概率充能减少 概率70％",
         "v1": "70",
         "v2": "70",
         "v3": "70",
@@ -114,10 +114,10 @@
         "type": "充能",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "beforeafter": "after",
+        "target": "自身",
+        "beforeafter": "发动后",
         "lvoc": "oc",
-        "desc": "＋自身のNPをリチャージする<OC:効果 up >",
+        "desc": "自身NP充能",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -125,7 +125,7 @@
         "v5": "40"
       }
     ],
-    "type": "single",
+    "type": "单体",
     "hit": 10
   },
   "skill1": {
@@ -136,8 +136,8 @@
         "type": "蓝放",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "desc": "自身のArts Card 性能を up (3T)",
+        "target": "自身",
+        "desc": "自身のArts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -153,8 +153,8 @@
         "type": "加防",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＋味方全体の防御力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体防御力上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -176,8 +176,8 @@
         "type": "回血",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "自身のHPを回復",
+        "target": "自身",
+        "desc": "自身のHPを回复",
         "v1": "2000",
         "v2": "2300",
         "v3": "2600",
@@ -193,7 +193,7 @@
         "type": "NP減少",
         "turn": 0,
         "count": 0,
-        "target": "self",
+        "target": "自身",
         "desc": "＆NPが減少【デメリット】",
         "v1": "10",
         "v2": "10",
@@ -216,8 +216,8 @@
         "type": "加攻",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体の攻撃力を up (3T)",
+        "target": "自身和队友",
+        "desc": "友方全体攻击力上升(3T)",
         "v1": "8",
         "v2": "9",
         "v3": "10",
@@ -230,11 +230,11 @@
         "v10": "18"
       },
       {
-        "type": "スター発生率 up",
+        "type": "出星率上升",
         "turn":  3,
         "count": 0,
-        "target": "self-other",
-        "desc": "＆味方全体の〔男性〕のスター発生率を up (3T)",
+        "target": "自身和队友",
+        "desc": "＆友方全体の〔男性〕の暴击星发生率上升(3T)",
         "v1": "18",
         "v2": "20",
         "v3": "22",

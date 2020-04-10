@@ -41,7 +41,7 @@
       "サーヴァント",
       "人型",
       "愛する者",
-      "ｴﾇﾏ特攻無効"
+      "ｴﾇﾏ特攻无效"
     ]
   },
   "classskill": [
@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を up",
+          "desc": "自身のArts Card の性能上升",
           "magnification": "8"
         }
       ]
@@ -64,10 +64,10 @@
         "type": "降攻",
         "turn": 0,
         "count": 0,
-        "target": "enemy-all",
-        "beforeafter": "before",
+        "target": "敌方全体",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "敵全体にランダムで攻撃力をdown＆防御力をdown[Lv:確率]",
+        "desc": "敌方全体随机攻击力、防御力下降",
         "v1": "60",
         "v2": "70",
         "v3": "75",
@@ -78,10 +78,10 @@
         "type": "",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "oc",
-        "desc": "<OC:効果 up >(3T)",
+        "desc": "效果上升(3T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -89,13 +89,13 @@
         "v5": "40"
       },
       {
-        "type": "呪い付与",
+        "type": "付与诅咒",
         "turn":  3,
         "count": 0,
-        "target": "self",
-        "beforeafter": "before",
+        "target": "自身",
+        "beforeafter": "发动前",
         "lvoc": "lv",
-        "desc": "＆呪い状態を付与(各3T)<OC:各効果 up >",
+        "desc": "付与诅咒状态(各3T)",
         "v1": "500",
         "v2": "1000",
         "v3": "1500",
@@ -103,7 +103,7 @@
         "v5": "2500"
       }
     ],
-    "type": "support",
+    "type": "支援",
     "hit": 0
   },
   "skill1": {
@@ -114,8 +114,8 @@
         "type": "蓝放",
         "turn":  1,
         "count": 0,
-        "target": "self-other",
-        "desc": "味方全体のArts Card 性能を up (1T)",
+        "target": "自身和队友",
+        "desc": "友方全体のArts Card 性能上升 (1T)",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",
@@ -134,11 +134,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "宝具威力down",
+        "type": "宝具威力下降",
         "turn":  1,
         "count": 0,
-        "target": "enemy-single",
-        "desc": "敵単体〔サーヴァント〕の宝具威力をdown(1T)",
+        "target": "敌方单体",
+        "desc": "敌单体〔サーヴァント〕の宝具威力下降(1T)",
         "v1": "9",
         "v2": "9.9",
         "v3": "10.8",
@@ -160,8 +160,8 @@
         "type": "出星",
         "turn": 0,
         "count": 0,
-        "target": "self",
-        "desc": "スターを大量獲得",
+        "target": "自身",
+        "desc": "暴击星を大量獲得",
         "v1": "20",
         "v2": "23",
         "v3": "26",
