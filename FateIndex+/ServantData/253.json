@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を up",
+          "desc": "自身弱化耐性上升",
           "magnification": "20"
         },
         {

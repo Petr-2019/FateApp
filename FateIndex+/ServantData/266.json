@@ -52,7 +52,7 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を up",
+          "desc": "自身弱化耐性上升",
           "magnification": "17.5"
         }
       ]
@@ -62,7 +62,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能を少し up",
+          "desc": "自身Quick卡性能少许提升",
           "magnification": "6"
         }
       ]

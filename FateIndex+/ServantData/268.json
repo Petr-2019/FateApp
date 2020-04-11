@@ -55,7 +55,7 @@
         "effect": [
           {
             "type": "弱化耐性提升",
-            "desc": "自身の弱体耐性を up",
+            "desc": "自身弱化耐性上升",
             "magnification": "15.5"
           }
         ]
@@ -80,7 +80,7 @@
           },
           {
             "type": "弱化耐性提升",
-            "desc": "自身の弱体耐性を up",
+            "desc": "自身弱化耐性上升",
             "magnification": "27"
           }
         ]
@@ -341,7 +341,7 @@
             "turn":  3,
             "count": 0,
             "target": "自身",
-            "desc": "＆確率でQuick Card 性能上升(3T) 確率80",
+            "desc": "＆概率でQuick Card 性能上升(3T) 概率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",
@@ -358,7 +358,7 @@
             "turn":  3,
             "count": 0,
             "target": "自身",
-            "desc": "＆確率でArts Card 性能上升(3T) 確率80",
+            "desc": "＆概率でArts Card 性能上升(3T) 概率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",
@@ -375,7 +375,7 @@
             "turn":  3,
             "count": 0,
             "target": "自身",
-            "desc": "＆確率でBuster Card 性能上升(3T) 確率80",
+            "desc": "＆概率でBuster Card 性能上升(3T) 概率80",
             "v1": "20",
             "v2": "20",
             "v3": "20",

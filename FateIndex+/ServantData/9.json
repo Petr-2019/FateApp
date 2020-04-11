@@ -51,7 +51,7 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を up",
+          "desc": "自身弱化耐性上升",
           "magnification": "17.5"
         }
       ]
@@ -182,7 +182,7 @@
         "turn":  5,
         "count": 0,
         "target": "自身",
-        "desc": "自身のBuster Card 性能上升 (5T)",
+        "desc": "自身Buster卡性能上升 (5T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

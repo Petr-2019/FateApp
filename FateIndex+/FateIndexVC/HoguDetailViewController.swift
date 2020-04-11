@@ -14,7 +14,7 @@ class HoguDetailViewController: UITableViewController {
 
     init(hogu: Servant.Hogu) {
         self.hogu = hogu
-        super.init(style: .grouped)
+        super.init(nibName: nil, bundle: nil)
     }
 
     required init?(coder: NSCoder) {
@@ -24,7 +24,13 @@ class HoguDetailViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.estimatedRowHeight = 100
+        tableView.rowHeight = UITableView.automaticDimension
+
         tableView.register(TrailingTextTableViewCell.self, forCellReuseIdentifier: TrailingTextTableViewCell.identifier)
+        tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
+
+        tableView.register(SelfSizeLeadTrailingTextCell.self, forCellReuseIdentifier: SelfSizeLeadTrailingTextCell.identifier)
     }
 
 }
@@ -45,101 +51,131 @@ extension HoguDetailViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let result: UITableViewCell
         if indexPath.section == 0 {
             if indexPath.row == 0 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("名字", trailingText: hogu.name)
+                let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
+                cell.nameLabel.text = "名字"
+                cell.detailLabel.text = hogu.name
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 1 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("配卡", trailingText: hogu.card)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("类型", trailingText: hogu.type)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 3 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("Hit", trailingText: "\(hogu.hit)")
 
-                return cell
+                result = cell
+            }
+            else {
+                result = UITableViewCell(frame: .zero)
             }
         }
         else {
             if indexPath.row == 0 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("回合数", trailingText: "\(hogu.effect[indexPath.section - 1].turn)")
+                let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
+                cell.nameLabel.text = "描述"
+                cell.detailLabel.text = hogu.effect[indexPath.section - 1].desc
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 1 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("次数", trailingText: "\(hogu.effect[indexPath.section - 1].count)")
+                cell.configure("回合数", trailingText: "\(hogu.effect[indexPath.section - 1].turn)")
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("对象", trailingText: hogu.effect[indexPath.section - 1].target)
+                cell.configure("次数", trailingText: "\(hogu.effect[indexPath.section - 1].count)")
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 3 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("发动前后", trailingText: hogu.effect[indexPath.section - 1].beforeafter)
+                cell.configure("对象", trailingText: hogu.effect[indexPath.section - 1].target)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 4 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("LV/OC", trailingText: hogu.effect[indexPath.section - 1].lvoc.capitalized)
+                cell.configure("发动前后", trailingText: hogu.effect[indexPath.section - 1].beforeafter)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 5 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
-                cell.configure("描述", trailingText: hogu.effect[indexPath.section - 1].desc)
+                cell.configure("LV/OC", trailingText: hogu.effect[indexPath.section - 1].lvoc.capitalized)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 6 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("V1", trailingText: "\(hogu.effect[indexPath.section - 1].v1)".capitalized)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 7 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("V2", trailingText: "\(hogu.effect[indexPath.section - 1].v2)".capitalized)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 8 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("V3", trailingText: "\(hogu.effect[indexPath.section - 1].v3)".capitalized)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 9 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("V4", trailingText: "\(hogu.effect[indexPath.section - 1].v4)".capitalized)
 
-                return cell
+                result = cell
             }
             else if indexPath.row == 10 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
                 cell.configure("V5", trailingText: "\(hogu.effect[indexPath.section - 1].v5)".capitalized)
 
-                return cell
+                result = cell
+            }
+            else {
+                result = UITableViewCell(frame: .zero)
             }
         }
 
-        return UITableViewCell(frame: .zero)
+        result.selectionStyle = .none
+        return result
+    }
+
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
+
+        let title: String = {
+            if section == 0 {
+                return hogu.type
+            }
+            else {
+                return hogu.effect[section - 1].type
+            }
+        }()
+
+        headerView.title = title
+        return headerView
+    }
+
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 37.5
     }
 }

@@ -90,6 +90,8 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(DisclosureTableViewCell.self, forCellReuseIdentifier: DisclosureTableViewCell.identifier)
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
 
+        tableView.register(SelfSizeLeadTrailingTextCell.self, forCellReuseIdentifier: SelfSizeLeadTrailingTextCell.identifier)
+
         update()
     }
 
@@ -151,9 +153,10 @@ extension ServantDetailTableViewController {
             resultCell = cell
 
         case .name:
-            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
             cell.selectionStyle = .none
-            cell.configure("姓名", trailingText: servant.servant.name)
+            cell.nameLabel.text = "姓名"
+            cell.detailLabel.text = servant.servant.name
 
             resultCell = cell
 
@@ -382,6 +385,10 @@ extension ServantDetailTableViewController {
             let vc = ActiveSkillDetailViewController(skill: skill)
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 37.5
     }
 
 }
