@@ -50,17 +50,17 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
     {
-      "type": "回合充能", "name": "無限の魔力供給C",
+      "type": "回合充能", "name": "无限的魔力供给C",
       "effect": [
         {
           "type": "回合充能",
           "desc": "自身に毎回合NP獲得状态を付与",
-          "magnification": "3"
+          "magnification": "3%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "40",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "NP获得量上升(3T)",
         "v1": "20",
         "v2": "20",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "出星率上升(3T)",
         "v1": "20",
         "v2": "20",
@@ -117,7 +117,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力攻击",
         "v1": "800",
         "v2": "1000",
@@ -131,7 +131,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身攻击力和防御力下降(3T)",
         "v1": "各10",
         "v2": "各10",

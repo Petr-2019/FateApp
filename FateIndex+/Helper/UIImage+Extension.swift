@@ -58,7 +58,7 @@ class UIImageUtility {
             reducedName = "暴击威力提升"
         }
         else if imageName == "rage_breathe" {
-            reducedName = "beast_become"
+            reducedName = "狂化"
         }
         else if imageName == "elf_contract" {
             reducedName = "弱化耐性提升"
@@ -70,7 +70,7 @@ class UIImageUtility {
             reducedName = "弱化耐性提升"
         }
         else if imageName == "aggressive_become" {
-            reducedName = "beast_become"
+            reducedName = "狂化"
         }
         else if imageName == "hotel_build" {
             reducedName = "蓝放"

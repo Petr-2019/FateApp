@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "12.5"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "12.5%"
         }
       ]
     },
@@ -60,13 +60,13 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "11%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神的神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -75,8 +75,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "22.5"
+          "desc": "＆弱体耐性上升",
+          "magnification": "22.5%"
         }
       ]
     }
@@ -91,7 +91,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身Buster卡性能上升(1T)",
         "v1": "10",
         "v2": "20",
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -119,7 +119,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "冥界守护状态友方全体攻击力上升(3T)",
         "v1": "20",
         "v2": "20",

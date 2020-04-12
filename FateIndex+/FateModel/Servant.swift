@@ -87,7 +87,7 @@ struct Servant: Codable {
 
     struct Skill: Codable {
 
-        struct Effects: Codable {
+        struct Effects: Codable, Equatable {
             let type: String
             let turn: Int
             let count: Int

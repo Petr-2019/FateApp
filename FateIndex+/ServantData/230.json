@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "8"
+          "desc": "自身的星发生率上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身弱化状态解除",
         "v1": "",
         "v2": "",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "強化状态解除",
         "v1": "",
         "v2": "",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "Buster卡性能上升 (1T)",
         "v1": "50",
         "v2": "62.5",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力无视防御力攻击",
         "v1": "300",
         "v2": "400",
@@ -121,7 +121,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与诅咒(5T)",
         "v1": "2000",
         "v2": "2000",
@@ -239,7 +239,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のNPを增加",
+        "desc": "＋自身的NPを增加",
         "v1": "18",
         "v2": "18.9",
         "v3": "19.8",

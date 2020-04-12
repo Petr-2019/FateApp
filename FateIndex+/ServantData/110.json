@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "10"
+          "desc": "自身的星发生率上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "50",
         "v2": "62.5",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "Arts卡耐性下降(3T)",
         "v1": "20",
         "v2": "20",
@@ -113,7 +113,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNP获得量上升(3T)",
+        "desc": "自身的NP获得量上升(3T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -153,7 +153,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のBuster Card 性能を30％ up (3T) [Lv:概率]",
+        "desc": "自身的Buster Card 性能を30％ up (3T) [Lv:概率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",
@@ -227,7 +227,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のHPを回复",
+        "desc": "自身的HPを回复",
         "v1": "2000",
         "v2": "2200",
         "v3": "2400",

@@ -51,7 +51,7 @@
   },
   "classskill": [
     {
-      "type": "领域外生命", "name": "領域外の生命D",
+      "type": "领域外生命", "name": "领域外生命D",
       "effect": [
         {
           "type": "出星",
@@ -60,8 +60,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "4"
+          "desc": "＆弱体耐性上升",
+          "magnification": "4%"
         }
       ]
     },
@@ -70,8 +70,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "8"
+          "desc": "自身的星发生率上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -80,8 +80,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -90,8 +90,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -106,7 +106,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身攻击力上升(1T)",
         "v1": "20",
         "v2": "30",
@@ -120,7 +120,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力攻击",
         "v1": "900",
         "v2": "1200",
@@ -134,7 +134,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对Saber职阶特攻",
         "v1": "150",
         "v2": "150",
@@ -212,7 +212,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身の暴击星集中度下降(1T)",
+        "desc": "＋自身的星集中度下降(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

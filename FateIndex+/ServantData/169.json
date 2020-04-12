@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
+          "desc": "自身的Arts卡性能上升",
           "magnification": "11.5"
         }
       ]
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身宝具威力上升(1T)",
         "v1": "20",
         "v2": "20",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "600",
         "v2": "750",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对王特攻",
         "v1": "200",
         "v2": "225",
@@ -106,7 +106,7 @@
         "count": 1,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "弱化耐性大幅下降(1回・3T)",
         "v1": "50",
         "v2": "50",
@@ -184,7 +184,7 @@
         "turn":  2,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身の防御力上升(2T)",
+        "desc": "＋自身的防御力上升(2T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

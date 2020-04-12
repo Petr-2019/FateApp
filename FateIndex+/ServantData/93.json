@@ -49,7 +49,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方全体强化状态解除",
         "v1": "",
         "v2": "",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "400",
         "v2": "500",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "30",
         "v2": "40",
@@ -153,7 +153,7 @@
         "turn":  5,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のNPを毎回合增加(5T)",
+        "desc": "＋自身的NPを毎回合增加(5T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -193,7 +193,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のBuster Card 性能上升(3T)",
+        "desc": "＋自身的Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

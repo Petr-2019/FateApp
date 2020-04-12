@@ -46,7 +46,7 @@
   },
   "classskill": [
     {
-      "type": "领域外生命", "name": "領域外の生命EX",
+      "type": "领域外生命", "name": "领域外生命EX",
       "effect": [
         {
           "type": "出星",
@@ -55,8 +55,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "12"
+          "desc": "＆弱体耐性上升",
+          "magnification": "12%"
         }
       ]
     },
@@ -64,9 +64,9 @@
       "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "8"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -75,8 +75,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を少し up",
-          "magnification": "4"
+          "desc": "自身的Arts Card の性能少许上升",
+          "magnification": "4%"
         }
       ]
     },
@@ -101,7 +101,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
@@ -115,7 +115,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "对人之力特攻",
         "v1": "150",
         "v2": "162.5",
@@ -176,7 +176,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

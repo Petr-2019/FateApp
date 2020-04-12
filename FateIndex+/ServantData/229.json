@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "18"
+          "magnification": "18%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身无敌(1T)",
         "v1": "",
         "v2": "",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与目标集中(1T)",
         "v1": "500",
         "v2": "500",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "攻击力上升(3T)",
         "v1": "50",
         "v2": "62.5",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "暴击威力上升(3T)",
         "v1": "50",
         "v2": "75",
@@ -121,7 +121,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "暴击星集中度上升(3T)",
         "v1": "300",
         "v2": "300",
@@ -222,7 +222,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

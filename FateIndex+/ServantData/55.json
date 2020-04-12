@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "400",
         "v2": "500",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "攻击力下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -114,7 +114,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNP获得量 up (3T)",
+        "desc": "自身的NP获得量 up (3T)",
         "v1": "18",
         "v2": "20.7",
         "v3": "23.4",

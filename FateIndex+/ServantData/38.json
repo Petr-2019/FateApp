@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -76,8 +76,8 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
-        "desc": "自身のBuster Card 性能上升(3T)",
+        "lvoc": "LV",
+        "desc": "自身的Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -90,7 +90,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "400",
         "v2": "500",
@@ -104,7 +104,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -118,7 +118,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与灼烧(10T)",
         "v1": "300",
         "v2": "600",
@@ -139,7 +139,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)",
+        "desc": "自身的威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

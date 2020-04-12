@@ -50,9 +50,9 @@
       "type": "道具作成", "name": "道具作成(偽)A",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "10"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -61,8 +61,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -87,7 +87,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
@@ -101,7 +101,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -115,7 +115,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "友方全体防御力上升(3T)",
         "v1": "20",
         "v2": "20",
@@ -195,7 +195,7 @@
         "v10": "30"
       },
       {
-        "type": "弱体付与成功率 up",
+        "type": "弱体付与成功率上升",
         "turn":  3,
         "count": 0,
         "target": "自身和队友",

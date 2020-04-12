@@ -49,23 +49,23 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "12"
+          "desc": "自身的威力上升",
+          "magnification": "12%"
         }
       ]
     },
     {
-      "type": "homunclus", "name": "ホムンクルスC+",
+      "type": "homunclus", "name": "人工生命体C+",
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card 性能を少し up",
-          "magnification": "6.5"
+          "desc": "自身的Arts Card 性能少许上升",
+          "magnification": "6.5%"
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "6.5"
+          "desc": "＆弱体耐性上升",
+          "magnification": "6.5%"
         }
       ]
     }
@@ -80,7 +80,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方全体防御力下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -94,7 +94,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动强力攻击",
         "v1": "450",
         "v2": "600",
@@ -115,7 +115,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNP获得量上升(3T)",
+        "desc": "自身的NP获得量上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

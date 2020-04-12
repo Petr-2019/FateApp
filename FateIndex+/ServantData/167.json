@@ -44,42 +44,42 @@
   },
   "classskill": [
     {
-      "type": "beast_rightSkill", "name": "獣の権能D",
+      "type": "beast_rightSkill", "name": "兽之权能D",
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "8"
+          "desc": "自身的威力上升",
+          "magnification": "8%"
         }
       ]
     },
     {
-      "type": "show_alone", "name": "单独顕現E",
+      "type": "show_alone", "name": "单独显现E",
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "2"
+          "desc": "自身的威力上升",
+          "magnification": "2%"
         },
         {
           "type": "即死耐性 up",
-          "desc": "＆即死耐性を up",
-          "magnification": "2"
+          "desc": "＆即死耐性上升",
+          "magnification": "2%"
         },
         {
           "type": "精神异常耐性 up",
-          "desc": "＆精神异常耐性を up",
-          "magnification": "2"
+          "desc": "＆精神异常耐性上升",
+          "magnification": "2%"
         }
       ]
     },
     {
-      "type": "rationale_eater", "name": "ロゴスイーターC",
+      "type": "rationale_eater", "name": "理性吞噬C",
       "effect": [
         {
           "type": "加防",
-          "desc": "自身の〔人型〕の敌からの攻击に对する防御力を up",
-          "magnification": "16"
+          "desc": "自身的〔人型〕の敌からの攻击に对する防御力上升",
+          "magnification": "16%"
         }
       ]
     },
@@ -89,7 +89,7 @@
         {
           "type": "特攻",
           "desc": "自身に〔ルーラー〕クラスへの特攻状态を付与(*4)",
-          "magnification": "150"
+          "magnification": "150%"
         }
       ]
     }
@@ -104,7 +104,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
@@ -118,7 +118,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力无视防御力攻击",
         "v1": "450",
         "v2": "600",
@@ -132,7 +132,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身HP回复",
         "v1": "2000",
         "v2": "3000",
@@ -187,7 +187,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のNPを增加",
+        "desc": "＋自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

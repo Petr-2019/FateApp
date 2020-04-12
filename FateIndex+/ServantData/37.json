@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -58,9 +58,9 @@
       "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "8"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方全体充能减少",
         "v1": "",
         "v2": "",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "中等概率付与眩晕(1T)",
         "v1": "50",
         "v2": "57.5",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与诅咒(6T)",
         "v1": "1000",
         "v2": "1000",
@@ -117,7 +117,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "防御力大幅下降(3T)",
         "v1": "30",
         "v2": "40",

@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -86,7 +86,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -100,7 +100,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对男性特攻",
         "v1": "150",
         "v2": "162.5",

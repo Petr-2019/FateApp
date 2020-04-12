@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "12.5"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "12.5%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "11"
+          "desc": "自身的威力上升",
+          "magnification": "11%"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -85,7 +85,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -99,7 +99,7 @@
         "count": 1,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与强化无效状态(1回・3T)",
         "v1": "",
         "v2": "",
@@ -113,7 +113,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "攻击力下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -134,7 +134,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のBuster Card 性能上升(3T)",
+        "desc": "自身的Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "21.5",
         "v3": "23",

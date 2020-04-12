@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "8"
+          "desc": "自身的威力上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与自身对魔性特攻(3T)",
         "v1": "50",
         "v2": "62.5",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "400",
         "v2": "500",
@@ -110,7 +110,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のBuster Card 性能上升(3T)",
+        "desc": "自身的Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

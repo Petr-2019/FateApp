@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "12.5"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "12.5%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "获得大量暴击星",
         "v1": "15",
         "v2": "20",
@@ -133,7 +133,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星集中度を大幅提升(1T)",
+        "desc": "自身的星集中度を大幅提升(1T)",
         "v1": "500",
         "v2": "550",
         "v3": "600",

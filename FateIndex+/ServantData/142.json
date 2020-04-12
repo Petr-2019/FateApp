@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
@@ -59,13 +59,13 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神的神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -75,7 +75,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "22.5"
+          "magnification": "22.5%"
         }
       ]
     }
@@ -90,7 +90,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "30",
@@ -104,7 +104,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "400",
         "v2": "500",
@@ -118,7 +118,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "大量获得暴击星",
         "v1": "20",
         "v2": "20",

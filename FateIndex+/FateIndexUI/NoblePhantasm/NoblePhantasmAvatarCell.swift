@@ -34,12 +34,6 @@ class NoblePhantasmAvatarCell: UITableViewCell {
         contentView.addSubview(labelContainer)
     }
 
-    override func layoutSubviews() {
-        super.layoutSubviews()
-
-        let y = imageView?.frame
-    }
-
     func configure(image: UIImage?, topTitle: String, midTitle: String, bottomTitle: String) {
         imageView?.image = image
 

@@ -49,17 +49,17 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
     {
-      "type": "回合充能", "name": "無限の魔力供給B",
+      "type": "回合充能", "name": "无限的魔力供给B",
       "effect": [
         {
           "type": "回合充能",
           "desc": "自身に毎回合NP獲得状态を付与",
-          "magnification": "4"
+          "magnification": "4%"
         }
       ]
     }
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身朔月的加护(3T)",
         "v1": "",
         "v2": "",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "効果「毎回合终了时友方全体的NP增加",
         "v1": "10",
         "v2": "10",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "HP回复",
         "v1": "500",
         "v2": "750",
@@ -116,7 +116,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "获得暴击星",
         "v1": "5",
         "v2": "10",
@@ -130,7 +130,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "HP减少3000(最低为1)",
         "v1": "",
         "v2": "",
@@ -151,7 +151,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -244,7 +244,7 @@
         "v10": "30"
       },
       {
-        "type": "強化成功率 up",
+        "type": "強化成功率上升",
         "turn":  3,
         "count": 0,
         "target": "other-single",

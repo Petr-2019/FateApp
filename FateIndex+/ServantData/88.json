@@ -51,7 +51,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -86,7 +86,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
@@ -100,7 +100,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对所爱之人特攻",
         "v1": "150",
         "v2": "162.5",
@@ -114,7 +114,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "友方全体出星率上升(3T)",
         "v1": "50",
         "v2": "50",

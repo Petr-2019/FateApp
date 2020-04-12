@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "10"
+          "desc": "自身的星发生率上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身人格变换",
         "v1": "",
         "v2": "",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "最大HP大幅提升",
         "v1": "3000",
         "v2": "4500",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "HP全回复",
         "v1": "100",
         "v2": "100",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "Buster性能上升",
         "v1": "40",
         "v2": "50",
@@ -168,7 +168,7 @@
         "turn": 0,
         "count": 1,
         "target": "自身",
-        "desc": "自身の眩晕状态付与成功率上升(1回)",
+        "desc": "自身的眩晕状态付与成功率上升(1回)",
         "v1": "5",
         "v2": "6",
         "v3": "7",
@@ -225,7 +225,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)",
+        "desc": "自身的威力上升(3T)",
         "v1": "5",
         "v2": "6",
         "v3": "7",

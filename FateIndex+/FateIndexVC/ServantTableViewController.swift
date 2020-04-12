@@ -28,7 +28,7 @@ class ServantTableViewController: UITableViewController {
 
     private let searchController = UISearchController(searchResultsController: nil)
 
-    private var servants = ServantManager.shared.allServants()
+    private var servants = [Servant]()
 
     private lazy var servantsDict = {
         return Dictionary(grouping: servants, by: { $0.servant.clazz })
@@ -43,6 +43,13 @@ class ServantTableViewController: UITableViewController {
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
 
         setupSearchViewController()
+        servants = ServantManager.shared.allServants { [weak self] servants in
+            DispatchQueue.main.async {
+                self?.servants.append(contentsOf: servants)
+                self?.servantsDict = Dictionary(grouping: self!.servants, by: { $0.servant.clazz })
+                self?.tableView.reloadData()
+            }
+        }
     }
 
     // MARK:- UITableViewDataSource

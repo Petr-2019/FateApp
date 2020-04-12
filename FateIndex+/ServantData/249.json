@@ -51,8 +51,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -60,9 +60,9 @@
       "type": "道具作成", "name": "道具作成EX",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "12"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "12%"
         }
       ]
     },
@@ -87,7 +87,7 @@
         "count": 1,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与友方全体除自身毅力(1回・3T)",
         "v1": "1000",
         "v2": "2000",
@@ -101,7 +101,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "友方全体毎回合HP回复(3T)",
         "v1": "1000",
         "v2": "1500",
@@ -115,7 +115,7 @@
         "count": 1,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与弱体无效状态(1回・3T)",
         "v1": "",
         "v2": "",

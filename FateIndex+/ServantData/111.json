@@ -49,13 +49,13 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核C",
+      "type": "女神的神核", "name": "女神的神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -65,7 +65,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     }
@@ -80,7 +80,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "友方全体HP回复",
         "v1": "2000",
         "v2": "2500",
@@ -94,7 +94,7 @@
         "count": 1,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与毅力(1回・3T)",
         "v1": "1000",
         "v2": "1500",
@@ -115,7 +115,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身の与回复量上升(1T)",
+        "desc": "自身的与回复量上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

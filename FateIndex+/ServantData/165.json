@@ -52,7 +52,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
@@ -61,8 +61,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -87,7 +87,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
@@ -101,7 +101,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身暴击威力上升(3T)",
         "v1": "40",
         "v2": "50",

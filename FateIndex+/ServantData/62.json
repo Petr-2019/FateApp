@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能を少し up",
-          "magnification": "6"
+          "desc": "自身的Arts Card の性能少许上升",
+          "magnification": "6%"
         }
       ]
     },
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "友方全体技能CT缩短一回合",
         "v1": "1",
         "v2": "1",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "HP回复",
         "v1": "2000",
         "v2": "2500",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "NP增加",
         "v1": "25",
         "v2": "31.25",

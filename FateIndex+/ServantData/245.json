@@ -52,7 +52,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
@@ -61,13 +61,13 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "8%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核C",
+      "type": "女神的神核", "name": "女神的神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -76,8 +76,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "20"
+          "desc": "＆弱体耐性上升",
+          "magnification": "20%"
         }
       ]
     }
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -106,7 +106,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "攻击強化状态解除",
         "v1": "",
         "v2": "",
@@ -120,7 +120,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -285,7 +285,7 @@
         "v10": "20"
       },
       {
-        "type": "強化成功率 up",
+        "type": "強化成功率上升",
         "turn":  3,
         "count": 0,
         "target": "自身和队友",

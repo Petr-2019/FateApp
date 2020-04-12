@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "10.5"
+          "desc": "自身的星发生率上升",
+          "magnification": "10.5%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与技能封印(1T)",
         "v1": "",
         "v2": "",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -136,7 +136,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

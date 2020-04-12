@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -66,7 +66,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方全体随机攻击力、防御力下降",
         "v1": "60",
         "v2": "70",
@@ -80,7 +80,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "效果上升(3T)",
         "v1": "20",
         "v2": "25",
@@ -94,7 +94,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与诅咒状态(各3T)",
         "v1": "500",
         "v2": "1000",

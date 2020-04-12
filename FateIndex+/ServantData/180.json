@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -58,8 +58,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を少し up",
-          "magnification": "6"
+          "desc": "自身的威力少许上升",
+          "magnification": "6%"
         }
       ]
     }
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "弱化耐性下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "10",
         "v2": "15",

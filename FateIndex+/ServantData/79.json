@@ -50,7 +50,7 @@
 				{
 					"type": "蓝放",
 					"magnification": "10",
-					"desc": "自身のArts Card の性能上升"
+					"desc": "自身的Arts卡性能上升"
 				}
 			]
 		},
@@ -58,9 +58,9 @@
 			"type": "道具作成", "name": "道具作成EX",
 			"effect": [
 				{
-					"type": "弱体付与成功率 up",
-					"magnification": "12",
-					"desc": "自身の弱体付与成功率を up"
+					"type": "弱体付与成功率上升",
+					"magnification": "12%",
+					"desc": "自身的弱体付与成功率上升"
 				}
 			]
 		}
@@ -74,7 +74,7 @@
 				"turn": 0,
 				"count": 0,
 				"target": "自身",
-				"desc": "自身のNPをすごく增加",
+				"desc": "自身的NPをすごく增加",
 				"v1": "55",
 				"v2": "57.5",
 				"v3": "60",
@@ -166,7 +166,7 @@
 				"count": 0,
 				"target": "敌方全体",
 				"beforeafter": "发动前",
-				"lvoc": "lv",
+				"lvoc": "LV",
 				"desc": "对敌方全体发动稍强力攻击",
 				"v1": "400",
 				"v2": "500",
@@ -180,7 +180,7 @@
 				"count": 0,
 				"target": "敌方全体",
 				"beforeafter": "发动后",
-				"lvoc": "oc",
+				"lvoc": "OC",
 				"desc": "攻击力下降(3T)",
 				"v1": "10",
 				"v2": "15",

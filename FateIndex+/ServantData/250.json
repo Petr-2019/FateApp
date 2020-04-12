@@ -50,13 +50,13 @@
       "effect": [
         {
           "type": "被ダメNP获得量 up",
-          "desc": "自身の被 damage 时に獲得するNP up",
-          "magnification": "17.5"
+          "desc": "自身的被 damage 时に獲得するNP up",
+          "magnification": "17.5%"
         },
         {
           "type": "弱化耐性下降",
           "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
-          "magnification": "7.5"
+          "magnification": "7.5%"
         }
       ]
     },
@@ -65,18 +65,18 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を少し up",
-          "magnification": "2"
+          "desc": "自身的威力少许上升",
+          "magnification": "2%"
         }
       ]
     },
     {
-      "type": "自己回复(魔力)", "name": "自己回复(魔力)C",
+      "type": "自我回复(魔力)", "name": "自我回复(魔力)C",
       "effect": [
         {
           "type": "回合充能",
           "desc": "自身に毎回合NP獲得状态を付与",
-          "magnification": "3.3"
+          "magnification": "3.3%"
         }
       ]
     }
@@ -91,7 +91,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "解除敌方全体神性特性的防御强化状态",
         "v1": "",
         "v2": "",
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -119,7 +119,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对神性特攻",
         "v1": "150",
         "v2": "162",
@@ -133,7 +133,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与灼烧状态(5T)",
         "v1": "1000",
         "v2": "1000",

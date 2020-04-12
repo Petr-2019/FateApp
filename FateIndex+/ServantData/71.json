@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1600",
         "v2": "2000",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "强化状态解除",
         "v1": "",
         "v2": "",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与诅咒(5T)",
         "v1": "500",
         "v2": "750",

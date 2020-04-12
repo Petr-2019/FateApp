@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -57,9 +57,9 @@
       "type": "道具作成", "name": "道具作成B+",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "9"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "9%"
         }
       ]
     }
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "友方全体NP获得量上升(3T)",
         "v1": "10",
         "v2": "15",
@@ -109,7 +109,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -149,7 +149,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPをすごく增加",
+        "desc": "自身的NPをすごく增加",
         "v1": "54.5",
         "v2": "57",
         "v3": "59.5",

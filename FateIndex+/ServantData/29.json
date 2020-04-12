@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "11%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "友方全体HP回复",
         "v1": "1000",
         "v2": "1500",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "弱体解除",
         "v1": "",
         "v2": "",
@@ -117,7 +117,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "暴击威力上升(3T)",
         "v1": "20",
         "v2": "20",
@@ -197,11 +197,11 @@
     "ct": 7,
     "effects": [
       {
-        "type": "精神异常付与成功率 up",
+        "type": "精神异常付与成功率上升",
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の精神异常付与成功率 up (3T)",
+        "desc": "自身的精神异常付与成功率上升 (3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",

@@ -49,13 +49,13 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "ground_eater", "name": "大地を飲むものEX",
+      "type": "ground_eater", "name": "吞噬大地之物EX",
       "effect": [
         {
           "type": "付与灼烧状态",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "type": "领域外生命", "name": "領域外の生命B",
+      "type": "领域外生命", "name": "领域外生命B",
       "effect": [
         {
           "type": "出星",
@@ -74,13 +74,13 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "8"
+          "desc": "＆弱体耐性上升",
+          "magnification": "8%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核A",
+      "type": "女神的神核", "name": "女神的神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -89,8 +89,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "25"
+          "desc": "＆弱体耐性上升",
+          "magnification": "25%"
         }
       ]
     }
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
@@ -119,7 +119,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "充能减少",
         "v1": "",
         "v2": "",
@@ -133,7 +133,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "极低概率充能减少",
         "v1": "10",
         "v2": "20",
@@ -154,7 +154,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)",
+        "desc": "自身的威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -194,7 +194,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

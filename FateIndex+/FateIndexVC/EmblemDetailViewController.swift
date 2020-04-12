@@ -12,6 +12,7 @@ class EmblemDetailViewController: UITableViewController {
 
     private enum Section {
         case basic
+        case skill
         case desc
     }
 
@@ -58,7 +59,8 @@ class EmblemDetailViewController: UITableViewController {
     private func reloadData() {
         data.removeAll()
 
-        data.append(section: .basic, with: [.id, .name, .access, .rare, .artist, .effect, .value])
+        data.append(section: .basic, with: [.id, .name, .access, .rare, .artist])
+        data.append(section: .skill, with: [.effect, .value])
         data.append(section: .desc, with: [.desc])
     }
 
@@ -134,6 +136,7 @@ class EmblemDetailViewController: UITableViewController {
         case .desc:
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizingLabelCell.identifier, for: indexPath) as! SelfSizingLabelCell
             cell.detailLabel.text = emblem.desc
+            cell.detailLabel.setLineSpacing(lineSpacing: 10.0)
 
             result = cell
         }
@@ -147,6 +150,9 @@ class EmblemDetailViewController: UITableViewController {
 
         if section == 0 {
             headerView.title = "基本信息"
+        }
+        else if section == 1 {
+            headerView.title = "技能详情"
         }
         else {
             headerView.title = "解说"

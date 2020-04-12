@@ -22,7 +22,6 @@
 		04B8AB18234982E60061FB02 /* EmblemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AB17234982E60061FB02 /* EmblemTableViewController.swift */; };
 		04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AA7B23435B3B004C6376 /* Servant.swift */; };
 		60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */; };
-		60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FB9F215BBF5A00572EFB /* ViewController.swift */; };
 		60F3FBA3215BBF5A00572EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA1215BBF5A00572EFB /* Main.storyboard */; };
 		60F3FBA5215BBF5C00572EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA4215BBF5C00572EFB /* Assets.xcassets */; };
 		60F3FBA8215BBF5C00572EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */; };
@@ -100,6 +99,7 @@
 		6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */; };
 		6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */; };
 		6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED277AF24225185004647F9 /* FateTableViewData.swift */; };
+		6EDA903724436289000545D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA903624436289000545D9 /* UILabel+Extension.swift */; };
 		D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42BE9622340EB1000C662F2 /* ServantManager.swift */; };
 		D4B1468623BF75C700843094 /* 32.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1457F23BF75B700843094 /* 32.json */; };
 		D4B1468723BF75C700843094 /* 202.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1458023BF75B700843094 /* 202.json */; };
@@ -384,9 +384,8 @@
 		04B8AB1423497D590061FB02 /* NoblePhantasmAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoblePhantasmAvatarView.swift; sourceTree = "<group>"; };
 		04B8AB17234982E60061FB02 /* EmblemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmblemTableViewController.swift; sourceTree = "<group>"; };
 		04E8AA7B23435B3B004C6376 /* Servant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servant.swift; sourceTree = "<group>"; };
-		60F3FB9A215BBF5A00572EFB /* FateIndex+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateIndex+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F3FB9A215BBF5A00572EFB /* FateIndex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FateIndex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60F3FB9F215BBF5A00572EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60F3FBA2215BBF5A00572EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60F3FBA4215BBF5C00572EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60F3FBA7215BBF5C00572EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -465,6 +464,7 @@
 		6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDataCell.swift; sourceTree = "<group>"; };
 		6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassSkillCell.swift; sourceTree = "<group>"; };
 		6ED277AF24225185004647F9 /* FateTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateTableViewData.swift; sourceTree = "<group>"; };
+		6EDA903624436289000545D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		D42BE9622340EB1000C662F2 /* ServantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantManager.swift; sourceTree = "<group>"; };
 		D4B1457F23BF75B700843094 /* 32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 32.json; sourceTree = "<group>"; };
 		D4B1458023BF75B700843094 /* 202.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 202.json; sourceTree = "<group>"; };
@@ -797,7 +797,7 @@
 		60F3FB9B215BBF5A00572EFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60F3FB9A215BBF5A00572EFB /* FateIndex+.app */,
+				60F3FB9A215BBF5A00572EFB /* FateIndex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -812,7 +812,6 @@
 				D4B4003322F08D7F00EDEC39 /* FateIndexVC */,
 				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
-				60F3FB9F215BBF5A00572EFB /* ViewController.swift */,
 				60F3FBA1215BBF5A00572EFB /* Main.storyboard */,
 				60F3FBA4215BBF5C00572EFB /* Assets.xcassets */,
 				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
@@ -826,6 +825,7 @@
 			children = (
 				6E317A7B23DC271100F54075 /* UIImage+Extension.swift */,
 				6ED277AF24225185004647F9 /* FateTableViewData.swift */,
+				6EDA903624436289000545D9 /* UILabel+Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -1210,7 +1210,7 @@
 			);
 			name = "FateIndex+";
 			productName = "FateIndex+";
-			productReference = 60F3FB9A215BBF5A00572EFB /* FateIndex+.app */;
+			productReference = 60F3FB9A215BBF5A00572EFB /* FateIndex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1587,7 +1587,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F3FBA0215BBF5A00572EFB /* ViewController.swift in Sources */,
+				6EDA903724436289000545D9 /* UILabel+Extension.swift in Sources */,
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
 				040D434F2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift in Sources */,
 				6E81C6FC2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift in Sources */,
@@ -1775,11 +1775,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Petr-Guan.FateIndex-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
+				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1796,11 +1796,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Petr-Guan.FateIndex-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
+				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "21"
+          "magnification": "21%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "弱化耐性下降(1T)",
         "v1": "10",
         "v2": "10",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "友方全体攻击力上升(1T)",
         "v1": "10",
         "v2": "15",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "HP回复量上升(1T)",
         "v1": "20",
         "v2": "30",
@@ -168,7 +168,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",

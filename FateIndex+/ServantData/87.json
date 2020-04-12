@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "600",
         "v2": "750",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "攻击力下降(3T)",
         "v1": "10",
         "v2": "15",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身精神异常状态无效(3T)",
         "v1": "",
         "v2": "",

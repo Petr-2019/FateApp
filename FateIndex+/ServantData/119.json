@@ -54,7 +54,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -63,8 +63,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身NP充能",
         "v1": "20",
         "v2": "30",
@@ -174,7 +174,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

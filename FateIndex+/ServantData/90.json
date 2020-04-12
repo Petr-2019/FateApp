@@ -53,8 +53,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -63,8 +63,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与灼烧(5T)",
         "v1": "1000",
         "v2": "1250",
@@ -107,7 +107,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "防御力下降(5T)",
         "v1": "20",
         "v2": "25",
@@ -121,7 +121,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(5T)",
         "v1": "20",
         "v2": "25",

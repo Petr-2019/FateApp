@@ -49,13 +49,13 @@
       "effect": [
         {
           "type": "被ダメNP获得量 up",
-          "desc": "自身の被 damage 时に獲得するNP up",
-          "magnification": "18"
+          "desc": "自身的被 damage 时に獲得するNP up",
+          "magnification": "18%"
         },
         {
           "type": "弱化耐性下降",
           "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
-          "magnification": "8"
+          "magnification": "8%"
         }
       ]
     },
@@ -64,18 +64,18 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "自己回复(魔力)", "name": "自己回复(魔力)A+",
+      "type": "自我回复(魔力)", "name": "自我回复(魔力)A+",
       "effect": [
         {
           "type": "回合充能",
           "desc": "自身に毎回合NP獲得状态を付与",
-          "magnification": "4"
+          "magnification": "4%"
         }
       ]
     }
@@ -90,7 +90,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -104,7 +104,7 @@
         "count": 1,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与强化无效(1回)",
         "v1": "",
         "v2": "",
@@ -118,7 +118,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与诅咒(5T)",
         "v1": "500",
         "v2": "1000",
@@ -139,7 +139,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)",
+        "desc": "自身的威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",

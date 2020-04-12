@@ -48,13 +48,13 @@
       "effect": [
         {
           "type": "被ダメNP获得量 up",
-          "desc": "自身の被 damage 时に獲得するNP up",
-          "magnification": "20"
+          "desc": "自身的被 damage 时に獲得するNP up",
+          "magnification": "20%"
         },
         {
           "type": "弱化耐性下降",
           "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
-          "magnification": "10"
+          "magnification": "10%"
         }
       ]
     },
@@ -63,18 +63,18 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "自己回复(魔力)", "name": "自己回复(魔力)E",
+      "type": "自我回复(魔力)", "name": "自我回复(魔力)E",
       "effect": [
         {
           "type": "回合充能",
           "desc": "自身に毎回合NP獲得状态を付与",
-          "magnification": "2"
+          "magnification": "2%"
         }
       ]
     }
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身待机状态(1T)",
         "v1": "",
         "v2": "",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "HP回复",
         "v1": "1000",
         "v2": "2000",
@@ -117,7 +117,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方回合结束时，自身那回合收到伤害以一定倍率返还给敌全体",
         "v1": "200",
         "v2": "250(200)",
@@ -236,16 +236,16 @@
         "count": 0,
         "target": "自身",
         "desc": "＆自身にガッツ状态を付与(1回・6T・他のガッツ状态と重複可能）",
-        "v1": "最大HPの50%",
-        "v2": "最大HPの50%",
-        "v3": "最大HPの50%",
-        "v4": "最大HPの50%",
-        "v5": "最大HPの50%",
-        "v6": "最大HPの50%",
-        "v7": "最大HPの50%",
-        "v8": "最大HPの50%",
-        "v9": "最大HPの50%",
-        "v10": "最大HPの50%"
+        "v1": "50%HP",
+        "v2": "50%HP",
+        "v3": "50%HP",
+        "v4": "50%HP",
+        "v5": "50%HP",
+        "v6": "50%HP",
+        "v7": "50%HP",
+        "v8": "50%HP",
+        "v9": "50%HP",
+        "v10": "50%HP"
       },
       {
         "type": "",

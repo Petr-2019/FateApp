@@ -52,8 +52,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -62,8 +62,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "11%"
         }
       ]
     },
@@ -72,8 +72,8 @@
       "effect": [
         {
           "type": "回血",
-          "desc": "自身のHP回复量を up",
-          "magnification": "10"
+          "desc": "自身的HP回复量上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "宝具威力上升(1T)",
         "v1": "20",
         "v2": "30",
@@ -116,7 +116,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -137,7 +137,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

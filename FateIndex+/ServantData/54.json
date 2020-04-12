@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "11%"
         }
       ]
     }
@@ -66,7 +66,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方全体高概率技能封印(3T)",
         "v1": "100",
         "v2": "125",
@@ -80,7 +80,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "高概率宝具封印(3T)",
         "v1": "70",
         "v2": "75",

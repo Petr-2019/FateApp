@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方单体付与眩晕(1T)",
         "v1": "",
         "v2": "",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动超强力的攻击",
         "v1": "1600",
         "v2": "2000",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "中等概率即死效果",
         "v1": "60",
         "v2": "70",
@@ -114,7 +114,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)  概率80％",
+        "desc": "自身的威力上升(3T)  概率80％",
         "v1": "30",
         "v2": "32",
         "v3": "34",

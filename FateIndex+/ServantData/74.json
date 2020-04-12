@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "600",
         "v2": "750",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率充能减少",
         "v1": "60",
         "v2": "70",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "防御力下降(3T)",
         "v1": "20",
         "v2": "20",
@@ -113,7 +113,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3T)",
+        "desc": "自身的威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -210,7 +210,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "20",
         "v2": "22",
         "v3": "24",

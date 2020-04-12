@@ -53,7 +53,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
@@ -62,8 +62,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -72,8 +72,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率充能减少 概率70％",
         "v1": "70",
         "v2": "70",
@@ -116,7 +116,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身NP充能",
         "v1": "20",
         "v2": "25",
@@ -137,7 +137,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -177,7 +177,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のHPを回复",
+        "desc": "自身的HPを回复",
         "v1": "2000",
         "v2": "2300",
         "v3": "2600",

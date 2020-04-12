@@ -51,8 +51,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -61,8 +61,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を少し up",
-          "magnification": "6"
+          "desc": "自身的威力少许上升",
+          "magnification": "6%"
         }
       ]
     }
@@ -77,7 +77,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身防御无视状态(1T)",
         "v1": "",
         "v2": "",
@@ -91,7 +91,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对神性特攻",
         "v1": "150",
         "v2": "162.5",
@@ -206,7 +206,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",

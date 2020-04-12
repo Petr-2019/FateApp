@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "15"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "15%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "10"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -69,14 +69,14 @@
       "type": "道具作成", "name": "道具作成B",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "8"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "8%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神的神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -85,13 +85,13 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "22.5"
+          "desc": "＆弱体耐性上升",
+          "magnification": "22.5%"
         }
       ]
     },
     {
-      "type": "high_servant", "name": "ハイ・サーヴァントA",
+      "type": "high_servant", "name": "高等从者A",
       "effect": [
         {
           "type": "効果なし",
@@ -111,7 +111,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
@@ -125,7 +125,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -139,7 +139,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -153,7 +153,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "龙特性充能减少1",
         "v1": "",
         "v2": "",
@@ -214,7 +214,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -254,7 +254,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の攻击力を(20%) up (3T) [Lv:概率]",
+        "desc": "自身的攻击力を(20%) up (3T) [Lv:概率]",
         "v1": "60",
         "v2": "62",
         "v3": "64",

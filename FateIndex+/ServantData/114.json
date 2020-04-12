@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "12.5"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "12.5%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "12"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "12%"
         }
       ]
     },
@@ -70,8 +70,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "11%"
         }
       ]
     },
@@ -96,7 +96,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身出星率上升(1T)",
         "v1": "100",
         "v2": "150",
@@ -110,7 +110,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -131,7 +131,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星集中度上升(3T)",
+        "desc": "自身的星集中度上升(3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",

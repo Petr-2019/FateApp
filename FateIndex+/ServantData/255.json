@@ -52,7 +52,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -61,8 +61,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "12"
+          "desc": "自身的威力上升",
+          "magnification": "12%"
         }
       ]
     }
@@ -77,7 +77,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身无敌贯通(1T)",
         "v1": "",
         "v2": "",
@@ -91,7 +91,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌单体超強力的攻击",
         "v1": "1200",
         "v2": "1600",
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对急所判明状态特攻",
         "v1": "150",
         "v2": "162.5",
@@ -257,7 +257,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "10",
         "v2": "11",
         "v3": "12",

@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を少し up",
-          "magnification": "2"
+          "desc": "自身的星发生率少许上升",
+          "magnification": "2%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "低概率即死",
         "v1": "30",
         "v2": "40",

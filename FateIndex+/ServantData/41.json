@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "10.5"
+          "desc": "自身的星发生率上升",
+          "magnification": "10.5%"
         }
       ]
     },
@@ -60,12 +60,12 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核EX",
+      "type": "女神的神核", "name": "女神的神核EX",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -75,7 +75,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "30"
+          "magnification": "30%"
         }
       ]
     }
@@ -90,7 +90,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方男性单体高概率即死",
         "v1": "100",
         "v2": "125",
@@ -104,7 +104,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对男性付与魅惑(1T)",
         "v1": "100",
         "v2": "125",
@@ -118,7 +118,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "防御力下降(3T)",
         "v1": "20",
         "v2": "25",
@@ -132,7 +132,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "强化状态解除",
         "v1": "",
         "v2": "",
@@ -170,7 +170,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のNPを增加",
+        "desc": "＋自身的NPを增加",
         "v1": "18",
         "v2": "18.9",
         "v3": "19.8",

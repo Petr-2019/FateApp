@@ -61,22 +61,22 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
     {
-      "type": "surfing", "name": "サーフィンA",
+      "type": "surfing", "name": "冲浪A",
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card 性能を少し up",
-          "magnification": "5"
+          "desc": "自身的Arts Card 性能少许上升",
+          "magnification": "5%"
         },
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "5"
+          "desc": "自身的星发生率上升",
+          "magnification": "5%"
         }
       ]
     }
@@ -91,7 +91,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
@@ -105,7 +105,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率充能减少",
         "v1": "50",
         "v2": "60",
@@ -126,7 +126,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

@@ -64,7 +64,7 @@
 				{
 					"type": "绿放",
 					"magnification": "8",
-					"desc": "自身の Quick Card の性能上升"
+					"desc": "自身的 Quick Card の性能上升"
 				}
 			]
 		}
@@ -81,7 +81,7 @@
 				"count": 0,
 				"target": "自身",
 				"beforeafter": "发动前",
-				"lvoc": "oc",
+				"lvoc": "OC",
 				"desc": "自身的Arts卡性能上升(3T)",
 				"v1": "20",
 				"v2": "25",
@@ -96,7 +96,7 @@
 				"count": 0,
 				"target": "敌方全体",
 				"beforeafter": "发动前",
-				"lvoc": "lv",
+				"lvoc": "LV",
 				"desc": "敌方全体強力的攻击",
 				"v1": "450",
 				"v2": "600",
@@ -195,7 +195,7 @@
                 "turn": 1,
                 "count": 0,
                 "target": "自身",
-                "desc": "＋自身の防御力下降(1T)【デメリット】",
+                "desc": "＋自身的防御力下降(1T)【デメリット】",
                 "v1": "20",
                 "v2": "20",
                 "v3": "20",

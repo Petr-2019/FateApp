@@ -53,7 +53,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -63,7 +63,7 @@
         {
           "type": "绿放",
           "desc": "自身Quick卡性能少许提升",
-          "magnification": "6"
+          "magnification": "6%"
         }
       ]
     },
@@ -72,13 +72,13 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "12"
+          "desc": "自身的威力上升",
+          "magnification": "12%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核C",
+      "type": "女神的神核", "name": "女神的神核C",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -87,13 +87,13 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "20"
+          "desc": "＆弱体耐性上升",
+          "magnification": "20%"
         }
       ]
     },
     {
-      "type": "high_servant", "name": "ハイ・サーヴァントA",
+      "type": "high_servant", "name": "高等从者A",
       "effect": [
         {
           "type": "効果なし",
@@ -113,7 +113,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "在水边场地时、敌方全体回避状态解除",
         "v1": "",
         "v2": "",
@@ -127,7 +127,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方全体強力的防御力无视攻击",
         "v1": "450",
         "v2": "600",
@@ -141,7 +141,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "获得大量暴击星",
         "v1": "20",
         "v2": "25",
@@ -162,7 +162,7 @@
         "turn":  5,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升 (5T)",
+        "desc": "自身的Arts Card 性能上升 (5T)",
         "v1": "10",
         "v2": "11",
         "v3": "12",
@@ -259,7 +259,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身の暴击星集中度上升(1T)",
+        "desc": "＋自身的星集中度上升(1T)",
         "v1": "300",
         "v2": "320",
         "v3": "340",

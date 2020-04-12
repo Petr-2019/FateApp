@@ -49,7 +49,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方单体防御力下降(3T)",
         "v1": "30",
         "v2": "35",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动超强力的攻击",
         "v1": "800",
         "v2": "1000",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对人类威胁特攻",
         "v1": "200",
         "v2": "200",
@@ -106,7 +106,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对神性眩晕(1T)",
         "v1": "",
         "v2": "",
@@ -224,7 +224,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のHPを超回复",
+        "desc": "自身的HPを超回复",
         "v1": "5000",
         "v2": "5500",
         "v3": "6000",

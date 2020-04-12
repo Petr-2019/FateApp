@@ -51,7 +51,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -70,13 +70,13 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核B",
+      "type": "女神的神核", "name": "女神的神核B",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -85,13 +85,13 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "22.5"
+          "desc": "＆弱体耐性上升",
+          "magnification": "22.5%"
         }
       ]
     },
     {
-      "type": "high_servant", "name": "ハイ・サーヴァントA",
+      "type": "high_servant", "name": "高等从者A",
       "effect": [
         {
           "type": "効果なし",
@@ -111,7 +111,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
@@ -125,7 +125,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "强化状态解除",
         "v1": "",
         "v2": "",
@@ -139,7 +139,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身Quick卡性能上升(3T)",
         "v1": "10",
         "v2": "15",
@@ -274,7 +274,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身の宝具威力上升",
+        "desc": "＋自身的宝具威力上升",
         "v1": "20",
         "v2": "21",
         "v3": "22",

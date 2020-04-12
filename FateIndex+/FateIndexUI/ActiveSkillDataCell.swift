@@ -90,7 +90,7 @@ class ActiveSkillDataView: UIView {
          let height = bounds.height / 5.0
 
         var widthSum: CGFloat = 0.0
-        var heightSum: CGFloat = 0.0
+        //var heightSum: CGFloat = 0.0
         for i in 0...4 {
             labels[i].frame = CGRect(x: width + width * (CGFloat(i) * 2.0), y: height, width: width, height: height)
 

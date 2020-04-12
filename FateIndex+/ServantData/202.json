@@ -46,17 +46,17 @@
   },
   "classskill": [
     {
-      "type": "兽化", "name": "獣化B",
+      "type": "兽化", "name": "兽化B",
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card 性能上升",
-          "magnification": "8"
+          "desc": "自身的Buster Card 性能上升",
+          "magnification": "8%"
         },
         {
           "type": "出星率上升",
-          "desc": "＆暴击星发生率を up",
-          "magnification": "8"
+          "desc": "＆暴击星发生率上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -65,8 +65,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -81,7 +81,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1200",
         "v2": "1600",
@@ -95,7 +95,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与宝具封印(1T)",
         "v1": "",
         "v2": "",
@@ -109,7 +109,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与诅咒(5T)",
         "v1": "500",
         "v2": "1000",
@@ -130,7 +130,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星集中度上升(1T)",
+        "desc": "自身的星集中度上升(1T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",

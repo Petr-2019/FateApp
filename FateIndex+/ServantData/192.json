@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -58,9 +58,9 @@
       "type": "道具作成", "name": "道具作成A",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
-          "magnification": "10"
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与猪化状态(1T)",
         "v1": "",
         "v2": "",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "10",
         "v2": "20",
@@ -124,7 +124,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPをものすごく增加",
+        "desc": "自身的NPをものすごく增加",
         "v1": "60",
         "v2": "66",
         "v3": "72",

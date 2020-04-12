@@ -50,12 +50,12 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核A",
+      "type": "女神的神核", "name": "女神的神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -65,7 +65,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "25"
+          "magnification": "25%"
         }
       ]
     }
@@ -80,7 +80,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "1600",
         "v2": "2000",
@@ -94,7 +94,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率付与眩晕(1T)",
         "v1": "80",
         "v2": "100",
@@ -108,7 +108,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "Quick卡耐性下降(3T)",
         "v1": "20",
         "v2": "20",

@@ -50,8 +50,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "11"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "11%"
         }
       ]
     },
@@ -60,8 +60,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "8"
+          "desc": "自身的威力上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -70,13 +70,13 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "12"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "12%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核A",
+      "type": "女神的神核", "name": "女神的神核A",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -85,13 +85,13 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "25"
+          "desc": "＆弱体耐性上升",
+          "magnification": "25%"
         }
       ]
     },
     {
-      "type": "high_servant", "name": "ハイ・サーヴァントEX",
+      "type": "high_servant", "name": "高等从者EX",
       "effect": [
         {
           "type": "効果なし",
@@ -111,7 +111,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "30",
@@ -125,7 +125,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "増殖状态时、Buster卡性能上升(1T)",
         "v1": "20",
         "v2": "20",
@@ -139,7 +139,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -183,7 +183,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のスキルチャージを進める",
+        "desc": "自身的スキルチャージを進める",
         "v1": "1",
         "v2": "1",
         "v3": "1",

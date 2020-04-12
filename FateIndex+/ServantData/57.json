@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "8%"
         }
       ]
     }
@@ -65,7 +65,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身攻击力大幅提升 (1T)",
         "v1": "30",
         "v2": "35",
@@ -79,7 +79,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -93,7 +93,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身HP减少",
         "v1": "1000",
         "v2": "1000",

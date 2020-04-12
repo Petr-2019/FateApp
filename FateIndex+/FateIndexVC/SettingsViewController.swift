@@ -39,7 +39,11 @@ extension SettingsViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
 
         if indexPath.section == 0 {
-
+            if indexPath.row == 0 {
+                if let url = URL(string: "https://game.bilibili.com/fgo/") {
+                    UIApplication.shared.open(url)
+                }
+            }
         }
         else if indexPath.section == 1 {
             if indexPath.row == 0 {
@@ -86,7 +90,7 @@ extension SettingsViewController: UITableViewDataSource {
                 cell.textLabel?.text = "新手指引"
             }
             else if indexPath.row == 1 {
-                cell.textLabel?.text = "捐赠"
+                cell.textLabel?.text = "微博@Petr2020"
             }
         }
         else if indexPath.section == 1 {

@@ -52,7 +52,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -61,8 +61,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -87,7 +87,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方单体防御强化状态解除",
         "v1": "",
         "v2": "",
@@ -101,7 +101,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动超强力的攻击",
         "v1": "900",
         "v2": "1200",
@@ -115,7 +115,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "30",
@@ -210,7 +210,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のHPを500減らす【デメリット】",
+        "desc": "＋自身的HPを500減らす【デメリット】",
         "v1": "500",
         "v2": "500",
         "v3": "500",

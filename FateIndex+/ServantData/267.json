@@ -49,13 +49,13 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "7.5"
+          "desc": "自身的星发生率上升",
+          "magnification": "7.5%"
         },
         {
           "type": "即死耐性下降",
           "desc": "＆即死耐性を小down【デメリット】",
-          "magnification": "10"
+          "magnification": "10%"
         }
       ]
     },
@@ -65,17 +65,17 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "15"
+          "magnification": "15%"
         },
         {
           "type": "即死耐性下降",
           "desc": "＆即死耐性を小down【デメリット】",
-          "magnification": "10"
+          "magnification": "10%"
         }
       ]
     },
     {
-      "type": "领域外生命", "name": "領域外の生命E",
+      "type": "领域外生命", "name": "领域外生命E",
       "effect": [
         {
           "type": "出星",
@@ -84,8 +84,8 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "2"
+          "desc": "＆弱体耐性上升",
+          "magnification": "2%"
         }
       ]
     }
@@ -100,7 +100,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -114,7 +114,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "防御強化状态解除",
         "v1": "",
         "v2": "",
@@ -128,7 +128,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌方防御力下降(3T)",
         "v1": "30",
         "v2": "35",
@@ -142,7 +142,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身一定概率眩晕(1T)",
         "v1": "60%",
         "v2": "60%",

@@ -47,7 +47,7 @@
   },
   "classskill": [
     {
-      "type": "领域外生命", "name": "領域外の生命EX",
+      "type": "领域外生命", "name": "领域外生命EX",
       "effect": [
         {
           "type": "出星",
@@ -56,18 +56,18 @@
         },
         {
           "type": "弱化耐性提升",
-          "desc": "＆弱体耐性を up",
-          "magnification": "12"
+          "desc": "＆弱体耐性上升",
+          "magnification": "12%"
         }
       ]
     },
     {
-      "type": "rage_breathe", "name": "狂気B",
+      "type": "rage_breathe", "name": "疯狂B",
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "8"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "8%"
         }
       ]
     },
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "敌方单体强化状态解除",
         "v1": "",
         "v2": "",
@@ -106,7 +106,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -120,7 +120,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击发生率下降(1T)",
         "v1": "30",
         "v2": "40",

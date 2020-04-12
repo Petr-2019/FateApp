@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能上升",
-          "magnification": "12"
+          "desc": "自身的Buster Card の性能上升",
+          "magnification": "12%"
         }
       ]
     },
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "敌全体のBuster攻击耐性下降(3T)",
         "v1": "20",
         "v2": "30",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动强力攻击",
         "v1": "300",
         "v2": "400",
@@ -150,7 +150,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のBuster Card の暴击星集中度上升(3T)",
+        "desc": "自身的Buster Card の暴击星集中度上升(3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",

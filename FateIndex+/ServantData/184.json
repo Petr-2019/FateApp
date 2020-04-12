@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を少し up",
-          "magnification": "2"
+          "desc": "自身的Buster Card の性能少许上升",
+          "magnification": "2%"
         }
       ]
     }
@@ -85,7 +85,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -99,7 +99,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "20",
@@ -113,7 +113,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与灼烧状态(5T)",
         "v1": "1000",
         "v2": "1000",
@@ -127,7 +127,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与延烧状态(5T)",
         "v1": "100",
         "v2": "150",
@@ -165,7 +165,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身の宝具威力上升(3T)",
+        "desc": "＋自身的宝具威力上升(3T)",
         "v1": "18",
         "v2": "19",
         "v3": "20",

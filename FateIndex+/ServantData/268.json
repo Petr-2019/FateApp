@@ -65,13 +65,13 @@
         "effect": [
           {
             "type": "暴击威力提升",
-            "desc": "自身の暴击威力を少し up",
-            "magnification": "6"
+            "desc": "自身的威力少许上升",
+            "magnification": "6%"
           }
         ]
       },
       {
-        "type": "女神的神核", "name": "女神の神核A++",
+        "type": "女神的神核", "name": "女神的神核A++",
         "effect": [
           {
             "type": "与 damage プラス付与",
@@ -81,7 +81,7 @@
           {
             "type": "弱化耐性提升",
             "desc": "自身弱化耐性上升",
-            "magnification": "27"
+            "magnification": "27%"
           }
         ]
       },
@@ -90,13 +90,13 @@
         "effect": [
           {
             "type": "被ダメNP获得量 up",
-            "desc": "自身の被 damage 时に獲得するNP up",
-            "magnification": "22"
+            "desc": "自身的被 damage 时に獲得するNP up",
+            "magnification": "22%"
           },
           {
             "type": "弱化耐性下降",
             "desc": "＋自身を除く友方全体<控え含む>の弱体耐性下降【デメリット】",
-            "magnification": "27"
+            "magnification": "27%"
           }
         ]
       },
@@ -105,18 +105,18 @@
         "effect": [
           {
             "type": "暴击威力提升",
-            "desc": "自身の暴击威力を up",
-            "magnification": "10"
+            "desc": "自身的威力上升",
+            "magnification": "10%"
           }
         ]
       },
       {
-        "type": "自己回复(魔力)", "name": "自己回复(魔力) B",
+        "type": "自我回复(魔力)", "name": "自我回复(魔力) B",
         "effect": [
           {
             "type": "回合充能",
             "desc": "自身に毎回合NP獲得状态を付与",
-            "magnification": "3.5"
+            "magnification": "3.5%"
           }
         ]
       }
@@ -131,7 +131,7 @@
           "count": 0,
           "target": "自身",
           "beforeafter": "发动前",
-          "lvoc": "oc",
+          "lvoc": "OC",
           "desc": "自身宝具威力上升(3T)",
           "v1": "20",
           "v2": "30",
@@ -145,7 +145,7 @@
           "count": 0,
           "target": "敌方全体",
           "beforeafter": "发动前",
-          "lvoc": "lv",
+          "lvoc": "LV",
           "desc": "敌方全体強力的攻击 ",
           "v1": "450",
           "v2": "600",
@@ -159,7 +159,7 @@
           "count": 0,
           "target": "敌方全体",
           "beforeafter": "发动前",
-          "lvoc": "lv",
+          "lvoc": "LV",
           "desc": "敌方全体強力的攻击",
           "v1": "300",
           "v2": "400",
@@ -173,7 +173,7 @@
           "count": 0,
           "target": "敌方全体",
           "beforeafter": "发动前",
-          "lvoc": "lv",
+          "lvoc": "LV",
           "desc": "敌方全体強力的攻击",
           "v1": "600",
           "v2": "800",
@@ -187,7 +187,7 @@
             "count": 0,
             "target": "自身",
             "beforeafter": "发动前",
-            "lvoc": "lv",
+            "lvoc": "LV",
             "desc": "自身的Extra Attack威力上升(1T)",
             "v1": "100",
             "v2": "100",
@@ -266,7 +266,7 @@
           "turn": 3,
           "count": 1,
           "target": "自身",
-          "desc": "自身の宝具威力上升(1回・3T)",
+          "desc": "自身的宝具威力上升(1回・3T)",
           "v1": "10",
           "v2": "11",
           "v3": "12",
@@ -324,7 +324,7 @@
             "turn": 0,
             "count": 0,
             "target": "自身",
-            "desc": "自身のNPを增加",
+            "desc": "自身的NPを增加",
             "v1": "30",
             "v2": "32",
             "v3": "34",

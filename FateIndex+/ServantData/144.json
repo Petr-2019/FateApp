@@ -52,7 +52,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "20"
+          "magnification": "20%"
         }
       ]
     },
@@ -61,13 +61,13 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身の Quick Card の性能上升",
-          "magnification": "12"
+          "desc": "自身的 Quick Card の性能上升",
+          "magnification": "12%"
         }
       ]
     },
     {
-      "type": "女神的神核", "name": "女神の神核EX",
+      "type": "女神的神核", "name": "女神的神核EX",
       "effect": [
         {
           "type": "与 damage プラス付与",
@@ -77,7 +77,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "30"
+          "magnification": "30%"
         }
       ]
     }
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力的攻击",
         "v1": "600",
         "v2": "800",
@@ -106,7 +106,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与宝具封印(1T)",
         "v1": "",
         "v2": "",
@@ -120,7 +120,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "付与灼烧(5T)",
         "v1": "1000",
         "v2": "1500",
@@ -204,7 +204,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星集中度上升(1T)",
+        "desc": "自身的星集中度上升(1T)",
         "v1": "300",
         "v2": "330",
         "v3": "360",

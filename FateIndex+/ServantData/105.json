@@ -49,8 +49,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "type": "绿放",
           "desc": "自身Quick卡性能少许提升",
-          "magnification": "7"
+          "magnification": "7%"
         }
       ]
     }
@@ -75,7 +75,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与自身必中状态(1T)",
         "v1": "",
         "v2": "",
@@ -89,7 +89,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力攻击",
         "v1": "1600",
         "v2": "2000",
@@ -103,7 +103,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击率下降(3T)",
         "v1": "20",
         "v2": "30",
@@ -147,7 +147,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNPを增加",
+        "desc": "自身的NPを增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

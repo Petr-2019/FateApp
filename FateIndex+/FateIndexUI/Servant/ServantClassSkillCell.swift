@@ -89,7 +89,7 @@ class ServantClassSkillCell: UITableViewCell {
         super.layoutSubviews()
 
         let avatarHeight = bounds.height - 2 * Constants.avatarTopMargin
-        let avatarWidth = avatarHeight
+        //let avatarWidth = avatarHeight
 
         // imageView?.frame = CGRect(x: Constants.avatarLeadMargin, y: Constants.avatarTopMargin, width: avatarWidth, height: avatarHeight)
 

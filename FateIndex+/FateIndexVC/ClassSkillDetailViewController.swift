@@ -37,7 +37,7 @@ class ClassSkillDetailViewController: UIViewController {
 
         view.addSubview(label)
         var text = ""
-        classSkill.effect.forEach { text += $0.desc + " " + $0.magnification + "%\n" }
+        classSkill.effect.forEach { text += $0.desc + " " + $0.magnification }
 
         label.text = text
         label.textAlignment = .center

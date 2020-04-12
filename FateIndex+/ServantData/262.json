@@ -50,7 +50,7 @@
         {
           "type": "弱化耐性提升",
           "desc": "自身弱化耐性上升",
-          "magnification": "17.5"
+          "magnification": "17.5%"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     },
@@ -75,12 +75,12 @@
       ]
     },
     {
-      "type": "fortress_build", "name": "要塞構築B",
+      "type": "fortress_build", "name": "要塞建造B",
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card 性能上升",
-          "magnification": "8"
+          "desc": "自身的Arts Card 性能上升",
+          "magnification": "8%"
         },
         {
           "type": "付与伤害减免",
@@ -100,7 +100,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "300",
         "v2": "400",
@@ -114,7 +114,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "友方全体Buster卡性能上升(3T)",
         "v1": "20",
         "v2": "25",
@@ -128,7 +128,7 @@
         "count": 0,
         "target": "自身和队友",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "暴击威力上升(3T)",
         "v1": "30",
         "v2": "35",
@@ -149,7 +149,7 @@
         "turn":  3,
         "count": 3,
         "target": "自身",
-        "desc": "自身の暴击威力上升(3回・3T)",
+        "desc": "自身的威力上升(3回・3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -246,7 +246,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身のArts Card 性能上升(3T)",
+        "desc": "自身的Arts Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

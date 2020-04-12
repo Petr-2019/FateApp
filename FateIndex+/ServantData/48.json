@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身のBuster Card の性能を少し up",
-          "magnification": "6"
+          "desc": "自身的Buster Card の性能少许上升",
+          "magnification": "6%"
         }
       ]
     },
@@ -58,8 +58,8 @@
       "effect": [
         {
           "type": "弱化耐性提升",
-          "desc": "自身の弱体耐性を少し up",
-          "magnification": "10"
+          "desc": "自身的弱体耐性少许上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "自身攻击力上升 (3T)",
         "v1": "10",
         "v2": "15",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动强力攻击",
         "v1": "600",
         "v2": "800",
@@ -109,7 +109,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星集中度上升(3T)",
+        "desc": "自身的星集中度上升(3T)",
         "v1": "3000",
         "v2": "3300",
         "v3": "3600",
@@ -132,7 +132,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の暴击星发生率上升(3T)",
+        "desc": "自身的星发生率上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -155,7 +155,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身のNP获得量上升(1T)",
+        "desc": "自身的NP获得量上升(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

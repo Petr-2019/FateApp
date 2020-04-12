@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を少し up",
-          "magnification": "4"
+          "desc": "自身的星发生率少许上升",
+          "magnification": "4%"
         }
       ]
     }
@@ -64,7 +64,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "自身Quick性能上升(3T)",
         "v1": "20",
         "v2": "20",
@@ -78,7 +78,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方单体发动超强力攻击",
         "v1": "1600",
         "v2": "2000",
@@ -92,7 +92,7 @@
         "count": 0,
         "target": "自身",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "获得大量暴击星",
         "v1": "15",
         "v2": "20",
@@ -153,7 +153,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身の精神异常状态を解除",
+        "desc": "自身的精神异常状态を解除",
         "v1": "",
         "v2": "",
         "v3": "",

@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身のArts Card の性能上升",
-          "magnification": "7"
+          "desc": "自身的Arts卡性能上升",
+          "magnification": "7%"
         }
       ]
     },
@@ -57,8 +57,8 @@
       "type": "道具作成", "name": "道具作成C",
       "effect": [
         {
-          "type": "弱体付与成功率 up",
-          "desc": "自身の弱体付与成功率を up",
+          "type": "弱体付与成功率上升",
+          "desc": "自身的弱体付与成功率上升",
           "magnification": "6"
         }
       ]
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "对敌方全体发动超强力的攻击",
         "v1": "450",
         "v2": "600",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "oc",
+        "lvoc": "OC",
         "desc": "对魔性特攻",
         "v1": "150",
         "v2": "162.5",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "敌方全体",
         "beforeafter": "发动后",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与強化无效状态(1T)",
         "v1": "",
         "v2": "",
@@ -180,7 +180,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＋自身のNPを增加",
+        "desc": "＋自身的NPを增加",
         "v1": "20",
         "v2": "21",
         "v3": "22",

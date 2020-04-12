@@ -48,8 +48,8 @@
       "effect": [
         {
           "type": "出星率上升",
-          "desc": "自身の暴击星发生率を up",
-          "magnification": "10.5"
+          "desc": "自身的星发生率上升",
+          "magnification": "10.5%"
         }
       ]
     },
@@ -58,8 +58,8 @@
       "effect": [
         {
           "type": "暴击威力提升",
-          "desc": "自身の暴击威力を up",
-          "magnification": "10"
+          "desc": "自身的威力上升",
+          "magnification": "10%"
         }
       ]
     }
@@ -74,7 +74,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与敌单体中毒(5T)",
         "v1": "2000",
         "v2": "2000",
@@ -88,7 +88,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率付与技能封印(1T) 概率40％",
         "v1": "40",
         "v2": "40",
@@ -102,7 +102,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "付与一定概率宝具封印(1T) 概率40％",
         "v1": "40",
         "v2": "40",
@@ -116,7 +116,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "一定概率即死",
         "v1": "60",
         "v2": "70",
@@ -130,7 +130,7 @@
         "count": 0,
         "target": "敌方单体",
         "beforeafter": "发动前",
-        "lvoc": "lv",
+        "lvoc": "LV",
         "desc": "发动超强力的攻击",
         "v1": "1200",
         "v2": "1500",
@@ -244,11 +244,11 @@
     "ct": 8,
     "effects": [
       {
-        "type": "即死付与成功率 up",
+        "type": "即死付与成功率上升",
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身の即死付与成功率上升(3T)",
+        "desc": "自身的即死付与成功率上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -261,7 +261,7 @@
         "v10": "50"
       },
       {
-        "type": "弱体付与成功率 up",
+        "type": "弱体付与成功率上升",
         "turn":  3,
         "count": 0,
         "target": "自身",
