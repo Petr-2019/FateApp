@@ -53,6 +53,8 @@ class EmblemDetailViewController: UITableViewController {
         tableView.register(SelfSizingLabelCell.self, forCellReuseIdentifier: SelfSizingLabelCell.identifier)
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
 
+        tableView.register(TrailingAvatarCell.self, forCellReuseIdentifier: TrailingAvatarCell.identifier)
+
         reloadData()
     }
 
@@ -60,7 +62,7 @@ class EmblemDetailViewController: UITableViewController {
         data.removeAll()
 
         data.append(section: .basic, with: [.id, .name, .access, .rare, .artist])
-        data.append(section: .skill, with: [.effect, .value])
+        data.append(section: .skill, with: [.skill, .effect, .value])
         data.append(section: .desc, with: [.desc])
     }
 
@@ -113,9 +115,10 @@ class EmblemDetailViewController: UITableViewController {
             result = cell
 
         case .skill:
-            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithText2Cell.identifier, for: indexPath) as! AvatarWithText2Cell
-            cell.textLabel?.text = "技能"
-            cell.avatar = UIImage(named: emblem.skill)
+            let cell = tableView.dequeueReusableCell(withIdentifier: TrailingAvatarCell.identifier, for: indexPath) as! TrailingAvatarCell
+
+            cell.titleLabel.text = emblem.skill
+            cell.avatarView.image = UIImage(named: emblem.skill)
 
             result = cell
 
@@ -143,6 +146,15 @@ class EmblemDetailViewController: UITableViewController {
 
         result.selectionStyle = .none
         return result
+    }
+
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch data.row(at: indexPath) {
+        case .skill:
+            return 78.0
+        default:
+            return UITableView.automaticDimension
+        }
     }
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

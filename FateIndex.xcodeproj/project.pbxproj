@@ -29,6 +29,7 @@
 		60F3FBB4215BD72300572EFB /* AvatarWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */; };
 		6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317A7B23DC271100F54075 /* UIImage+Extension.swift */; };
 		6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */; };
+		6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */; };
 		6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */; };
 		6E81C6FC2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */; };
 		6E81C6FF2441A92E00E83EE1 /* Emblem_60.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */; };
@@ -394,6 +395,7 @@
 		60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWithTextTableViewCell.swift; sourceTree = "<group>"; };
 		6E317A7B23DC271100F54075 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailViewController.swift; sourceTree = "<group>"; };
+		6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingAvatarCell.swift; sourceTree = "<group>"; };
 		6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSkillDetailViewController.swift; sourceTree = "<group>"; };
 		6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizeLeadTrailingTextCell.swift; sourceTree = "<group>"; };
 		6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Emblem_60.json; sourceTree = "<group>"; };
@@ -754,6 +756,7 @@
 				04A82F7A234A031600146CA1 /* DisclosureTableViewCell.swift */,
 				6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */,
 				6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */,
+				6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */,
 			);
 			path = FateIndexUI;
 			sourceTree = "<group>";
@@ -789,7 +792,7 @@
 		60F3FB91215BBF5A00572EFB = {
 			isa = PBXGroup;
 			children = (
-				60F3FB9C215BBF5A00572EFB /* FateIndex+ */,
+				60F3FB9C215BBF5A00572EFB /* FateIndex */,
 				60F3FB9B215BBF5A00572EFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -802,7 +805,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60F3FB9C215BBF5A00572EFB /* FateIndex+ */ = {
+		60F3FB9C215BBF5A00572EFB /* FateIndex */ = {
 			isa = PBXGroup;
 			children = (
 				6E81C6FD2441A89E00E83EE1 /* EmblemData */,
@@ -817,7 +820,7 @@
 				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
 				60F3FBA9215BBF5C00572EFB /* Info.plist */,
 			);
-			path = "FateIndex+";
+			path = FateIndex;
 			sourceTree = "<group>";
 		};
 		6E317A7D23DC271600F54075 /* Helper */ = {
@@ -1196,9 +1199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60F3FB99215BBF5A00572EFB /* FateIndex+ */ = {
+		60F3FB99215BBF5A00572EFB /* FateIndex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60F3FBAC215BBF5C00572EFB /* Build configuration list for PBXNativeTarget "FateIndex+" */;
+			buildConfigurationList = 60F3FBAC215BBF5C00572EFB /* Build configuration list for PBXNativeTarget "FateIndex" */;
 			buildPhases = (
 				60F3FB96215BBF5A00572EFB /* Sources */,
 				60F3FB97215BBF5A00572EFB /* Frameworks */,
@@ -1208,7 +1211,7 @@
 			);
 			dependencies = (
 			);
-			name = "FateIndex+";
+			name = FateIndex;
 			productName = "FateIndex+";
 			productReference = 60F3FB9A215BBF5A00572EFB /* FateIndex.app */;
 			productType = "com.apple.product-type.application";
@@ -1228,7 +1231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60F3FB95215BBF5A00572EFB /* Build configuration list for PBXProject "FateIndex+" */;
+			buildConfigurationList = 60F3FB95215BBF5A00572EFB /* Build configuration list for PBXProject "FateIndex" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1241,7 +1244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60F3FB99215BBF5A00572EFB /* FateIndex+ */,
+				60F3FB99215BBF5A00572EFB /* FateIndex */,
 			);
 		};
 /* End PBXProject section */
@@ -1602,6 +1605,7 @@
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
 				04A82F792349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift in Sources */,
 				6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */,
+				6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
 				04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */,
@@ -1769,7 +1773,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
-				INFOPLIST_FILE = "FateIndex+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FateIndex/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1790,7 +1794,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
-				INFOPLIST_FILE = "FateIndex+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FateIndex/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1807,7 +1811,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60F3FB95215BBF5A00572EFB /* Build configuration list for PBXProject "FateIndex+" */ = {
+		60F3FB95215BBF5A00572EFB /* Build configuration list for PBXProject "FateIndex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60F3FBAA215BBF5C00572EFB /* Debug */,
@@ -1816,7 +1820,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60F3FBAC215BBF5C00572EFB /* Build configuration list for PBXNativeTarget "FateIndex+" */ = {
+		60F3FBAC215BBF5C00572EFB /* Build configuration list for PBXNativeTarget "FateIndex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60F3FBAD215BBF5C00572EFB /* Debug */,

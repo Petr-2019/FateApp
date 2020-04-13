@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FateIndex+.xcodeproj">
+      location = "self:/Users/peter-guan/Documents/GitHub/FateIndex-/FateIndex.xcodeproj">
    </FileRef>
 </Workspace>
