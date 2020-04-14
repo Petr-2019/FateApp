@@ -30,6 +30,11 @@
 		6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317A7B23DC271100F54075 /* UIImage+Extension.swift */; };
 		6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */; };
 		6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */; };
+		6E5D766B2444918D000728C7 /* 270.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766A2444918D000728C7 /* 270.json */; };
+		6E5D766D24449966000728C7 /* 271.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766C24449966000728C7 /* 271.json */; };
+		6E5D766F24449E8F000728C7 /* 272.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766E24449E8F000728C7 /* 272.json */; };
+		6E5D76712444A488000728C7 /* 273.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D76702444A488000728C7 /* 273.json */; };
+		6E5D76732444AAD3000728C7 /* 274.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D76722444AAD3000728C7 /* 274.json */; };
 		6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */; };
 		6E81C6FC2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */; };
 		6E81C6FF2441A92E00E83EE1 /* Emblem_60.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */; };
@@ -101,6 +106,11 @@
 		6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */; };
 		6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED277AF24225185004647F9 /* FateTableViewData.swift */; };
 		6EDA903724436289000545D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA903624436289000545D9 /* UILabel+Extension.swift */; };
+		6EE65A0C2445D97E0058DDFE /* 275.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A0B2445D97E0058DDFE /* 275.json */; };
+		6EE65A0E2445DE4D0058DDFE /* 276.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A0D2445DE4D0058DDFE /* 276.json */; };
+		6EE65A102445E4490058DDFE /* 277.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A0F2445E4490058DDFE /* 277.json */; };
+		6EE65A122445E9320058DDFE /* 278.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A112445E9320058DDFE /* 278.json */; };
+		6EE65A142445EF9B0058DDFE /* 279.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A132445EF9B0058DDFE /* 279.json */; };
 		D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42BE9622340EB1000C662F2 /* ServantManager.swift */; };
 		D4B1468623BF75C700843094 /* 32.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1457F23BF75B700843094 /* 32.json */; };
 		D4B1468723BF75C700843094 /* 202.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1458023BF75B700843094 /* 202.json */; };
@@ -396,6 +406,11 @@
 		6E317A7B23DC271100F54075 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailViewController.swift; sourceTree = "<group>"; };
 		6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingAvatarCell.swift; sourceTree = "<group>"; };
+		6E5D766A2444918D000728C7 /* 270.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 270.json; sourceTree = "<group>"; };
+		6E5D766C24449966000728C7 /* 271.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 271.json; sourceTree = "<group>"; };
+		6E5D766E24449E8F000728C7 /* 272.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 272.json; sourceTree = "<group>"; };
+		6E5D76702444A488000728C7 /* 273.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 273.json; sourceTree = "<group>"; };
+		6E5D76722444AAD3000728C7 /* 274.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 274.json; sourceTree = "<group>"; };
 		6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSkillDetailViewController.swift; sourceTree = "<group>"; };
 		6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizeLeadTrailingTextCell.swift; sourceTree = "<group>"; };
 		6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Emblem_60.json; sourceTree = "<group>"; };
@@ -467,6 +482,11 @@
 		6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassSkillCell.swift; sourceTree = "<group>"; };
 		6ED277AF24225185004647F9 /* FateTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateTableViewData.swift; sourceTree = "<group>"; };
 		6EDA903624436289000545D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		6EE65A0B2445D97E0058DDFE /* 275.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 275.json; sourceTree = "<group>"; };
+		6EE65A0D2445DE4D0058DDFE /* 276.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 276.json; sourceTree = "<group>"; };
+		6EE65A0F2445E4490058DDFE /* 277.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 277.json; sourceTree = "<group>"; };
+		6EE65A112445E9320058DDFE /* 278.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 278.json; sourceTree = "<group>"; };
+		6EE65A132445EF9B0058DDFE /* 279.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 279.json; sourceTree = "<group>"; };
 		D42BE9622340EB1000C662F2 /* ServantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantManager.swift; sourceTree = "<group>"; };
 		D4B1457F23BF75B700843094 /* 32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 32.json; sourceTree = "<group>"; };
 		D4B1458023BF75B700843094 /* 202.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 202.json; sourceTree = "<group>"; };
@@ -1166,6 +1186,16 @@
 				D4B1466A23BF75C500843094 /* 267.json */,
 				D4B1462423BF75C100843094 /* 268.json */,
 				D4B145E523BF75BD00843094 /* 269.json */,
+				6E5D766A2444918D000728C7 /* 270.json */,
+				6E5D766C24449966000728C7 /* 271.json */,
+				6E5D766E24449E8F000728C7 /* 272.json */,
+				6E5D76702444A488000728C7 /* 273.json */,
+				6E5D76722444AAD3000728C7 /* 274.json */,
+				6EE65A0B2445D97E0058DDFE /* 275.json */,
+				6EE65A0D2445DE4D0058DDFE /* 276.json */,
+				6EE65A0F2445E4490058DDFE /* 277.json */,
+				6EE65A112445E9320058DDFE /* 278.json */,
+				6EE65A132445EF9B0058DDFE /* 279.json */,
 			);
 			path = ServantData;
 			sourceTree = "<group>";
@@ -1264,6 +1294,7 @@
 				6E81C76F2441B83C00E83EE1 /* Emblem_54.json in Resources */,
 				6E81C76D2441B83C00E83EE1 /* Emblem_7.json in Resources */,
 				D4B146A023BF75C700843094 /* 16.json in Resources */,
+				6E5D766D24449966000728C7 /* 271.json in Resources */,
 				D4B1471D23BF75C700843094 /* 46.json in Resources */,
 				D4B1476B23BF75C800843094 /* 261.json in Resources */,
 				D4B146E823BF75C700843094 /* 3.json in Resources */,
@@ -1291,6 +1322,7 @@
 				D4B1471523BF75C700843094 /* 54.json in Resources */,
 				D4B146E323BF75C700843094 /* 114.json in Resources */,
 				6E81C7762441B83C00E83EE1 /* Emblem_13.json in Resources */,
+				6EE65A0C2445D97E0058DDFE /* 275.json in Resources */,
 				6E81C7072441ADF000E83EE1 /* Emblem_1.json in Resources */,
 				D4B1468B23BF75C700843094 /* 138.json in Resources */,
 				D4B1468D23BF75C700843094 /* 42.json in Resources */,
@@ -1329,6 +1361,7 @@
 				D4B1478C23BF75C800843094 /* 77.json in Resources */,
 				D4B146B923BF75C700843094 /* 266.json in Resources */,
 				D4B146FB23BF75C700843094 /* 59.json in Resources */,
+				6E5D766B2444918D000728C7 /* 270.json in Resources */,
 				D4B146AF23BF75C700843094 /* 122.json in Resources */,
 				D4B1471E23BF75C700843094 /* 134.json in Resources */,
 				D4B146F523BF75C700843094 /* 260.json in Resources */,
@@ -1366,6 +1399,7 @@
 				D4B146ED23BF75C700843094 /* 157.json in Resources */,
 				D4B146D623BF75C700843094 /* 41.json in Resources */,
 				D4B1471123BF75C700843094 /* 94.json in Resources */,
+				6E5D76712444A488000728C7 /* 273.json in Resources */,
 				D4B1478123BF75C800843094 /* 95.json in Resources */,
 				6E81C74F2441B83C00E83EE1 /* Emblem_21.json in Resources */,
 				D4B146D523BF75C700843094 /* 170.json in Resources */,
@@ -1376,6 +1410,7 @@
 				6E81C7782441B83C00E83EE1 /* Emblem_30.json in Resources */,
 				D4B1468E23BF75C700843094 /* 160.json in Resources */,
 				6E81C75C2441B83C00E83EE1 /* Emblem_20.json in Resources */,
+				6EE65A0E2445DE4D0058DDFE /* 276.json in Resources */,
 				D4B1477C23BF75C800843094 /* 181.json in Resources */,
 				6E81C7502441B83C00E83EE1 /* Emblem_38.json in Resources */,
 				6E81C7472441B83C00E83EE1 /* Emblem_14.json in Resources */,
@@ -1403,7 +1438,9 @@
 				6E81C7532441B83C00E83EE1 /* Emblem_56.json in Resources */,
 				D4B1472A23BF75C700843094 /* 164.json in Resources */,
 				D4B1470623BF75C700843094 /* 55.json in Resources */,
+				6E5D76732444AAD3000728C7 /* 274.json in Resources */,
 				D4B146DF23BF75C700843094 /* 117.json in Resources */,
+				6E5D766F24449E8F000728C7 /* 272.json in Resources */,
 				D4B1469F23BF75C700843094 /* 25.json in Resources */,
 				D4B1473223BF75C800843094 /* 200.json in Resources */,
 				D4B146DD23BF75C700843094 /* 256.json in Resources */,
@@ -1441,6 +1478,7 @@
 				D4B1469923BF75C700843094 /* 186.json in Resources */,
 				D4B1473123BF75C800843094 /* 93.json in Resources */,
 				6E81C7462441B83C00E83EE1 /* Emblem_6.json in Resources */,
+				6EE65A122445E9320058DDFE /* 278.json in Resources */,
 				D4B146F823BF75C700843094 /* 14.json in Resources */,
 				D4B1475123BF75C800843094 /* 119.json in Resources */,
 				D4B1474723BF75C800843094 /* 43.json in Resources */,
@@ -1525,6 +1563,7 @@
 				6E81C7492441B83C00E83EE1 /* Emblem_50.json in Resources */,
 				D4B1470723BF75C700843094 /* 49.json in Resources */,
 				D4B146C023BF75C700843094 /* 205.json in Resources */,
+				6EE65A102445E4490058DDFE /* 277.json in Resources */,
 				6E81C7702441B83C00E83EE1 /* Emblem_5.json in Resources */,
 				D4B146DC23BF75C700843094 /* 24.json in Resources */,
 				D4B146F723BF75C700843094 /* 187.json in Resources */,
@@ -1551,6 +1590,7 @@
 				D4B1471323BF75C700843094 /* 197.json in Resources */,
 				D4B1472723BF75C700843094 /* 62.json in Resources */,
 				D4B146EE23BF75C700843094 /* 133.json in Resources */,
+				6EE65A142445EF9B0058DDFE /* 279.json in Resources */,
 				6E81C7772441B83C00E83EE1 /* Emblem_9.json in Resources */,
 				6E81C7662441B83C00E83EE1 /* Emblem_16.json in Resources */,
 				D4B1475D23BF75C800843094 /* 123.json in Resources */,
@@ -1779,6 +1819,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
 				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1800,6 +1841,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
 				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";

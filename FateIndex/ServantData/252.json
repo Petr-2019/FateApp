@@ -69,8 +69,8 @@
       "type": "神性", "name": "神性C",
       "effect": [
         {
-          "type": "与 damage プラス付与",
-          "desc": "自身に与 damage プラス状态を付与",
+          "type": "付与伤害附加状态",
+          "desc": "付与自身伤害附加状态",
           "magnification": "150"
         }
       ]
