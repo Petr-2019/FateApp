@@ -11,7 +11,7 @@ import Foundation
 class ServantManager {
 
     static let shared = ServantManager()
-    let dispatchQueue = DispatchQueue(label: "QueueIdentification", qos: .userInitiated)
+    let dispatchQueue = DispatchQueue(label: "ServantManager", qos: .userInitiated)
 
     func allServants(completion: @escaping ([Servant]) -> Void) -> [Servant] {
         var servants = [Servant]()

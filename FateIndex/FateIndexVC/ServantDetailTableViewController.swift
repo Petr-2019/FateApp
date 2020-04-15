@@ -18,6 +18,7 @@ class ServantDetailTableViewController: UITableViewController {
         case classSkill
         case noblePhantasm
         case activeSkill
+        case HPAndATK
 
         func title() -> String {
             switch self {
@@ -33,6 +34,8 @@ class ServantDetailTableViewController: UITableViewController {
                 return "宝具"
             case .activeSkill:
                 return "主动技能"
+            case .HPAndATK:
+                return "HP/ATK"
             }
         }
     }
@@ -65,6 +68,9 @@ class ServantDetailTableViewController: UITableViewController {
         case noblePhantasm
 
         case activeSkillSummary
+
+        case hp
+        case atk
     }
 
     private let servant: Servant
@@ -93,6 +99,10 @@ class ServantDetailTableViewController: UITableViewController {
         tableView.register(SelfSizeLeadTrailingTextCell.self, forCellReuseIdentifier: SelfSizeLeadTrailingTextCell.identifier)
 
         update()
+
+        if HPAndATKManager.shared.dataDict[servant.servant.name] == nil {
+            HPAndATKManager.shared.fetchModel(servantId: servant.servant.no)
+        }
     }
 
     override func viewDidLayoutSubviews() {
@@ -127,6 +137,8 @@ class ServantDetailTableViewController: UITableViewController {
 
         data.append(section: .activeSkill)
         data.append(rows: [.activeSkillSummary, .activeSkillSummary, .activeSkillSummary], to: .activeSkill)
+
+        data.append(section: .HPAndATK, with: [.hp, .atk])
     }
 
 }
@@ -312,6 +324,20 @@ extension ServantDetailTableViewController {
             cell.accessoryType = .disclosureIndicator
 
             resultCell = cell
+
+        case .hp:
+            let cell = UITableViewCell(frame: .zero)
+            cell.textLabel?.text = "HP 成长曲线"
+            cell.textLabel?.textColor = ChartColors.blueColor()
+
+            return cell
+
+        case .atk:
+            let cell = UITableViewCell(frame: .zero)
+            cell.textLabel?.text = "ATK 成长曲线"
+            cell.textLabel?.textColor = ChartColors.orangeColor()
+
+            return cell
         }
 
         return resultCell
@@ -344,6 +370,8 @@ extension ServantDetailTableViewController {
                 return "宝具"
             case .activeSkill:
                 return "主动技能"
+            case .HPAndATK:
+                return "HP/ATK"
             }
         }()
 
@@ -362,8 +390,10 @@ extension ServantDetailTableViewController {
         if indexPath.section == 3 {
             let classSkill = servant.classskill[indexPath.row]
             let vc = ClassSkillDetailViewController(classSkill: classSkill)
-            let nav = UINavigationController(rootViewController: vc)
-            present(nav, animated: true, completion: nil)
+            navigationController?.pushViewController(vc, animated: true)
+
+            //let nav = UINavigationController(rootViewController: vc)
+            //present(nav, animated: true, completion: nil)
         }
         else if indexPath.section == 4 {
             let hogu = servant.hogu
@@ -384,6 +414,18 @@ extension ServantDetailTableViewController {
 
             let vc = ActiveSkillDetailViewController(skill: skill)
             navigationController?.pushViewController(vc, animated: true)
+        }
+        else if indexPath.section == 6 {
+            if let model = HPAndATKManager.shared.dataDict[servant.servant.no] {
+                if indexPath.row == 0 {
+                    let vc = HPAndATKChartVC(dataModel: model, mode: .hp)
+                    present(vc, animated: true, completion: nil)
+                }
+                else {
+                    let vc = HPAndATKChartVC(dataModel: model, mode: .atk)
+                    present(vc, animated: true, completion: nil)
+                }
+            }
         }
     }
 

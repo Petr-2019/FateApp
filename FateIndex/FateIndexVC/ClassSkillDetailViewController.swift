@@ -42,17 +42,10 @@ class ClassSkillDetailViewController: UIViewController {
         label.text = text
         label.textAlignment = .center
         label.numberOfLines = 0
-
-        let rightSideOptionButton = UIBarButtonItem(title: "完成", style: .done, target: self, action: #selector(handleDoneButtonTapped))
-        navigationItem.rightBarButtonItem = rightSideOptionButton
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    @objc func handleDoneButtonTapped() {
-        dismiss(animated: true, completion: nil)
     }
 
     override func viewDidLayoutSubviews() {
