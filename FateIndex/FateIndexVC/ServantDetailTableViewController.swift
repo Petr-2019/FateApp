@@ -20,24 +20,24 @@ class ServantDetailTableViewController: UITableViewController {
         case activeSkill
         case HPAndATK
 
-        func title() -> String {
-            switch self {
-            case .basicInfo:
-                return "基础数据"
-            case .actionCard:
-                return "配卡"
-            case .npRelated:
-                return "NP获得率"
-            case .classSkill:
-                return "职阶技能"
-            case .noblePhantasm:
-                return "宝具"
-            case .activeSkill:
-                return "主动技能"
-            case .HPAndATK:
-                return "HP/ATK"
-            }
-        }
+//        func title() -> String {
+//            switch self {
+//            case .basicInfo:
+//                return "基础数据"
+//            case .actionCard:
+//                return "配卡"
+//            case .npRelated:
+//                return "NP获得率"
+//            case .classSkill:
+//                return "职阶技能"
+//            case .noblePhantasm:
+//                return "宝具"
+//            case .activeSkill:
+//                return "主动技能"
+//            case .HPAndATK:
+//                return "HP/ATK"
+//            }
+//        }
     }
 
     private enum Row {
@@ -382,7 +382,7 @@ extension ServantDetailTableViewController {
             case .activeSkill:
                 return "主动技能"
             case .HPAndATK:
-                return "HP/ATK"
+                return "成长曲线"
             }
         }()
 
