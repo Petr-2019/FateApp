@@ -42,6 +42,8 @@ class ServantDetailTableViewController: UITableViewController {
 
     private enum Row {
 
+        case avatar
+
         case id
         case name
         case className
@@ -98,6 +100,8 @@ class ServantDetailTableViewController: UITableViewController {
 
         tableView.register(SelfSizeLeadTrailingTextCell.self, forCellReuseIdentifier: SelfSizeLeadTrailingTextCell.identifier)
 
+        tableView.register(CenterAvatarCell.self, forCellReuseIdentifier: CenterAvatarCell.identifier)
+
         update()
 
         if HPAndATKManager.shared.dataDict[servant.servant.name] == nil {
@@ -119,7 +123,7 @@ class ServantDetailTableViewController: UITableViewController {
         data.removeAll()
 
         data.append(section: .basicInfo)
-        data.append(rows: [.id, .name, .className, .rarity, .cost, .tenchijin, .maxLevel, .maxLevel_HP, .maxLevel_ATK], to: .basicInfo)
+        data.append(rows: [.avatar, .id, .name, .className, .rarity, .cost, .tenchijin, .maxLevel, .maxLevel_HP, .maxLevel_ATK], to: .basicInfo)
 
         data.append(section: .actionCard)
         data.append(rows: [.card_distribution, .arts_hit, .quick_hit, .buster_hit], to: .actionCard)
@@ -157,6 +161,13 @@ extension ServantDetailTableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let resultCell: UITableViewCell
         switch data.row(at: indexPath) {
+        case .avatar:
+            let cell = tableView.dequeueReusableCell(withIdentifier: CenterAvatarCell.identifier, for: indexPath) as! CenterAvatarCell
+            cell.selectionStyle = .none
+            cell.configure(image: UIImage(named: "Servant_\(servant.servant.no)"))
+
+            resultCell = cell
+
         case .id:
             let cell = tableView.dequeueReusableCell(withIdentifier: TrailingTextTableViewCell.identifier, for: indexPath) as! TrailingTextTableViewCell
             cell.selectionStyle = .none
@@ -431,6 +442,15 @@ extension ServantDetailTableViewController {
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 37.5
+    }
+
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch data.row(at: indexPath) {
+        case .avatar:
+            return 80.0
+        default:
+            return UITableView.automaticDimension
+        }
     }
 
 }
