@@ -45,9 +45,13 @@ class ServantTableViewController: UITableViewController {
         setupSearchViewController()
         servants = ServantManager.shared.allServants { [weak self] servants in
             DispatchQueue.main.async {
-                self?.servants.append(contentsOf: servants)
-                self?.servantsDict = Dictionary(grouping: self!.servants, by: { $0.servant.clazz })
-                self?.tableView.reloadData()
+                guard let strongSelf = self else {
+                    return
+                }
+
+                strongSelf.servants.append(contentsOf: servants)
+                strongSelf.servantsDict = Dictionary(grouping: strongSelf.servants, by: { $0.servant.clazz })
+                strongSelf.tableView.reloadData()
             }
         }
     }
@@ -80,8 +84,10 @@ class ServantTableViewController: UITableViewController {
         }
         else {
             let servantClass = Constants.servantClasses[indexPath.section]
-            cell.avatar = UIImage(named: "Servant_\(servantsDict[servantClass]![indexPath.row].servant.no)")
-            cell.title = servantsDict[servantClass]?[indexPath.row].servant.name
+            if let servants = servantsDict[servantClass] {
+                cell.avatar = UIImage(named: "Servant_\(servants[indexPath.row].servant.no)")
+                cell.title = servants[indexPath.row].servant.name
+            }
             return cell
         }
     }
@@ -121,8 +127,10 @@ class ServantTableViewController: UITableViewController {
         else {
             let servantClass = Constants.servantClasses[indexPath.section]
 
-            let vc = ServantDetailTableViewController(servant: servantsDict[servantClass]![indexPath.row])
-            self.navigationController?.pushViewController(vc, animated: true)
+            if let servants = servantsDict[servantClass] {
+                let vc = ServantDetailTableViewController(servant: servants[indexPath.row])
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
         }
     }
 
@@ -145,13 +153,10 @@ extension ServantTableViewController: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
-        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
-        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
-
-//        let scopes = [Constants.atkDesc, Constants.hpDesc]
-//        if scopes.contains(scope) {
-//            searchBar.resignFirstResponder()
-//        }
+        if let text = searchController.searchBar.text, let scopeButtonTitles = searchBar.scopeButtonTitles {
+            let scope = scopeButtonTitles[searchBar.selectedScopeButtonIndex]
+            filterContentForSearchText(text, scope: scope)
+        }
     }
 
     private func searchBarIsEmpty() -> Bool {
@@ -195,7 +200,10 @@ extension ServantTableViewController: UISearchResultsUpdating {
 extension ServantTableViewController: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+        if let text = searchBar.text, let scopeButtonTitles = searchBar.scopeButtonTitles {
+            filterContentForSearchText(text, scope: scopeButtonTitles[selectedScope])
+        }
+
         searchBar.resignFirstResponder()
     }
 

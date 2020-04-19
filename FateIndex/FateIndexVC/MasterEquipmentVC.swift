@@ -1,37 +1,30 @@
 //
-//  EmblemTableViewController.swift
-//  FateIndex+
+//  MasterEquipmentVC.swift
+//  FateIndex
 //
-//  Created by PeterGuan on 2019/10/6.
-//  Copyright © 2019 管君. All rights reserved.
+//  Created by Peter-Guan on 2020/4/17.
+//  Copyright © 2020 管君. All rights reserved.
 //
 
 import UIKit
 
-class EmblemTableViewController: UITableViewController {
+class MasterEquipmentVC: UITableViewController {
 
     private struct Constants {
         static let defaultCellHeight: CGFloat = 78.0
 
-        static let rare: [String] = [
-            "⭐", "⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐",
-            "⭐⭐⭐⭐⭐"
-        ]
-
-        static let placeHolder = "搜索指令纹章"
-        static let idName = "编号"
-        static let rareLevel = "稀有度"
+        static let placeHolder = "搜索魔术礼装"
     }
 
     private let searchController = UISearchController(searchResultsController: nil)
 
-    private var emblems = EmblemManager.shared.allEmblems()
+    private var masterEquipments = [MasterEquipment]()
 
-    private lazy var emblemsDict = {
-        return Dictionary(grouping: emblems, by: { $0.rare })
+    private lazy var equipmentsDict = {
+        return Dictionary(grouping: masterEquipments, by: { $0.name })
     }()
 
-    private var filteredEmblems = [Emblem]()
+    private var filteredMasterEquipments = [MasterEquipment]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,21 +33,21 @@ class EmblemTableViewController: UITableViewController {
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
 
         setupSearchViewController()
+        masterEquipments = MasterEquipmentManager.shared.allMasterEquipments()
     }
 
     // MARK:- UITableViewDataSource
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return isFiltering() ? 1 : Constants.rare.count
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering() {
-            return filteredEmblems.count
+            return filteredMasterEquipments.count
         }
         else {
-            let rare = Constants.rare[section]
-            return emblemsDict[rare]?.count ?? 0
+            return masterEquipments.count
         }
     }
 
@@ -64,14 +57,15 @@ class EmblemTableViewController: UITableViewController {
         cell.accessoryType = .disclosureIndicator
 
         if isFiltering() {
-            cell.avatar = UIImage(named: "Emblem_\(filteredEmblems[indexPath.row].id)")
-            cell.title = filteredEmblems[indexPath.row].name
+            let avatarName = "Master_Equip_\(indexPath.row + 1)a"
+            cell.avatar = UIImage(named: avatarName)
+            cell.title = filteredMasterEquipments[indexPath.row].name
             return cell
         }
         else {
-            let rare = Constants.rare[indexPath.section]
-            cell.avatar = UIImage(named: "Emblem_\(emblemsDict[rare]![indexPath.row].id)")
-            cell.title = emblemsDict[rare]?[indexPath.row].name
+            let avatarName = "Master_Equip_\(indexPath.row + 1)a"
+            cell.avatar = UIImage(named: avatarName)
+            cell.title = masterEquipments[indexPath.row].name
             return cell
         }
     }
@@ -80,38 +74,15 @@ class EmblemTableViewController: UITableViewController {
         return Constants.defaultCellHeight
     }
 
-    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        if isFiltering() {
-            return nil
-        }
-
-        let rare = Constants.rare[section]
-        if let hasEmblem = emblemsDict[rare], hasEmblem.isEmpty {
-            return nil
-        }
-
-        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
-
-        headerView.title = rare
-
-        return headerView
-    }
-
-    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 37.5
-    }
-
     // MARK:- UITableViewDelegate
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if isFiltering() {
-            let vc = EmblemDetailViewController(emblem: emblems[indexPath.row])
+            let vc = MasterEquipmentDetailVC(masterEquipment: filteredMasterEquipments[indexPath.row])
             self.navigationController?.pushViewController(vc, animated: true)
         }
         else {
-            let rare = Constants.rare[indexPath.section]
-
-            let vc = EmblemDetailViewController(emblem: emblemsDict[rare]![indexPath.row])
+            let vc = MasterEquipmentDetailVC(masterEquipment: masterEquipments[indexPath.row])
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
@@ -123,20 +94,16 @@ class EmblemTableViewController: UITableViewController {
         searchController.searchBar.placeholder = Constants.placeHolder
         searchController.searchBar.delegate = self
 
-        searchController.searchBar.scopeButtonTitles = [
-            Constants.idName, Constants.rareLevel
-        ]
         navigationItem.searchController = searchController
         definesPresentationContext = true
     }
+
 }
 
-extension EmblemTableViewController: UISearchResultsUpdating {
+extension MasterEquipmentVC: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
-        let searchBar = searchController.searchBar
-        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
-        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+        filterContentForSearchText(searchController.searchBar.text!)
     }
 
     private func searchBarIsEmpty() -> Bool {
@@ -144,14 +111,12 @@ extension EmblemTableViewController: UISearchResultsUpdating {
         return searchController.searchBar.text?.isEmpty ?? true
     }
 
-    private func filterContentForSearchText(_ searchText: String, scope: String = Constants.idName) {
-        filteredEmblems = emblems.filter { emblem in
+    private func filterContentForSearchText(_ searchText: String) {
+        filteredMasterEquipments = masterEquipments.filter { masterEquipment in
             if searchText == "" {
                 return true
             }
-            return emblem.name.contains(searchText.lowercased())
-        }.sorted {
-            $0.rare > $1.rare
+            return masterEquipment.name.lowercased().contains(searchText.lowercased())
         }
 
         tableView.reloadData()
@@ -164,10 +129,10 @@ extension EmblemTableViewController: UISearchResultsUpdating {
 
 }
 
-extension EmblemTableViewController: UISearchBarDelegate {
+extension MasterEquipmentVC: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+        filterContentForSearchText(searchBar.text!)
         searchBar.resignFirstResponder()
     }
 

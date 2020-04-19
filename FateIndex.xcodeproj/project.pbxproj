@@ -29,6 +29,27 @@
 		60F3FBB4215BD72300572EFB /* AvatarWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */; };
 		6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317A7B23DC271100F54075 /* UIImage+Extension.swift */; };
 		6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */; };
+		6E429A2A24497E400049FA47 /* Master_Equipment_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A2924497E400049FA47 /* Master_Equipment_1.json */; };
+		6E429A2C244980F70049FA47 /* Master_Equipment_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A2B244980F70049FA47 /* Master_Equipment_2.json */; };
+		6E429A2E2449823C0049FA47 /* Master_Equipment_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A2D2449823C0049FA47 /* Master_Equipment_3.json */; };
+		6E429A30244982E20049FA47 /* Master_Equipment_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A2F244982E20049FA47 /* Master_Equipment_4.json */; };
+		6E429A32244984D70049FA47 /* Master_Equipment_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A31244984D70049FA47 /* Master_Equipment_5.json */; };
+		6E429A342449860E0049FA47 /* Master_Equipment_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A332449860E0049FA47 /* Master_Equipment_6.json */; };
+		6E429A36244986E40049FA47 /* Master_Equipment_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A35244986E40049FA47 /* Master_Equipment_7.json */; };
+		6E429A38244987FE0049FA47 /* Master_Equipment_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A37244987FD0049FA47 /* Master_Equipment_8.json */; };
+		6E429A3A244988D20049FA47 /* Master_Equipment_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A39244988D20049FA47 /* Master_Equipment_9.json */; };
+		6E429A3C244989760049FA47 /* Master_Equipment_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A3B244989760049FA47 /* Master_Equipment_10.json */; };
+		6E429A3E24498A7D0049FA47 /* Master_Equipment_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A3D24498A7D0049FA47 /* Master_Equipment_11.json */; };
+		6E429A46244991C20049FA47 /* Master_Equipment_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A45244991C20049FA47 /* Master_Equipment_12.json */; };
+		6E429A482449D84C0049FA47 /* Master_Equipment_13.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A472449D84C0049FA47 /* Master_Equipment_13.json */; };
+		6E429A4A2449D9640049FA47 /* Master_Equipment_14.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A492449D9640049FA47 /* Master_Equipment_14.json */; };
+		6E429A4C2449DA760049FA47 /* Master_Equipment_15.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A4B2449DA760049FA47 /* Master_Equipment_15.json */; };
+		6E429A4E2449DF160049FA47 /* MasterEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A4D2449DF160049FA47 /* MasterEquipment.swift */; };
+		6E429A502449DFEE0049FA47 /* MasterEquipmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A4F2449DFEE0049FA47 /* MasterEquipmentManager.swift */; };
+		6E429A522449EA060049FA47 /* MasterEquipmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A512449EA060049FA47 /* MasterEquipmentVC.swift */; };
+		6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */; };
+		6E429A59244C773D0049FA47 /* MasterSkillDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */; };
+		6E429A5B244C80920049FA47 /* ActiveSkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */; };
 		6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */; };
 		6E5D766B2444918D000728C7 /* 270.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766A2444918D000728C7 /* 270.json */; };
 		6E5D766D24449966000728C7 /* 271.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766C24449966000728C7 /* 271.json */; };
@@ -685,6 +706,27 @@
 		60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWithTextTableViewCell.swift; sourceTree = "<group>"; };
 		6E317A7B23DC271100F54075 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailViewController.swift; sourceTree = "<group>"; };
+		6E429A2924497E400049FA47 /* Master_Equipment_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_1.json; sourceTree = "<group>"; };
+		6E429A2B244980F70049FA47 /* Master_Equipment_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_2.json; sourceTree = "<group>"; };
+		6E429A2D2449823C0049FA47 /* Master_Equipment_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_3.json; sourceTree = "<group>"; };
+		6E429A2F244982E20049FA47 /* Master_Equipment_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_4.json; sourceTree = "<group>"; };
+		6E429A31244984D70049FA47 /* Master_Equipment_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_5.json; sourceTree = "<group>"; };
+		6E429A332449860E0049FA47 /* Master_Equipment_6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_6.json; sourceTree = "<group>"; };
+		6E429A35244986E40049FA47 /* Master_Equipment_7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_7.json; sourceTree = "<group>"; };
+		6E429A37244987FD0049FA47 /* Master_Equipment_8.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_8.json; sourceTree = "<group>"; };
+		6E429A39244988D20049FA47 /* Master_Equipment_9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_9.json; sourceTree = "<group>"; };
+		6E429A3B244989760049FA47 /* Master_Equipment_10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_10.json; sourceTree = "<group>"; };
+		6E429A3D24498A7D0049FA47 /* Master_Equipment_11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_11.json; sourceTree = "<group>"; };
+		6E429A45244991C20049FA47 /* Master_Equipment_12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_12.json; sourceTree = "<group>"; };
+		6E429A472449D84C0049FA47 /* Master_Equipment_13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_13.json; sourceTree = "<group>"; };
+		6E429A492449D9640049FA47 /* Master_Equipment_14.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_14.json; sourceTree = "<group>"; };
+		6E429A4B2449DA760049FA47 /* Master_Equipment_15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_15.json; sourceTree = "<group>"; };
+		6E429A4D2449DF160049FA47 /* MasterEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipment.swift; sourceTree = "<group>"; };
+		6E429A4F2449DFEE0049FA47 /* MasterEquipmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipmentManager.swift; sourceTree = "<group>"; };
+		6E429A512449EA060049FA47 /* MasterEquipmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipmentVC.swift; sourceTree = "<group>"; };
+		6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipmentDetailVC.swift; sourceTree = "<group>"; };
+		6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSkillDetailVC.swift; sourceTree = "<group>"; };
+		6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailCell.swift; sourceTree = "<group>"; };
 		6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingAvatarCell.swift; sourceTree = "<group>"; };
 		6E5D766A2444918D000728C7 /* 270.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 270.json; sourceTree = "<group>"; };
 		6E5D766C24449966000728C7 /* 271.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 271.json; sourceTree = "<group>"; };
@@ -1338,6 +1380,7 @@
 				6E81C6FB2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift */,
 				6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */,
 				6EFD9A2E2447524A007581DB /* CenterAvatarCell.swift */,
+				6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */,
 			);
 			path = FateIndexUI;
 			sourceTree = "<group>";
@@ -1389,19 +1432,17 @@
 		60F3FB9C215BBF5A00572EFB /* FateIndex */ = {
 			isa = PBXGroup;
 			children = (
-				6EFD9452244703AD007581DB /* Servant_HP_ATK */,
-				6EE65A152445F9EF0058DDFE /* Chart */,
-				6E81C6FD2441A89E00E83EE1 /* EmblemData */,
-				6E317A7D23DC271600F54075 /* Helper */,
-				D4B1437023BF67CE00843094 /* ServantData */,
-				D4B4004122F3116C00EDEC39 /* FateModel */,
-				D4B4003322F08D7F00EDEC39 /* FateIndexVC */,
-				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
-				60F3FBA1215BBF5A00572EFB /* Main.storyboard */,
 				60F3FBA4215BBF5C00572EFB /* Assets.xcassets */,
-				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
+				6EE65A152445F9EF0058DDFE /* Chart */,
+				6E429A55244B2F420049FA47 /* Data */,
+				60EF05F1217E1C3B00BA95E2 /* FateIndexUI */,
+				D4B4003322F08D7F00EDEC39 /* FateIndexVC */,
+				D4B4004122F3116C00EDEC39 /* FateModel */,
+				6E317A7D23DC271600F54075 /* Helper */,
 				60F3FBA9215BBF5C00572EFB /* Info.plist */,
+				60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */,
+				60F3FBA1215BBF5A00572EFB /* Main.storyboard */,
 			);
 			path = FateIndex;
 			sourceTree = "<group>";
@@ -1416,7 +1457,40 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		6E81C6FD2441A89E00E83EE1 /* EmblemData */ = {
+		6E429A2824497DE40049FA47 /* MasterEquipment */ = {
+			isa = PBXGroup;
+			children = (
+				6E429A2924497E400049FA47 /* Master_Equipment_1.json */,
+				6E429A2B244980F70049FA47 /* Master_Equipment_2.json */,
+				6E429A2D2449823C0049FA47 /* Master_Equipment_3.json */,
+				6E429A2F244982E20049FA47 /* Master_Equipment_4.json */,
+				6E429A31244984D70049FA47 /* Master_Equipment_5.json */,
+				6E429A332449860E0049FA47 /* Master_Equipment_6.json */,
+				6E429A35244986E40049FA47 /* Master_Equipment_7.json */,
+				6E429A37244987FD0049FA47 /* Master_Equipment_8.json */,
+				6E429A39244988D20049FA47 /* Master_Equipment_9.json */,
+				6E429A3B244989760049FA47 /* Master_Equipment_10.json */,
+				6E429A3D24498A7D0049FA47 /* Master_Equipment_11.json */,
+				6E429A45244991C20049FA47 /* Master_Equipment_12.json */,
+				6E429A472449D84C0049FA47 /* Master_Equipment_13.json */,
+				6E429A492449D9640049FA47 /* Master_Equipment_14.json */,
+				6E429A4B2449DA760049FA47 /* Master_Equipment_15.json */,
+			);
+			path = MasterEquipment;
+			sourceTree = "<group>";
+		};
+		6E429A55244B2F420049FA47 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D4B1437023BF67CE00843094 /* Servant */,
+				6E81C6FD2441A89E00E83EE1 /* Emblem */,
+				6EFD9452244703AD007581DB /* Servant_HP_ATK */,
+				6E429A2824497DE40049FA47 /* MasterEquipment */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6E81C6FD2441A89E00E83EE1 /* Emblem */ = {
 			isa = PBXGroup;
 			children = (
 				6E81C7062441ADF000E83EE1 /* Emblem_1.json */,
@@ -1480,7 +1554,7 @@
 				6E81C70B2441B83400E83EE1 /* Emblem_59.json */,
 				6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */,
 			);
-			path = EmblemData;
+			path = Emblem;
 			sourceTree = "<group>";
 		};
 		6EE65A152445F9EF0058DDFE /* Chart */ = {
@@ -1773,7 +1847,7 @@
 			path = Servant_HP_ATK;
 			sourceTree = "<group>";
 		};
-		D4B1437023BF67CE00843094 /* ServantData */ = {
+		D4B1437023BF67CE00843094 /* Servant */ = {
 			isa = PBXGroup;
 			children = (
 				D4B145F923BF75BE00843094 /* 1.json */,
@@ -2050,7 +2124,7 @@
 				6EE65A112445E9320058DDFE /* 278.json */,
 				6EE65A132445EF9B0058DDFE /* 279.json */,
 			);
-			path = ServantData;
+			path = Servant;
 			sourceTree = "<group>";
 		};
 		D4B4003322F08D7F00EDEC39 /* FateIndexVC */ = {
@@ -2065,6 +2139,9 @@
 				6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */,
 				6E81C77A2441D1EF00E83EE1 /* EmblemDetailViewController.swift */,
 				6EE65A1C2445FB270058DDFE /* HPAndATKChartVC.swift */,
+				6E429A512449EA060049FA47 /* MasterEquipmentVC.swift */,
+				6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */,
+				6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */,
 			);
 			path = FateIndexVC;
 			sourceTree = "<group>";
@@ -2078,6 +2155,8 @@
 				6E81C7042441AD7000E83EE1 /* EmblemManager.swift */,
 				6EFD963A24471FDF007581DB /* HPAndATKModel.swift */,
 				6EFD963C244723AD007581DB /* HPAndATKManager.swift */,
+				6E429A4D2449DF160049FA47 /* MasterEquipment.swift */,
+				6E429A4F2449DFEE0049FA47 /* MasterEquipmentManager.swift */,
 			);
 			path = FateModel;
 			sourceTree = "<group>";
@@ -2222,12 +2301,14 @@
 				D4B1468D23BF75C700843094 /* 42.json in Resources */,
 				6E81C7752441B83C00E83EE1 /* Emblem_35.json in Resources */,
 				D4B1477123BF75C800843094 /* 267.json in Resources */,
+				6E429A38244987FE0049FA47 /* Master_Equipment_8.json in Resources */,
 				6EFD99AD24472DC8007581DB /* Servant_47_HP_ATK.json in Resources */,
 				D4B1475323BF75C800843094 /* 130.json in Resources */,
 				6E81C7582441B83C00E83EE1 /* Emblem_25.json in Resources */,
 				D4B1471C23BF75C700843094 /* 142.json in Resources */,
 				D4B1476823BF75C800843094 /* 144.json in Resources */,
 				6EFD992B24472DC8007581DB /* Servant_144_HP_ATK.json in Resources */,
+				6E429A2A24497E400049FA47 /* Master_Equipment_1.json in Resources */,
 				6EFD993E24472DC8007581DB /* Servant_132_HP_ATK.json in Resources */,
 				6EFD99C424472DC8007581DB /* Servant_31_HP_ATK.json in Resources */,
 				6EFD992324472DC8007581DB /* Servant_116_HP_ATK.json in Resources */,
@@ -2278,6 +2359,7 @@
 				6EFD995F24472DC8007581DB /* Servant_185_HP_ATK.json in Resources */,
 				6EFD99D924472DC8007581DB /* Servant_30_HP_ATK.json in Resources */,
 				6EFD994024472DC8007581DB /* Servant_53_HP_ATK.json in Resources */,
+				6E429A3E24498A7D0049FA47 /* Master_Equipment_11.json in Resources */,
 				D4B146BE23BF75C700843094 /* 19.json in Resources */,
 				6EFD999024472DC8007581DB /* Servant_59_HP_ATK.json in Resources */,
 				6EFD995B24472DC8007581DB /* Servant_126_HP_ATK.json in Resources */,
@@ -2342,6 +2424,7 @@
 				6EFD998A24472DC8007581DB /* Servant_103_HP_ATK.json in Resources */,
 				6EFD99E124472DC8007581DB /* Servant_194_HP_ATK.json in Resources */,
 				6EFD994524472DC8007581DB /* Servant_275_HP_ATK.json in Resources */,
+				6E429A3C244989760049FA47 /* Master_Equipment_10.json in Resources */,
 				D4B1473E23BF75C800843094 /* 189.json in Resources */,
 				6EFD9A0024472DC9007581DB /* Servant_266_HP_ATK.json in Resources */,
 				D4B146DB23BF75C700843094 /* 182.json in Resources */,
@@ -2374,6 +2457,7 @@
 				6E81C7502441B83C00E83EE1 /* Emblem_38.json in Resources */,
 				6EFD994924472DC8007581DB /* Servant_208_HP_ATK.json in Resources */,
 				6EFD9A0C24472DC9007581DB /* Servant_26_HP_ATK.json in Resources */,
+				6E429A2C244980F70049FA47 /* Master_Equipment_2.json in Resources */,
 				6EFD9A1224472DC9007581DB /* Servant_101_HP_ATK.json in Resources */,
 				6EFD992024472DC8007581DB /* Servant_164_HP_ATK.json in Resources */,
 				6EFD991E24472DC8007581DB /* Servant_244_HP_ATK.json in Resources */,
@@ -2449,6 +2533,7 @@
 				6EFD99E024472DC8007581DB /* Servant_159_HP_ATK.json in Resources */,
 				6EFD99D624472DC8007581DB /* Servant_231_HP_ATK.json in Resources */,
 				D4B146E123BF75C700843094 /* 148.json in Resources */,
+				6E429A3A244988D20049FA47 /* Master_Equipment_9.json in Resources */,
 				6EFD9A2424472DC9007581DB /* Servant_21_HP_ATK.json in Resources */,
 				6E81C7562441B83C00E83EE1 /* Emblem_22.json in Resources */,
 				D4B1470A23BF75C700843094 /* 98.json in Resources */,
@@ -2474,6 +2559,7 @@
 				6EFD997124472DC8007581DB /* Servant_127_HP_ATK.json in Resources */,
 				D4B146C823BF75C700843094 /* 213.json in Resources */,
 				6EFD9A2124472DC9007581DB /* Servant_276_HP_ATK.json in Resources */,
+				6E429A482449D84C0049FA47 /* Master_Equipment_13.json in Resources */,
 				6EFD99E724472DC8007581DB /* Servant_223_HP_ATK.json in Resources */,
 				D4B1476D23BF75C800843094 /* 204.json in Resources */,
 				D4B1468F23BF75C700843094 /* 188.json in Resources */,
@@ -2485,6 +2571,7 @@
 				6EFD99DF24472DC8007581DB /* Servant_199_HP_ATK.json in Resources */,
 				6EFD99FC24472DC9007581DB /* Servant_15_HP_ATK.json in Resources */,
 				6EFD997F24472DC8007581DB /* Servant_166_HP_ATK.json in Resources */,
+				6E429A30244982E20049FA47 /* Master_Equipment_4.json in Resources */,
 				6EFD997724472DC8007581DB /* Servant_44_HP_ATK.json in Resources */,
 				D4B146AD23BF75C700843094 /* 214.json in Resources */,
 				6EFD997824472DC8007581DB /* Servant_52_HP_ATK.json in Resources */,
@@ -2504,6 +2591,7 @@
 				6EFD995C24472DC8007581DB /* Servant_61_HP_ATK.json in Resources */,
 				D4B1475123BF75C800843094 /* 119.json in Resources */,
 				6EFD99D024472DC8007581DB /* Servant_257_HP_ATK.json in Resources */,
+				6E429A4A2449D9640049FA47 /* Master_Equipment_14.json in Resources */,
 				6EFD99C624472DC8007581DB /* Servant_222_HP_ATK.json in Resources */,
 				6EFD9A0824472DC9007581DB /* Servant_86_HP_ATK.json in Resources */,
 				6EFD99D224472DC8007581DB /* Servant_12_HP_ATK.json in Resources */,
@@ -2537,6 +2625,7 @@
 				D4B146D323BF75C700843094 /* 136.json in Resources */,
 				6EFD996524472DC8007581DB /* Servant_145_HP_ATK.json in Resources */,
 				6EFD99A324472DC8007581DB /* Servant_104_HP_ATK.json in Resources */,
+				6E429A342449860E0049FA47 /* Master_Equipment_6.json in Resources */,
 				6EFD996024472DC8007581DB /* Servant_18_HP_ATK.json in Resources */,
 				6EFD9A2D24472DC9007581DB /* Servant_147_HP_ATK.json in Resources */,
 				D4B1470E23BF75C700843094 /* 174.json in Resources */,
@@ -2568,6 +2657,7 @@
 				60F3FBA8215BBF5C00572EFB /* LaunchScreen.storyboard in Resources */,
 				D4B1474623BF75C800843094 /* 228.json in Resources */,
 				6EFD992A24472DC8007581DB /* Servant_228_HP_ATK.json in Resources */,
+				6E429A36244986E40049FA47 /* Master_Equipment_7.json in Resources */,
 				D4B146B123BF75C700843094 /* 253.json in Resources */,
 				6EFD994C24472DC8007581DB /* Servant_193_HP_ATK.json in Resources */,
 				6EFD9A2524472DC9007581DB /* Servant_1_HP_ATK.json in Resources */,
@@ -2594,6 +2684,7 @@
 				6EFD999424472DC8007581DB /* Servant_25_HP_ATK.json in Resources */,
 				6EFD9A1F24472DC9007581DB /* Servant_246_HP_ATK.json in Resources */,
 				D4B1470B23BF75C700843094 /* 30.json in Resources */,
+				6E429A2E2449823C0049FA47 /* Master_Equipment_3.json in Resources */,
 				6EFD9A0B24472DC9007581DB /* Servant_139_HP_ATK.json in Resources */,
 				6EFD994D24472DC8007581DB /* Servant_54_HP_ATK.json in Resources */,
 				6EFD999924472DC8007581DB /* Servant_233_HP_ATK.json in Resources */,
@@ -2644,9 +2735,11 @@
 				6EFD99AA24472DC8007581DB /* Servant_7_HP_ATK.json in Resources */,
 				6EFD998224472DC8007581DB /* Servant_234_HP_ATK.json in Resources */,
 				6E81C7642441B83C00E83EE1 /* Emblem_39.json in Resources */,
+				6E429A46244991C20049FA47 /* Master_Equipment_12.json in Resources */,
 				6EFD999A24472DC8007581DB /* Servant_242_HP_ATK.json in Resources */,
 				6EFD99B324472DC8007581DB /* Servant_224_HP_ATK.json in Resources */,
 				6E81C7492441B83C00E83EE1 /* Emblem_50.json in Resources */,
+				6E429A4C2449DA760049FA47 /* Master_Equipment_15.json in Resources */,
 				6EFD99B524472DC8007581DB /* Servant_84_HP_ATK.json in Resources */,
 				6EFD994324472DC8007581DB /* Servant_239_HP_ATK.json in Resources */,
 				6EFD9A2924472DC9007581DB /* Servant_45_HP_ATK.json in Resources */,
@@ -2668,6 +2761,7 @@
 				D4B1469223BF75C700843094 /* 78.json in Resources */,
 				D4B1472B23BF75C700843094 /* 268.json in Resources */,
 				6EFD995E24472DC8007581DB /* Servant_123_HP_ATK.json in Resources */,
+				6E429A32244984D70049FA47 /* Master_Equipment_5.json in Resources */,
 				D4B146EC23BF75C700843094 /* 269.json in Resources */,
 				D4B1469A23BF75C700843094 /* 15.json in Resources */,
 				D4B1473A23BF75C800843094 /* 27.json in Resources */,
@@ -2763,11 +2857,14 @@
 				60F3FB9E215BBF5A00572EFB /* AppDelegate.swift in Sources */,
 				6EE65A192445FA1A0058DDFE /* ChartSeries.swift in Sources */,
 				040D434F2350CA430037DCE6 /* NoblePhantasmAvatarCell.swift in Sources */,
+				6E429A5B244C80920049FA47 /* ActiveSkillDetailCell.swift in Sources */,
 				6E81C6FC2441997100E83EE1 /* SelfSizeLeadTrailingTextCell.swift in Sources */,
 				6E81C7052441AD7000E83EE1 /* EmblemManager.swift in Sources */,
+				6E429A502449DFEE0049FA47 /* MasterEquipmentManager.swift in Sources */,
 				6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */,
 				04B8AB18234982E60061FB02 /* EmblemTableViewController.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
+				6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */,
 				047BF0F6234566CD0084796A /* TrailingTextTableViewCell.swift in Sources */,
 				04A82F7B234A031600146CA1 /* DisclosureTableViewCell.swift in Sources */,
 				6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */,
@@ -2786,6 +2883,7 @@
 				04A82F7D234A04B200146CA1 /* HoguDetailViewController.swift in Sources */,
 				047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */,
 				6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */,
+				6E429A4E2449DF160049FA47 /* MasterEquipment.swift in Sources */,
 				6EFD963B24471FDF007581DB /* HPAndATKModel.swift in Sources */,
 				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
 				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
@@ -2794,10 +2892,12 @@
 				6E81C77F2441F49600E83EE1 /* SelfSizingLabelCell.swift in Sources */,
 				04B8AB1323497B4A0061FB02 /* NoblePhantasmView.swift in Sources */,
 				6EE65A1B2445FA430058DDFE /* ChartColors.swift in Sources */,
+				6E429A59244C773D0049FA47 /* MasterSkillDetailVC.swift in Sources */,
 				04A82F772349E49C00146CA1 /* NoblePhantasmDetailTopContainerView.swift in Sources */,
 				6EE65A172445F9FD0058DDFE /* Chart.swift in Sources */,
 				D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */,
 				6E81C77B2441D1EF00E83EE1 /* EmblemDetailViewController.swift in Sources */,
+				6E429A522449EA060049FA47 /* MasterEquipmentVC.swift in Sources */,
 				6EFD963D244723AD007581DB /* HPAndATKManager.swift in Sources */,
 				6EE65A1D2445FB270058DDFE /* HPAndATKChartVC.swift in Sources */,
 				D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */,
