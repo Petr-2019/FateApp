@@ -116,7 +116,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "直死の魔眼A",
+    "name": "直死之魔眼A",
     "ct": 7,
     "effects": [
       {
@@ -213,7 +213,7 @@
     ]
   , "avatar": "回避"},
   "skill3": {
-    "name": "陰陽魚B",
+    "name": "阴阳鱼B",
     "ct": 8,
     "effects": [
       {

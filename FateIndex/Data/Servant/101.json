@@ -116,7 +116,7 @@
     "hit": 5
   },
   "skill1": {
-    "name": "武の祝福A",
+    "name": "武之祝福A",
     "ct": 6,
     "effects": [
       {
@@ -179,7 +179,7 @@
     ]
   , "avatar": "加攻"},
   "skill3": {
-    "name": "離別の呪いA",
+    "name": "离别的诅咒 A",
     "ct": 9,
     "effects": [
       {

@@ -134,7 +134,7 @@
     "hit": 2
   },
   "skill1": {
-    "name": "天に星をEX",
+    "name": "予天以星 EX",
     "ct": 9,
     "effects": [
       {
@@ -174,7 +174,7 @@
     ]
   , "avatar": "NP获得量提升"},
   "skill2": {
-    "name": "地に花をA",
+    "name": "予地以花 A",
     "ct": 8,
     "effects": [
       {
@@ -214,7 +214,7 @@
     ]
   , "avatar": "加攻"},
   "skill3": {
-    "name": "人に愛をA",
+    "name": "予人以爱 A",
     "ct": 7,
     "effects": [
       {

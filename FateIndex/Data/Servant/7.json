@@ -117,7 +117,7 @@
     "hit": 10
   },
   "skill1": {
-    "name": "軍略B",
+    "name": "军略B",
     "ct": 7,
     "effects": [
       {
@@ -163,7 +163,7 @@
     ]
   , "avatar": "加攻"},
   "skill3": {
-    "name": "扇動EX",
+    "name": "扇动EX",
     "ct": 7,
     "effects": [
       {

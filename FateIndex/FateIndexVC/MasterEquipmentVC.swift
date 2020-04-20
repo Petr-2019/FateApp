@@ -20,10 +20,6 @@ class MasterEquipmentVC: UITableViewController {
 
     private var masterEquipments = [MasterEquipment]()
 
-    private lazy var equipmentsDict = {
-        return Dictionary(grouping: masterEquipments, by: { $0.name })
-    }()
-
     private var filteredMasterEquipments = [MasterEquipment]()
 
     override func viewDidLoad() {
@@ -57,13 +53,13 @@ class MasterEquipmentVC: UITableViewController {
         cell.accessoryType = .disclosureIndicator
 
         if isFiltering() {
-            let avatarName = "Master_Equip_\(indexPath.row + 1)a"
+            let avatarName = "Master_Equip_\(filteredMasterEquipments[indexPath.row].id)a"
             cell.avatar = UIImage(named: avatarName)
             cell.title = filteredMasterEquipments[indexPath.row].name
             return cell
         }
         else {
-            let avatarName = "Master_Equip_\(indexPath.row + 1)a"
+            let avatarName = "Master_Equip_\(masterEquipments[indexPath.row].id)a"
             cell.avatar = UIImage(named: avatarName)
             cell.title = masterEquipments[indexPath.row].name
             return cell
@@ -103,7 +99,9 @@ class MasterEquipmentVC: UITableViewController {
 extension MasterEquipmentVC: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
-        filterContentForSearchText(searchController.searchBar.text!)
+        if let text = searchController.searchBar.text {
+            filterContentForSearchText(text)
+        }
     }
 
     private func searchBarIsEmpty() -> Bool {
@@ -132,7 +130,10 @@ extension MasterEquipmentVC: UISearchResultsUpdating {
 extension MasterEquipmentVC: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        filterContentForSearchText(searchBar.text!)
+        if let text = searchBar.text {
+            filterContentForSearchText(text)
+        }
+
         searchBar.resignFirstResponder()
     }
 

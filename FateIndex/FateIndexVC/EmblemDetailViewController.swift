@@ -17,6 +17,7 @@ class EmblemDetailViewController: UITableViewController {
     }
 
     private enum Row {
+        case avatar
         case id
         case name
         case access
@@ -54,6 +55,7 @@ class EmblemDetailViewController: UITableViewController {
         tableView.register(TableViewTitleHeaderView.self, forHeaderFooterViewReuseIdentifier: TableViewTitleHeaderView.identifier)
 
         tableView.register(TrailingAvatarCell.self, forCellReuseIdentifier: TrailingAvatarCell.identifier)
+        tableView.register(CenterAvatarCell.self, forCellReuseIdentifier: CenterAvatarCell.identifier)
 
         reloadData()
     }
@@ -61,7 +63,7 @@ class EmblemDetailViewController: UITableViewController {
     private func reloadData() {
         data.removeAll()
 
-        data.append(section: .basic, with: [.id, .name, .access, .rare, .artist])
+        data.append(section: .basic, with: [.avatar, .id, .name, .access, .rare, .artist])
         data.append(section: .skill, with: [.skill, .effect, .value])
         data.append(section: .desc, with: [.desc])
     }
@@ -77,6 +79,13 @@ class EmblemDetailViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let result: UITableViewCell
         switch data.row(at: indexPath) {
+        case .avatar:
+            let cell = tableView.dequeueReusableCell(withIdentifier: CenterAvatarCell.identifier, for: indexPath) as! CenterAvatarCell
+            cell.selectionStyle = .none
+            cell.configure(image: UIImage(named: "Emblem_\(emblem.id)"))
+
+            result = cell
+
         case .id:
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
             cell.nameLabel.text = "编号"
@@ -150,6 +159,8 @@ class EmblemDetailViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch data.row(at: indexPath) {
+        case .avatar:
+            return 80.0
         case .skill:
             return 78.0
         default:

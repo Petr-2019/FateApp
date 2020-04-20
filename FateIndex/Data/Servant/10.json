@@ -157,7 +157,7 @@
     ]
   , "avatar": "回避"},
   "skill2": {
-    "name": "自己暗示A",
+    "name": "自我暗示 A",
     "ct": 7,
     "effects": [
       {
@@ -197,7 +197,7 @@
     ]
   , "avatar": "弱化解除"},
   "skill3": {
-    "name": "麗しの風貌C",
+    "name": "秀丽风情 C",
     "ct": 7,
     "effects": [
       {

@@ -161,7 +161,7 @@
     "hit": 1
   },
   "skill1": {
-    "name": "直死の魔眼C",
+    "name": "直死之魔眼C",
     "ct": 7,
     "effects": [
       {
@@ -218,7 +218,7 @@
     ]
   , "avatar": "直死之魔眼"},
   "skill2": {
-    "name": "雲耀B",
+    "name": "云耀B",
     "ct": 7,
     "effects": [
       {
@@ -258,7 +258,7 @@
     ]
   , "avatar": "加攻"},
   "skill3": {
-    "name": "陰陽魚A",
+    "name": "阴阳鱼 A",
     "ct": 6,
     "effects": [
       {

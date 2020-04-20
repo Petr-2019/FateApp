@@ -106,7 +106,7 @@
     "hit": 1
   },
   "skill1": {
-    "name": "富の杯B",
+    "name": "富之杯B",
     "ct": 7,
     "effects": [
       {
@@ -180,7 +180,7 @@
     ]
   , "avatar": "充能"},
   "skill2": {
-    "name": "皇帝特権EX",
+    "name": "皇帝特权EX",
     "ct": 7,
     "effects": [
       {
@@ -237,7 +237,7 @@
     ]
   , "avatar": "回血"},
   "skill3": {
-    "name": "三度、落陽を迎えてもA",
+    "name": "纵使三度迎来落日 A",
     "ct": 12,
     "effects": [
       {

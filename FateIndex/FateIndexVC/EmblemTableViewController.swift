@@ -70,8 +70,11 @@ class EmblemTableViewController: UITableViewController {
         }
         else {
             let rare = Constants.rare[indexPath.section]
-            cell.avatar = UIImage(named: "Emblem_\(emblemsDict[rare]![indexPath.row].id)")
-            cell.title = emblemsDict[rare]?[indexPath.row].name
+            if let emblems = emblemsDict[rare] {
+                cell.avatar = UIImage(named: "Emblem_\(emblems[indexPath.row].id)")
+                cell.title = emblems[indexPath.row].name
+            }
+
             return cell
         }
     }
@@ -105,14 +108,15 @@ class EmblemTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if isFiltering() {
-            let vc = EmblemDetailViewController(emblem: emblems[indexPath.row])
+            let vc = EmblemDetailViewController(emblem: filteredEmblems[indexPath.row])
             self.navigationController?.pushViewController(vc, animated: true)
         }
         else {
             let rare = Constants.rare[indexPath.section]
-
-            let vc = EmblemDetailViewController(emblem: emblemsDict[rare]![indexPath.row])
-            self.navigationController?.pushViewController(vc, animated: true)
+            if let emblems = emblemsDict[rare] {
+                let vc = EmblemDetailViewController(emblem: emblems[indexPath.row])
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
         }
     }
 
@@ -135,8 +139,9 @@ extension EmblemTableViewController: UISearchResultsUpdating {
 
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
-        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
-        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+        if let text = searchController.searchBar.text, let scopeButtonTitles = searchBar.scopeButtonTitles {
+            filterContentForSearchText(text, scope: scopeButtonTitles[searchBar.selectedScopeButtonIndex])
+        }
     }
 
     private func searchBarIsEmpty() -> Bool {
@@ -167,7 +172,10 @@ extension EmblemTableViewController: UISearchResultsUpdating {
 extension EmblemTableViewController: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
+        if let text = searchBar.text, let scopeButtonTitles = searchBar.scopeButtonTitles {
+            filterContentForSearchText(text, scope: scopeButtonTitles[selectedScope])
+        }
+
         searchBar.resignFirstResponder()
     }
 

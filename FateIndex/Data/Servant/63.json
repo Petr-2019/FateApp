@@ -116,7 +116,7 @@
     "hit": 1
   },
   "skill1": {
-    "name": "神の加護A",
+    "name": "神之加护A",
     "ct": 7,
     "effects": [
       {
@@ -156,7 +156,7 @@
     ]
   , "avatar": "加防"},
   "skill2": {
-    "name": "治癒の竪琴B",
+    "name": "治癒的竪琴B",
     "ct": 8,
     "effects": [
       {

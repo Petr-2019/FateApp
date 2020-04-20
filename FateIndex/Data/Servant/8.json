@@ -115,7 +115,7 @@
     "hit": 1
   },
   "skill1": {
-    "name": "神の鞭A",
+    "name": "神之鞭A",
     "ct": 7,
     "effects": [
       {
@@ -155,7 +155,7 @@
     ]
   , "avatar": "宝具威力提升"},
   "skill2": {
-    "name": "天性の肉体EX",
+    "name": "天性的肉体 EX",
     "ct": 7,
     "effects": [
       {
@@ -212,7 +212,7 @@
     ]
   , "avatar": "弱化耐性提升"},
   "skill3": {
-    "name": "星の紋章EX",
+    "name": "星之紋章 EX",
     "ct": 7,
     "effects": [
       {

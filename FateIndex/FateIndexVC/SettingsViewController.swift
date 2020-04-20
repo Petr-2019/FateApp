@@ -40,7 +40,7 @@ extension SettingsViewController: UITableViewDelegate {
 
         if indexPath.section == 0 {
             if indexPath.row == 0 {
-                if let url = URL(string: "https://game.bilibili.com/fgo/") {
+                if let url = URL(string: "https://fgo.wiki/w/%E6%96%B0%E4%BA%BA%E5%85%A5%E9%97%A8") {
                     UIApplication.shared.open(url)
                 }
             }

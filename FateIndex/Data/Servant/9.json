@@ -128,7 +128,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "軍略C",
+    "name": "军略C",
     "ct": 7,
     "effects": [
       {
@@ -174,7 +174,7 @@
     ]
   , "avatar": "NP获得量提升"},
   "skill3": {
-    "name": "プレラーティの激励B",
+    "name": "普勒拉蒂的激励 B",
     "ct": 7,
     "effects": [
       {

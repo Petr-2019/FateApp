@@ -132,7 +132,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "隠美の仮面A",
+    "name": "隐美假面A",
     "ct": 8,
     "effects": [
       {
@@ -172,7 +172,7 @@
     ]
   , "avatar": "无敌"},
   "skill2": {
-    "name": "勢い破竹の如しC",
+    "name": "势如破竹C",
     "ct": 7,
     "effects": [
       {
@@ -212,7 +212,7 @@
     ]
   , "avatar": "充能"},
   "skill3": {
-    "name": "魔性の貌EX",
+    "name": "魔性之貌EX",
     "ct": 7,
     "effects": [
       {

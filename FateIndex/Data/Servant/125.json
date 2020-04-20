@@ -102,7 +102,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "龍神の加護C",
+    "name": "龍神的加護C",
     "ct": 8,
     "effects": [
       {
@@ -142,7 +142,7 @@
     ]
   , "avatar": "红放"},
   "skill2": {
-    "name": "矢避けの加護C",
+    "name": "避矢之加护 C",
     "ct": 7,
     "effects": [
       {
@@ -182,7 +182,7 @@
     ]
   , "avatar": "回避"},
   "skill3": {
-    "name": "無尽俵EX",
+    "name": "无尽米袋 EX",
     "ct": 7,
     "effects": [
       {

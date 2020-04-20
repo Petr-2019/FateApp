@@ -131,7 +131,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "テスラコイルA+",
+    "name": "特斯拉线圈 A+",
     "ct": 7,
     "effects": [
       {
@@ -171,7 +171,7 @@
     ]
   , "avatar": "NP获得量提升"},
   "skill2": {
-    "name": "天賦の叡智EX",
+    "name": "天赋的睿智 EX",
     "ct": 7,
     "effects": [
       {
@@ -245,7 +245,7 @@
     ]
   , "avatar": "毅力"},
   "skill3": {
-    "name": "星の開拓者EX",
+    "name": "星之开拓者 EX",
     "ct": 8,
     "effects": [
       {
