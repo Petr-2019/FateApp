@@ -40,6 +40,8 @@ class EmblemDetailViewController: UITableViewController {
 
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
+
+        title = "指令纹章详情"
     }
 
     required init?(coder: NSCoder) {

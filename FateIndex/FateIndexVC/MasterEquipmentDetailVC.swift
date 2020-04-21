@@ -33,6 +33,8 @@ class MasterEquipmentDetailVC: UITableViewController {
         self.masterEquipment = masterEquipment
 
         super.init(nibName: nil, bundle: nil)
+
+        title = "魔术礼装详情"
     }
 
     required init?(coder: NSCoder) {

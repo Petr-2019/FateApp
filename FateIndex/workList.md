@@ -1,1 +1,3 @@
-技能翻译：archer -> 弓呆
+技能翻译：archer -> 海伦娜
+
+Implement tappable section

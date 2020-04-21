@@ -15,6 +15,8 @@ class HoguDetailViewController: UITableViewController {
     init(hogu: Servant.Hogu) {
         self.hogu = hogu
         super.init(nibName: nil, bundle: nil)
+
+        title = "宝具详情"
     }
 
     required init?(coder: NSCoder) {

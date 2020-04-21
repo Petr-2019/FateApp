@@ -83,6 +83,8 @@ class ServantDetailTableViewController: UITableViewController {
         self.servant = servant
 
         super.init(nibName: nil, bundle: nil)
+
+        title = "从者详情"
     }
 
     required init?(coder: NSCoder) {
@@ -423,8 +425,11 @@ extension ServantDetailTableViewController {
                 skill = servant.skill3
             }
 
-            let vc = ActiveSkillDetailViewController(skill: skill)
-            navigationController?.pushViewController(vc, animated: true)
+            if let material = ServantMaterialManager.shared.servantMaterials[servant.servant.no] {
+                let vc = ActiveSkillDetailViewController(skill: skill, material: material)
+                navigationController?.pushViewController(vc, animated: true)
+            }
+
         }
         else if indexPath.section == 6 {
             if let model = HPAndATKManager.shared.dataDict[servant.servant.no] {

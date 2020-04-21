@@ -115,7 +115,7 @@
     "hit": 4
   },
   "skill1": {
-    "name": "サマー・バケーション！A+",
+    "name": "夏日休假! A+",
     "ct": 10,
     "effects": [
       {
@@ -155,7 +155,7 @@
     ]
   , "avatar": "充能"},
   "skill2": {
-    "name": "ニャーフ！B",
+    "name": "NYARF！B",
     "ct": 8,
     "effects": [
       {
@@ -195,7 +195,7 @@
     ]
   , "avatar": "特攻"},
   "skill3": {
-    "name": "大佐の夏休みB",
+    "name": "上校的暑假 B",
     "ct": 7,
     "effects": [
       {

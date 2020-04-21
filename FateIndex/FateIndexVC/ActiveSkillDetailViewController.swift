@@ -10,26 +10,32 @@ import UIKit
 
 class ActiveSkillDetailViewController: UITableViewController {
 
-    private enum Section {
+    private enum Section: Equatable {
         case basic
+        case material(title: String)
     }
 
     private enum Row: Equatable {
         case avatar(avatar: String, name: String)
         case description(text: String)
         case data(data: Servant.Skill.Effects)
+        case material(materialAndCosts: [MaterialAndCost], qp: String)
     }
 
     private let skill: Servant.Skill
+    private let material: ServantMaterial
     private var data = FateTableViewData<Section, Row>()
 
-    init(skill: Servant.Skill) {
+    init(skill: Servant.Skill, material: ServantMaterial) {
         self.skill = skill
+        self.material = material
 
         super.init(nibName: nil, bundle: nil)
 
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
+
+        title = "技能详情"
     }
 
     required init?(coder: NSCoder) {
@@ -62,6 +68,10 @@ class ActiveSkillDetailViewController: UITableViewController {
             else {
                 data.append(row: .data(data: ef), to: .basic)
             }
+        }
+
+        for ma in material.materials {
+            data.append(section: .material(title: ma.levelName), with: [.material(materialAndCosts: ma.materialAndCost, qp: ma.qp)])
         }
     }
 
@@ -116,7 +126,27 @@ class ActiveSkillDetailViewController: UITableViewController {
             cell.selectionStyle = .none
             cell.configure(skillData: data)
             return cell
+
+        case .material(let materialAndCosts, let qp):
+            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
+
+            //cell.avatar = UIImage(named: avatar)
+            //cell.title = name
+            return cell
         }
+    }
+
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableViewTitleHeaderView.identifier) as! TableViewTitleHeaderView
+
+        switch data.section(at: section) {
+        case .basic:
+            headerView.title = "技能数据"
+        case .material(let title):
+            headerView.title = title
+        }
+
+        return headerView
     }
 
 }

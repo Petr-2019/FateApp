@@ -28,6 +28,8 @@ class MasterSkillDetailVC: UITableViewController {
         self.skill = skill
 
         super.init(nibName: nil, bundle: nil)
+
+        title = "技能详情"
     }
     
     required init?(coder: NSCoder) {
