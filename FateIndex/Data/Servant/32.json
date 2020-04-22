@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts卡性能上升",
+          "desc": "自身的 Arts卡性能上升",
           "magnification": "8%"
         }
       ]

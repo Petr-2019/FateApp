@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts Card の性能少许上升",
+          "desc": "自身的 Arts Card の性能少许上升",
           "magnification": "6%"
         }
       ]
@@ -162,7 +162,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のNPを增加",
+        "desc": "友方单体 NP 增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",

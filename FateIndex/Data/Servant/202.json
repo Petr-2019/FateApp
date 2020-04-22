@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card 性能上升",
+          "desc": "自身的 Buster Card 性能上升",
           "magnification": "8%"
         },
         {
@@ -147,7 +147,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "＆暴击星を獲得",
+        "desc": "＆暴击星を获得",
         "v1": "5",
         "v2": "6",
         "v3": "7",

@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts Card の性能少许上升",
+          "desc": "自身的 Arts Card の性能少许上升",
           "magnification": "6%"
         }
       ]
@@ -68,7 +68,7 @@
       "effect": [
         {
           "type": "回合充能",
-          "desc": "自身に毎回合NP獲得状态を付与",
+          "desc": "自身に毎回合NP获得状态を付与",
           "magnification": "5%"
         }
       ]
@@ -230,7 +230,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のBuster Card 性能上升(3T)",
+        "desc": "友方单体のBuster Card 性能上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

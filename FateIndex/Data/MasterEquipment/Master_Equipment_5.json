@@ -8,7 +8,7 @@
             "avatar": "红放",
             "countDown": "15 → 14 → 13",
             "lvEffects":  [ {
-                "effectDesc": "(500%概率)己方单体的Buster指令卡性能超幅提升(1回合)",
+                "effectDesc": "(500%概率)己方单体的 Buster指令卡性能超幅提升(1回合)",
                 "effects": [
                     "40%",
                     "42%",

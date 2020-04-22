@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster指令卡性能上升",
+          "desc": "自身的 Buster指令卡性能上升",
           "magnification": "12%"
         }
       ]
@@ -188,7 +188,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "＆回避状态を付与(1T)",
+        "desc": "＆付与回避状态(1T)",
         "v1": "",
         "v2": "",
         "v3": "",

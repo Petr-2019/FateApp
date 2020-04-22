@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card の性能少许上升",
+          "desc": "自身的 Buster Card の性能少许上升",
           "magnification": "2%"
         }
       ]
@@ -135,7 +135,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身的Buster Card 性能上升(3T)",
+        "desc": "自身的 Buster Card 性能上升(3T)",
         "v1": "10",
         "v2": "12",
         "v3": "14",
@@ -169,7 +169,7 @@
         "turn": 0,
         "count": 2,
         "target": "自身",
-        "desc": "＆回避状态を付与(2回)",
+        "desc": "＆付与回避状态(2回)",
         "v1": "",
         "v2": "",
         "v3": "",

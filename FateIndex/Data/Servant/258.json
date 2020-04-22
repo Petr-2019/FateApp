@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts Card の性能少许上升",
+          "desc": "自身的 Arts Card の性能少许上升",
           "magnification": "6%"
         }
       ]
@@ -75,7 +75,7 @@
         "target": "敌方全体",
         "beforeafter": "发动前",
         "lvoc": "LV",
-        "desc": "场上存在至少1骑作为祭品，敌方全体超強力的攻击",
+        "desc": "场上存在至少1骑作为祭品，敌方全体超强力的攻击",
         "v1": "900",
         "v2": "1200",
         "v3": "1350",
@@ -123,7 +123,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体に target 集中状态を付与(1T)",
+        "desc": "友方单体に target 集中状态を付与(1T)",
         "v1": "300",
         "v2": "300",
         "v3": "300",
@@ -220,7 +220,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のBuster Card 性能上升 (1T)",
+        "desc": "友方单体のBuster Card 性能上升 (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -237,7 +237,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "＋味方单体の〔バーサーカー〕の暴击威力上升(1T)",
+        "desc": "＋友方单体の〔バーサーカー〕の暴击威力上升(1T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",

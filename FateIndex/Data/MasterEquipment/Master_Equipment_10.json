@@ -29,7 +29,7 @@
             "avatar": "红卡集星",
             "countDown": "12 → 11 → 10",
             "lvEffects":  [ {
-                "effectDesc": "(500%概率)己方单体的Buster指令卡暴击星集中度提升(1回合)",
+                "effectDesc": "(500%概率)己方单体的 Buster指令卡暴击星集中度提升(1回合)",
                 "effects": [
                     "5000%",
                     "5500%",

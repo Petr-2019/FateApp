@@ -11,27 +11,34 @@ import Foundation
 class ServantMaterialManager {
 
     static let shared = ServantMaterialManager()
+    let dispatchQueue = DispatchQueue(label: "ServantMaterialManager", qos: .userInitiated)
 
-    lazy var servantMaterials: [String: ServantMaterial] = {
-        var servantMaterials = [String: ServantMaterial]()
+    var servantMaterials = [String: ServantMaterial]()
 
-        for i in 2...4 {
-            let sName = String(i)
+    func loadMaterial() {
+        dispatchQueue.async {
+            var servantMaterials = [String: ServantMaterial]()
 
-            if let path = Bundle.main.path(forResource: "Servant_\(sName)_material", ofType: "json") {
-                do {
-                    let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                    let decoder = JSONDecoder()
-                    let servantMaterial = try decoder.decode(ServantMaterial.self, from: data)
+            for i in 1...280 {
+                let sName = String(i)
 
-                    servantMaterials[sName] = servantMaterial
-                } catch {
-                    print("The id number is \(i), error: \(error)")
+                if let path = Bundle.main.path(forResource: "servant_\(sName)_material", ofType: "json") {
+                    do {
+                        let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                        let decoder = JSONDecoder()
+                        let servantMaterial = try decoder.decode(ServantMaterial.self, from: data)
+
+                        servantMaterials[sName] = servantMaterial
+                    } catch {
+                        print("The id number is \(i), error: \(error)")
+                    }
                 }
             }
-        }
 
-        return servantMaterials
-    }()
+            DispatchQueue.main.async {
+                self.servantMaterials = servantMaterials
+            }
+        }
+    }
 
 }

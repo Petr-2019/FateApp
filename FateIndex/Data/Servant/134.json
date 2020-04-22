@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster指令卡性能上升",
+          "desc": "自身的 Buster指令卡性能上升",
           "magnification": "12%"
         }
       ]
@@ -147,7 +147,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身的Buster Card 性能上升(3T)",
+        "desc": "自身的 Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",

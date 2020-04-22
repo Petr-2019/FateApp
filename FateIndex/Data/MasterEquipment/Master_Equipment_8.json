@@ -8,7 +8,7 @@
             "avatar": "蓝放",
             "countDown": "15 → 14 → 13",
             "lvEffects":  [ {
-                "effectDesc": "(500%概率)己方单体的Arts指令卡性能提升(1回合)",
+                "effectDesc": "(500%概率)己方单体的 Arts指令卡性能提升(1回合)",
                 "effects": [
                     "30%",
                     "32%",

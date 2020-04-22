@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts卡性能上升",
+          "desc": "自身的 Arts卡性能上升",
           "magnification": "8%"
         }
       ]
@@ -206,7 +206,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のNPを增加",
+        "desc": "友方单体 NP 增加",
         "v1": "20",
         "v2": "20",
         "v3": "20",
@@ -255,7 +255,7 @@
     ]
   , "avatar": "充能"},
   "skill3": {
-    "name": "至上礼装・月霊髄液B",
+    "name": "至上礼装・月灵髄液B",
     "ct": 8,
     "effects": [
       {
@@ -263,7 +263,7 @@
         "turn":  3,
         "count": 2,
         "target": "other-single",
-        "desc": "味方单体に无敌状态を付与(2回・3T)",
+        "desc": "友方单体に付与无敌状态(2回・3T)",
         "v1": "",
         "v2": "",
         "v3": "",

@@ -54,7 +54,7 @@
           "effect": [
             {
               "type": "Quick指令卡的暴击星集中度少量提升",
-              "desc": "自身的Quick指令卡的暴击星集中度少量提升",
+              "desc": "自身的 Quick指令卡的暴击星集中度少量提升",
               "magnification": "10%"
             }
           ]
@@ -64,7 +64,7 @@
           "effect": [
             {
               "type": "Quick指令卡暴击威力提升",
-              "desc": "自身的Quick指令卡暴击威力提升",
+              "desc": "自身的 Quick指令卡暴击威力提升",
               "magnification": "10%"
             }
           ]
@@ -193,7 +193,7 @@
                 "turn": 3,
                 "count": 0,
                 "target": "自身",
-                "desc": "自身的Quick指令卡性能提升(3T)",
+                "desc": "自身的 Quick指令卡性能提升(3T)",
                 "v1": "20",
                 "v2": "21",
                 "v3": "22",

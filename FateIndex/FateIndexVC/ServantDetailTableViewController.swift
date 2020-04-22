@@ -16,28 +16,10 @@ class ServantDetailTableViewController: UITableViewController {
         case actionCard
         case npRelated
         case classSkill
+        case beyondMaxLevel
         case noblePhantasm
         case activeSkill
         case HPAndATK
-
-//        func title() -> String {
-//            switch self {
-//            case .basicInfo:
-//                return "基础数据"
-//            case .actionCard:
-//                return "配卡"
-//            case .npRelated:
-//                return "NP获得率"
-//            case .classSkill:
-//                return "职阶技能"
-//            case .noblePhantasm:
-//                return "宝具"
-//            case .activeSkill:
-//                return "主动技能"
-//            case .HPAndATK:
-//                return "HP/ATK"
-//            }
-//        }
     }
 
     private enum Row {
@@ -66,6 +48,8 @@ class ServantDetailTableViewController: UITableViewController {
         case critical_star_distribution
 
         case classSkillSummary
+
+        case beyondMaxLevel
 
         case noblePhantasm
 
@@ -109,6 +93,8 @@ class ServantDetailTableViewController: UITableViewController {
         if HPAndATKManager.shared.dataDict[servant.servant.name] == nil {
             HPAndATKManager.shared.fetchModel(servantId: servant.servant.no)
         }
+
+        ServantMaterialManager.shared.loadMaterial()
     }
 
     override func viewDidLayoutSubviews() {
@@ -132,6 +118,8 @@ class ServantDetailTableViewController: UITableViewController {
 
         data.append(section: .npRelated)
         data.append(rows: [.attack_np_gain, .hurt_np_gain, .instant_death_possibility, .star_appear_possibility, .critical_star_distribution], to: .npRelated)
+
+        data.append(section: .beyondMaxLevel, with: [.beyondMaxLevel])
 
         if !servant.classskill.isEmpty {
             data.append(section: .classSkill)
@@ -351,6 +339,13 @@ extension ServantDetailTableViewController {
             cell.textLabel?.textColor = ChartColors.orangeColor()
 
             return cell
+
+        case .beyondMaxLevel:
+            let cell = UITableViewCell(frame: .zero)
+            cell.textLabel?.text = "素材需求"
+            cell.accessoryType = .disclosureIndicator
+
+            resultCell = cell
         }
 
         return resultCell
@@ -385,6 +380,8 @@ extension ServantDetailTableViewController {
                 return "主动技能"
             case .HPAndATK:
                 return "成长曲线"
+            case .beyondMaxLevel:
+                return "灵基再临"
             }
         }()
 
@@ -401,6 +398,12 @@ extension ServantDetailTableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
 
         if indexPath.section == 3 {
+            if let material = ServantMaterialManager.shared.servantMaterials[servant.servant.no] {
+                let vc = BeyondMaxLevelMaterialVC(material: material)
+                navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+        else if indexPath.section == 4 {
             let classSkill = servant.classskill[indexPath.row]
             let vc = ClassSkillDetailViewController(classSkill: classSkill)
             navigationController?.pushViewController(vc, animated: true)
@@ -408,12 +411,12 @@ extension ServantDetailTableViewController {
             //let nav = UINavigationController(rootViewController: vc)
             //present(nav, animated: true, completion: nil)
         }
-        else if indexPath.section == 4 {
+        else if indexPath.section == 5 {
             let hogu = servant.hogu
             let vc = HoguDetailViewController(hogu: hogu)
             navigationController?.pushViewController(vc, animated: true)
         }
-        else if indexPath.section == 5 {
+        else if indexPath.section == 6 {
             let skill: Servant.Skill
             if indexPath.row == 0 {
                 skill = servant.skill1
@@ -431,7 +434,7 @@ extension ServantDetailTableViewController {
             }
 
         }
-        else if indexPath.section == 6 {
+        else if indexPath.section == 7 {
             if let model = HPAndATKManager.shared.dataDict[servant.servant.no] {
                 if indexPath.row == 0 {
                     let vc = HPAndATKChartVC(dataModel: model, mode: .hp)

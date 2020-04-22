@@ -70,7 +70,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card の性能少许上升",
+          "desc": "自身的 Buster Card の性能少许上升",
           "magnification": "6%"
         }
       ]
@@ -123,7 +123,7 @@
     "hit": 6
   },
   "skill1": {
-    "name": "影の風紀委員長A",
+    "name": "影の風紀委員长A",
     "ct": 7,
     "effects": [
       {
@@ -171,7 +171,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のBuster Card 性能上升(3T)",
+        "desc": "友方单体のBuster Card 性能上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",

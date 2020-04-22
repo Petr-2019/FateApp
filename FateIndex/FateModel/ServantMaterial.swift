@@ -9,8 +9,10 @@
 import Foundation
 
 struct ServantMaterial: Codable, Equatable {
+    let id: String
     let servantName: String
     let materials: [MaterialModel]
+    let maxLevelMaterials: [MaterialModel]
 }
 
 struct MaterialModel: Codable, Equatable {

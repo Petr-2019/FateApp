@@ -207,11 +207,11 @@
     ]
   , "avatar": "回血"},
   "skill3": {
-    "name": "聖女の誓いC",
+    "name": "圣女の誓いC",
     "ct": 7,
     "effects": [
       {
-        "type": "強化解除",
+        "type": "强化解除",
         "turn": 0,
         "count": 0,
         "target": "敌方单体",

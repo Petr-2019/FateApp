@@ -83,12 +83,16 @@ class ActiveSkillDetailViewController: UITableViewController {
         tableView.register(AvatarWithTextTableViewCell.self, forCellReuseIdentifier: AvatarWithTextTableViewCell.identifier)
         tableView.register(TrailingTextTableViewCell.self, forCellReuseIdentifier: TrailingTextTableViewCell.identifier)
 
+        tableView.register(MultipleAvatarsCell.self, forCellReuseIdentifier: MultipleAvatarsCell.identifier)
+
         reloadData()
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch data.row(at: indexPath) {
         case .avatar:
+            return 70.0
+        case .material:
             return 70.0
         default:
             return UITableView.automaticDimension
@@ -128,10 +132,21 @@ class ActiveSkillDetailViewController: UITableViewController {
             return cell
 
         case .material(let materialAndCosts, let qp):
-            let cell = tableView.dequeueReusableCell(withIdentifier: AvatarWithTextTableViewCell.identifier, for: indexPath) as! AvatarWithTextTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: MultipleAvatarsCell.identifier, for: indexPath) as! MultipleAvatarsCell
 
-            //cell.avatar = UIImage(named: avatar)
-            //cell.title = name
+            var d = [(UIImage?, String)]()
+
+            for m in materialAndCosts {
+                d.append((UIImage(named: m.materialName), m.materialCost))
+            }
+
+            if let num = Int(qp) {
+                d.append((UIImage(named: "QP"), "\(num / 10000) w"))
+            }
+
+            cell.data = d
+            cell.setup()
+
             return cell
         }
     }

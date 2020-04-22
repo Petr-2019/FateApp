@@ -50,7 +50,7 @@ extension SettingsViewController: UITableViewDelegate {
                 SKStoreReviewController.requestReview()
             }
             else if indexPath.row == 1 {
-                let email = "peterguanjun1992@gmail.com"
+                let email = "fateIndex@outlook.com"
                 if let url = URL(string: "mailto:\(email)") {
                   UIApplication.shared.open(url)
                 }

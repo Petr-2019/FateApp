@@ -59,7 +59,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts Card 性能少许上升",
+          "desc": "自身的 Arts Card 性能少许上升",
           "magnification": "6.5%"
         },
         {
@@ -107,7 +107,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "人工英雄（偽）B+",
+    "name": "人工英雄（伪）B+",
     "ct": 8,
     "effects": [
       {

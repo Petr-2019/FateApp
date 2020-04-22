@@ -106,7 +106,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "聖者の贈り物EX",
+    "name": "圣者の贈り物EX",
     "ct": 7,
     "effects": [
       {
@@ -114,7 +114,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のHPを大回复",
+        "desc": "友方单体のHPを大回复",
         "v1": "1500",
         "v2": "1700",
         "v3": "1900",

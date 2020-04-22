@@ -68,7 +68,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts卡性能上升",
+          "desc": "自身的 Arts卡性能上升",
           "magnification": "10%"
         }
       ]
@@ -133,7 +133,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体の弱体状态を解除",
+        "desc": "友方单体の弱体状态を解除",
         "v1": "",
         "v2": "",
         "v3": "",

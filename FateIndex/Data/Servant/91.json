@@ -80,12 +80,12 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card 性能少许上升",
+          "desc": "自身的 Buster Card 性能少许上升",
           "magnification": "6%"
         },
         {
           "type": "蓝放",
-          "desc": "自身的Arts Card 性能少许上升",
+          "desc": "自身的 Arts Card 性能少许上升",
           "magnification": "6%"
         },
         {

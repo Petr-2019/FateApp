@@ -50,7 +50,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts卡性能上升",
+          "desc": "自身的 Arts卡性能上升",
           "magnification": "12%"
         }
       ]
@@ -154,7 +154,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体の Quick Card 性能上升(3T)",
+        "desc": "友方单体の Quick Card 性能上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -234,7 +234,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体のNPを增加",
+        "desc": "友方单体 NP 增加",
         "v1": "30",
         "v2": "32",
         "v3": "34",

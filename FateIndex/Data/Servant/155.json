@@ -53,7 +53,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card の性能少许上升",
+          "desc": "自身的 Buster Card の性能少许上升",
           "magnification": "6%"
         }
       ]
@@ -262,7 +262,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "味方单体の暴击星集中度下降(1T)",
+        "desc": "友方单体の暴击星集中度下降(1T)",
         "v1": "100",
         "v2": "100",
         "v3": "100",

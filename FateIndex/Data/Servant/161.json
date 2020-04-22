@@ -48,7 +48,7 @@
       "effect": [
         {
           "type": "红放",
-          "desc": "自身的Buster Card の性能少许上升",
+          "desc": "自身的 Buster Card の性能少许上升",
           "magnification": "5%"
         }
       ]
@@ -91,7 +91,7 @@
     "hit": 5
   },
   "skill1": {
-    "name": "戦場の鬼B",
+    "name": "战场の鬼B",
     "ct": 7,
     "effects": [
       {

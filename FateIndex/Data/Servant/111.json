@@ -49,7 +49,7 @@
       "effect": [
         {
           "type": "蓝放",
-          "desc": "自身的Arts卡性能上升",
+          "desc": "自身的 Arts卡性能上升",
           "magnification": "8%"
         }
       ]
@@ -107,7 +107,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "献身の覚悟A",
+    "name": "献身の觉悟A",
     "ct": 9,
     "effects": [
       {
