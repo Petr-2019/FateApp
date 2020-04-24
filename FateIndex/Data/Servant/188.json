@@ -99,7 +99,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "自身Quick性能上升(3T)",
+        "desc": "自身 Quick 性能上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -131,7 +131,7 @@
     ]
   , "avatar": "红绿魔放"},
   "skill2": {
-    "name": "忍術A",
+    "name": "忍术A",
     "ct": 8,
     "effects": [
       {
@@ -179,7 +179,7 @@
         "turn":  1,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体に付与无敌状态(1T)",
+        "desc": "付与友方单体无敌状态(1T)",
         "v1": "",
         "v2": "",
         "v3": "",

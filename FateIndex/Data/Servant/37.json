@@ -138,7 +138,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体の暴击威力上升(3T)",
+        "desc": "友方单体的暴击威力上升(3T)",
         "v1": "20",
         "v2": "23",
         "v3": "26",
@@ -155,7 +155,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "NP增加",
+        "desc": "NP 增加",
         "v1": "30",
         "v2": "30",
         "v3": "30",
@@ -170,7 +170,7 @@
     ]
   , "avatar": "暴击威力提升"},
   "skill2": {
-    "name": "军師の忠言A+",
+    "name": "军师の忠言A+",
     "ct": 8,
     "effects": [
       {
@@ -227,7 +227,7 @@
     ]
   , "avatar": "加防"},
   "skill3": {
-    "name": "军師の指揮A+",
+    "name": "军师の指揮A+",
     "ct": 8,
     "effects": [
       {

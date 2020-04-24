@@ -30,7 +30,7 @@
             "avatar": "每回合回复",
             "countDown": "12 → 11 → 10",
             "lvEffects":  [ {
-                "effectDesc": "(500%概率)付与己方单体每回合HP回复状态(3回合)",
+                "effectDesc": "(500%概率)付与己方单体每回合HP 回复状态(3回合)",
                 "effects": [
                     "1000",
                     "1100",
@@ -68,7 +68,7 @@
                     ]
                 }
             ],
-            "stableEffects": ["己方单体NP增加10%"]
+            "stableEffects": ["己方单体NP 增加10%"]
         }
     ],
     "access": [

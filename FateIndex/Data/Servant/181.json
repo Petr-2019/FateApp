@@ -123,7 +123,7 @@
     "hit": 6
   },
   "skill1": {
-    "name": "影の風紀委員长A",
+    "name": "影之风纪委员长 A",
     "ct": 7,
     "effects": [
       {
@@ -163,7 +163,7 @@
     ]
   , "avatar": "掉星率增加"},
   "skill2": {
-    "name": "錬鉄手車C",
+    "name": "锻铁悠悠球 C",
     "ct": 8,
     "effects": [
       {
@@ -171,7 +171,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体のBuster Card 性能上升(3T)",
+        "desc": "友方单体的 Buster Card 性能上升(3T)",
         "v1": "20",
         "v2": "22",
         "v3": "24",
@@ -203,7 +203,7 @@
     ]
   , "avatar": "红放"},
   "skill3": {
-    "name": "サマー・カタストロフEX",
+    "name": "夏日灾难 EX",
     "ct": 7,
     "effects": [
       {

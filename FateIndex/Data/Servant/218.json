@@ -127,7 +127,7 @@
     "hit": 5
   },
   "skill1": {
-    "name": "动物会話D",
+    "name": "动物会话D",
     "ct": 8,
     "effects": [
       {
@@ -190,7 +190,7 @@
     ]
   , "avatar": "回避"},
   "skill3": {
-    "name": "鞍馬の申し子A+",
+    "name": "鞍马の申し子A+",
     "ct": 7,
     "effects": [
       {

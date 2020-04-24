@@ -79,7 +79,7 @@
         "target": "自身",
         "beforeafter": "发动前",
         "lvoc": "OC",
-        "desc": "自身Quick卡性能上升(1T)",
+        "desc": "自身 Quick卡性能上升(1T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -93,7 +93,7 @@
         "target": "自身",
         "beforeafter": "发动前",
         "lvoc": "OC",
-        "desc": "Arts性能上升(1T)",
+        "desc": "Arts 性能上升(1T)",
         "v1": "20",
         "v2": "25",
         "v3": "30",
@@ -244,7 +244,7 @@
     ]
   , "avatar": "洗牌"},
   "skill3": {
-    "name": "獅子の騎士B",
+    "name": "獅子の骑士B",
     "ct": 8,
     "effects": [
       {

@@ -171,7 +171,7 @@
     ]
   , "avatar": "封印"},
   "skill3": {
-    "name": "外科手術E",
+    "name": "外科手术E",
     "ct": 6,
     "effects": [
       {
@@ -179,7 +179,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体HP回复",
+        "desc": "友方单体HP 回复",
         "v1": "500",
         "v2": "700",
         "v3": "900",

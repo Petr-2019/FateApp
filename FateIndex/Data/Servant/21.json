@@ -106,7 +106,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "殿の矜持A",
+    "name": "殿军的矜持 A",
     "ct": 8,
     "effects": [
       {
@@ -131,7 +131,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "＆NP获得量 up (3T)",
+        "desc": "＆NP 获得量上升(3T)",
         "v1": "50",
         "v2": "55",
         "v3": "60",
@@ -169,7 +169,7 @@
     ]
   , "avatar": "毅力"},
   "skill3": {
-    "name": "战士の雄叫びB",
+    "name": "战士的咆哮 B",
     "ct": 7,
     "effects": [
       {
@@ -177,7 +177,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身和队友",
-        "desc": "友方全体のBuster Card 性能上升(3T)",
+        "desc": "友方全体的 Buster Card 性能上升(3T)",
         "v1": "15",
         "v2": "16",
         "v3": "17",

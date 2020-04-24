@@ -62,7 +62,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身Quick卡性能少许提升",
+          "desc": "自身 Quick卡性能少许提升",
           "magnification": "6%"
         }
       ]
@@ -96,8 +96,8 @@
       "type": "high_servant", "name": "高等从者A",
       "effect": [
         {
-          "type": "効果なし",
-          "desc": "効果なし",
+          "type": "效果なし",
+          "desc": "效果なし",
           "magnification": ""
         }
       ]
@@ -154,7 +154,7 @@
     "hit": 3
   },
   "skill1": {
-    "name": "スワンレイクA",
+    "name": "天鹅湖 A",
     "ct": 6,
     "effects": [
       {
@@ -177,7 +177,7 @@
     ]
   , "avatar": "蓝放"},
   "skill2": {
-    "name": "完全流体B",
+    "name": "完全流体 B",
     "ct": 8,
     "effects": [
       {
@@ -219,7 +219,7 @@
         "turn":  3,
         "count": 0,
         "target": "自身",
-        "desc": "＆フィールドを〔水边〕特性にする状态を付与(3T)",
+        "desc": "＆付与使场地具有〔水边〕特性的状态(3T)",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -234,7 +234,7 @@
     ]
   , "avatar": "完全流体"},
   "skill3": {
-    "name": "メルトエンヴィーEX",
+    "name": "Melt Envy EX",
     "ct": 7,
     "effects": [
       {
@@ -242,7 +242,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身和队友",
-        "desc": "除去自身友方全体からNPを吸収する",
+        "desc": "吸收除自身以外的己方全体 NP",
         "v1": "20",
         "v2": "21",
         "v3": "22",

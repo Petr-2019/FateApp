@@ -45,7 +45,7 @@
                 ]
             }
             ],
-            "stableEffects": ["己方单体NP增加10%"]
+            "stableEffects": ["己方单体NP 增加10%"]
         },
         {
             "skillName": "御节料理",

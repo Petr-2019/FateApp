@@ -107,7 +107,7 @@
         "target": "自身和队友",
         "beforeafter": "发动前",
         "lvoc": "LV",
-        "desc": "HP回复",
+        "desc": "HP 回复",
         "v1": "3000",
         "v2": "4000",
         "v3": "4500",
@@ -119,7 +119,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "鋼の看護A+",
+    "name": "鋼の看护A+",
     "ct": 7,
     "effects": [
       {
@@ -127,7 +127,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体HP回复",
+        "desc": "友方单体HP 回复",
         "v1": "2000",
         "v2": "2200",
         "v3": "2400",
@@ -224,7 +224,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体のBuster Card 性能上升(3T)",
+        "desc": "友方单体的 Buster Card 性能上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",

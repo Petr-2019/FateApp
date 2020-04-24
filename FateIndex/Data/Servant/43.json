@@ -128,7 +128,7 @@
     ]
   , "avatar": "特攻"},
   "skill2": {
-    "name": "医術A+",
+    "name": "医术A+",
     "ct": 7,
     "effects": [
       {
@@ -136,7 +136,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体のHPを大回复",
+        "desc": "友方单体的HP 大回复",
         "v1": "1000",
         "v2": "1200",
         "v3": "1400",

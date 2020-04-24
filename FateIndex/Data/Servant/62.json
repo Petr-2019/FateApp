@@ -90,7 +90,7 @@
         "target": "自身和队友",
         "beforeafter": "发动前",
         "lvoc": "LV",
-        "desc": "HP回复",
+        "desc": "HP 回复",
         "v1": "2000",
         "v2": "2500",
         "v3": "2750",
@@ -104,7 +104,7 @@
         "target": "自身和队友",
         "beforeafter": "发动前",
         "lvoc": "OC",
-        "desc": "NP增加",
+        "desc": "NP 增加",
         "v1": "25",
         "v2": "31.25",
         "v3": "37.5",
@@ -141,7 +141,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-all",
-        "desc": "自身をのぞく友方全体の宝具威力上升(3T)",
+        "desc": "自身をのぞく友方全体宝具威力上升(3T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -156,7 +156,7 @@
     ]
   , "avatar": "灭气"},
   "skill2": {
-    "name": "変化A",
+    "name": "变化A",
     "ct": 7,
     "effects": [
       {
@@ -204,7 +204,7 @@
         "turn":  3,
         "count": 0,
         "target": "other-single",
-        "desc": "友方单体のArts Card 性能上升(3T)",
+        "desc": "友方单体的Arts Card 性能上升(3T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -221,7 +221,7 @@
         "turn": 0,
         "count": 0,
         "target": "other-single",
-        "desc": "HP回复",
+        "desc": "HP 回复",
         "v1": "1000",
         "v2": "1150",
         "v3": "1300",

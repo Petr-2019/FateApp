@@ -119,7 +119,7 @@
     "hit": 5
   },
   "skill1": {
-    "name": "変容A",
+    "name": "变容 A",
     "ct": 7,
     "effects": [
       {
@@ -127,7 +127,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身Buster性能上升(1T)",
+        "desc": "自身 Buster 性能上升(1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -144,7 +144,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "＆Quick Card またはArts Card 性能をランダムに up (1T)",
+        "desc": "＆Quick Card 或者 Arts Card 性能上升 (1T)",
         "v1": "30",
         "v2": "32",
         "v3": "34",
@@ -159,7 +159,7 @@
     ]
   , "avatar": "红放"},
   "skill2": {
-    "name": "気配感知A++",
+    "name": "气息感知 A++",
     "ct": 7,
     "effects": [
       {
@@ -184,7 +184,7 @@
         "turn": 0,
         "count": 0,
         "target": "敌方单体",
-        "desc": "＆回避状态を解除",
+        "desc": "＆解除回避状态",
         "v1": "",
         "v2": "",
         "v3": "",
@@ -216,7 +216,7 @@
     ]
   , "avatar": "暴击发生率下降"},
   "skill3": {
-    "name": "完全なる形A",
+    "name": "完全之形 A",
     "ct": 12,
     "effects": [
       {
@@ -224,7 +224,7 @@
         "turn": 0,
         "count": 0,
         "target": "自身",
-        "desc": "自身的HPを超回复",
+        "desc": "自身的 HP 超回复",
         "v1": "5000",
         "v2": "5500",
         "v3": "6000",

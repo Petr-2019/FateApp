@@ -111,7 +111,7 @@
                 "condition": ""
             },
             {
-                "type": "每回合HP回复状态",
+                "type": "每回合HP 回复状态",
                 "turn": 3,
                 "count": 0,
                 "target": "己方全体",
@@ -136,11 +136,11 @@
         "ct": 7,
         "effects": [
             {
-                "type": "自身NP增加",
+                "type": "自身NP 增加",
                 "turn": 0,
                 "count": 0,
                 "target": "自身",
-                "desc": "自身NP增加",
+                "desc": "自身NP 增加",
                 "v1": "20",
                 "v2": "21",
                 "v3": "22",

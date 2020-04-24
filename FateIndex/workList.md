@@ -1,3 +1,3 @@
-技能翻译：lancer -> 库丘林
+技能翻译：caster -> 美狄亚
 
 Implement tappable section

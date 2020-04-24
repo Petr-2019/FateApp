@@ -53,7 +53,7 @@
             "countDown": "15 → 14 → 13",
             "lvEffects":  [
                 {
-                    "effectDesc": "HP回复",
+                    "effectDesc": "HP 回复",
                     "effects": [
                         "1000",
                         "1200",

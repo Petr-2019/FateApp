@@ -60,7 +60,7 @@
       "effect": [
         {
           "type": "绿放",
-          "desc": "自身Quick卡性能少许提升",
+          "desc": "自身 Quick卡性能少许提升",
           "magnification": "6%"
         }
       ]
@@ -127,7 +127,7 @@
     "hit": 8
   },
   "skill1": {
-    "name": "運は天に在りA",
+    "name": "气运在天 A",
     "ct": 7,
     "effects": [
       {
@@ -135,7 +135,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "自身Arts卡性能上升(1T)",
+        "desc": "自身 Arts 卡性能上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -167,7 +167,7 @@
     ]
   , "avatar": "蓝放"},
   "skill2": {
-    "name": "鎧は胸に在りA",
+    "name": "铠甲在心 A",
     "ct": 7,
     "effects": [
       {
@@ -192,7 +192,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身",
-        "desc": "＆NP获得量上升(1T)",
+        "desc": "＆NP 获得量上升(1T)",
         "v1": "20",
         "v2": "21",
         "v3": "22",
@@ -207,7 +207,7 @@
     ]
   , "avatar": "回避"},
   "skill3": {
-    "name": "手柄は足に在りA",
+    "name": "功绩在足 A",
     "ct": 8,
     "effects": [
       {

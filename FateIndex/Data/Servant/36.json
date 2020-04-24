@@ -107,7 +107,7 @@
     "hit": 0
   },
   "skill1": {
-    "name": "音楽神の加護（伪）EX",
+    "name": "音楽神の加护（伪）EX",
     "ct": 7,
     "effects": [
       {
@@ -115,7 +115,7 @@
         "turn":  1,
         "count": 0,
         "target": "自身和队友",
-        "desc": "友方全体のArts Card 性能上升 (1T)",
+        "desc": "友方全体 Arts Card 性能上升 (1T)",
         "v1": "22",
         "v2": "24.2",
         "v3": "26.4",
@@ -130,7 +130,7 @@
     ]
   , "avatar": "蓝放"},
   "skill2": {
-    "name": "芸術審美B",
+    "name": "芸术審美B",
     "ct": 7,
     "effects": [
       {
