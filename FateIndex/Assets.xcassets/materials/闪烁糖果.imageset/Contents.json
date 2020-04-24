@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "闪烁糖果.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

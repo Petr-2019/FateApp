@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "黄金骷髅.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
