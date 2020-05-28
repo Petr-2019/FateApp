@@ -114,6 +114,7 @@ class ActiveSkillDetailViewController: UITableViewController {
 
             cell.avatar = UIImage(named: avatar)
             cell.title = name
+            cell.selectionStyle = .none
             return cell
 
 
@@ -146,6 +147,7 @@ class ActiveSkillDetailViewController: UITableViewController {
 
             cell.data = d
             cell.setup()
+            cell.selectionStyle = .none
 
             return cell
         }

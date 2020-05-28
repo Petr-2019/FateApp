@@ -36,6 +36,8 @@ class ServantTableViewController: UITableViewController {
 
     private var filteredServants = [Servant]()
 
+    let mailboxChooserSidePickerTransition = SidePickerTransition()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,6 +56,10 @@ class ServantTableViewController: UITableViewController {
                 strongSelf.tableView.reloadData()
             }
         }
+
+        view.addGestureRecognizer(mailboxChooserSidePickerTransition.presentationPanGestureRecognizer)
+        mailboxChooserSidePickerTransition.delegate = self
+        mailboxChooserSidePickerTransition.presentationPanGestureRecognizer.delegate = self
     }
 
     // MARK:- UITableViewDataSource
@@ -206,5 +212,23 @@ extension ServantTableViewController: UISearchBarDelegate {
 
         searchBar.resignFirstResponder()
     }
+
+}
+
+extension ServantTableViewController: SidePickerTransitionDelegate {
+    func presentedViewControllerForSidePickerTransition(_ sidePickerTransition: SidePickerTransition) -> UIViewController? {
+        return LeftNavPanningVC()
+    }
+
+    func sidePickerPresentViewController(_ presentedViewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
+        present(presentedViewController, animated: animated, completion: completion)
+    }
+
+    func sidePickerTransition(_ sidePickerTransition: SidePickerTransition, didPerformTransition transitionEvent: SidePickerTransitionEvent) {
+
+    }
+}
+
+extension ServantTableViewController: UIGestureRecognizerDelegate {
 
 }

@@ -95,6 +95,13 @@ class ServantDetailTableViewController: UITableViewController {
         }
 
         ServantMaterialManager.shared.loadMaterial()
+
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAddServantTapped))
+    }
+
+    @objc private func handleAddServantTapped() {
+        let vc = AddServantVC()
+        present(vc, animated: true, completion: nil)
     }
 
     override func viewDidLayoutSubviews() {

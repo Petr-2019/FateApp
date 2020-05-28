@@ -81,6 +81,7 @@ class BeyondMaxLevelMaterialVC: UITableViewController {
 
             cell.data = d
             cell.setup()
+            cell.selectionStyle = .none
 
             return cell
         }

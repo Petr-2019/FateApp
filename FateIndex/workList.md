@@ -1,3 +1,3 @@
-技能翻译：ass -> 两仪式
+Make tools to calculate exp
 
 Implement tappable section

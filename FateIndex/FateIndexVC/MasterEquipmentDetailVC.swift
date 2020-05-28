@@ -90,6 +90,7 @@ class MasterEquipmentDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
             cell.nameLabel.text = "编号"
             cell.detailLabel.text = masterEquipment.id
+            cell.selectionStyle = .none
 
         resultCell = cell
 
@@ -97,6 +98,7 @@ class MasterEquipmentDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
             cell.nameLabel.text = "名称"
             cell.detailLabel.text = masterEquipment.name
+            cell.selectionStyle = .none
 
             resultCell = cell
 
@@ -104,6 +106,7 @@ class MasterEquipmentDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizingLabelCell.identifier, for: indexPath) as! SelfSizingLabelCell
             cell.detailLabel.text = masterEquipment.desc
             cell.detailLabel.setLineSpacing(lineSpacing: 10.0)
+            cell.selectionStyle = .none
 
             resultCell = cell
 
@@ -120,6 +123,7 @@ class MasterEquipmentDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizingLabelCell.identifier, for: indexPath) as! SelfSizingLabelCell
             cell.detailLabel.text = text
             cell.detailLabel.setLineSpacing(lineSpacing: 10.0)
+            cell.selectionStyle = .none
 
             resultCell = cell
     }

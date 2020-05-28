@@ -27,6 +27,14 @@
 		60F3FBA8215BBF5C00572EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3FBA6215BBF5C00572EFB /* LaunchScreen.storyboard */; };
 		60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */; };
 		60F3FBB4215BD72300572EFB /* AvatarWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */; };
+		6E2A5083247EA22400D9B3E0 /* SidePickerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A5082247EA22400D9B3E0 /* SidePickerTransition.swift */; };
+		6E2A5085247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A5084247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift */; };
+		6E2A5087247EA2EC00D9B3E0 /* SidePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A5086247EA2EC00D9B3E0 /* SidePickerView.swift */; };
+		6E2A5089247EA34E00D9B3E0 /* SidePickerPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A5088247EA34E00D9B3E0 /* SidePickerPresentationController.swift */; };
+		6E2A508B247EA3F100D9B3E0 /* UIView+Framing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A508A247EA3F100D9B3E0 /* UIView+Framing.swift */; };
+		6E2A508D247EA5B900D9B3E0 /* DimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A508C247EA5B900D9B3E0 /* DimmingView.swift */; };
+		6E2A508F247EA67A00D9B3E0 /* MailboxChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A508E247EA67A00D9B3E0 /* MailboxChooserView.swift */; };
+		6E2A5091247EACE600D9B3E0 /* LeftNavPanningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A5090247EACE600D9B3E0 /* LeftNavPanningVC.swift */; };
 		6E317A7C23DC271100F54075 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317A7B23DC271100F54075 /* UIImage+Extension.swift */; };
 		6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */; };
 		6E429A2A24497E400049FA47 /* Master_Equipment_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E429A2924497E400049FA47 /* Master_Equipment_1.json */; };
@@ -50,6 +58,7 @@
 		6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */; };
 		6E429A59244C773D0049FA47 /* MasterSkillDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */; };
 		6E429A5B244C80920049FA47 /* ActiveSkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */; };
+		6E4C7E29247FD308001FAB73 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */; };
 		6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */; };
 		6E59CB9A244F2DE000A15295 /* ServantMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59CB99244F2DE000A15295 /* ServantMaterial.swift */; };
 		6E5D766B2444918D000728C7 /* 270.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766A2444918D000728C7 /* 270.json */; };
@@ -411,6 +420,8 @@
 		6E9684E9244FB13F00C45E0A /* AvatarAttachTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9684E8244FB13F00C45E0A /* AvatarAttachTextView.swift */; };
 		6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */; };
 		6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */; };
+		6EAF04752457234800B28621 /* AddServantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF04742457234800B28621 /* AddServantVC.swift */; };
+		6EC4F94B247FFD7C00D27A7D /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4F94A247FFD7C00D27A7D /* Bundle+Extension.swift */; };
 		6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED277AF24225185004647F9 /* FateTableViewData.swift */; };
 		6EDA903724436289000545D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA903624436289000545D9 /* UILabel+Extension.swift */; };
 		6EE65A0C2445D97E0058DDFE /* 275.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EE65A0B2445D97E0058DDFE /* 275.json */; };
@@ -963,7 +974,6 @@
 		D4B1478A23BF75C800843094 /* 69.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468323BF75C700843094 /* 69.json */; };
 		D4B1478B23BF75C800843094 /* 175.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468423BF75C700843094 /* 175.json */; };
 		D4B1478C23BF75C800843094 /* 77.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B1468523BF75C700843094 /* 77.json */; };
-		D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */; };
 		D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */; };
 		D4B4004322F31C9C00EDEC39 /* ServantTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4004222F31C9C00EDEC39 /* ServantTableViewHeaderView.swift */; };
 /* End PBXBuildFile section */
@@ -991,6 +1001,14 @@
 		60F3FBA9215BBF5C00572EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantTableViewController.swift; sourceTree = "<group>"; };
 		60F3FBB3215BD72300572EFB /* AvatarWithTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWithTextTableViewCell.swift; sourceTree = "<group>"; };
+		6E2A5082247EA22400D9B3E0 /* SidePickerTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePickerTransition.swift; sourceTree = "<group>"; };
+		6E2A5084247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePickerInteractiveTransition.swift; sourceTree = "<group>"; };
+		6E2A5086247EA2EC00D9B3E0 /* SidePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePickerView.swift; sourceTree = "<group>"; };
+		6E2A5088247EA34E00D9B3E0 /* SidePickerPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePickerPresentationController.swift; sourceTree = "<group>"; };
+		6E2A508A247EA3F100D9B3E0 /* UIView+Framing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Framing.swift"; sourceTree = "<group>"; };
+		6E2A508C247EA5B900D9B3E0 /* DimmingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingView.swift; sourceTree = "<group>"; };
+		6E2A508E247EA67A00D9B3E0 /* MailboxChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxChooserView.swift; sourceTree = "<group>"; };
+		6E2A5090247EACE600D9B3E0 /* LeftNavPanningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftNavPanningVC.swift; sourceTree = "<group>"; };
 		6E317A7B23DC271100F54075 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailViewController.swift; sourceTree = "<group>"; };
 		6E429A2924497E400049FA47 /* Master_Equipment_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Master_Equipment_1.json; sourceTree = "<group>"; };
@@ -1014,6 +1032,7 @@
 		6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipmentDetailVC.swift; sourceTree = "<group>"; };
 		6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSkillDetailVC.swift; sourceTree = "<group>"; };
 		6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailCell.swift; sourceTree = "<group>"; };
+		6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingAvatarCell.swift; sourceTree = "<group>"; };
 		6E59CB99244F2DE000A15295 /* ServantMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantMaterial.swift; sourceTree = "<group>"; };
 		6E5D766A2444918D000728C7 /* 270.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 270.json; sourceTree = "<group>"; };
@@ -1375,6 +1394,9 @@
 		6E9684E8244FB13F00C45E0A /* AvatarAttachTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarAttachTextView.swift; sourceTree = "<group>"; };
 		6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDataCell.swift; sourceTree = "<group>"; };
 		6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassSkillCell.swift; sourceTree = "<group>"; };
+		6EAF047224571E3400B28621 /* FateIndex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FateIndex.entitlements; sourceTree = "<group>"; };
+		6EAF04742457234800B28621 /* AddServantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServantVC.swift; sourceTree = "<group>"; };
+		6EC4F94A247FFD7C00D27A7D /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		6ED277AF24225185004647F9 /* FateTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateTableViewData.swift; sourceTree = "<group>"; };
 		6EDA903624436289000545D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		6EE65A0B2445D97E0058DDFE /* 275.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 275.json; sourceTree = "<group>"; };
@@ -1927,7 +1949,6 @@
 		D4B1468323BF75C700843094 /* 69.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 69.json; sourceTree = "<group>"; };
 		D4B1468423BF75C700843094 /* 175.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 175.json; sourceTree = "<group>"; };
 		D4B1468523BF75C700843094 /* 77.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 77.json; sourceTree = "<group>"; };
-		D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D4B4003F22F1D24500EDEC39 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		D4B4004222F31C9C00EDEC39 /* ServantTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantTableViewHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2008,6 +2029,7 @@
 		60F3FB9C215BBF5A00572EFB /* FateIndex */ = {
 			isa = PBXGroup;
 			children = (
+				6EAF047224571E3400B28621 /* FateIndex.entitlements */,
 				60F3FB9D215BBF5A00572EFB /* AppDelegate.swift */,
 				60F3FBA4215BBF5C00572EFB /* Assets.xcassets */,
 				6EE65A152445F9EF0058DDFE /* Chart */,
@@ -2030,6 +2052,15 @@
 				6E317A7B23DC271100F54075 /* UIImage+Extension.swift */,
 				6ED277AF24225185004647F9 /* FateTableViewData.swift */,
 				6EDA903624436289000545D9 /* UILabel+Extension.swift */,
+				6E2A5082247EA22400D9B3E0 /* SidePickerTransition.swift */,
+				6E2A5084247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift */,
+				6E2A5086247EA2EC00D9B3E0 /* SidePickerView.swift */,
+				6E2A5088247EA34E00D9B3E0 /* SidePickerPresentationController.swift */,
+				6E2A508A247EA3F100D9B3E0 /* UIView+Framing.swift */,
+				6E2A508C247EA5B900D9B3E0 /* DimmingView.swift */,
+				6E2A508E247EA67A00D9B3E0 /* MailboxChooserView.swift */,
+				6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */,
+				6EC4F94A247FFD7C00D27A7D /* Bundle+Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -2420,6 +2451,14 @@
 				6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */,
 			);
 			path = Emblem;
+			sourceTree = "<group>";
+		};
+		6EAF04732457233600B28621 /* Add Servant */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF04742457234800B28621 /* AddServantVC.swift */,
+			);
+			path = "Add Servant";
 			sourceTree = "<group>";
 		};
 		6EE65A152445F9EF0058DDFE /* Chart */ = {
@@ -2996,6 +3035,7 @@
 		D4B4003322F08D7F00EDEC39 /* FateIndexVC */ = {
 			isa = PBXGroup;
 			children = (
+				6EAF04732457233600B28621 /* Add Servant */,
 				6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */,
 				6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */,
 				6E81C77A2441D1EF00E83EE1 /* EmblemDetailViewController.swift */,
@@ -3007,8 +3047,8 @@
 				6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */,
 				047BF0F32344DF650084796A /* ServantDetailTableViewController.swift */,
 				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
-				D4B4003622F1BBB600EDEC39 /* SettingsViewController.swift */,
 				6E62F7D6245086DC00AC85A3 /* BeyondMaxLevelMaterialVC.swift */,
+				6E2A5090247EACE600D9B3E0 /* LeftNavPanningVC.swift */,
 			);
 			path = FateIndexVC;
 			sourceTree = "<group>";
@@ -4013,19 +4053,26 @@
 				6E81C7052441AD7000E83EE1 /* EmblemManager.swift in Sources */,
 				6E429A502449DFEE0049FA47 /* MasterEquipmentManager.swift in Sources */,
 				6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */,
+				6E2A508B247EA3F100D9B3E0 /* UIView+Framing.swift in Sources */,
 				04B8AB18234982E60061FB02 /* EmblemTableViewController.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
 				6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */,
 				047BF0F6234566CD0084796A /* TrailingTextTableViewCell.swift in Sources */,
 				04A82F7B234A031600146CA1 /* DisclosureTableViewCell.swift in Sources */,
 				6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */,
+				6EC4F94B247FFD7C00D27A7D /* Bundle+Extension.swift in Sources */,
 				6E39BD9523F032F90093DAA6 /* ActiveSkillDetailViewController.swift in Sources */,
+				6E2A5087247EA2EC00D9B3E0 /* SidePickerView.swift in Sources */,
 				60F3FBB2215BD6CB00572EFB /* ServantTableViewController.swift in Sources */,
 				04A82F792349E95200146CA1 /* NoblePhantasmDetailBottomContainerView.swift in Sources */,
+				6E2A5083247EA22400D9B3E0 /* SidePickerTransition.swift in Sources */,
 				6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */,
 				6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */,
+				6E2A5091247EACE600D9B3E0 /* LeftNavPanningVC.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
+				6E2A5089247EA34E00D9B3E0 /* SidePickerPresentationController.swift in Sources */,
+				6EAF04752457234800B28621 /* AddServantVC.swift in Sources */,
 				04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */,
 				6E9684E9244FB13F00C45E0A /* AvatarAttachTextView.swift in Sources */,
 				6E81C77D2441ED5500E83EE1 /* AvatarWithText2Cell.swift in Sources */,
@@ -4037,7 +4084,9 @@
 				047BF0FA2346E7CA0084796A /* ServantCardSequenceTableViewCell.swift in Sources */,
 				6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */,
 				6E429A4E2449DF160049FA47 /* MasterEquipment.swift in Sources */,
+				6E2A508F247EA67A00D9B3E0 /* MailboxChooserView.swift in Sources */,
 				6EFD963B24471FDF007581DB /* HPAndATKModel.swift in Sources */,
+				6E2A5085247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift in Sources */,
 				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
 				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* AvatarWithTextTableViewCell.swift in Sources */,
@@ -4053,10 +4102,11 @@
 				6E81C77B2441D1EF00E83EE1 /* EmblemDetailViewController.swift in Sources */,
 				6E62F7D924508A0700AC85A3 /* MultipleAvatarsCell.swift in Sources */,
 				6E429A522449EA060049FA47 /* MasterEquipmentVC.swift in Sources */,
+				6E4C7E29247FD308001FAB73 /* UIImageView+Extension.swift in Sources */,
 				6EFD963D244723AD007581DB /* HPAndATKManager.swift in Sources */,
+				6E2A508D247EA5B900D9B3E0 /* DimmingView.swift in Sources */,
 				6E62F7D7245086DC00AC85A3 /* BeyondMaxLevelMaterialVC.swift in Sources */,
 				6EE65A1D2445FB270058DDFE /* HPAndATKChartVC.swift in Sources */,
-				D4B4003722F1BBB600EDEC39 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4202,6 +4252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FateIndex/FateIndex.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
@@ -4211,7 +4262,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
 				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4224,6 +4275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FateIndex/FateIndex.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y92H4T5NG8;
@@ -4233,7 +4285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FGO.FateIndex.PeterGuan;
 				PRODUCT_NAME = FateIndex;
 				PROVISIONING_PROFILE_SPECIFIER = "";

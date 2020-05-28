@@ -76,12 +76,15 @@ class MasterSkillDetailVC: UITableViewController {
 
             cell.avatar = UIImage(named: skill.avatar)
             cell.title = skill.skillName
+            cell.selectionStyle = .none
+
             resultCell = cell
 
         case .countDown:
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizeLeadTrailingTextCell.identifier, for: indexPath) as! SelfSizeLeadTrailingTextCell
             cell.nameLabel.text = "充能时间"
             cell.detailLabel.text = skill.countDown
+            cell.selectionStyle = .none
 
             resultCell = cell
 
@@ -89,6 +92,7 @@ class MasterSkillDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizingLabelCell.identifier, for: indexPath) as! SelfSizingLabelCell
             cell.detailLabel.text = effect
             cell.detailLabel.setLineSpacing(lineSpacing: 10.0)
+            cell.selectionStyle = .none
 
             resultCell = cell
 
@@ -96,6 +100,7 @@ class MasterSkillDetailVC: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: ActiveSkillDetailCell.identifier, for: indexPath) as! ActiveSkillDetailCell
             cell.desc = desc
             cell.data = effects
+            cell.selectionStyle = .none
 
             resultCell = cell
         }
