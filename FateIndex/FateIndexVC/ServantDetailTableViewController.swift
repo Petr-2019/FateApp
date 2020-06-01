@@ -96,12 +96,14 @@ class ServantDetailTableViewController: UITableViewController {
 
         ServantMaterialManager.shared.loadMaterial()
 
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAddServantTapped))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAddMaterialTapped))
     }
 
-    @objc private func handleAddServantTapped() {
-        let vc = AddServantVC()
-        present(vc, animated: true, completion: nil)
+    @objc private func handleAddMaterialTapped() {
+        let vc = AddMaterialVC(servant: servant)
+        let nav = UINavigationController(rootViewController: vc)
+        vc.title = "添加素材需求"
+        present(nav, animated: true, completion: nil)
     }
 
     override func viewDidLayoutSubviews() {
@@ -414,9 +416,6 @@ extension ServantDetailTableViewController {
             let classSkill = servant.classskill[indexPath.row]
             let vc = ClassSkillDetailViewController(classSkill: classSkill)
             navigationController?.pushViewController(vc, animated: true)
-
-            //let nav = UINavigationController(rootViewController: vc)
-            //present(nav, animated: true, completion: nil)
         }
         else if indexPath.section == 5 {
             let hogu = servant.hogu

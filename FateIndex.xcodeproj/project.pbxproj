@@ -59,6 +59,8 @@
 		6E429A59244C773D0049FA47 /* MasterSkillDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */; };
 		6E429A5B244C80920049FA47 /* ActiveSkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */; };
 		6E4C7E29247FD308001FAB73 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */; };
+		6E50B5FC24853B5300868362 /* AddMaterialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E50B5FB24853B5300868362 /* AddMaterialVC.swift */; };
+		6E50B5FE24853BEA00868362 /* SelectCountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E50B5FD24853BEA00868362 /* SelectCountCell.swift */; };
 		6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */; };
 		6E59CB9A244F2DE000A15295 /* ServantMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59CB99244F2DE000A15295 /* ServantMaterial.swift */; };
 		6E5D766B2444918D000728C7 /* 270.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D766A2444918D000728C7 /* 270.json */; };
@@ -420,7 +422,6 @@
 		6E9684E9244FB13F00C45E0A /* AvatarAttachTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9684E8244FB13F00C45E0A /* AvatarAttachTextView.swift */; };
 		6E9AA01023F2D20400EA9B93 /* ActiveSkillDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */; };
 		6EA78CD823CE029D008E4722 /* ServantClassSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */; };
-		6EAF04752457234800B28621 /* AddServantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF04742457234800B28621 /* AddServantVC.swift */; };
 		6EC4F94B247FFD7C00D27A7D /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4F94A247FFD7C00D27A7D /* Bundle+Extension.swift */; };
 		6ED277B024225185004647F9 /* FateTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED277AF24225185004647F9 /* FateTableViewData.swift */; };
 		6EDA903724436289000545D9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA903624436289000545D9 /* UILabel+Extension.swift */; };
@@ -1033,6 +1034,8 @@
 		6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSkillDetailVC.swift; sourceTree = "<group>"; };
 		6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailCell.swift; sourceTree = "<group>"; };
 		6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		6E50B5FB24853B5300868362 /* AddMaterialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialVC.swift; sourceTree = "<group>"; };
+		6E50B5FD24853BEA00868362 /* SelectCountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountCell.swift; sourceTree = "<group>"; };
 		6E5213CA2443EE400017685E /* TrailingAvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingAvatarCell.swift; sourceTree = "<group>"; };
 		6E59CB99244F2DE000A15295 /* ServantMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantMaterial.swift; sourceTree = "<group>"; };
 		6E5D766A2444918D000728C7 /* 270.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 270.json; sourceTree = "<group>"; };
@@ -1395,7 +1398,6 @@
 		6E9AA00F23F2D20400EA9B93 /* ActiveSkillDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDataCell.swift; sourceTree = "<group>"; };
 		6EA78CD723CE029D008E4722 /* ServantClassSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantClassSkillCell.swift; sourceTree = "<group>"; };
 		6EAF047224571E3400B28621 /* FateIndex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FateIndex.entitlements; sourceTree = "<group>"; };
-		6EAF04742457234800B28621 /* AddServantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServantVC.swift; sourceTree = "<group>"; };
 		6EC4F94A247FFD7C00D27A7D /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		6ED277AF24225185004647F9 /* FateTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FateTableViewData.swift; sourceTree = "<group>"; };
 		6EDA903624436289000545D9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -1978,6 +1980,7 @@
 				6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */,
 				6E9684E8244FB13F00C45E0A /* AvatarAttachTextView.swift */,
 				6E62F7D824508A0700AC85A3 /* MultipleAvatarsCell.swift */,
+				6E50B5FD24853BEA00868362 /* SelectCountCell.swift */,
 			);
 			path = FateIndexUI;
 			sourceTree = "<group>";
@@ -2451,14 +2454,6 @@
 				6E81C6FE2441A92E00E83EE1 /* Emblem_60.json */,
 			);
 			path = Emblem;
-			sourceTree = "<group>";
-		};
-		6EAF04732457233600B28621 /* Add Servant */ = {
-			isa = PBXGroup;
-			children = (
-				6EAF04742457234800B28621 /* AddServantVC.swift */,
-			);
-			path = "Add Servant";
 			sourceTree = "<group>";
 		};
 		6EE65A152445F9EF0058DDFE /* Chart */ = {
@@ -3035,7 +3030,6 @@
 		D4B4003322F08D7F00EDEC39 /* FateIndexVC */ = {
 			isa = PBXGroup;
 			children = (
-				6EAF04732457233600B28621 /* Add Servant */,
 				6E39BD9423F032F90093DAA6 /* ActiveSkillDetailViewController.swift */,
 				6E80DD1E23DD26F700BED7B4 /* ClassSkillDetailViewController.swift */,
 				6E81C77A2441D1EF00E83EE1 /* EmblemDetailViewController.swift */,
@@ -3049,6 +3043,7 @@
 				60F3FBB1215BD6CB00572EFB /* ServantTableViewController.swift */,
 				6E62F7D6245086DC00AC85A3 /* BeyondMaxLevelMaterialVC.swift */,
 				6E2A5090247EACE600D9B3E0 /* LeftNavPanningVC.swift */,
+				6E50B5FB24853B5300868362 /* AddMaterialVC.swift */,
 			);
 			path = FateIndexVC;
 			sourceTree = "<group>";
@@ -4056,6 +4051,7 @@
 				6E2A508B247EA3F100D9B3E0 /* UIView+Framing.swift in Sources */,
 				04B8AB18234982E60061FB02 /* EmblemTableViewController.swift in Sources */,
 				047BF0FC2346E8FD0084796A /* CardSequenceView.swift in Sources */,
+				6E50B5FC24853B5300868362 /* AddMaterialVC.swift in Sources */,
 				6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */,
 				047BF0F6234566CD0084796A /* TrailingTextTableViewCell.swift in Sources */,
 				04A82F7B234A031600146CA1 /* DisclosureTableViewCell.swift in Sources */,
@@ -4068,11 +4064,11 @@
 				6E2A5083247EA22400D9B3E0 /* SidePickerTransition.swift in Sources */,
 				6E80DD1F23DD26F700BED7B4 /* ClassSkillDetailViewController.swift in Sources */,
 				6E5213CB2443EE400017685E /* TrailingAvatarCell.swift in Sources */,
+				6E50B5FE24853BEA00868362 /* SelectCountCell.swift in Sources */,
 				6E2A5091247EACE600D9B3E0 /* LeftNavPanningVC.swift in Sources */,
 				D42BE9632340EB1000C662F2 /* ServantManager.swift in Sources */,
 				D4B4004022F1D24500EDEC39 /* SettingsCell.swift in Sources */,
 				6E2A5089247EA34E00D9B3E0 /* SidePickerPresentationController.swift in Sources */,
-				6EAF04752457234800B28621 /* AddServantVC.swift in Sources */,
 				04A82F752349DFD200146CA1 /* NoblePhantasmDetailView.swift in Sources */,
 				6E9684E9244FB13F00C45E0A /* AvatarAttachTextView.swift in Sources */,
 				6E81C77D2441ED5500E83EE1 /* AvatarWithText2Cell.swift in Sources */,
