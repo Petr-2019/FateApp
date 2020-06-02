@@ -58,6 +58,7 @@
 		6E429A57244C3C870049FA47 /* MasterEquipmentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */; };
 		6E429A59244C773D0049FA47 /* MasterSkillDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */; };
 		6E429A5B244C80920049FA47 /* ActiveSkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */; };
+		6E49F43424867CAC009AE05C /* ServantMaterialRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49F43324867CAC009AE05C /* ServantMaterialRequirement.swift */; };
 		6E4C7E29247FD308001FAB73 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */; };
 		6E50B5FC24853B5300868362 /* AddMaterialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E50B5FB24853B5300868362 /* AddMaterialVC.swift */; };
 		6E50B5FE24853BEA00868362 /* SelectCountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E50B5FD24853BEA00868362 /* SelectCountCell.swift */; };
@@ -1033,6 +1034,7 @@
 		6E429A56244C3C870049FA47 /* MasterEquipmentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterEquipmentDetailVC.swift; sourceTree = "<group>"; };
 		6E429A58244C773D0049FA47 /* MasterSkillDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSkillDetailVC.swift; sourceTree = "<group>"; };
 		6E429A5A244C80920049FA47 /* ActiveSkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSkillDetailCell.swift; sourceTree = "<group>"; };
+		6E49F43324867CAC009AE05C /* ServantMaterialRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServantMaterialRequirement.swift; sourceTree = "<group>"; };
 		6E4C7E28247FD308001FAB73 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		6E50B5FB24853B5300868362 /* AddMaterialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaterialVC.swift; sourceTree = "<group>"; };
 		6E50B5FD24853BEA00868362 /* SelectCountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountCell.swift; sourceTree = "<group>"; };
@@ -3061,6 +3063,7 @@
 				6E429A4F2449DFEE0049FA47 /* MasterEquipmentManager.swift */,
 				6E59CB99244F2DE000A15295 /* ServantMaterial.swift */,
 				6E769501244F35C00032333D /* ServantMaterialManager.swift */,
+				6E49F43324867CAC009AE05C /* ServantMaterialRequirement.swift */,
 			);
 			path = FateModel;
 			sourceTree = "<group>";
@@ -4085,6 +4088,7 @@
 				6E2A5085247EA29500D9B3E0 /* SidePickerInteractiveTransition.swift in Sources */,
 				047BF0F42344DF650084796A /* ServantDetailTableViewController.swift in Sources */,
 				04E8AA7C23435B3B004C6376 /* Servant.swift in Sources */,
+				6E49F43424867CAC009AE05C /* ServantMaterialRequirement.swift in Sources */,
 				60F3FBB4215BD72300572EFB /* AvatarWithTextTableViewCell.swift in Sources */,
 				04B8AB1523497D590061FB02 /* NoblePhantasmAvatarView.swift in Sources */,
 				6E81C77F2441F49600E83EE1 /* SelfSizingLabelCell.swift in Sources */,

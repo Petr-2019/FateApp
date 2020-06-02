@@ -12,7 +12,7 @@ class SelectCountCell: UITableViewCell {
 
     private struct Contants {
         static let padding: CGFloat = 16.0
-        static let imageSize: CGFloat = 20.0
+        static let imageSize: CGFloat = 25.0
         static let labelWidth: CGFloat = 40.0
     }
 
@@ -22,16 +22,17 @@ class SelectCountCell: UITableViewCell {
     private let minusButton = UIButton(frame: .zero)
     private let levelLabel = UILabel(frame: .zero)
 
-    var maxLevel = 1
-    var minLevel = 1
+    var plusAction: (() -> Void)?
+    var minusAction: (() -> Void)?
 
-    private var currentLevel = 1 {
+    var countValue: Int {
         didSet {
-            levelLabel.text = "\(currentLevel)"
+            levelLabel.text = "\(countValue)"
         }
     }
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        countValue = 1
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         setup()
@@ -55,7 +56,6 @@ class SelectCountCell: UITableViewCell {
         minusButton.addTarget(self, action: #selector(handleMinusButtonTapped(_:)), for: .touchUpInside)
 
         levelLabel.textAlignment = .center
-        levelLabel.text = "\(minLevel)"
     }
 
     override func layoutSubviews() {
@@ -68,15 +68,10 @@ class SelectCountCell: UITableViewCell {
     }
 
     @objc private func handlePlusButtonTapped(_ sender: UIButton) {
-        if currentLevel < maxLevel {
-            currentLevel += 1
-        }
+        plusAction?()
     }
 
     @objc private func handleMinusButtonTapped(_ sender: UIButton) {
-        if currentLevel > 1 {
-            currentLevel -= 1
-        }
+        minusAction?()
     }
-
 }
